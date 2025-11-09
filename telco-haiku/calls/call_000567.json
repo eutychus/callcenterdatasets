@@ -1,73 +1,55 @@
 {
   "call_id": 567,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Patricia",
-    "duration": 34.9,
+    "call_type": "billing",
+    "agent_name": "Jennifer",
+    "duration": 37.88568982993309,
     "sentiment": "positive",
-    "churn_reason": "leaving",
+    "issue_category": "payment problem",
     "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.6,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 4.9,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 6.418128633435184,
-      "end_time": 9.518128633435184,
-      "text": "Hello! Patricia speaking. I appreciate your business."
+      "start_time": 6.676189927566205,
+      "end_time": 11.576189927566205,
+      "text": "Hi, this is Jennifer from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.646531892494838,
-      "end_time": 13.846531892494838,
-      "text": "Hey, thanks. Yeah, I need help with something."
+      "start_time": 12.54506055713279,
+      "end_time": 18.645060557132787,
+      "text": "My payment didn't go through and now I'm worried my service will get cut off."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.002655996897648,
+      "end_time": 23.702655996897647,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.180865826437174,
+      "end_time": 31.28086582643717,
+      "text": "It looks like there's an issue with the payment system on your end."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.093105925236564,
+      "end_time": 36.39310592523656,
+      "text": "Let me take your payment right now over the phone."
     },
     {
       "speaker": "caller",
-      "start_time": 15.121330561417604,
-      "end_time": 17.121330561417604,
-      "text": "can you process my cancellation"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.873390870382558,
-      "end_time": 20.773390870382556,
-      "text": "I completely understand your frustration"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.49708661185558,
-      "end_time": 24.09708661185558,
-      "text": "I have a solution for you, kinda"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 25.340839460048908,
-      "end_time": 26.14083946004891,
-      "text": "yeah, okay"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 26.8937314958023,
-      "end_time": 29.293731495802298,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 30.03072317946605,
-      "end_time": 33.13072317946605,
-      "text": "Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 33.5765080789718,
-      "end_time": 34.876508078971796,
-      "text": "Enjoy your service!"
+      "start_time": 37.085689829933095,
+      "end_time": 37.88568982993309,
+      "text": "Okay, thanks."
     }
   ]
 }

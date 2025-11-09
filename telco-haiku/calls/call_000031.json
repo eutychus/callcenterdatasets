@@ -1,111 +1,79 @@
 {
   "call_id": 31,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Mark",
-    "duration": 54.1,
+    "call_type": "support",
+    "agent_name": "Sarah",
+    "duration": 56.6195037407767,
     "sentiment": "positive",
-    "product_category": "Add-on",
-    "inquiry_type": "device",
-    "sale_completed": false,
-    "resolution_type": "the customer purchased an upgrade"
+    "issue_category": "device problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.0,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 4.4,
+      "text": "Telecom Haiku customer service. How may we help you today?"
     },
     {
       "speaker": "agent",
-      "start_time": 5.043439428557472,
-      "end_time": 9.443439428557472,
-      "text": "Hi! Welcome to Telecom Haiku. Mark speaking. What brings you in today?"
+      "start_time": 6.713740782085613,
+      "end_time": 12.513740782085613,
+      "text": "Hi, thanks for calling. This is Sarah with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.15856588815103,
-      "end_time": 13.758565888151029,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 13.58796649321432,
+      "end_time": 18.38796649321432,
+      "text": "My modem just stopped working completely. The lights went off and now nothing."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.273852067977913,
+      "end_time": 25.373852067977914,
+      "text": "That could be a hardware issue. Let me see if we need to replace it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.35154901582125,
+      "end_time": 32.45154901582125,
+      "text": "When did you last reboot it? Sometimes a factory reset helps., honestly"
     },
     {
       "speaker": "caller",
-      "start_time": 14.724816348996635,
-      "end_time": 16.124816348996635,
-      "text": "what phones are available"
+      "start_time": 34.59563792266463,
+      "end_time": 36.79563792266463,
+      "text": "Okay, let me try that., uh"
     },
     {
       "speaker": "agent",
-      "start_time": 18.5967940342665,
-      "end_time": 22.0967940342665,
-      "text": "so, I can see why that would be frustrating"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.010724204845125,
-      "end_time": 25.710724204845125,
-      "text": "here's what we can do, um"
+      "start_time": 37.941443424917864,
+      "end_time": 42.34144342491786,
+      "text": "When did you last reboot it? Sometimes a factory reset helps."
     },
     {
       "speaker": "caller",
-      "start_time": 27.205695716090005,
-      "end_time": 28.705695716090005,
-      "text": "is there a charge"
+      "start_time": 43.96459141648097,
+      "end_time": 45.164591416480974,
+      "text": "Still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 29.43571434209327,
-      "end_time": 31.73571434209327,
-      "text": "basically, here are your options"
+      "start_time": 45.7714677271441,
+      "end_time": 50.4714677271441,
+      "text": "We'll send you a replacement modem. It should arrive in 2-3 business days."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.375497767629426,
+      "end_time": 54.07549776762943,
+      "text": "You should be good to go now."
     },
     {
       "speaker": "caller",
-      "start_time": 32.94079148293708,
-      "end_time": 34.64079148293708,
-      "text": "that seems complicated, basically"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.492967651269076,
-      "end_time": 38.19296765126908,
-      "text": "here's what we can do, basically"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 40.1813559003249,
-      "end_time": 41.0813559003249,
-      "text": "yeah, okay"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.65568631176793,
-      "end_time": 44.15568631176793,
-      "text": "Actually, there's one more thing..., actually"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.703263870933725,
-      "end_time": 46.703263870933725,
-      "text": "here's what we can do"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 47.38986421727713,
-      "end_time": 49.88986421727713,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 50.39773010071174,
-      "end_time": 51.79773010071174,
-      "text": "Yeah, that's good. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 52.468322453500896,
-      "end_time": 54.0683224535009,
-      "text": "We appreciate your business."
+      "start_time": 54.8195037407767,
+      "end_time": 56.6195037407767,
+      "text": "Thanks for your help."
     }
   ]
 }

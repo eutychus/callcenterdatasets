@@ -1,111 +1,55 @@
 {
   "call_id": 1196,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Mike",
-    "duration": 52.9,
+    "call_type": "billing",
+    "agent_name": "Emily",
+    "duration": 39.54587669590483,
     "sentiment": "negative",
-    "product_category": "Bundle",
-    "inquiry_type": "information",
-    "sale_completed": false,
-    "resolution_type": "they want to think about it"
+    "issue_category": "unexpected charge",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.4,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 4.9,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 3.477153648523786,
-      "end_time": 10.077153648523787,
-      "text": "Hello! Mike here with our sales team. Are you interested in learning about our plans?"
+      "start_time": 6.358627292734289,
+      "end_time": 10.858627292734289,
+      "text": "Hi, this is Emily from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.843588377860133,
-      "end_time": 14.843588377860133,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 12.030744743608125,
+      "end_time": 16.830744743608125,
+      "text": "Can you explain this charge? I don't remember agreeing to it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.252828433626604,
+      "end_time": 23.552828433626605,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.269407182336458,
+      "end_time": 31.06940718233646,
+      "text": "We charged you for premium support. I can reverse that if you want."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.05224017969596,
+      "end_time": 37.75224017969596,
+      "text": "I'm going to have that reversed. You'll see the credit on your next bill."
     },
     {
       "speaker": "caller",
-      "start_time": 15.787976170189307,
-      "end_time": 17.587976170189307,
-      "text": "what speeds can I get"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.90169926077501,
-      "end_time": 21.501699260775013,
-      "text": "that must be really annoying, like"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.54058119486738,
-      "end_time": 25.04058119486738,
-      "text": "basically, I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 26.478903025111254,
-      "end_time": 28.978903025111254,
-      "text": "how soon can you do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.581704036174074,
-      "end_time": 31.981704036174072,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 33.22768954757384,
-      "end_time": 35.12768954757384,
-      "text": "I'm worried that won't work"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.68034065704998,
-      "end_time": 37.48034065704998,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.12553182887825,
-      "end_time": 40.22553182887825,
-      "text": "yeah, okay, well"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.41788421752123,
-      "end_time": 43.717884217521224,
-      "text": "Actually, there's one more thing..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.534445247186966,
-      "end_time": 45.934445247186964,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.676266399639076,
-      "end_time": 48.076266399639074,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 48.91462245878733,
-      "end_time": 50.91462245878733,
-      "text": "That's everything. Thanks so much!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 51.59013837388541,
-      "end_time": 52.89013837388541,
-      "text": "Enjoy your service!"
+      "start_time": 38.64587669590483,
+      "end_time": 39.54587669590483,
+      "text": "Okay, thanks."
     }
   ]
 }

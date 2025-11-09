@@ -1,99 +1,55 @@
 {
   "call_id": 1119,
   "metadata": {
-    "call_type": "support",
+    "call_type": "billing",
     "agent_name": "Emily",
-    "duration": 49.7,
-    "sentiment": "positive",
-    "issue_category": "connectivity",
-    "issue": "connectivity",
-    "issue_resolved": true,
-    "resolution_type": "we identified a network issue and it should be fixed"
+    "duration": 39.582774261421584,
+    "sentiment": "negative",
+    "issue_category": "unexpected charge",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.8,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 4.6,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.097375734636369,
-      "end_time": 8.597375734636369,
-      "text": "Hi there! Emily speaking. What seems to be the issue?"
+      "start_time": 5.904353054120853,
+      "end_time": 10.804353054120853,
+      "text": "Hi, this is Emily from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.369243032656867,
-      "end_time": 12.469243032656866,
-      "text": "Thanks for picking up., so"
+      "start_time": 11.976066176996351,
+      "end_time": 16.07606617699635,
+      "text": "Can you explain this charge? I don't remember agreeing to it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.81785599156383,
+      "end_time": 21.81785599156383,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.48267323457857,
+      "end_time": 30.98267323457857,
+      "text": "It looks like you were charged for an add-on service. Would you like me to remove it?"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.030182975870176,
+      "end_time": 37.430182975870174,
+      "text": "Let me apply a credit. You shouldn't have been charged for that."
     },
     {
       "speaker": "caller",
-      "start_time": 13.420020334011763,
-      "end_time": 16.020020334011765,
-      "text": "hold on... my internet keeps dropping, well"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 17.36794286738128,
-      "end_time": 19.86794286738128,
-      "text": "let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.448938880720092,
-      "end_time": 23.048938880720094,
-      "text": "let... let me pull up your information"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 24.89897297099716,
-      "end_time": 25.998972970997162,
-      "text": "sorta, It's 555-1234."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 27.587189037305144,
-      "end_time": 29.787189037305144,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 31.741393903309486,
-      "end_time": 33.741393903309486,
-      "text": "sorta, will it take long"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.67455237481424,
-      "end_time": 38.27455237481424,
-      "text": "By the way, I also have a question..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.97489088720984,
-      "end_time": 41.47489088720984,
-      "text": "so, I can help you with that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.38895981018468,
-      "end_time": 43.88895981018468,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 44.629366596436526,
-      "end_time": 48.129366596436526,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 48.54501926610227,
-      "end_time": 49.745019266102275,
-      "text": "Enjoy your service!"
+      "start_time": 38.082774261421584,
+      "end_time": 39.582774261421584,
+      "text": "That's all I needed."
     }
   ]
 }

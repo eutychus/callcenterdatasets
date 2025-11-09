@@ -1,98 +1,79 @@
 {
   "call_id": 157,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Chris",
-    "duration": 56.9,
-    "sentiment": "positive",
-    "billing_issue": "dispute",
-    "issue_resolved": true,
-    "resolution_type": "the charge was reversed"
+    "call_type": "support",
+    "agent_name": "Jennifer",
+    "duration": 53.403808428731786,
+    "sentiment": "neutral",
+    "issue_category": "device problem",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.9,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 5.3,
+      "text": "Thank you for choosing Telecom Haiku. Press 1 to continue in English."
     },
     {
       "speaker": "agent",
-      "start_time": 6.780975592637399,
-      "end_time": 10.9809755926374,
-      "text": "Hello! Chris speaking. I'm here to help with any billing questions."
+      "start_time": 7.063722951321814,
+      "end_time": 12.763722951321814,
+      "text": "Hi, thanks for calling. This is Jennifer with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.55295427531485,
-      "end_time": 15.752954275314849,
-      "text": "sorta, Hi! So I've been having some trouble."
+      "start_time": 13.568867912802911,
+      "end_time": 18.56886791280291,
+      "text": "The router keeps rebooting itself. It's like every hour it just powers down."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.90369025610458,
+      "end_time": 27.103690256104578,
+      "text": "Okay, it sounds like the device might be failing. Let me figure out the best solution."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.496322696725,
+      "end_time": 32.896322696725,
+      "text": "so, when did you last reboot it? sometimes a factory reset helps."
     },
     {
       "speaker": "caller",
-      "start_time": 16.421053663814934,
-      "end_time": 18.921053663814934,
-      "text": "hold on... this charge shouldn't be here"
+      "start_time": 34.06536293008739,
+      "end_time": 35.365362930087386,
+      "text": "Done. Now what?"
     },
     {
       "speaker": "agent",
-      "start_time": 20.634249664360564,
-      "end_time": 22.834249664360563,
-      "text": "I completely understand your frustration"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.38643885159651,
-      "end_time": 26.786438851596508,
-      "text": "just a second... hold on while I investigate"
+      "start_time": 36.00546277466106,
+      "end_time": 41.10546277466106,
+      "text": "Can you try a different power outlet? Sometimes that solves the problem."
     },
     {
       "speaker": "caller",
-      "start_time": 28.77707289774753,
-      "end_time": 30.67707289774753,
-      "text": "you know, Okay, hold on."
+      "start_time": 42.426976418745234,
+      "end_time": 43.426976418745234,
+      "text": "That didn't help."
     },
     {
       "speaker": "agent",
-      "start_time": 32.06260275641303,
-      "end_time": 34.46260275641303,
-      "text": "I have a solution for you"
+      "start_time": 44.365258762198906,
+      "end_time": 48.06525876219891,
+      "text": "You're still under warranty. We'll replace it at no cost."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.57716502584055,
+      "end_time": 51.47716502584055,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 35.899425365225476,
-      "end_time": 39.09942536522548,
-      "text": "you know, what if it doesn't work"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 40.43303029912614,
-      "end_time": 42.93303029912614,
-      "text": "here's what we can do, kinda"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 44.03367714677983,
-      "end_time": 46.03367714677983,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.88185763585808,
-      "end_time": 49.081857635858086,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 49.967230027462115,
-      "end_time": 54.467230027462115,
-      "text": "you know, Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 55.41165436429476,
-      "end_time": 56.91165436429476,
-      "text": "Have a great day!"
+      "start_time": 51.903808428731786,
+      "end_time": 53.403808428731786,
+      "text": "Thanks, that solved it."
     }
   ]
 }

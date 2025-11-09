@@ -1,11 +1,11 @@
 {
   "call_id": 599,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Patricia",
-    "duration": 38.3,
-    "sentiment": "positive",
-    "technical_issue": "device_issue",
+    "call_type": "billing",
+    "agent_name": "Chris",
+    "duration": 36.374267676543944,
+    "sentiment": "neutral",
+    "issue_category": "payment problem",
     "issue_resolved": false
   },
   "conversation": [
@@ -13,61 +13,43 @@
       "speaker": "ivr",
       "start_time": 0.0,
       "end_time": 4.7,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 6.357237642117982,
-      "end_time": 9.657237642117982,
-      "text": "Hello, Patricia here. What device are we troubleshooting today?"
+      "start_time": 6.0298816381813545,
+      "end_time": 11.329881638181355,
+      "text": "Hi, this is Chris from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.619086064921712,
-      "end_time": 14.119086064921712,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 12.254275370771179,
+      "end_time": 17.454275370771178,
+      "text": "Is my service going to be disconnected? I've been trying to pay."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.212915336297392,
+      "end_time": 21.11291533629739,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.04444885431424,
+      "end_time": 28.54444885431424,
+      "text": "It looks like there's an issue with the payment system on your end."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.998647982247984,
+      "end_time": 33.698647982247984,
+      "text": "Let me take your payment right now over the phone."
     },
     {
       "speaker": "caller",
-      "start_time": 15.127014227681535,
-      "end_time": 16.527014227681533,
-      "text": "my modem is overheating"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.44343304709339,
-      "end_time": 21.04343304709339,
-      "text": "kinda, let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.40201646105286,
-      "end_time": 25.302016461052858,
-      "text": "uh, what error message are you seeing"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 27.20354646144726,
-      "end_time": 28.50354646144726,
-      "text": "yeah, okay, kinda"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.68196361570037,
-      "end_time": 31.381963615700368,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 32.22008729289057,
-      "end_time": 35.12008729289057,
-      "text": "Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 36.051332621599784,
-      "end_time": 38.251332621599786,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 34.67426767654394,
+      "end_time": 36.374267676543944,
+      "text": "That's all I needed."
     }
   ]
 }

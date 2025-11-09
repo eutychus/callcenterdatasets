@@ -1,75 +1,67 @@
 {
   "call_id": 575,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Patricia",
-    "duration": 38.7,
+    "call_type": "support",
+    "agent_name": "Chris",
+    "duration": 44.166980276355936,
     "sentiment": "neutral",
-    "product_category": "Bundle",
-    "inquiry_type": "information",
-    "sale_completed": true,
-    "resolution_type": "we scheduled a follow-up"
+    "issue_category": "account access",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.4,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 3.9,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
     },
     {
       "speaker": "agent",
-      "start_time": 5.9175764375825075,
-      "end_time": 11.917576437582508,
-      "text": "Hello! Patricia here with our sales team. Are you interested in learning about our plans?"
+      "start_time": 6.294447449878702,
+      "end_time": 11.894447449878701,
+      "text": "Hi, thanks for calling. This is Chris with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 13.666276335996322,
-      "end_time": 16.766276335996324,
-      "text": "well, Hey, thanks. Yeah, I need help with something."
+      "start_time": 12.891070290407162,
+      "end_time": 17.69107029040716,
+      "text": "My account is locked. I tried resetting my password but nothing happened."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.199412898348754,
+      "end_time": 22.899412898348753,
+      "text": "I... i can help you regain access. let me verify your information."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.041152099130404,
+      "end_time": 28.841152099130404,
+      "text": "Let me send you a password reset link to your email on file."
     },
     {
       "speaker": "caller",
-      "start_time": 18.26339293788641,
-      "end_time": 20.16339293788641,
-      "text": "what's different about your service"
+      "start_time": 31.139638797733838,
+      "end_time": 32.33963879773384,
+      "text": "Still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 22.093926944699877,
-      "end_time": 24.69392694469988,
-      "text": "that must be really annoying, kinda"
+      "start_time": 33.11744502569133,
+      "end_time": 39.91744502569133,
+      "text": "You should receive a reset email shortly. Click the link to create a new password."
     },
     {
       "speaker": "agent",
-      "start_time": 25.29670143483966,
-      "end_time": 27.99670143483966,
-      "text": "let me walk you through this"
+      "start_time": 40.78262297772066,
+      "end_time": 42.08262297772066,
+      "text": "Does that help?"
     },
     {
       "speaker": "caller",
-      "start_time": 29.587628000400045,
-      "end_time": 31.687628000400046,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.62992055328126,
-      "end_time": 34.32992055328126,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.912442284609256,
-      "end_time": 36.412442284609256,
-      "text": "Yeah, that's good. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 36.89421366127713,
-      "end_time": 38.694213661277125,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 42.666980276355936,
+      "end_time": 44.166980276355936,
+      "text": "Thanks, that solved it."
     }
   ]
 }

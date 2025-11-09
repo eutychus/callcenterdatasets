@@ -1,85 +1,61 @@
 {
   "call_id": 784,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Susan",
-    "duration": 40.0,
-    "sentiment": "negative",
-    "churn_reason": "leaving",
-    "issue_resolved": "escalated"
+    "call_type": "sales",
+    "agent_name": "Robert",
+    "duration": 50.71137208302122,
+    "sentiment": "positive",
+    "product_category": "Broadband",
+    "sale_completed": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.6,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 5.7,
+      "text": "Thank you for calling Telecom Haiku sales team. Please hold while we connect you."
     },
     {
       "speaker": "agent",
-      "start_time": 6.2870349350176635,
-      "end_time": 11.587034935017662,
-      "text": "Hi, thanks for calling. Susan here. I see you've been with us a while."
+      "start_time": 7.679447688554331,
+      "end_time": 13.87944768855433,
+      "text": "Hi! Thanks for calling. This is Robert with our sales team. What brings you in today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.587339633317285,
-      "end_time": 14.087339633317285,
-      "text": "Thanks for picking up."
+      "start_time": 14.991975922771612,
+      "end_time": 19.991975922771612,
+      "text": "Hi, I was actually thinking about upgrading my plan. What options do you have?"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.13253615230262,
+      "end_time": 27.43253615230262,
+      "text": "Let me show you some plans that are faster and in a similar price range."
     },
     {
       "speaker": "caller",
-      "start_time": 14.751605354023985,
-      "end_time": 16.551605354023984,
-      "text": "I need to disconnect"
+      "start_time": 29.353487926504506,
+      "end_time": 35.853487926504506,
+      "text": "Can I try it without being locked in? I want to see if I like it first."
     },
     {
       "speaker": "agent",
-      "start_time": 17.71449679413228,
-      "end_time": 20.21449679413228,
-      "text": "let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.59966300864053,
-      "end_time": 23.29966300864053,
-      "text": "here are your options, well"
+      "start_time": 37.01194744885552,
+      "end_time": 41.611947448855524,
+      "text": "You'd... you'd save about 20 dollars a month with this plan."
     },
     {
       "speaker": "caller",
-      "start_time": 24.780748533440093,
-      "end_time": 26.880748533440094,
-      "text": "will that really fix it"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 27.744779987392267,
-      "end_time": 29.744779987392267,
-      "text": "Actually, there's one more thing..."
+      "start_time": 42.47645194133867,
+      "end_time": 47.47645194133867,
+      "text": "That actually sounds like a better deal. Let's do it., so"
     },
     {
       "speaker": "agent",
-      "start_time": 30.62850475420087,
-      "end_time": 32.928504754200866,
-      "text": "here's what we can do"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 33.55762546207644,
-      "end_time": 35.457625462076436,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 36.357023634648726,
-      "end_time": 38.45702363464873,
-      "text": "That's everything. Thanks so much!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.90030610666669,
-      "end_time": 40.00030610666669,
-      "text": "Enjoy your service!"
+      "start_time": 48.011372083021215,
+      "end_time": 50.71137208302122,
+      "text": "Great decision! I'll get that rolling."
     }
   ]
 }

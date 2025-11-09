@@ -1,73 +1,55 @@
 {
   "call_id": 1281,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Robert",
-    "duration": 34.9,
-    "sentiment": "mixed",
-    "technical_issue": "device_issue",
-    "issue_resolved": "escalated"
+    "call_type": "billing",
+    "agent_name": "Mark",
+    "duration": 35.38412803358762,
+    "sentiment": "neutral",
+    "issue_category": "payment problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.3,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 4.3,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 3.3344509693171114,
-      "end_time": 7.334450969317111,
-      "text": "Hi! Robert from technical support. Let's get your device working."
+      "start_time": 5.613225911078155,
+      "end_time": 10.913225911078154,
+      "text": "Hi, this is Mark from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 8.65167608756203,
-      "end_time": 11.451676087562031,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 11.956390762189043,
+      "end_time": 18.556390762189043,
+      "text": "My payment didn't go through and now I'm worried my service will get cut off."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.227458974446627,
+      "end_time": 22.727458974446627,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.174475580038937,
+      "end_time": 27.974475580038938,
+      "text": "Sometimes your bank blocks us for fraud protection."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.055816247516077,
+      "end_time": 33.75581624751608,
+      "text": "I'll note this on your account so you won't be disconnected."
     },
     {
       "speaker": "caller",
-      "start_time": 11.952299674160503,
-      "end_time": 14.552299674160503,
-      "text": "I... I hear a strange noise"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 15.85221473997542,
-      "end_time": 17.752214739975418,
-      "text": "that must be really annoying"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.434522500548567,
-      "end_time": 22.03452250054857,
-      "text": "let me see if there's an outage in your area"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 23.451221137458777,
-      "end_time": 26.151221137458776,
-      "text": "so, sure, I can try that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 26.785127966374972,
-      "end_time": 29.18512796637497,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 29.782161152747125,
-      "end_time": 31.882161152747127,
-      "text": "That's everything. Thanks so much!, like"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.70337472547182,
-      "end_time": 34.90337472547182,
-      "text": "Thanks for calling, and take care."
+      "start_time": 34.48412803358762,
+      "end_time": 35.38412803358762,
+      "text": "Okay, thanks."
     }
   ]
 }

@@ -1,97 +1,55 @@
 {
   "call_id": 1698,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Robert",
-    "duration": 50.2,
-    "sentiment": "positive",
-    "issue": "general",
+    "call_type": "billing",
+    "agent_name": "Mark",
+    "duration": 36.97510373030296,
+    "sentiment": "negative",
+    "issue_category": "payment problem",
     "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.9,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.692359241903209,
-      "end_time": 10.29235924190321,
-      "text": "Hello! Robert speaking. What can I do with your account today?"
+      "start_time": 5.456850142508433,
+      "end_time": 9.956850142508433,
+      "text": "Hi, this is Mark from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.432776926102985,
-      "end_time": 14.432776926102985,
-      "text": "well, Yeah, hi. I'm having an issue."
+      "start_time": 11.38718151511483,
+      "end_time": 15.88718151511483,
+      "text": "like, i tried to pay my bill but the system rejected my card."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.049442559988943,
+      "end_time": 20.749442559988942,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.47403072467204,
+      "end_time": 28.47403072467204,
+      "text": "Your card might be expired or there could be a security hold."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.788543001458308,
+      "end_time": 34.18854300145831,
+      "text": "I'll note this on your account so you won't be disconnected."
     },
     {
       "speaker": "caller",
-      "start_time": 15.659884185434844,
-      "end_time": 18.859884185434844,
-      "text": "I... I had a question about my service."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.124699841803558,
-      "end_time": 21.92469984180356,
-      "text": "that must be really annoying"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.542095799374174,
-      "end_time": 24.742095799374173,
-      "text": "sorry... hold on while I investigate"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 26.887877876323294,
-      "end_time": 27.987877876323296,
-      "text": "Okay, hold on."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.847212193327096,
-      "end_time": 32.14721219332709,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 33.453725295428015,
-      "end_time": 35.453725295428015,
-      "text": "uh, will it take long"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.971886851742774,
-      "end_time": 38.77188685174277,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 40.52453673405093,
-      "end_time": 42.82453673405093,
-      "text": "uh, sure, I can try that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 43.33629876423122,
-      "end_time": 45.036298764231226,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 45.99595776088147,
-      "end_time": 48.49595776088147,
-      "text": "That's everything. Thanks so much!, kinda"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 49.14526603029455,
-      "end_time": 50.24526603029455,
-      "text": "Enjoy your service!"
+      "start_time": 35.175103730302965,
+      "end_time": 36.97510373030296,
+      "text": "Thanks for handling that."
     }
   ]
 }

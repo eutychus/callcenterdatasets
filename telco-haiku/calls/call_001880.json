@@ -1,86 +1,79 @@
 {
   "call_id": 1880,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "David",
-    "duration": 47.4,
-    "sentiment": "negative",
-    "billing_issue": "payment",
-    "issue_resolved": false,
-    "resolution_type": "the charge was reversed"
+    "call_type": "support",
+    "agent_name": "Susan",
+    "duration": 57.11652215836586,
+    "sentiment": "neutral",
+    "issue_category": "device problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.1,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 4.7,
+      "text": "Welcome to Telecom Haiku support. Please have your account number ready."
     },
     {
       "speaker": "agent",
-      "start_time": 6.195776649016337,
-      "end_time": 10.395776649016337,
-      "text": "Hello! David speaking. I'm here to help with any billing questions."
+      "start_time": 6.272310849787541,
+      "end_time": 13.572310849787542,
+      "text": "Hi, thanks for calling. This is Susan with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.856625171796814,
-      "end_time": 14.756625171796815,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 14.906714281344756,
+      "end_time": 21.006714281344756,
+      "text": "um, my modem just stopped working completely. the lights went off and now nothing."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.890128684088236,
+      "end_time": 25.990128684088234,
+      "text": "That's not normal. Let's walk through some basic checks first."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.100144973209105,
+      "end_time": 32.5001449732091,
+      "text": "Can... can you try a different power outlet? sometimes that solves the problem."
     },
     {
       "speaker": "caller",
-      "start_time": 15.795057814761147,
-      "end_time": 18.995057814761147,
-      "text": "hold on... can I set up autopay"
+      "start_time": 33.65633302948388,
+      "end_time": 34.856333029483885,
+      "text": "Done. Now what?"
     },
     {
       "speaker": "agent",
-      "start_time": 20.36915816382802,
-      "end_time": 22.46915816382802,
-      "text": "I completely understand your frustration"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.480696955133684,
-      "end_time": 26.880696955133683,
-      "text": "can... can you give me your account number"
+      "start_time": 35.767313673337625,
+      "end_time": 41.267313673337625,
+      "text": "Can you try a different power outlet? Sometimes that solves the problem., like"
     },
     {
       "speaker": "caller",
-      "start_time": 29.132299315380465,
-      "end_time": 31.732299315380466,
-      "text": "sorta, Yeah, let me find that."
+      "start_time": 43.55002401745165,
+      "end_time": 44.850024017451645,
+      "text": "That didn't help."
     },
     {
       "speaker": "agent",
-      "start_time": 33.27598708820326,
-      "end_time": 35.47598708820326,
-      "text": "so, here's what we can do"
+      "start_time": 45.87619915144429,
+      "end_time": 51.37619915144429,
+      "text": "We'll send you a replacement modem. It should arrive in 2-3 business days."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.26183500412887,
+      "end_time": 55.561835004128866,
+      "text": "Feel free to call back if you have issues."
     },
     {
       "speaker": "caller",
-      "start_time": 36.843435054737526,
-      "end_time": 38.54343505473753,
-      "text": "I can do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 39.90719364823835,
-      "end_time": 42.10719364823835,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 42.94632695204038,
-      "end_time": 45.84632695204038,
-      "text": "Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.388982964711516,
-      "end_time": 47.388982964711516,
-      "text": "Enjoy your service!"
+      "start_time": 56.21652215836586,
+      "end_time": 57.11652215836586,
+      "text": "Okay, thanks."
     }
   ]
 }

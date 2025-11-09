@@ -1,87 +1,67 @@
 {
   "call_id": 408,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Sarah",
-    "duration": 45.0,
+    "call_type": "support",
+    "agent_name": "Susan",
+    "duration": 48.280059092058785,
     "sentiment": "positive",
-    "product_category": "Mobile Plan",
-    "inquiry_type": "new_service",
-    "sale_completed": true,
-    "resolution_type": "the customer wasn't interested"
+    "issue_category": "internet connectivity",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.3,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 4.8,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
     },
     {
       "speaker": "agent",
-      "start_time": 3.6772146784548783,
-      "end_time": 9.877214678454878,
-      "text": "Hey, thanks for calling! This is Sarah. I'd love to tell you about some great offers."
+      "start_time": 7.04249972906343,
+      "end_time": 13.642499729063431,
+      "text": "Hi,... hi, thanks for calling. this is susan with technical support. how can i help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.986382795690993,
-      "end_time": 14.486382795690993,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 14.760842095049645,
+      "end_time": 21.960842095049646,
+      "text": "Hi,... hi, yeah, i've been having really bad internet. like, my connection keeps dropping every few minutes."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.23371063442782,
+      "end_time": 28.23371063442782,
+      "text": "I'm sorry you're experiencing that. Let me look into your account details."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.029193817855052,
+      "end_time": 34.129193817855054,
+      "text": "First thing - have you rebooted your equipment recently?"
     },
     {
       "speaker": "caller",
-      "start_time": 15.785578214880534,
-      "end_time": 18.285578214880534,
-      "text": "I... I want to add TV service"
+      "start_time": 35.48613210741929,
+      "end_time": 36.786132107419284,
+      "text": "That didn't help."
     },
     {
       "speaker": "agent",
-      "start_time": 20.237879674052994,
-      "end_time": 23.637879674052993,
-      "text": "um, I can see why that would be frustrating"
+      "start_time": 37.33781801756675,
+      "end_time": 42.93781801756675,
+      "text": "I'm pushing a software update to your modem right now. You should see improvement."
     },
     {
       "speaker": "agent",
-      "start_time": 24.575479137329133,
-      "end_time": 27.675479137329134,
-      "text": "like, I can help you with that"
+      "start_time": 43.571941393483016,
+      "end_time": 46.571941393483016,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 29.12470359729711,
-      "end_time": 30.62470359729711,
-      "text": "that sounds good, um"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 31.54394993230777,
-      "end_time": 33.54394993230777,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.65195380825755,
-      "end_time": 36.95195380825755,
-      "text": "how long will that take"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.03258612482431,
-      "end_time": 40.232586124824316,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 40.89900127017942,
-      "end_time": 42.49900127017942,
-      "text": "No, that's all. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 43.17625477073041,
-      "end_time": 44.97625477073041,
-      "text": "We appreciate your business."
+      "start_time": 47.38005909205879,
+      "end_time": 48.280059092058785,
+      "text": "Okay, thanks."
     }
   ]
 }

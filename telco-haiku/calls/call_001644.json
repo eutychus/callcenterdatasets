@@ -1,73 +1,67 @@
 {
   "call_id": 1644,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Susan",
-    "duration": 40.2,
+    "call_type": "support",
+    "agent_name": "Rachel",
+    "duration": 50.64627143473236,
     "sentiment": "neutral",
-    "technical_issue": "device_issue",
-    "issue_resolved": "escalated"
+    "issue_category": "internet connectivity",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.5,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 5.0,
+      "text": "Welcome to Telecom Haiku support. Please have your account number ready."
     },
     {
       "speaker": "agent",
-      "start_time": 5.987127420731051,
-      "end_time": 10.08712742073105,
-      "text": "Hi! Susan from technical support. Let's get your device working."
+      "start_time": 6.735851153568204,
+      "end_time": 14.135851153568204,
+      "text": "Hi, thanks for calling. This is Rachel with technical support. How can I help you today?, like"
     },
     {
       "speaker": "caller",
-      "start_time": 11.571633651443426,
-      "end_time": 15.171633651443425,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 15.174342672387958,
+      "end_time": 22.874342672387957,
+      "text": "So I've got this problem where I can barely stay connected. It's been happening since yesterday., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.835524180349594,
+      "end_time": 30.735524180349593,
+      "text": "That must be really frustrating. Can you tell me a little bit more about when this started?"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.26269147484204,
+      "end_time": 35.362691474842045,
+      "text": "First thing - have you rebooted your equipment recently?"
     },
     {
       "speaker": "caller",
-      "start_time": 16.343330124555127,
-      "end_time": 18.843330124555127,
-      "text": "I need to reset it, uh"
+      "start_time": 36.93180177805938,
+      "end_time": 39.33180177805938,
+      "text": "Okay, let me try that., right"
     },
     {
       "speaker": "agent",
-      "start_time": 21.046774386029774,
-      "end_time": 23.446774386029773,
-      "text": "you know, I'm sorry you're experiencing this"
+      "start_time": 40.06379464617776,
+      "end_time": 44.263794646177764,
+      "text": "We've identified the problem. Let me schedule a technician visit for you."
     },
     {
       "speaker": "agent",
-      "start_time": 24.084012747257166,
-      "end_time": 27.684012747257167,
-      "text": "can you check if the lights are green"
+      "start_time": 45.216655640226755,
+      "end_time": 48.316655640226756,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 29.387162808101685,
-      "end_time": 31.687162808101686,
-      "text": "I'm not sure about that, uh"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.758082909260324,
-      "end_time": 34.95808290926033,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 35.9146143024911,
-      "end_time": 37.7146143024911,
-      "text": "No, that's all. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.31311887881321,
-      "end_time": 40.21311887881321,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 48.94627143473236,
+      "end_time": 50.64627143473236,
+      "text": "Thanks for your help."
     }
   ]
 }

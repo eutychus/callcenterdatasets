@@ -1,122 +1,79 @@
 {
   "call_id": 1005,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Patricia",
-    "duration": 65.6,
-    "sentiment": "positive",
-    "billing_issue": "payment",
-    "issue_resolved": true,
-    "resolution_type": "we applied a credit"
+    "call_type": "support",
+    "agent_name": "Emily",
+    "duration": 57.81586918596044,
+    "sentiment": "mixed",
+    "issue_category": "device problem",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.5,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 7.5,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 4.467463983012566,
-      "end_time": 10.167463983012567,
-      "text": "Hi, this is Patricia from billing. How can I assist with your account?"
+      "start_time": 9.339827720300299,
+      "end_time": 16.0398277203003,
+      "text": "um, hi, thanks for calling. this is emily with technical support. how can i help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.64561844048534,
-      "end_time": 13.64561844048534,
-      "text": "Thanks for picking up., um"
+      "start_time": 16.866891070819943,
+      "end_time": 22.666891070819943,
+      "text": "basically, my equipment is overheating. the modem is really hot to the touch."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.670790689077908,
+      "end_time": 30.47079068907791,
+      "text": "Okay, it sounds like the device might be failing. Let me figure out the best solution."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.795965673286105,
+      "end_time": 36.49596567328611,
+      "text": "When did you last reboot it? Sometimes a factory reset helps."
     },
     {
       "speaker": "caller",
-      "start_time": 14.726132101723124,
-      "end_time": 16.926132101723123,
-      "text": "when is my payment due"
+      "start_time": 38.02558812840027,
+      "end_time": 40.125588128400274,
+      "text": "Okay, let me try that."
     },
     {
       "speaker": "agent",
-      "start_time": 18.419592258864935,
-      "end_time": 21.219592258864935,
-      "text": "sorta, let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.769988315518574,
-      "end_time": 24.869988315518576,
-      "text": "let me check... I'm checking our system now"
+      "start_time": 41.0031958373098,
+      "end_time": 45.8031958373098,
+      "text": "Can you try a different power outlet? Sometimes that solves the problem."
     },
     {
       "speaker": "caller",
-      "start_time": 26.822195155896,
-      "end_time": 29.322195155896,
-      "text": "uh, Yeah, let me find that."
+      "start_time": 48.06865501841215,
+      "end_time": 49.16865501841215,
+      "text": "Still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 31.1525625473288,
-      "end_time": 33.1525625473288,
-      "text": "here are your options, kinda"
+      "start_time": 50.137429055909564,
+      "end_time": 54.43742905590956,
+      "text": "You're still under warranty. We'll replace it at no cost."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.24187483636921,
+      "end_time": 56.341874836369215,
+      "text": "Does that help?"
     },
     {
       "speaker": "caller",
-      "start_time": 34.92434795070398,
-      "end_time": 36.72434795070398,
-      "text": "will it take long"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 37.724365764067564,
-      "end_time": 40.924365764067566,
-      "text": "you know, I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.87864192769096,
-      "end_time": 44.47864192769096,
-      "text": "what if it doesn't work, uh"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 45.65067214863667,
-      "end_time": 48.45067214863667,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 49.96297573302516,
-      "end_time": 52.36297573302516,
-      "text": "how soon can you do that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 53.393043781260495,
-      "end_time": 55.293043781260494,
-      "text": "Actually, there's one more thing..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 56.00892965456046,
-      "end_time": 58.208929654560464,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 58.894541742593404,
-      "end_time": 60.494541742593405,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 61.27958121479053,
-      "end_time": 63.07958121479053,
-      "text": "Yeah, that's good. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 63.872373592708854,
-      "end_time": 65.57237359270886,
-      "text": "Have a great day!"
+      "start_time": 56.715869185960436,
+      "end_time": 57.81586918596044,
+      "text": "Great, appreciate it."
     }
   ]
 }

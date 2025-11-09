@@ -1,85 +1,55 @@
 {
   "call_id": 1088,
   "metadata": {
-    "call_type": "account",
+    "call_type": "billing",
     "agent_name": "Jennifer",
-    "duration": 44.4,
-    "sentiment": "neutral",
-    "issue": "general",
-    "issue_resolved": false
+    "duration": 35.982610999571264,
+    "sentiment": "negative",
+    "issue_category": "payment problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.5,
-      "text": "Welcome. Please listen carefully as our menu has changed."
+      "end_time": 4.0,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.577100772339965,
-      "end_time": 9.077100772339964,
-      "text": "Hi, Jennifer with account services here. How can I help?"
+      "start_time": 6.117832388649379,
+      "end_time": 10.41783238864938,
+      "text": "Hi, this is Jennifer from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.36274883718499,
-      "end_time": 12.56274883718499,
-      "text": "um, Thanks for picking up."
+      "start_time": 11.640361577317954,
+      "end_time": 17.840361577317953,
+      "text": "My payment didn't go through and now I'm worried my service will get cut off."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.160137920386887,
+      "end_time": 22.76013792038689,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.412085206760793,
+      "end_time": 28.612085206760792,
+      "text": "Sometimes your bank blocks us for fraud protection."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.458961997538044,
+      "end_time": 33.858961997538046,
+      "text": "Let me take your payment right now over the phone."
     },
     {
       "speaker": "caller",
-      "start_time": 13.640281253420264,
-      "end_time": 16.340281253420265,
-      "text": "I had a question about my service."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 17.410279220900165,
-      "end_time": 19.510279220900166,
-      "text": "I'm sorry you're experiencing this, well"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.9088543112715,
-      "end_time": 23.6088543112715,
-      "text": "I'm... I'm checking our system now"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 25.314842986843374,
-      "end_time": 27.214842986843372,
-      "text": "Sure, it's on the bill."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.15985454538766,
-      "end_time": 31.65985454538766,
-      "text": "well, I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 32.75518459979094,
-      "end_time": 35.155184599790935,
-      "text": "how long will that take, basically"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 36.26234659925421,
-      "end_time": 37.76234659925421,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 38.675040805008,
-      "end_time": 41.775040805008004,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.62185818267408,
-      "end_time": 44.42185818267408,
-      "text": "We appreciate your business."
+      "start_time": 34.582610999571266,
+      "end_time": 35.982610999571264,
+      "text": "Thanks for handling that."
     }
   ]
 }

@@ -1,85 +1,79 @@
 {
   "call_id": 82,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Chris",
-    "duration": 44.0,
+    "call_type": "support",
+    "agent_name": "Rachel",
+    "duration": 58.99099172027141,
     "sentiment": "positive",
-    "technical_issue": "troubleshooting",
-    "issue_resolved": true
+    "issue_category": "device problem",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.4,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 8.2,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 6.556485943019533,
-      "end_time": 10.056485943019533,
-      "text": "Hello, Chris here. What device are we troubleshooting today?"
+      "start_time": 9.912841322658135,
+      "end_time": 16.812841322658137,
+      "text": "Hi, thanks for calling. This is Rachel with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.70053509670337,
-      "end_time": 13.70053509670337,
-      "text": "Yeah, hi. I'm having an issue."
+      "start_time": 17.966176025548666,
+      "end_time": 22.266176025548667,
+      "text": "My equipment is overheating. The modem is really hot to the touch."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.494040181654903,
+      "end_time": 29.294040181654903,
+      "text": "That could be a hardware issue. Let me see if we need to replace it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.526862465014105,
+      "end_time": 35.4268624650141,
+      "text": "When did you last reboot it? Sometimes a factory reset helps."
     },
     {
       "speaker": "caller",
-      "start_time": 15.154690442629516,
-      "end_time": 17.054690442629514,
-      "text": "wait... something's not working right"
+      "start_time": 37.530731656690946,
+      "end_time": 39.13073165669095,
+      "text": "like, still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 18.508932557359117,
-      "end_time": 21.208932557359116,
-      "text": "I completely understand your frustration, uh"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.048995347577534,
-      "end_time": 24.848995347577535,
-      "text": "can you check if the lights are green"
+      "start_time": 40.18804280369618,
+      "end_time": 45.18804280369618,
+      "text": "Can you try a different power outlet? Sometimes that solves the problem."
     },
     {
       "speaker": "caller",
-      "start_time": 26.109991757775155,
-      "end_time": 27.309991757775155,
-      "text": "that sounds good"
+      "start_time": 46.31577085083344,
+      "end_time": 47.71577085083344,
+      "text": "That didn't help."
     },
     {
       "speaker": "agent",
-      "start_time": 27.916759774520433,
-      "end_time": 30.416759774520433,
-      "text": "what error message are you seeing"
+      "start_time": 48.580998503417284,
+      "end_time": 53.580998503417284,
+      "text": "I'm... i'm shipping you a new unit express. it'll be there tomorrow."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 54.34692822165742,
+      "end_time": 57.34692822165742,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 32.09914879415395,
-      "end_time": 33.499148794153946,
-      "text": "alright, let's do it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 34.99553235380522,
-      "end_time": 37.09553235380522,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 37.86580837741444,
-      "end_time": 41.46580837741444,
-      "text": "Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.33405303816831,
-      "end_time": 44.03405303816831,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 57.79099172027141,
+      "end_time": 58.99099172027141,
+      "text": "so, okay, thanks."
     }
   ]
 }

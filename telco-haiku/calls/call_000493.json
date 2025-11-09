@@ -1,99 +1,55 @@
 {
   "call_id": 493,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Patricia",
-    "duration": 48.3,
-    "sentiment": "mixed",
-    "product_category": "TV Package",
-    "inquiry_type": "new_service",
-    "sale_completed": false,
-    "resolution_type": "they purchased a new device"
+    "call_type": "billing",
+    "agent_name": "Chris",
+    "duration": 39.80971086626068,
+    "sentiment": "neutral",
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.8,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 4.8,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.478126371763329,
-      "end_time": 10.67812637176333,
-      "text": "Hello! Patricia here with our sales team. Are you interested in learning about our plans?"
+      "start_time": 7.005210764970113,
+      "end_time": 11.905210764970114,
+      "text": "Hi, this is Chris from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.485063715831116,
-      "end_time": 13.585063715831115,
-      "text": "Thanks for picking up., basically"
+      "start_time": 12.788298606174155,
+      "end_time": 18.488298606174155,
+      "text": "Why was I charged an extra 50 dollars this month? That's not right."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.29751502435018,
+      "end_time": 23.99751502435018,
+      "text": "I can see that charge. Let me look into what it's for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.74209855678242,
+      "end_time": 30.64209855678242,
+      "text": "That appears to be a promotional fee that wasn't applied correctly."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.893409358556262,
+      "end_time": 37.79340935855626,
+      "text": "I'm going to have that reversed. You'll see the credit on your next bill."
     },
     {
       "speaker": "caller",
-      "start_time": 14.915841577309575,
-      "end_time": 17.315841577309573,
-      "text": "sorry... what packages do you offer"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.56097244156321,
-      "end_time": 20.66097244156321,
-      "text": "that must be really annoying"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.603663329926142,
-      "end_time": 23.603663329926142,
-      "text": "here's what we can do"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 24.545029145745204,
-      "end_time": 26.345029145745205,
-      "text": "I'm not sure about that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 26.855911317443166,
-      "end_time": 29.055911317443165,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 30.847611762796653,
-      "end_time": 32.64761176279665,
-      "text": "I can do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 33.997443644791794,
-      "end_time": 35.79744364479179,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 37.313289146568195,
-      "end_time": 39.213289146568194,
-      "text": "how long will that take"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 40.11451889555335,
-      "end_time": 42.61451889555335,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 43.530479536286165,
-      "end_time": 46.030479536286165,
-      "text": "That's everything. Thanks so much!, uh"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.520541100869785,
-      "end_time": 48.32054110086978,
-      "text": "We appreciate your business."
+      "start_time": 38.30971086626068,
+      "end_time": 39.80971086626068,
+      "text": "Thanks for handling that."
     }
   ]
 }

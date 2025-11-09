@@ -1,85 +1,79 @@
 {
   "call_id": 117,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Emily",
-    "duration": 44.3,
-    "sentiment": "negative",
-    "issue": "general",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Lisa",
+    "duration": 57.28890136811187,
+    "sentiment": "positive",
+    "issue_category": "device problem",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.4,
-      "text": "Welcome. Please listen carefully as our menu has changed."
+      "end_time": 4.8,
+      "text": "Welcome to Telecom Haiku support. Please have your account number ready."
     },
     {
       "speaker": "agent",
-      "start_time": 5.199801967946657,
-      "end_time": 7.699801967946657,
-      "text": "Hello, thanks for calling. Emily speaking."
+      "start_time": 6.175030668106199,
+      "end_time": 12.1750306681062,
+      "text": "Hi, thanks for calling. This is Lisa with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 9.233735404903726,
-      "end_time": 11.733735404903726,
-      "text": "Yeah, hi. I'm having an issue."
+      "start_time": 13.183164570482088,
+      "end_time": 18.48316457048209,
+      "text": "My equipment is overheating. The modem is really hot to the touch."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.420057386131912,
+      "end_time": 25.420057386131912,
+      "text": "That could be a hardware issue. Let me see if we need to replace it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.10522066584857,
+      "end_time": 32.10522066584857,
+      "text": "When did you last reboot it? Sometimes a factory reset helps."
     },
     {
       "speaker": "caller",
-      "start_time": 13.031269351718805,
-      "end_time": 17.731269351718804,
-      "text": "just a second... well, I had a question about my service."
+      "start_time": 33.79714663885796,
+      "end_time": 35.19714663885796,
+      "text": "That didn't help., honestly"
     },
     {
       "speaker": "agent",
-      "start_time": 18.740899811865905,
-      "end_time": 21.340899811865906,
-      "text": "that must be really annoying, um"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.25873941741311,
-      "end_time": 24.75873941741311,
-      "text": "I have a solution for you, like"
+      "start_time": 36.33194078700263,
+      "end_time": 42.53194078700263,
+      "text": "Is it plugged in and is the outlet working? Let me confirm the basics first."
     },
     {
       "speaker": "caller",
-      "start_time": 25.719937892160235,
-      "end_time": 28.019937892160236,
-      "text": "will that really fix it"
+      "start_time": 44.881809407549994,
+      "end_time": 46.58180940755,
+      "text": "Alright, it's restarting., honestly"
     },
     {
       "speaker": "agent",
-      "start_time": 28.970598676457612,
-      "end_time": 30.67059867645761,
-      "text": "here's what we can do"
+      "start_time": 47.405774880019,
+      "end_time": 51.205774880019,
+      "text": "You're... you're still under warranty. we'll replace it at no cost."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.12072202465467,
+      "end_time": 55.12072202465467,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 31.68987395558478,
-      "end_time": 33.08987395558478,
-      "text": "that seems complicated"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 34.461489502592045,
-      "end_time": 38.461489502592045,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.044552568895064,
-      "end_time": 41.84455256889506,
-      "text": "Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.18953627506767,
-      "end_time": 44.28953627506767,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 55.488901368111875,
+      "end_time": 57.28890136811187,
+      "text": "Thanks, that solved it."
     }
   ]
 }

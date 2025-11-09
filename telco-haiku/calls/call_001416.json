@@ -1,97 +1,79 @@
 {
   "call_id": 1416,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Robert",
-    "duration": 51.7,
-    "sentiment": "positive",
-    "churn_reason": "service_complaint",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Emily",
+    "duration": 59.772817131178805,
+    "sentiment": "neutral",
+    "issue_category": "internet connectivity",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.1,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 5.2,
+      "text": "Thank you for choosing Telecom Haiku. Press 1 to continue in English."
     },
     {
       "speaker": "agent",
-      "start_time": 5.879433981221612,
-      "end_time": 11.579433981221612,
-      "text": "Hi, thanks for calling. Robert here. I see you've been with us a while."
+      "start_time": 7.183831309580157,
+      "end_time": 13.383831309580156,
+      "text": "Hi, thanks for calling. This is Emily with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 13.07964076918504,
-      "end_time": 16.07964076918504,
-      "text": "Hi! So I've been having some trouble., sorta"
+      "start_time": 14.864288645219547,
+      "end_time": 19.164288645219546,
+      "text": "My internet's been incredibly slow. Pages aren't loading, nothing's working properly."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.33278394641607,
+      "end_time": 28.032783946416068,
+      "text": "I understand how frustrating that must be. Let me pull up your account and see what's going on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.469272936133212,
+      "end_time": 35.369272936133214,
+      "text": "Let's do a quick restart. Can you unplug your modem for about 30 seconds?"
     },
     {
       "speaker": "caller",
-      "start_time": 17.49499045131133,
-      "end_time": 19.99499045131133,
-      "text": "like,... like, your customer service is frustrating"
+      "start_time": 36.624312829325376,
+      "end_time": 37.72431282932538,
+      "text": "Done. Now what?"
     },
     {
       "speaker": "agent",
-      "start_time": 22.330190520149404,
-      "end_time": 24.530190520149404,
-      "text": "I'm sorry you're experiencing this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 25.265632275803753,
-      "end_time": 28.765632275803753,
-      "text": "I can help you with that, you know"
+      "start_time": 38.89289256832887,
+      "end_time": 44.692892568328865,
+      "text": "Have you tried restarting your modem and router? Sometimes that clears things up., honestly"
     },
     {
       "speaker": "caller",
-      "start_time": 29.955911492060984,
-      "end_time": 31.355911492060983,
-      "text": "that seems complicated"
+      "start_time": 46.20034959428592,
+      "end_time": 48.100349594285916,
+      "text": "Okay, let me try that."
     },
     {
       "speaker": "agent",
-      "start_time": 32.06056408012703,
-      "end_time": 33.66056408012703,
-      "text": "here are your options"
+      "start_time": 49.28758642484263,
+      "end_time": 55.68758642484263,
+      "text": "I'm pushing a software update to your modem right now. You should see improvement."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.59566867489851,
+      "end_time": 57.69566867489851,
+      "text": "Does that help?"
     },
     {
       "speaker": "caller",
-      "start_time": 34.54818354889735,
-      "end_time": 36.04818354889735,
-      "text": "is there a charge"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 36.622116547718946,
-      "end_time": 39.72211654771895,
-      "text": "By the way, I also have a question..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 40.88989688348442,
-      "end_time": 43.38989688348442,
-      "text": "let me walk you through this, so"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.26224513002855,
-      "end_time": 47.66224513002855,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 48.348260045392145,
-      "end_time": 50.14826004539214,
-      "text": "That's everything. Thanks so much!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 50.56567108436145,
-      "end_time": 51.66567108436145,
-      "text": "Enjoy your service!"
+      "start_time": 58.372817131178806,
+      "end_time": 59.772817131178805,
+      "text": "Thanks, that solved it."
     }
   ]
 }

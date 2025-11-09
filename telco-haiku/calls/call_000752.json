@@ -1,98 +1,67 @@
 {
   "call_id": 752,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Daniel",
-    "duration": 52.9,
+    "call_type": "support",
+    "agent_name": "Mike",
+    "duration": 48.582087568293105,
     "sentiment": "neutral",
-    "billing_issue": "payment",
-    "issue_resolved": false,
-    "resolution_type": "the charge was reversed"
+    "issue_category": "account access",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.8,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 8.5,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 6.296248828649612,
-      "end_time": 10.596248828649612,
-      "text": "Thanks for calling. Daniel here. What can I do for you?"
+      "start_time": 9.840419515808899,
+      "end_time": 16.840419515808897,
+      "text": "Hi, thanks for calling. This is Mike with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.13046549121202,
-      "end_time": 15.13046549121202,
-      "text": "uh, Yeah, hi. I'm having an issue."
+      "start_time": 18.226715152662578,
+      "end_time": 23.02671515266258,
+      "text": "I'm trying to check my bill but I forgot my login credentials."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.585602771663414,
+      "end_time": 27.785602771663413,
+      "text": "Let me unlock that for you and get you back in."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.349459720750872,
+      "end_time": 34.34945972075087,
+      "text": "Can you tell me the email address associated with your account?"
     },
     {
       "speaker": "caller",
-      "start_time": 16.34888081706493,
-      "end_time": 18.24888081706493,
-      "text": "wait... what's my current balance"
+      "start_time": 36.327841600581664,
+      "end_time": 38.62784160058166,
+      "text": "Yeah, I'll do that now."
     },
     {
       "speaker": "agent",
-      "start_time": 20.294488810523376,
-      "end_time": 22.194488810523374,
-      "text": "that must be really annoying"
+      "start_time": 39.69303555584454,
+      "end_time": 42.89303555584454,
+      "text": "Your account is unlocked now. Try resetting your password."
     },
     {
       "speaker": "agent",
-      "start_time": 23.64541163377653,
-      "end_time": 25.84541163377653,
-      "text": "wait... hold on while I investigate"
+      "start_time": 43.5926845521148,
+      "end_time": 46.6926845521148,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 27.505158356392585,
-      "end_time": 28.905158356392583,
-      "text": "Okay, hold on."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 30.753687011540126,
-      "end_time": 32.853687011540124,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.06723354825497,
-      "end_time": 35.96723354825497,
-      "text": "will it take long, sorta"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 36.98814945488405,
-      "end_time": 38.688149454884055,
-      "text": "There's actually another issue..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 39.33461688281622,
-      "end_time": 41.43461688281622,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.98265231981171,
-      "end_time": 45.582652319811714,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 46.13047849264,
-      "end_time": 50.53047849264,
-      "text": "uh, I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 51.4456496455903,
-      "end_time": 52.9456496455903,
-      "text": "We appreciate your business."
+      "start_time": 47.582087568293105,
+      "end_time": 48.582087568293105,
+      "text": "Great, appreciate it."
     }
   ]
 }

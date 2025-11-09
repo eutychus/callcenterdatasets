@@ -1,85 +1,67 @@
 {
   "call_id": 1984,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Lisa",
-    "duration": 43.4,
+    "call_type": "support",
+    "agent_name": "David",
+    "duration": 51.916129549588234,
     "sentiment": "mixed",
-    "churn_reason": "service_complaint",
-    "issue_resolved": "escalated"
+    "issue_category": "account access",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.0,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 5.1,
+      "text": "Welcome to Telecom Haiku support. Please have your account number ready."
     },
     {
       "speaker": "agent",
-      "start_time": 5.103940793416667,
-      "end_time": 7.603940793416667,
-      "text": "Hello! Lisa speaking. I appreciate your business."
+      "start_time": 6.521029670154607,
+      "end_time": 13.921029670154606,
+      "text": "Hi,... hi, thanks for calling. this is david with technical support. how can i help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 9.184475388365515,
-      "end_time": 12.184475388365515,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 15.251133428299411,
+      "end_time": 23.95113342829941,
+      "text": "I... i can't log into my account online. it says my password is wrong but i know it's correct."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.917280438796332,
+      "end_time": 29.31728043879633,
+      "text": "I can help you regain access. Let me verify your information."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.76191250626912,
+      "end_time": 36.06191250626912,
+      "text": "Let me send you a password reset link to your email on file."
     },
     {
       "speaker": "caller",
-      "start_time": 12.821820836282113,
-      "end_time": 15.421820836282112,
-      "text": "so, I've had too many outages"
+      "start_time": 37.77476782509525,
+      "end_time": 38.77476782509525,
+      "text": "That didn't help."
     },
     {
       "speaker": "agent",
-      "start_time": 17.207264945106086,
-      "end_time": 19.707264945106086,
-      "text": "let me help you resolve this"
+      "start_time": 39.48008229942071,
+      "end_time": 46.08008229942071,
+      "text": "You should receive a reset email shortly. Click the link to create a new password."
     },
     {
       "speaker": "agent",
-      "start_time": 20.9397105430464,
-      "end_time": 23.7397105430464,
-      "text": "like, let me walk you through this"
+      "start_time": 46.99407143106323,
+      "end_time": 50.694071431063236,
+      "text": "Feel free to call back if you have issues."
     },
     {
       "speaker": "caller",
-      "start_time": 25.523702023130227,
-      "end_time": 27.523702023130227,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 28.627862223019655,
-      "end_time": 31.127862223019655,
-      "text": "Oh, and while we're at it..., so"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.30575667935177,
-      "end_time": 35.00575667935177,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.525085639997485,
-      "end_time": 37.72508563999749,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 38.270123169391695,
-      "end_time": 41.07012316939169,
-      "text": "Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.807423413019016,
-      "end_time": 43.40742341301902,
-      "text": "Have a great day!"
+      "start_time": 51.016129549588236,
+      "end_time": 51.916129549588234,
+      "text": "Okay, thanks."
     }
   ]
 }

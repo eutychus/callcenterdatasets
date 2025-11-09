@@ -1,73 +1,79 @@
 {
   "call_id": 38,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 37.6,
-    "sentiment": "positive",
-    "churn_reason": "competitor",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Mark",
+    "duration": 60.60627588554782,
+    "sentiment": "mixed",
+    "issue_category": "account access",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.5,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 6.7,
+      "text": "Welcome. Your call is important to us. Please hold while we connect you to the next available agent."
     },
     {
       "speaker": "agent",
-      "start_time": 5.69904968805998,
-      "end_time": 11.29904968805998,
-      "text": "Hi, thanks for calling. Mike here. I see you've been with us a while."
+      "start_time": 8.400047023245824,
+      "end_time": 14.600047023245825,
+      "text": "Hi, thanks for calling. This is Mark with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.544116564838635,
-      "end_time": 15.244116564838635,
-      "text": "uh, Yeah, hi. I'm having an issue."
+      "start_time": 15.471665495323844,
+      "end_time": 19.971665495323844,
+      "text": "I'm trying to check my bill but I forgot my login credentials."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.15607863118101,
+      "end_time": 26.95607863118101,
+      "text": "I mean, i can help you regain access. let me verify your information."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.217225539107506,
+      "end_time": 34.7172255391075,
+      "text": "you know, let me send you a password reset link to your email on file."
     },
     {
       "speaker": "caller",
-      "start_time": 15.876291715931195,
-      "end_time": 17.676291715931196,
-      "text": "sorry... your competitor is cheaper"
+      "start_time": 36.920771155786724,
+      "end_time": 38.020771155786726,
+      "text": "That didn't help."
     },
     {
       "speaker": "agent",
-      "start_time": 19.22763425036512,
-      "end_time": 21.42763425036512,
-      "text": "I'm sorry you're experiencing this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.68079205135619,
-      "end_time": 24.68079205135619,
-      "text": "here's what we can do"
+      "start_time": 38.53858984557098,
+      "end_time": 44.03858984557098,
+      "text": "I'm going to unlock your account. Try logging in again in a few minutes."
     },
     {
       "speaker": "caller",
-      "start_time": 26.21317513848477,
-      "end_time": 27.91317513848477,
-      "text": "alright, let's do it"
+      "start_time": 45.62100222707917,
+      "end_time": 47.82100222707917,
+      "text": "Okay, let me try that."
     },
     {
       "speaker": "agent",
-      "start_time": 29.041255176825675,
-      "end_time": 31.541255176825675,
-      "text": "Any other questions I can answer?"
+      "start_time": 48.56121916182407,
+      "end_time": 54.66121916182407,
+      "text": "You're all set. You should be able to log in now without any issues."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.6144824145766,
+      "end_time": 58.4144824145766,
+      "text": "You should be good to go now."
     },
     {
       "speaker": "caller",
-      "start_time": 32.262447111545214,
-      "end_time": 35.46244711154522,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 36.28915906412878,
-      "end_time": 37.58915906412878,
-      "text": "Enjoy your service!"
+      "start_time": 59.30627588554782,
+      "end_time": 60.60627588554782,
+      "text": "Great, appreciate it."
     }
   ]
 }

@@ -1,110 +1,67 @@
 {
   "call_id": 1124,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Mike",
-    "duration": 59.1,
-    "sentiment": "mixed",
-    "billing_issue": "payment",
-    "issue_resolved": false,
-    "resolution_type": "the charge was reversed"
+    "call_type": "support",
+    "agent_name": "Robert",
+    "duration": 52.64315697628994,
+    "sentiment": "positive",
+    "issue_category": "device problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.9,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 7.4,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 6.057015108166649,
-      "end_time": 11.35701510816665,
-      "text": "Hi, this is Mike from billing. How can I assist with your account?"
+      "start_time": 9.51028361385357,
+      "end_time": 15.51028361385357,
+      "text": "Hi, thanks for calling. This is Robert with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.787596669507003,
-      "end_time": 15.387596669507003,
-      "text": "Yeah, hi. I'm having an issue., um"
+      "start_time": 16.80321918209188,
+      "end_time": 21.50321918209188,
+      "text": "My modem just stopped working completely. The lights went off and now nothing."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.486225801524196,
+      "end_time": 29.786225801524196,
+      "text": "Okay, it sounds like the device might be failing. Let me figure out the best solution."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.509924953279707,
+      "end_time": 37.909924953279706,
+      "text": "Is it plugged in and is the outlet working? Let me confirm the basics first., I mean"
     },
     {
       "speaker": "caller",
-      "start_time": 16.364423660022666,
-      "end_time": 18.164423660022667,
-      "text": "what's my current balance"
+      "start_time": 39.717297882605045,
+      "end_time": 40.81729788260505,
+      "text": "Alright, it's restarting."
     },
     {
       "speaker": "agent",
-      "start_time": 19.911375696014414,
-      "end_time": 22.011375696014415,
-      "text": "I completely understand your frustration"
+      "start_time": 41.943446007311664,
+      "end_time": 46.74344600731166,
+      "text": "I'm shipping you a new unit express. It'll be there tomorrow."
     },
     {
       "speaker": "agent",
-      "start_time": 23.271765126685917,
-      "end_time": 25.87176512668592,
-      "text": "can you give me your account number"
+      "start_time": 47.27369383754555,
+      "end_time": 50.87369383754555,
+      "text": "Feel free to call back if you have issues."
     },
     {
       "speaker": "caller",
-      "start_time": 27.711397908778835,
-      "end_time": 29.511397908778836,
-      "text": "well, Okay, hold on."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 30.973800528845093,
-      "end_time": 32.57380052884509,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.055821198439446,
-      "end_time": 36.35582119843944,
-      "text": "sorta, sure, I can try that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 37.117178941037785,
-      "end_time": 39.71717894103779,
-      "text": "I can help you with that, uh"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.10771186861596,
-      "end_time": 43.50771186861596,
-      "text": "sure, I can try that, basically"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 44.39694003555893,
-      "end_time": 46.696940035558924,
-      "text": "Actually, there's one more thing..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 47.48238055182217,
-      "end_time": 50.282380551822165,
-      "text": "let me walk you through this, you know"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 50.84672988227841,
-      "end_time": 53.54672988227841,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 54.255701854435564,
-      "end_time": 57.255701854435564,
-      "text": "That's everything. Thanks so much!, you know"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 57.61137478531375,
-      "end_time": 59.11137478531375,
-      "text": "Have a great day!"
+      "start_time": 51.24315697628994,
+      "end_time": 52.64315697628994,
+      "text": "Thanks, that solved it."
     }
   ]
 }

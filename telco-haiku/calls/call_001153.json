@@ -1,99 +1,55 @@
 {
   "call_id": 1153,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Sarah",
-    "duration": 54.3,
+    "call_type": "billing",
+    "agent_name": "Lisa",
+    "duration": 35.01093199909952,
     "sentiment": "positive",
-    "product_category": "TV Package",
-    "inquiry_type": "information",
-    "sale_completed": false,
-    "resolution_type": "we scheduled a follow-up"
+    "issue_category": "payment problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.8,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 4.4,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.944711138036004,
-      "end_time": 10.644711138036005,
-      "text": "Hi! Welcome to Telecom Haiku. Sarah speaking. What brings you in today?"
+      "start_time": 6.014352904223773,
+      "end_time": 10.514352904223774,
+      "text": "Hi, this is Lisa from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.28949532993905,
-      "end_time": 15.589495329939052,
-      "text": "Hey, thanks. Yeah, I need help with something."
+      "start_time": 12.009114477233481,
+      "end_time": 17.309114477233482,
+      "text": "I tried to pay my bill but the system rejected my card."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.953620711751736,
+      "end_time": 21.153620711751735,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.262104588361794,
+      "end_time": 27.862104588361795,
+      "text": "right, your card might be expired or there could be a security hold."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.76800458823909,
+      "end_time": 33.56800458823909,
+      "text": "I'll note this on your account so you won't be disconnected."
     },
     {
       "speaker": "caller",
-      "start_time": 16.323300179630102,
-      "end_time": 18.623300179630103,
-      "text": "what's different about your service, uh"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.359381361570595,
-      "end_time": 23.059381361570594,
-      "text": "actually, let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 24.138858242802563,
-      "end_time": 26.53885824280256,
-      "text": "I can help you with that, kinda"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 27.4609948465768,
-      "end_time": 30.0609948465768,
-      "text": "will that really fix it, so"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 30.80426868691391,
-      "end_time": 33.10426868691391,
-      "text": "here's what we can do, sorta"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.08907501153627,
-      "end_time": 35.689075011536275,
-      "text": "alright, let's do it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 36.45702915428582,
-      "end_time": 39.15702915428582,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 40.64436937264308,
-      "end_time": 42.64436937264308,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.1108831256976,
-      "end_time": 47.8108831256976,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 48.48560962702957,
-      "end_time": 51.785609627029565,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 52.13482739739426,
-      "end_time": 54.334827397394264,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 34.310931999099516,
+      "end_time": 35.01093199909952,
+      "text": "Okay, thanks."
     }
   ]
 }

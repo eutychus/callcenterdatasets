@@ -1,75 +1,55 @@
 {
   "call_id": 352,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "James",
-    "duration": 39.5,
-    "sentiment": "negative",
-    "product_category": "Mobile Plan",
-    "inquiry_type": "new_service",
-    "sale_completed": false,
-    "resolution_type": "they added a service"
+    "call_type": "billing",
+    "agent_name": "Emily",
+    "duration": 34.1461784711398,
+    "sentiment": "positive",
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.9,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 4.0,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 7.025895181575464,
-      "end_time": 12.325895181575465,
-      "text": "Hi! Welcome to Telecom Haiku. James speaking. What brings you in today?"
+      "start_time": 5.196533220020225,
+      "end_time": 10.096533220020225,
+      "text": "Hi, this is Emily from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 13.884327624498441,
-      "end_time": 15.58432762449844,
-      "text": "Thanks for picking up."
+      "start_time": 11.396787366779332,
+      "end_time": 16.296787366779334,
+      "text": "you know, can you explain this charge? i don't remember agreeing to it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.797111077864802,
+      "end_time": 21.4971110778648,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.505215049630042,
+      "end_time": 28.10521504963004,
+      "text": "We charged you for premium support. I can reverse that if you want."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.518394887683883,
+      "end_time": 32.31839488768388,
+      "text": "I'm removing that charge and crediting your account."
     },
     {
       "speaker": "caller",
-      "start_time": 16.98997526070765,
-      "end_time": 20.08997526070765,
-      "text": "hold on... can I bundle my services, sorta"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.366951125828678,
-      "end_time": 25.366951125828678,
-      "text": "like, I can see why that would be frustrating"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 26.247255297764227,
-      "end_time": 28.347255297764228,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 29.583428148157672,
-      "end_time": 30.78342814815767,
-      "text": "that sounds good"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 31.960325222068036,
-      "end_time": 34.26032522206803,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.89009725423923,
-      "end_time": 37.39009725423923,
-      "text": "sorta, That's everything. Thanks so much!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.09931747559855,
-      "end_time": 39.49931747559855,
-      "text": "We appreciate your business."
+      "start_time": 33.2461784711398,
+      "end_time": 34.1461784711398,
+      "text": "Okay, thanks."
     }
   ]
 }

@@ -1,99 +1,55 @@
 {
   "call_id": 1432,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Patricia",
-    "duration": 50.7,
-    "sentiment": "mixed",
-    "product_category": "Add-on",
-    "inquiry_type": "upgrade",
-    "sale_completed": false,
-    "resolution_type": "the customer purchased an upgrade"
+    "call_type": "billing",
+    "agent_name": "Daniel",
+    "duration": 37.22761029435876,
+    "sentiment": "neutral",
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.9,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 3.8,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.574700207711469,
-      "end_time": 11.07470020771147,
-      "text": "Hi! Welcome to Telecom Haiku. Patricia speaking. What brings you in today?"
+      "start_time": 5.742499109115538,
+      "end_time": 9.942499109115538,
+      "text": "Hi, this is Daniel from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.715496463450519,
-      "end_time": 16.015496463450518,
-      "text": "Hi, uh, I'm calling because of a problem., basically"
+      "start_time": 10.887994969914878,
+      "end_time": 15.587994969914877,
+      "text": "I got my bill and there's something on there I didn't authorize."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.601363813970092,
+      "end_time": 21.101363813970092,
+      "text": "Okay, I see it too. Let me investigate that for you."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.83006235509936,
+      "end_time": 28.130062355099362,
+      "text": "That appears to be a promotional fee that wasn't applied correctly."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.33072251556521,
+      "end_time": 34.73072251556521,
+      "text": "Let me apply a credit. You shouldn't have been charged for that."
     },
     {
       "speaker": "caller",
-      "start_time": 16.525311975059083,
-      "end_time": 18.625311975059084,
-      "text": "what are my upgrade options, sorta"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.895834266245103,
-      "end_time": 23.195834266245104,
-      "text": "that must be really annoying, basically"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.904019527769496,
-      "end_time": 26.004019527769497,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 27.215442959612982,
-      "end_time": 28.91544295961298,
-      "text": "I'm not sure about that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.461507234129936,
-      "end_time": 31.661507234129935,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 32.49550798468318,
-      "end_time": 34.29550798468318,
-      "text": "kinda, alright, let's do it"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 35.11304952870391,
-      "end_time": 36.71304952870391,
-      "text": "There's actually another issue..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 37.74838244120508,
-      "end_time": 40.34838244120508,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.29040037828592,
-      "end_time": 43.890400378285925,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 44.681434449231695,
-      "end_time": 48.48143444923169,
-      "text": "um, I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 48.89466147042314,
-      "end_time": 50.694661470423135,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 35.72761029435876,
+      "end_time": 37.22761029435876,
+      "text": "That's all I needed."
     }
   ]
 }

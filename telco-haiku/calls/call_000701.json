@@ -1,109 +1,55 @@
 {
   "call_id": 701,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Robert",
-    "duration": 57.6,
-    "sentiment": "positive",
-    "issue": "general",
+    "call_type": "billing",
+    "agent_name": "Mike",
+    "duration": 36.44741532405381,
+    "sentiment": "negative",
+    "issue_category": "payment problem",
     "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.5,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 6.733333414240665,
-      "end_time": 10.633333414240665,
-      "text": "Hi, Robert with account services here. How can I help?"
+      "start_time": 6.413405640013413,
+      "end_time": 11.613405640013413,
+      "text": "Hi, this is Mike from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.545306280081384,
-      "end_time": 14.145306280081384,
-      "text": "kinda, Yeah, hi. I'm having an issue."
+      "start_time": 13.111016783959592,
+      "end_time": 17.31101678395959,
+      "text": "I can't pay online. The website isn't accepting my payment."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.543013826017813,
+      "end_time": 21.94301382601781,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.4692547328035,
+      "end_time": 28.869254732803498,
+      "text": "Your card might be expired or there could be a security hold."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.730059253558046,
+      "end_time": 33.730059253558046,
+      "text": "I'll note this on your account so you won't be disconnected."
     },
     {
       "speaker": "caller",
-      "start_time": 15.350238603231134,
-      "end_time": 17.850238603231134,
-      "text": "I had a question about my service."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.88754277388625,
-      "end_time": 22.18754277388625,
-      "text": "I can see why that would be frustrating"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.520362694145717,
-      "end_time": 26.320362694145718,
-      "text": "can you give me your account number"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 29.154110773972924,
-      "end_time": 30.454110773972925,
-      "text": "Okay, hold on."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.342907927245385,
-      "end_time": 34.64290792724538,
-      "text": "here's what we can do"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 35.72438886550813,
-      "end_time": 37.22438886550813,
-      "text": "that seems complicated, kinda"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 37.799106569733155,
-      "end_time": 40.09910656973315,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 40.96173115738494,
-      "end_time": 42.761731157384936,
-      "text": "what if it doesn't work"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 43.35767843902697,
-      "end_time": 45.45767843902697,
-      "text": "Actually, there's one more thing..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.2053982366755,
-      "end_time": 47.7053982366755,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 48.51202824435878,
-      "end_time": 52.212028244358784,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 52.84793919969972,
-      "end_time": 54.34793919969972,
-      "text": "No, that's all. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 55.308573421270715,
-      "end_time": 57.60857342127071,
-      "text": "Thanks for calling, and take care."
+      "start_time": 34.64741532405381,
+      "end_time": 36.44741532405381,
+      "text": "That's all I needed."
     }
   ]
 }

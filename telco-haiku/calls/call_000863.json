@@ -1,111 +1,55 @@
 {
   "call_id": 863,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "David",
-    "duration": 62.0,
+    "call_type": "billing",
+    "agent_name": "Jennifer",
+    "duration": 34.47431358053872,
     "sentiment": "negative",
-    "product_category": "TV Package",
-    "inquiry_type": "device",
-    "sale_completed": false,
-    "resolution_type": "they added a service"
+    "issue_category": "payment problem",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.4,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 3.9,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 6.7807241205316675,
-      "end_time": 12.980724120531669,
-      "text": "Hey, thanks for calling! This is David. I'd love to tell you about some great offers."
+      "start_time": 6.034652415677334,
+      "end_time": 10.134652415677333,
+      "text": "Hi, this is Jennifer from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 13.90832037137707,
-      "end_time": 16.50832037137707,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 11.325678305067651,
+      "end_time": 15.42567830506765,
+      "text": "Is my service going to be disconnected? I've been trying to pay."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.701433871021223,
+      "end_time": 20.10143387102122,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.834416519653114,
+      "end_time": 26.634416519653115,
+      "text": "It looks like there's an issue with the payment system on your end."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.820652134325464,
+      "end_time": 32.420652134325465,
+      "text": "Let me take your payment right now over the phone."
     },
     {
       "speaker": "caller",
-      "start_time": 17.347610431051457,
-      "end_time": 20.747610431051456,
-      "text": "one moment... I need a new phone, well"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.612838202821194,
-      "end_time": 25.312838202821194,
-      "text": "let me help you resolve this, kinda"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 25.817402794087993,
-      "end_time": 27.417402794087995,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 29.008821295570925,
-      "end_time": 31.008821295570925,
-      "text": "is there a charge, sorta"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.249495122111135,
-      "end_time": 35.649495122111134,
-      "text": "let me walk you through this, you know"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 37.49108266659493,
-      "end_time": 39.99108266659493,
-      "text": "basically, I'm not sure about that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.20565992311181,
-      "end_time": 42.90565992311181,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 44.34590483276076,
-      "end_time": 47.04590483276076,
-      "text": "are you sure about that, um"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 48.12235139957758,
-      "end_time": 50.822351399577585,
-      "text": "Oh, and while we're at it..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 51.398039562273865,
-      "end_time": 53.19803956227386,
-      "text": "here's what we can do"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 53.7007702541058,
-      "end_time": 55.1007702541058,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 55.76792047508942,
-      "end_time": 59.66792047508942,
-      "text": "I think that covers it. Thanks for your help., actually"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 60.168056349929905,
-      "end_time": 61.9680563499299,
-      "text": "We appreciate your business."
+      "start_time": 32.97431358053872,
+      "end_time": 34.47431358053872,
+      "text": "Thanks for handling that."
     }
   ]
 }

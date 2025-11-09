@@ -1,99 +1,55 @@
 {
   "call_id": 1234,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Chris",
-    "duration": 55.7,
-    "sentiment": "positive",
-    "product_category": "Broadband",
-    "inquiry_type": "new_service",
-    "sale_completed": true,
-    "resolution_type": "they want to think about it"
+    "call_type": "billing",
+    "agent_name": "Sarah",
+    "duration": 38.698448868926114,
+    "sentiment": "negative",
+    "issue_category": "payment problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.9,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 4.9,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 4.903678755039261,
-      "end_time": 10.70367875503926,
-      "text": "Hello! Chris here with our sales team. Are you interested in learning about our plans?"
+      "start_time": 7.190922371147973,
+      "end_time": 11.990922371147974,
+      "text": "Hi, this is Sarah from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.15169216438978,
-      "end_time": 15.051692164389781,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 12.905907972322398,
+      "end_time": 18.205907972322397,
+      "text": "My payment didn't go through and now I'm worried my service will get cut off."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.277586097481414,
+      "end_time": 22.777586097481414,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.553336563971506,
+      "end_time": 31.053336563971506,
+      "text": "It looks like there's an issue with the payment system on your end."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.49363256015946,
+      "end_time": 36.49363256015946,
+      "text": "I'll note this on your account so you won't be disconnected."
     },
     {
       "speaker": "caller",
-      "start_time": 16.459548103057834,
-      "end_time": 19.159548103057833,
-      "text": "can... can I bundle my services"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.006440664015376,
-      "end_time": 23.806440664015376,
-      "text": "let me help you resolve this, you know"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 24.439743573245618,
-      "end_time": 26.53974357324562,
-      "text": "uh, here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 27.553715610483632,
-      "end_time": 29.853715610483633,
-      "text": "um, what if it doesn't work"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 30.437581785186143,
-      "end_time": 33.63758178518614,
-      "text": "like, let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 35.40708020107088,
-      "end_time": 37.30708020107088,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.549782148312005,
-      "end_time": 41.049782148312005,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 42.84586367381257,
-      "end_time": 45.445863673812575,
-      "text": "how soon can you do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.631273260749786,
-      "end_time": 49.33127326074979,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 49.96580875871601,
-      "end_time": 53.56580875871601,
-      "text": "I think that covers it. Thanks for your help., uh"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 54.17026478415164,
-      "end_time": 55.67026478415164,
-      "text": "Have a great day!"
+      "start_time": 36.99844886892611,
+      "end_time": 38.698448868926114,
+      "text": "Thanks for handling that."
     }
   ]
 }

@@ -1,99 +1,55 @@
 {
   "call_id": 1278,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Patricia",
-    "duration": 50.4,
-    "sentiment": "mixed",
-    "product_category": "Mobile Plan",
-    "inquiry_type": "upgrade",
-    "sale_completed": false,
-    "resolution_type": "they want to think about it"
+    "call_type": "billing",
+    "agent_name": "Rachel",
+    "duration": 35.37291629166458,
+    "sentiment": "neutral",
+    "issue_category": "payment problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.0,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 4.2,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 6.221654046005014,
-      "end_time": 12.421654046005013,
-      "text": "Hey, thanks for calling! This is Patricia. I'd love to tell you about some great offers."
+      "start_time": 5.711513150640456,
+      "end_time": 10.111513150640455,
+      "text": "Hi, this is Rachel from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 13.335434433847979,
-      "end_time": 15.73543443384798,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 11.28604146043007,
+      "end_time": 15.38604146043007,
+      "text": "I tried to pay my bill but the system rejected my card."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.036486388036707,
+      "end_time": 20.136486388036708,
+      "text": "Let me see what's going on with your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.066723952452673,
+      "end_time": 28.266723952452672,
+      "text": "It looks like there's an issue with the payment system on your end."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.55356762485247,
+      "end_time": 33.15356762485247,
+      "text": "Let me take your payment right now over the phone."
     },
     {
       "speaker": "caller",
-      "start_time": 16.45250206794579,
-      "end_time": 18.75250206794579,
-      "text": "sorry... what are my upgrade options"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.02628309370788,
-      "end_time": 22.626283093707883,
-      "text": "uh, let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.401940413331726,
-      "end_time": 24.901940413331726,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 26.276459127142274,
-      "end_time": 28.976459127142274,
-      "text": "so, I'm worried that won't work"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.48904163088251,
-      "end_time": 31.089041630882512,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 32.47195473626751,
-      "end_time": 33.77195473626751,
-      "text": "so, yeah, okay"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 34.72076902872564,
-      "end_time": 37.22076902872564,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.203246226950455,
-      "end_time": 41.303246226950456,
-      "text": "actually, I'm worried that won't work"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.247932416743886,
-      "end_time": 46.147932416743885,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 46.676295120373325,
-      "end_time": 48.576295120373324,
-      "text": "That's everything. Thanks so much!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 48.966497433505005,
-      "end_time": 50.366497433505,
-      "text": "We appreciate your business."
+      "start_time": 33.87291629166458,
+      "end_time": 35.37291629166458,
+      "text": "Thanks for handling that."
     }
   ]
 }

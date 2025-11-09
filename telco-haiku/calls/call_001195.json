@@ -1,111 +1,55 @@
 {
   "call_id": 1195,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Robert",
-    "duration": 59.1,
+    "call_type": "billing",
+    "agent_name": "Emily",
+    "duration": 36.66731156693425,
     "sentiment": "negative",
-    "product_category": "Add-on",
-    "inquiry_type": "device",
-    "sale_completed": false,
-    "resolution_type": "they purchased a new device"
+    "issue_category": "payment problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.2,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 4.4,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 6.647816785893102,
-      "end_time": 11.247816785893102,
-      "text": "Hi! Welcome to Telecom Haiku. Robert speaking. What brings you in today?"
+      "start_time": 5.463675169609415,
+      "end_time": 10.163675169609416,
+      "text": "Hi, this is Emily from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.242833119074133,
-      "end_time": 15.342833119074132,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 11.016098408453844,
+      "end_time": 15.216098408453846,
+      "text": "I tried to pay my bill but the system rejected my card."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.53236573453064,
+      "end_time": 19.432365734530638,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.33674492925047,
+      "end_time": 27.436744929250473,
+      "text": "Your card might be expired or there could be a security hold."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.690969705738514,
+      "end_time": 34.19096970573851,
+      "text": "Try updating your payment method online or I can process it over the phone."
     },
     {
       "speaker": "caller",
-      "start_time": 16.80467856530241,
-      "end_time": 19.20467856530241,
-      "text": "I'm interested in a new router, kinda"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.479991821747106,
-      "end_time": 22.379991821747105,
-      "text": "I completely understand your frustration"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.21447563645622,
-      "end_time": 24.91447563645622,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 26.572260634366675,
-      "end_time": 28.772260634366674,
-      "text": "like, will that really fix it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.417289001705736,
-      "end_time": 32.21728900170574,
-      "text": "uh, I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 33.66349782577888,
-      "end_time": 36.363497825778886,
-      "text": "how soon can you do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 37.01576383570329,
-      "end_time": 39.01576383570329,
-      "text": "actually, here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 40.74117186243943,
-      "end_time": 42.74117186243943,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 44.12533192981531,
-      "end_time": 46.22533192981531,
-      "text": "Actually, there's one more thing..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 47.1274451706947,
-      "end_time": 48.5274451706947,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 49.06267517635836,
-      "end_time": 52.66267517635836,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 53.537762196425064,
-      "end_time": 56.83776219642506,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 57.33250875787504,
-      "end_time": 59.13250875787504,
-      "text": "We appreciate your business."
+      "start_time": 34.96731156693425,
+      "end_time": 36.66731156693425,
+      "text": "I appreciate you fixing it."
     }
   ]
 }

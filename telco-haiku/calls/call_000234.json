@@ -1,99 +1,79 @@
 {
   "call_id": 234,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Mark",
-    "duration": 52.8,
-    "sentiment": "positive",
-    "product_category": "Bundle",
-    "inquiry_type": "device",
-    "sale_completed": true,
-    "resolution_type": "we scheduled a follow-up"
+    "call_type": "support",
+    "agent_name": "Sarah",
+    "duration": 52.5663935917265,
+    "sentiment": "mixed",
+    "issue_category": "account access",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.8,
-      "text": "Welcome. Please listen carefully as our menu has changed."
+      "end_time": 4.6,
+      "text": "Thank you for choosing Telecom Haiku. Press 1 to continue in English."
     },
     {
       "speaker": "agent",
-      "start_time": 4.932655472942999,
-      "end_time": 9.632655472943,
-      "text": "Hi! Welcome to Telecom Haiku. Mark speaking. What brings you in today?"
+      "start_time": 6.227458315755341,
+      "end_time": 13.427458315755342,
+      "text": "Hi, thanks for calling. This is Sarah with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.787265516909393,
-      "end_time": 13.187265516909394,
-      "text": "Yeah, hi. I'm having an issue."
+      "start_time": 14.775678485896595,
+      "end_time": 18.975678485896594,
+      "text": "My account is locked. I tried resetting my password but nothing happened."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.402276294357495,
+      "end_time": 24.902276294357495,
+      "text": "I can help you regain access. Let me verify your information."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.412913017818195,
+      "end_time": 30.212913017818195,
+      "text": "Can you tell me the email address associated with your account?"
     },
     {
       "speaker": "caller",
-      "start_time": 13.935377034465624,
-      "end_time": 16.035377034465625,
-      "text": "I'm interested in a new router"
+      "start_time": 31.452378555241623,
+      "end_time": 33.152378555241626,
+      "text": "Okay, let me try that."
     },
     {
       "speaker": "agent",
-      "start_time": 18.431892286089905,
-      "end_time": 21.331892286089904,
-      "text": "let me help you resolve this, actually"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.716659755889026,
-      "end_time": 25.316659755889027,
-      "text": "I have a solution for you, actually"
+      "start_time": 34.33485561336061,
+      "end_time": 39.63485561336061,
+      "text": "Let me send you a password reset link to your email on file."
     },
     {
       "speaker": "caller",
-      "start_time": 26.43445740123933,
-      "end_time": 28.33445740123933,
-      "text": "are you sure about that"
+      "start_time": 42.12498819444562,
+      "end_time": 44.02498819444562,
+      "text": "Yeah, I'll do that now."
     },
     {
       "speaker": "agent",
-      "start_time": 29.34615801885367,
-      "end_time": 31.04615801885367,
-      "text": "here's what we can do"
+      "start_time": 44.6716206200468,
+      "end_time": 48.5716206200468,
+      "text": "Your account is unlocked now. Try resetting your password."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.26082246880587,
+      "end_time": 50.66082246880587,
+      "text": "Does that help?"
     },
     {
       "speaker": "caller",
-      "start_time": 32.51915779132502,
-      "end_time": 34.31915779132502,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 35.75257538989718,
-      "end_time": 38.55257538989718,
-      "text": "Oh, and while we're at it..., actually"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 39.052815702799606,
-      "end_time": 41.3528157027996,
-      "text": "here are your options, you know"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.201159617181055,
-      "end_time": 43.90115961718106,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 44.841326755295285,
-      "end_time": 49.441326755295286,
-      "text": "I think that covers it. Thanks for your help., actually"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 50.26835344933265,
-      "end_time": 52.76835344933265,
-      "text": "Thanks for calling, and take care."
+      "start_time": 51.0663935917265,
+      "end_time": 52.5663935917265,
+      "text": "Thanks, that solved it."
     }
   ]
 }

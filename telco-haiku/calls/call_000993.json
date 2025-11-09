@@ -1,75 +1,55 @@
 {
   "call_id": 993,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Emily",
-    "duration": 36.8,
-    "sentiment": "negative",
-    "product_category": "Add-on",
-    "inquiry_type": "device",
-    "sale_completed": true,
-    "resolution_type": "they added a service"
+    "call_type": "billing",
+    "agent_name": "Lisa",
+    "duration": 38.70404458443271,
+    "sentiment": "neutral",
+    "issue_category": "unexpected charge",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.5,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.662150841555919,
-      "end_time": 11.162150841555919,
-      "text": "Hi! Welcome to Telecom Haiku. Emily speaking. What brings you in today?"
+      "start_time": 5.988585891541335,
+      "end_time": 10.788585891541334,
+      "text": "Hi, this is Lisa from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.812782582447841,
-      "end_time": 15.312782582447841,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 11.970247802831167,
+      "end_time": 17.07024780283117,
+      "text": "My bill is way too high. There's a charge I don't recognize."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.676018263463273,
+      "end_time": 22.976018263463274,
+      "text": "I can see that charge. Let me look into what it's for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.64663972179988,
+      "end_time": 30.34663972179988,
+      "text": "That was a late fee from last month. Let me see if I can waive it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.52313503809622,
+      "end_time": 35.723135038096224,
+      "text": "Let me apply a credit. You shouldn't have been charged for that."
     },
     {
       "speaker": "caller",
-      "start_time": 16.077478565316643,
-      "end_time": 19.47747856531664,
-      "text": "can... can I get a device with my plan"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.854494014285144,
-      "end_time": 23.354494014285144,
-      "text": "uh, I'm sorry you're experiencing this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 24.092330096029457,
-      "end_time": 26.292330096029456,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 27.7965030820773,
-      "end_time": 29.7965030820773,
-      "text": "will that really fix it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 30.70188833618335,
-      "end_time": 32.80188833618335,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 33.629205644664495,
-      "end_time": 35.02920564466449,
-      "text": "No, that's all. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.48200644888256,
-      "end_time": 36.782006448882555,
-      "text": "Enjoy your service!"
+      "start_time": 36.70404458443271,
+      "end_time": 38.70404458443271,
+      "text": "I appreciate you fixing it."
     }
   ]
 }

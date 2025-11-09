@@ -1,99 +1,79 @@
 {
   "call_id": 1107,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Amanda",
-    "duration": 53.7,
-    "sentiment": "mixed",
-    "product_category": "Bundle",
-    "inquiry_type": "information",
-    "sale_completed": true,
-    "resolution_type": "they purchased a new device"
+    "call_type": "support",
+    "agent_name": "Lisa",
+    "duration": 62.53898610487694,
+    "sentiment": "positive",
+    "issue_category": "device problem",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.2,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 8.1,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 5.298237295945454,
-      "end_time": 10.998237295945454,
-      "text": "Hello! Amanda here with our sales team. Are you interested in learning about our plans?"
+      "start_time": 9.81208767828573,
+      "end_time": 15.612087678285729,
+      "text": "Hi, thanks for calling. This is Lisa with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.41487895550689,
-      "end_time": 16.01487895550689,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 17.032608367243764,
+      "end_time": 22.432608367243766,
+      "text": "My modem just stopped working completely. The lights went off and now nothing."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.01752421840436,
+      "end_time": 28.91752421840436,
+      "text": "That could be a hardware issue. Let me see if we need to replace it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.37456247867258,
+      "end_time": 35.87456247867258,
+      "text": "Can you try a different power outlet? Sometimes that solves the problem., right"
     },
     {
       "speaker": "caller",
-      "start_time": 16.871765546826047,
-      "end_time": 19.271765546826046,
-      "text": "hold on... what speeds can I get"
+      "start_time": 37.14325500420119,
+      "end_time": 39.34325500420119,
+      "text": "Yeah,... yeah, i'll do that now."
     },
     {
       "speaker": "agent",
-      "start_time": 21.375928089373094,
-      "end_time": 23.975928089373095,
-      "text": "basically, let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 24.919791147078772,
-      "end_time": 27.419791147078772,
-      "text": "I have a solution for you, kinda"
+      "start_time": 40.439019166760225,
+      "end_time": 47.73901916676022,
+      "text": "I mean, is it plugged in and is the outlet working? let me confirm the basics first."
     },
     {
       "speaker": "caller",
-      "start_time": 28.285111654314985,
-      "end_time": 29.985111654314984,
-      "text": "I can do that"
+      "start_time": 49.25542919081394,
+      "end_time": 50.65542919081394,
+      "text": "uh, still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 31.261442180258197,
-      "end_time": 33.6614421802582,
-      "text": "I have a solution for you, sorta"
+      "start_time": 51.72497584206517,
+      "end_time": 56.42497584206517,
+      "text": "We'll send you a replacement modem. It should arrive in 2-3 business days."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.37692084309977,
+      "end_time": 60.87692084309977,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 35.59776739368111,
-      "end_time": 38.19776739368111,
-      "text": "how soon can you do that, like"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.499272832171634,
-      "end_time": 42.29927283217163,
-      "text": "By the way, I also have a question..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.913808440834444,
-      "end_time": 45.413808440834444,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.174860575879805,
-      "end_time": 47.674860575879805,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 48.59286471033585,
-      "end_time": 51.792864710335856,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 52.19233722441098,
-      "end_time": 53.69233722441098,
-      "text": "We appreciate your business."
+      "start_time": 61.63898610487694,
+      "end_time": 62.53898610487694,
+      "text": "Okay, thanks."
     }
   ]
 }

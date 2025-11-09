@@ -1,97 +1,55 @@
 {
   "call_id": 1995,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "David",
-    "duration": 54.5,
-    "sentiment": "positive",
-    "technical_issue": "device_issue",
-    "issue_resolved": "escalated"
+    "call_type": "billing",
+    "agent_name": "Lisa",
+    "duration": 37.74377593610785,
+    "sentiment": "negative",
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.6,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.854999753692056,
-      "end_time": 9.354999753692056,
-      "text": "Hello, David here. What device are we troubleshooting today?"
+      "start_time": 6.318365399941814,
+      "end_time": 11.318365399941815,
+      "text": "Hi, this is Lisa from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.673353236918505,
-      "end_time": 14.173353236918505,
-      "text": "Hi! So I've been having some trouble., so"
+      "start_time": 12.458714177678992,
+      "end_time": 17.15871417767899,
+      "text": "I got my bill and there's something on there I didn't authorize., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.30274784385024,
+      "end_time": 22.80274784385024,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.861135862481774,
+      "end_time": 30.761135862481773,
+      "text": "It looks like you were charged for an add-on service. Would you like me to remove it?"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.663087941155847,
+      "end_time": 36.36308794115585,
+      "text": "Let me apply a credit. You shouldn't have been charged for that."
     },
     {
       "speaker": "caller",
-      "start_time": 15.381597951919478,
-      "end_time": 16.98159795191948,
-      "text": "it's not responding, sorta"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.830423647975646,
-      "end_time": 22.030423647975645,
-      "text": "I can see why that would be frustrating"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.535879573689343,
-      "end_time": 25.735879573689342,
-      "text": "basically, what error message are you seeing"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 26.94191515789978,
-      "end_time": 28.74191515789978,
-      "text": "will that really fix it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.255169779811954,
-      "end_time": 33.055169779811955,
-      "text": "can you check if the lights are green, basically"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.34850148561256,
-      "end_time": 36.74850148561256,
-      "text": "you know, alright, let's do it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.19023911077238,
-      "end_time": 40.69023911077238,
-      "text": "try unplugging it for 30 seconds, kinda"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.79244717495956,
-      "end_time": 43.392447174959564,
-      "text": "is there a charge"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.44575161089574,
-      "end_time": 48.14575161089574,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 48.731675012459775,
-      "end_time": 51.331675012459776,
-      "text": "basically, That's everything. Thanks so much!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 52.14987790397195,
-      "end_time": 54.54987790397195,
-      "text": "Thanks for calling, and take care."
+      "start_time": 36.943775936107855,
+      "end_time": 37.74377593610785,
+      "text": "Okay, thanks."
     }
   ]
 }

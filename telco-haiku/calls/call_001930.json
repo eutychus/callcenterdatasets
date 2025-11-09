@@ -2,109 +2,54 @@
   "call_id": 1930,
   "metadata": {
     "call_type": "billing",
-    "agent_name": "Robert",
-    "duration": 54.7,
-    "sentiment": "mixed",
-    "billing_issue": "promotion",
-    "issue_resolved": true,
-    "resolution_type": "the charge was reversed"
+    "agent_name": "Chris",
+    "duration": 40.543369513176714,
+    "sentiment": "negative",
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.7,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.0697158373650915,
-      "end_time": 10.369715837365092,
-      "text": "Hi, this is Robert from billing. How can I assist with your account?"
+      "start_time": 6.125393681394784,
+      "end_time": 10.925393681394784,
+      "text": "Hi, this is Chris from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.909623792490668,
-      "end_time": 15.309623792490669,
-      "text": "Hi! So I've been having some trouble., so"
+      "start_time": 11.942564756027277,
+      "end_time": 16.542564756027275,
+      "text": "I got my bill and there's something on there I didn't authorize."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.169632913156352,
+      "end_time": 23.169632913156352,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.693956944911218,
+      "end_time": 31.393956944911217,
+      "text": "We... we charged you for premium support. i can reverse that if you want."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.38588438112802,
+      "end_time": 37.78588438112802,
+      "text": "Let me apply a credit. You shouldn't have been charged for that."
     },
     {
       "speaker": "caller",
-      "start_time": 16.19939818293333,
-      "end_time": 18.29939818293333,
-      "text": "can you lower my bill"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 19.54757689623394,
-      "end_time": 22.24757689623394,
-      "text": "like, let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.90305081594193,
-      "end_time": 25.503050815941933,
-      "text": "let me look into your account"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 27.42520166330621,
-      "end_time": 29.225201663306212,
-      "text": "Okay, hold on., you know"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 30.90337144859547,
-      "end_time": 33.10337144859547,
-      "text": "here are your options, um"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.306637992042994,
-      "end_time": 35.70663799204299,
-      "text": "so, that seems complicated"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 36.63821465230277,
-      "end_time": 39.03821465230277,
-      "text": "well, I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 40.29168313863294,
-      "end_time": 41.09168313863294,
-      "text": "yeah, okay"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.03260164355182,
-      "end_time": 43.83260164355182,
-      "text": "here are your options, well"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 45.09426250080307,
-      "end_time": 45.79426250080307,
-      "text": "yeah, okay"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 47.180791408287206,
-      "end_time": 48.88079140828721,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 49.74191376776818,
-      "end_time": 52.04191376776818,
-      "text": "Yeah, that's good. Thanks!, actually"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 52.96392297587887,
-      "end_time": 54.663922975878876,
-      "text": "Have a great day!"
+      "start_time": 38.74336951317672,
+      "end_time": 40.543369513176714,
+      "text": "Thanks for handling that."
     }
   ]
 }

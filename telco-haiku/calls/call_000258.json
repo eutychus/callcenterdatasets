@@ -1,99 +1,55 @@
 {
   "call_id": 258,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Robert",
-    "duration": 55.9,
+    "call_type": "billing",
+    "agent_name": "Amanda",
+    "duration": 39.742578411711484,
     "sentiment": "negative",
-    "product_category": "Add-on",
-    "inquiry_type": "device",
-    "sale_completed": false,
-    "resolution_type": "the customer purchased an upgrade"
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
       "end_time": 4.5,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.556452582652084,
-      "end_time": 10.156452582652083,
-      "text": "Hi! Welcome to Telecom Haiku. Robert speaking. What brings you in today?"
+      "start_time": 6.559098554843136,
+      "end_time": 11.259098554843137,
+      "text": "Hi, this is Amanda from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.228852191182533,
-      "end_time": 14.428852191182532,
-      "text": "Hey, thanks. Yeah, I need help with something., basically"
+      "start_time": 12.471592671999293,
+      "end_time": 17.371592671999295,
+      "text": "I... i got my bill and there's something on there i didn't authorize."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.573792926800476,
+      "end_time": 22.573792926800476,
+      "text": "Okay, I see it too. Let me investigate that for you."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.30911200942881,
+      "end_time": 30.90911200942881,
+      "text": "We charged you for premium support. I can reverse that if you want."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.39186377686548,
+      "end_time": 37.791863776865476,
+      "text": "Let me apply a credit. You shouldn't have been charged for that."
     },
     {
       "speaker": "caller",
-      "start_time": 15.56384192640911,
-      "end_time": 18.36384192640911,
-      "text": "can I get a device with my plan"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 19.92028452161044,
-      "end_time": 23.12028452161044,
-      "text": "I can see why that would be frustrating, like"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 24.1493007195385,
-      "end_time": 27.349300719538498,
-      "text": "let me walk you through this, actually"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 29.17329116271465,
-      "end_time": 31.17329116271465,
-      "text": "are you sure about that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.52323008851431,
-      "end_time": 34.82323008851431,
-      "text": "here are your options, sorta"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 36.119967094738634,
-      "end_time": 37.91996709473863,
-      "text": "is there a charge"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.173686344566235,
-      "end_time": 43.073686344566234,
-      "text": "well, By the way, I also have a question..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.12788132861247,
-      "end_time": 47.027881328612466,
-      "text": "actually, I have a solution for you"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 47.6501754109299,
-      "end_time": 49.450175410929894,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 50.422550404707636,
-      "end_time": 53.62255040470764,
-      "text": "Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 54.08104087179738,
-      "end_time": 55.881040871797374,
-      "text": "We appreciate your business."
+      "start_time": 38.342578411711486,
+      "end_time": 39.742578411711484,
+      "text": "Thanks for handling that."
     }
   ]
 }

@@ -1,109 +1,55 @@
 {
   "call_id": 855,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Sarah",
-    "duration": 56.4,
+    "call_type": "billing",
+    "agent_name": "Emily",
+    "duration": 36.78707602179892,
     "sentiment": "positive",
-    "churn_reason": "leaving",
-    "issue_resolved": false
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.0,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 4.5,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.833167884378982,
-      "end_time": 8.733167884378982,
-      "text": "Hello! Sarah speaking. I appreciate your business."
+      "start_time": 6.034842863140062,
+      "end_time": 11.234842863140063,
+      "text": "Hi, this is Emily from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.245072084479958,
-      "end_time": 13.345072084479957,
-      "text": "Hey, thanks. Yeah, I need help with something."
+      "start_time": 12.238348081902895,
+      "end_time": 17.638348081902897,
+      "text": "Why was I charged an extra 50 dollars this month? That's not right."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.227279426941973,
+      "end_time": 23.427279426941972,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.148078910135315,
+      "end_time": 30.148078910135315,
+      "text": "We charged you for premium support. I can reverse that if you want."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.069416560290687,
+      "end_time": 34.56941656029069,
+      "text": "I'm removing that charge and crediting your account."
     },
     {
       "speaker": "caller",
-      "start_time": 14.341414347014144,
-      "end_time": 16.941414347014145,
-      "text": "one moment... I need to disconnect, like"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.550083334758526,
-      "end_time": 21.650083334758527,
-      "text": "I can see why that would be frustrating"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.21020998707305,
-      "end_time": 24.91020998707305,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 26.56623506072013,
-      "end_time": 27.86623506072013,
-      "text": "that seems complicated"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 29.36439947658402,
-      "end_time": 31.86439947658402,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 33.04234353125484,
-      "end_time": 34.54234353125484,
-      "text": "I can do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.176418149668194,
-      "end_time": 37.676418149668194,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.3219746747321,
-      "end_time": 40.621974674732094,
-      "text": "that sounds good"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.35009319137194,
-      "end_time": 45.85009319137194,
-      "text": "you know, By the way, I also have a question..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 47.03500781800305,
-      "end_time": 49.53500781800305,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 50.15788315810964,
-      "end_time": 51.55788315810964,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 52.33618719030156,
-      "end_time": 54.136187190301555,
-      "text": "basically, No, that's all. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 54.63367644002509,
-      "end_time": 56.43367644002509,
-      "text": "We appreciate your business."
+      "start_time": 35.38707602179892,
+      "end_time": 36.78707602179892,
+      "text": "That's all I needed."
     }
   ]
 }

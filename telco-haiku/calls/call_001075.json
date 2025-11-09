@@ -1,75 +1,55 @@
 {
   "call_id": 1075,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Jennifer",
-    "duration": 42.5,
+    "call_type": "billing",
+    "agent_name": "Rachel",
+    "duration": 37.43221551183844,
     "sentiment": "positive",
-    "product_category": "Add-on",
-    "inquiry_type": "new_service",
-    "sale_completed": false,
-    "resolution_type": "the customer wasn't interested"
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.1,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 4.0,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 6.015607892016064,
-      "end_time": 13.015607892016064,
-      "text": "Hey, thanks for calling! This is Jennifer. I'd love to tell you about some great offers."
+      "start_time": 6.290470071785669,
+      "end_time": 10.99047007178567,
+      "text": "Hi, this is Rachel from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 13.884743448640156,
-      "end_time": 16.984743448640156,
-      "text": "basically, Hey, thanks. Yeah, I need help with something."
+      "start_time": 12.21753577767246,
+      "end_time": 16.81753577767246,
+      "text": "Can you explain this charge? I don't remember agreeing to it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.095178763582734,
+      "end_time": 23.19517876358273,
+      "text": "I can see that charge. Let me look into what it's for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.088776105262745,
+      "end_time": 30.388776105262746,
+      "text": "We charged you for premium support. I can reverse that if you want., honestly"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.658845108279525,
+      "end_time": 34.458845108279526,
+      "text": "I'm removing that charge and crediting your account."
     },
     {
       "speaker": "caller",
-      "start_time": 18.257026380077782,
-      "end_time": 21.357026380077784,
-      "text": "I'm... I'm thinking about adding a line"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.5995129426055,
-      "end_time": 24.5995129426055,
-      "text": "I completely understand your frustration"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 25.419330782636138,
-      "end_time": 27.71933078263614,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 28.838222917531656,
-      "end_time": 31.138222917531657,
-      "text": "I'm not sure about that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.20990934381995,
-      "end_time": 34.10990934381995,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 35.099102933922005,
-      "end_time": 39.499102933922,
-      "text": "I think that covers it. Thanks for your help., um"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 40.014509656765114,
-      "end_time": 42.514509656765114,
-      "text": "Thanks for calling, and take care."
+      "start_time": 35.23221551183844,
+      "end_time": 37.43221551183844,
+      "text": "I appreciate you fixing it."
     }
   ]
 }

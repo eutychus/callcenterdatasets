@@ -1,73 +1,55 @@
 {
   "call_id": 297,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 36.4,
-    "sentiment": "negative",
-    "issue": "general",
+    "call_type": "billing",
+    "agent_name": "Susan",
+    "duration": 33.58051683503945,
+    "sentiment": "neutral",
+    "issue_category": "unexpected charge",
     "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.7,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.767504348070801,
-      "end_time": 8.4675043480708,
-      "text": "Hello, thanks for calling. Lisa speaking."
+      "start_time": 5.821768047814173,
+      "end_time": 10.221768047814173,
+      "text": "Hi, this is Susan from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.076356343162399,
-      "end_time": 13.076356343162399,
-      "text": "Hey, thanks. Yeah, I need help with something."
+      "start_time": 11.39628899258558,
+      "end_time": 15.89628899258558,
+      "text": "My... my bill is way too high. there's a charge i don't recognize."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.463521707300295,
+      "end_time": 21.663521707300294,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.727666359997347,
+      "end_time": 27.827666359997345,
+      "text": "That appears to be a promotional fee that wasn't applied correctly."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.013900665152224,
+      "end_time": 32.01390066515222,
+      "text": "I'm removing that charge and crediting your account."
     },
     {
       "speaker": "caller",
-      "start_time": 14.087953399480316,
-      "end_time": 18.087953399480316,
-      "text": "one moment... I had a question about my service."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 20.0175372352553,
-      "end_time": 22.3175372352553,
-      "text": "let me help you resolve this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.0002893530767,
-      "end_time": 25.400289353076698,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 26.52021980016186,
-      "end_time": 28.120219800161863,
-      "text": "I can do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 28.839244095288272,
-      "end_time": 31.03924409528827,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 31.789735676489506,
-      "end_time": 33.78973567648951,
-      "text": "That's everything. Thanks so much!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 34.622334523626925,
-      "end_time": 36.42233452362692,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 32.880516835039444,
+      "end_time": 33.58051683503945,
+      "text": "Okay, thanks."
     }
   ]
 }

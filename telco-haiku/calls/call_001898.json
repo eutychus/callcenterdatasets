@@ -1,99 +1,55 @@
 {
   "call_id": 1898,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Amanda",
-    "duration": 54.0,
-    "sentiment": "mixed",
-    "issue_category": "account_access",
-    "issue": "account_access",
-    "issue_resolved": false,
-    "resolution_type": "the device needs to be replaced"
+    "call_type": "billing",
+    "agent_name": "Chris",
+    "duration": 35.47495656162567,
+    "sentiment": "negative",
+    "issue_category": "payment problem",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.5,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 4.9,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 4.721259930035426,
-      "end_time": 8.921259930035426,
-      "text": "Hello! I'm Amanda. How can I help you with your service today?"
+      "start_time": 6.236186288708746,
+      "end_time": 11.636186288708746,
+      "text": "Hi, this is Chris from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 9.946796008269715,
-      "end_time": 12.646796008269714,
-      "text": "Hey, thanks. Yeah, I need help with something."
+      "start_time": 12.740304927373987,
+      "end_time": 17.040304927373988,
+      "text": "I can't pay online. The website isn't accepting my payment."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.366720004281,
+      "end_time": 21.566720004281,
+      "text": "Let me see what's going on with your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.135857377803887,
+      "end_time": 27.835857377803887,
+      "text": "Sometimes your bank blocks us for fraud protection."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.008912645081494,
+      "end_time": 32.80891264508149,
+      "text": "I'll note this on your account so you won't be disconnected."
     },
     {
       "speaker": "caller",
-      "start_time": 13.489497132091167,
-      "end_time": 17.589497132091168,
-      "text": "let me check... I can't reset my password, so"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 19.95868179310446,
-      "end_time": 21.85868179310446,
-      "text": "I'm sorry you're experiencing this"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 23.049556170333712,
-      "end_time": 26.049556170333712,
-      "text": "let... let me pull up your information"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 28.90725409391481,
-      "end_time": 31.40725409391481,
-      "text": "It's starting with a C... CUST12345."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.71788661181429,
-      "end_time": 35.417886611814296,
-      "text": "let me walk you through this"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 36.828236706067806,
-      "end_time": 38.728236706067804,
-      "text": "are you sure about that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 39.366830038151754,
-      "end_time": 41.06683003815176,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 42.75172409139637,
-      "end_time": 44.551724091396366,
-      "text": "will that really fix it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 45.406123386659424,
-      "end_time": 47.30612338665942,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 47.950260002391616,
-      "end_time": 52.05026000239162,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 52.98077561755551,
-      "end_time": 53.98077561755551,
-      "text": "Enjoy your service!"
+      "start_time": 33.774956561625665,
+      "end_time": 35.47495656162567,
+      "text": "Thanks for handling that."
     }
   ]
 }

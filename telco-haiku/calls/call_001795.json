@@ -1,99 +1,55 @@
 {
   "call_id": 1795,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 47.3,
-    "sentiment": "positive",
-    "issue_category": "billing_issue",
-    "issue": "billing_issue",
-    "issue_resolved": true,
-    "resolution_type": "the device needs to be replaced"
+    "call_type": "billing",
+    "agent_name": "Daniel",
+    "duration": 39.72056828356357,
+    "sentiment": "neutral",
+    "issue_category": "unexpected charge",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.5,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 4.8,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 4.091688238293895,
-      "end_time": 7.7916882382938955,
-      "text": "Hi there! Jennifer speaking. What seems to be the issue?"
+      "start_time": 6.4393240744977245,
+      "end_time": 10.639324074497726,
+      "text": "Hi, this is Daniel from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 8.628410608293851,
-      "end_time": 10.928410608293852,
-      "text": "Yeah, hi. I'm having an issue."
+      "start_time": 11.666898414377984,
+      "end_time": 16.866898414377985,
+      "text": "My bill is way too high. There's a charge I don't recognize."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.119229359229607,
+      "end_time": 24.019229359229605,
+      "text": "Let me pull up your bill and see what that charge is for."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.44724966333787,
+      "end_time": 30.84724966333787,
+      "text": "That appears to be a promotional fee that wasn't applied correctly."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.20092548849153,
+      "end_time": 37.30092548849153,
+      "text": "I'm going to have that reversed. You'll see the credit on your next bill."
     },
     {
       "speaker": "caller",
-      "start_time": 12.360200235325474,
-      "end_time": 14.260200235325474,
-      "text": "I... I was charged twice"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 15.418656535360725,
-      "end_time": 17.218656535360726,
-      "text": "that must be really annoying"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 18.70894418979438,
-      "end_time": 21.50894418979438,
-      "text": "wait... let me look into your account"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 24.427355674691672,
-      "end_time": 26.12735567469167,
-      "text": "Sure, it's on the bill."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 27.789622499911058,
-      "end_time": 30.08962249991106,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 31.23827072264846,
-      "end_time": 32.83827072264846,
-      "text": "will it take long"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 34.29248916291249,
-      "end_time": 36.99248916291249,
-      "text": "actually, I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 38.55664685012117,
-      "end_time": 39.95664685012117,
-      "text": "is there a charge"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.256505652818994,
-      "end_time": 42.756505652818994,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 43.34887381449508,
-      "end_time": 45.04887381449508,
-      "text": "No, that's all. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 45.6478387162003,
-      "end_time": 47.3478387162003,
-      "text": "Have a great day!"
+      "start_time": 37.820568283563574,
+      "end_time": 39.72056828356357,
+      "text": "I appreciate you fixing it."
     }
   ]
 }

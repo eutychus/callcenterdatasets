@@ -1,86 +1,79 @@
 {
   "call_id": 907,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Mike",
-    "duration": 47.3,
+    "call_type": "support",
+    "agent_name": "Sarah",
+    "duration": 58.289387851596345,
     "sentiment": "neutral",
-    "billing_issue": "dispute",
-    "issue_resolved": true,
-    "resolution_type": "we applied a credit"
+    "issue_category": "account access",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 2.5,
-      "text": "Thank you for contacting Telecom Haiku support."
+      "end_time": 7.5,
+      "text": "Welcome. Your call is important to us. Please hold while we connect you to the next available agent."
     },
     {
       "speaker": "agent",
-      "start_time": 4.802466652356891,
-      "end_time": 9.702466652356891,
-      "text": "Hello! Mike speaking. I'm here to help with any billing questions."
+      "start_time": 8.963867356903688,
+      "end_time": 16.563867356903685,
+      "text": "Hi,... hi, thanks for calling. this is sarah with technical support. how can i help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.984943900349219,
-      "end_time": 14.28494390034922,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 17.456845961901976,
+      "end_time": 24.956845961901976,
+      "text": "I can't log into my account online. It says my password is wrong but I know it's correct."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.9960440429932,
+      "end_time": 30.296044042993202,
+      "text": "Let me unlock that for you and get you back in."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.694184440588224,
+      "end_time": 35.794184440588225,
+      "text": "Can you tell me the email address associated with your account?"
     },
     {
       "speaker": "caller",
-      "start_time": 15.570927271363832,
-      "end_time": 16.870927271363833,
-      "text": "I was overcharged"
+      "start_time": 36.863390301510584,
+      "end_time": 38.06339030151059,
+      "text": "Still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 18.663825387916585,
-      "end_time": 20.963825387916586,
-      "text": "um, I completely understand your frustration"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 22.37609956488587,
-      "end_time": 25.47609956488587,
-      "text": "let... let me look into your account"
+      "start_time": 39.083663572716176,
+      "end_time": 44.983663572716175,
+      "text": "I'm going to unlock your account. Try logging in again in a few minutes."
     },
     {
       "speaker": "caller",
-      "start_time": 27.914342262692685,
-      "end_time": 30.114342262692684,
-      "text": "It's starting with a C... CUST12345."
+      "start_time": 46.35194940451339,
+      "end_time": 47.551949404513394,
+      "text": "Done. Now what?"
     },
     {
       "speaker": "agent",
-      "start_time": 31.976751941203393,
-      "end_time": 33.876751941203395,
-      "text": "here's what we can do"
+      "start_time": 48.250769756930296,
+      "end_time": 51.750769756930296,
+      "text": "Your account is unlocked now. Try resetting your password."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.31358824774979,
+      "end_time": 56.013588247749794,
+      "text": "Is there anything else I can help with?"
     },
     {
       "speaker": "caller",
-      "start_time": 35.033268856279136,
-      "end_time": 38.23326885627914,
-      "text": "I'm worried that won't work, you know"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.88784138045201,
-      "end_time": 40.98784138045201,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.80681901134649,
-      "end_time": 43.80681901134649,
-      "text": "No, that's all. Thanks!, um"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.737085999452,
-      "end_time": 47.337085999452,
-      "text": "Thanks for calling, and take care."
+      "start_time": 56.58938785159634,
+      "end_time": 58.289387851596345,
+      "text": "Thanks, that solved it."
     }
   ]
 }

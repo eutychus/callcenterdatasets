@@ -1,87 +1,67 @@
 {
   "call_id": 1722,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Susan",
-    "duration": 43.7,
-    "sentiment": "neutral",
-    "product_category": "Mobile Plan",
-    "inquiry_type": "information",
-    "sale_completed": false,
-    "resolution_type": "the customer purchased an upgrade"
+    "call_type": "support",
+    "agent_name": "Mike",
+    "duration": 46.884337561680894,
+    "sentiment": "mixed",
+    "issue_category": "device problem",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.4,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 7.8,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 6.727986237086297,
-      "end_time": 11.127986237086297,
-      "text": "Hi! Welcome to Telecom Haiku. Susan speaking. What brings you in today?"
+      "start_time": 9.420036467172801,
+      "end_time": 15.2200364671728,
+      "text": "Hi, thanks for calling. This is Mike with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.838469256798902,
-      "end_time": 15.638469256798903,
-      "text": "Hi, uh, I'm calling because of a problem."
+      "start_time": 16.244878723244728,
+      "end_time": 20.444878723244727,
+      "text": "My equipment is overheating. The modem is really hot to the touch."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.320583538643767,
+      "end_time": 26.92058353864377,
+      "text": "Okay, it sounds like the device might be failing. Let me figure out the best solution."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.504144530425926,
+      "end_time": 34.60414453042593,
+      "text": "like, is it plugged in and is the outlet working? let me confirm the basics first."
     },
     {
       "speaker": "caller",
-      "start_time": 16.881037146460972,
-      "end_time": 18.58103714646097,
-      "text": "how much does it cost"
+      "start_time": 36.24894752743357,
+      "end_time": 37.54894752743357,
+      "text": "Still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 21.045343535883685,
-      "end_time": 23.645343535883686,
-      "text": "sorta, that must be really annoying"
+      "start_time": 38.743681805341154,
+      "end_time": 43.44368180534116,
+      "text": "We'll send you a replacement modem. It should arrive in 2-3 business days."
     },
     {
       "speaker": "agent",
-      "start_time": 25.066824379065125,
-      "end_time": 27.266824379065124,
-      "text": "so, here's what we can do"
+      "start_time": 44.29309974098254,
+      "end_time": 45.493099740982544,
+      "text": "Does that help?"
     },
     {
       "speaker": "caller",
-      "start_time": 28.423208911891756,
-      "end_time": 30.223208911891756,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 31.135498197042214,
-      "end_time": 33.33549819704221,
-      "text": "Oh, and while we're at it..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 34.056066139711284,
-      "end_time": 35.45606613971128,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.96507554247359,
-      "end_time": 38.56507554247359,
-      "text": "Any other questions I can answer?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.47076103164602,
-      "end_time": 41.27076103164602,
-      "text": "No, that's all. Thanks!"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.88925084422685,
-      "end_time": 43.68925084422685,
-      "text": "We appreciate your business."
+      "start_time": 45.884337561680894,
+      "end_time": 46.884337561680894,
+      "text": "Great, appreciate it."
     }
   ]
 }

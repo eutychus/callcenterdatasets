@@ -1,98 +1,67 @@
 {
   "call_id": 206,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Susan",
-    "duration": 57.1,
-    "sentiment": "negative",
-    "billing_issue": "payment",
-    "issue_resolved": false,
-    "resolution_type": "the dispute will be investigated"
+    "call_type": "support",
+    "agent_name": "Lisa",
+    "duration": 53.9691248082535,
+    "sentiment": "positive",
+    "issue_category": "device problem",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 5.0,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 7.0,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 6.05456922336939,
-      "end_time": 10.45456922336939,
-      "text": "Hi, this is Susan from billing. How can I assist with your account?"
+      "start_time": 8.616403490291512,
+      "end_time": 14.716403490291512,
+      "text": "Hi, thanks for calling. This is Lisa with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.609990684661906,
-      "end_time": 14.709990684661905,
-      "text": "actually, Hi, uh, I'm calling because of a problem."
+      "start_time": 15.97458570887566,
+      "end_time": 21.474585708875658,
+      "text": "The router keeps rebooting itself. It's like every hour it just powers down."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.824736066906144,
+      "end_time": 30.124736066906145,
+      "text": "Okay,... okay, it sounds like the device might be failing. let me figure out the best solution."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.07387961064374,
+      "end_time": 37.07387961064374,
+      "text": "Can you try a different power outlet? Sometimes that solves the problem."
     },
     {
       "speaker": "caller",
-      "start_time": 15.525160859961005,
-      "end_time": 18.525160859961005,
-      "text": "I... I need to make a payment"
+      "start_time": 39.160411942398774,
+      "end_time": 40.660411942398774,
+      "text": "Still not working., honestly"
     },
     {
       "speaker": "agent",
-      "start_time": 20.414489114002492,
-      "end_time": 24.11448911400249,
-      "text": "I can see why that would be frustrating"
+      "start_time": 41.39759677586204,
+      "end_time": 47.29759677586204,
+      "text": "We'll send you a replacement modem. It should arrive in 2-3 business days."
     },
     {
       "speaker": "agent",
-      "start_time": 25.34039279463687,
-      "end_time": 28.34039279463687,
-      "text": "let... let me pull up your information"
+      "start_time": 47.93846351347823,
+      "end_time": 52.038463513478234,
+      "text": "Feel free to call back if you have issues."
     },
     {
       "speaker": "caller",
-      "start_time": 30.797513235355403,
-      "end_time": 32.997513235355406,
-      "text": "Yeah, let me find that."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 34.2909645523002,
-      "end_time": 37.390964552300204,
-      "text": "like, I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.390101445629554,
-      "end_time": 40.990101445629556,
-      "text": "I can do that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 41.564498696454194,
-      "end_time": 43.664498696454196,
-      "text": "Actually, there's one more thing..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.44930831203577,
-      "end_time": 46.94930831203577,
-      "text": "I can help you with that, so"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 47.51802067666248,
-      "end_time": 51.01802067666248,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 51.56559930939958,
-      "end_time": 54.86559930939958,
-      "text": "so, Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 55.314216636669194,
-      "end_time": 57.11421663666919,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 52.4691248082535,
+      "end_time": 53.9691248082535,
+      "text": "Thanks, that solved it."
     }
   ]
 }

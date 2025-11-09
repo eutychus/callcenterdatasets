@@ -1,73 +1,55 @@
 {
   "call_id": 120,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Emily",
-    "duration": 40.7,
-    "sentiment": "positive",
-    "churn_reason": "competitor",
-    "issue_resolved": "escalated"
+    "call_type": "billing",
+    "agent_name": "Lisa",
+    "duration": 32.629958439008774,
+    "sentiment": "neutral",
+    "issue_category": "payment problem",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.0,
-      "text": "Welcome. Please listen carefully as our menu has changed."
+      "end_time": 3.9,
+      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
     },
     {
       "speaker": "agent",
-      "start_time": 5.075149460255501,
-      "end_time": 10.975149460255501,
-      "text": "Hi, thanks for calling. Emily here. I see you've been with us a while."
+      "start_time": 5.076988835228384,
+      "end_time": 10.076988835228384,
+      "text": "Hi, this is Lisa from billing. What can I help you with?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.827715764485877,
-      "end_time": 14.027715764485876,
-      "text": "Thanks for picking up., actually"
+      "start_time": 11.509474738710495,
+      "end_time": 15.009474738710495,
+      "text": "I can't pay online. The website isn't accepting my payment."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 15.741508163475299,
+      "end_time": 18.641508163475297,
+      "text": "Let me check the status of your account."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.26272169741959,
+      "end_time": 23.96272169741959,
+      "text": "Sometimes your bank blocks us for fraud protection."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.26660049184342,
+      "end_time": 30.16660049184342,
+      "text": "Try updating your payment method online or I can process it over the phone."
     },
     {
       "speaker": "caller",
-      "start_time": 15.440092137363521,
-      "end_time": 19.14009213736352,
-      "text": "I... I got an offer from another provider"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.276663414945006,
-      "end_time": 24.676663414945004,
-      "text": "I can see why that would be frustrating"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 25.45902749799949,
-      "end_time": 26.859027497999488,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 28.56174727395586,
-      "end_time": 31.16174727395586,
-      "text": "um, are you sure about that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.1192797740935,
-      "end_time": 33.7192797740935,
-      "text": "Are we all set?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.460500633125925,
-      "end_time": 38.36050063312592,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 38.797459180917194,
-      "end_time": 40.69745918091719,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 30.729958439008776,
+      "end_time": 32.629958439008774,
+      "text": "I appreciate you fixing it."
     }
   ]
 }

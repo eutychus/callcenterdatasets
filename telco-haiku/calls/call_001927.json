@@ -1,98 +1,67 @@
 {
   "call_id": 1927,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Amanda",
-    "duration": 56.9,
+    "call_type": "support",
+    "agent_name": "Sarah",
+    "duration": 51.95753196086716,
     "sentiment": "mixed",
-    "billing_issue": "dispute",
-    "issue_resolved": false,
-    "resolution_type": "autopay was activated"
+    "issue_category": "service quality",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.5,
-      "text": "Please hold while we route you to the next available representative."
+      "end_time": 5.0,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
     },
     {
       "speaker": "agent",
-      "start_time": 6.4858921359680215,
-      "end_time": 11.485892135968022,
-      "text": "Hi, this is Amanda from billing. How can I assist with your account?"
+      "start_time": 6.976180779148793,
+      "end_time": 14.076180779148793,
+      "text": "Hi, thanks for calling. This is Sarah with technical support. How can I help you today?, um"
     },
     {
       "speaker": "caller",
-      "start_time": 12.552600520000748,
-      "end_time": 15.452600520000749,
-      "text": "Yeah, hi. I'm having an issue., actually"
+      "start_time": 15.364704036058763,
+      "end_time": 20.964704036058762,
+      "text": "My service has been degrading. It started out fast, but now it's painfully slow."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.937075020001238,
+      "end_time": 28.03707502000124,
+      "text": "Okay, let's see what the issue might be. I'm pulling up your information now."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.073072356056365,
+      "end_time": 35.173072356056366,
+      "text": "Let me check if we can optimize your connection. Have you moved your router recently?"
     },
     {
       "speaker": "caller",
-      "start_time": 16.696978118842246,
-      "end_time": 18.696978118842246,
-      "text": "can you remove this charge"
+      "start_time": 36.90920177148659,
+      "end_time": 39.109201771486596,
+      "text": "Yeah, I'll do that now."
     },
     {
       "speaker": "agent",
-      "start_time": 20.482416563375416,
-      "end_time": 22.782416563375417,
-      "text": "that must be really annoying"
+      "start_time": 39.70492619805054,
+      "end_time": 45.10492619805054,
+      "text": "Let me upgrade your service tier. You should see much better speeds."
     },
     {
       "speaker": "agent",
-      "start_time": 23.92733591322589,
-      "end_time": 26.22733591322589,
-      "text": "let me pull up your information"
+      "start_time": 45.962062352639165,
+      "end_time": 49.462062352639165,
+      "text": "Feel free to call back if you have issues."
     },
     {
       "speaker": "caller",
-      "start_time": 28.726428401943995,
-      "end_time": 31.226428401943995,
-      "text": "It's starting with a C... CUST12345."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.42164876698152,
-      "end_time": 35.02164876698152,
-      "text": "I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 36.28183268066196,
-      "end_time": 38.48183268066196,
-      "text": "actually, I can do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 39.600302856160596,
-      "end_time": 41.8003028561606,
-      "text": "here are your options, well"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 43.44185346626666,
-      "end_time": 44.64185346626666,
-      "text": "that seems complicated"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 46.053753264776184,
-      "end_time": 49.85375326477618,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 50.68223074370762,
-      "end_time": 54.48223074370762,
-      "text": "I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 55.089495644536825,
-      "end_time": 56.88949564453682,
-      "text": "We appreciate your business."
+      "start_time": 50.45753196086716,
+      "end_time": 51.95753196086716,
+      "text": "Thanks, that solved it."
     }
   ]
 }

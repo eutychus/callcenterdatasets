@@ -1,86 +1,79 @@
 {
   "call_id": 815,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Emily",
-    "duration": 43.7,
-    "sentiment": "neutral",
-    "billing_issue": "payment",
-    "issue_resolved": false,
-    "resolution_type": "the dispute will be investigated"
+    "call_type": "support",
+    "agent_name": "Sarah",
+    "duration": 65.92582392721746,
+    "sentiment": "positive",
+    "issue_category": "internet connectivity",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.7,
-      "text": "Welcome. Please listen carefully as our menu has changed."
+      "end_time": 7.4,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 4.78768392070144,
-      "end_time": 9.48768392070144,
-      "text": "Hi, this is Emily from billing. How can I assist with your account?"
+      "start_time": 9.887644593081678,
+      "end_time": 16.487644593081676,
+      "text": "Hi, thanks for calling. This is Sarah with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.322522512130481,
-      "end_time": 13.022522512130482,
-      "text": "Yeah, hi. I'm having an issue., like"
+      "start_time": 17.444592355280506,
+      "end_time": 23.244592355280506,
+      "text": "I'm calling because my service just cut out. I can't even browse right now."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.048441391538006,
+      "end_time": 31.748441391538005,
+      "text": "That sounds really annoying. Okay, let me check on your service status and we'll figure this out."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.571863118679666,
+      "end_time": 39.17186311867967,
+      "text": "Let's do a quick restart. Can you unplug your modem for about 30 seconds?"
     },
     {
       "speaker": "caller",
-      "start_time": 14.483921072085927,
-      "end_time": 17.183921072085926,
-      "text": "basically,... basically, what's my current balance"
+      "start_time": 41.38659487289864,
+      "end_time": 42.68659487289864,
+      "text": "That didn't help."
     },
     {
       "speaker": "agent",
-      "start_time": 18.50595208398512,
-      "end_time": 20.305952083985122,
-      "text": "that must be really annoying"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 21.29808179131745,
-      "end_time": 23.79808179131745,
-      "text": "let... let me look into your account"
+      "start_time": 43.41041554458964,
+      "end_time": 50.31041554458964,
+      "text": "Can you check if the lights on your modem are all green or if any are flashing red?"
     },
     {
       "speaker": "caller",
-      "start_time": 25.588273118581014,
-      "end_time": 26.588273118581014,
-      "text": "Okay, hold on."
+      "start_time": 51.49827992412112,
+      "end_time": 52.59827992412112,
+      "text": "Still not working."
     },
     {
       "speaker": "agent",
-      "start_time": 27.71459707846489,
-      "end_time": 30.11459707846489,
-      "text": "I can help you with that"
+      "start_time": 53.772740358814374,
+      "end_time": 59.47274035881438,
+      "text": "right, the connection looks stable now. try a speed test and let me know."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 60.129236054588745,
+      "end_time": 62.92923605458874,
+      "text": "You should be good to go now."
     },
     {
       "speaker": "caller",
-      "start_time": 31.652783552151096,
-      "end_time": 33.0527835521511,
-      "text": "alright, let's do it"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 33.923245708723115,
-      "end_time": 37.62324570872312,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 38.4854269092331,
-      "end_time": 40.9854269092331,
-      "text": "That's everything. Thanks so much!, um"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.948282615448896,
-      "end_time": 43.74828261544889,
-      "text": "Have a great day!"
+      "start_time": 63.925823927217465,
+      "end_time": 65.92582392721746,
+      "text": "Thanks for your help., basically"
     }
   ]
 }

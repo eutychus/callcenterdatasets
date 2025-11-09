@@ -1,98 +1,67 @@
 {
   "call_id": 1229,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Susan",
-    "duration": 52.7,
-    "sentiment": "positive",
-    "billing_issue": "payment",
-    "issue_resolved": false,
-    "resolution_type": "the charge was reversed"
+    "call_type": "support",
+    "agent_name": "Amanda",
+    "duration": 51.67635011431567,
+    "sentiment": "mixed",
+    "issue_category": "account access",
+    "issue_resolved": "partial"
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.6,
-      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+      "end_time": 6.9,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 4.667991548950111,
-      "end_time": 9.667991548950111,
-      "text": "Thanks for calling. Susan here. What can I do for you?"
+      "start_time": 9.091255252471942,
+      "end_time": 15.391255252471943,
+      "text": "Hi, thanks for calling. This is Amanda with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 11.139830725808954,
-      "end_time": 14.039830725808955,
-      "text": "Hi! So I've been having some trouble."
+      "start_time": 16.21315773333022,
+      "end_time": 24.11315773333022,
+      "text": "I can't log into my account online. It says my password is wrong but I know it's correct., right"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.581155565442703,
+      "end_time": 30.281155565442702,
+      "text": "Let me unlock that for you and get you back in."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.97385791645749,
+      "end_time": 38.57385791645749,
+      "text": "I'm... i'm going to unlock your account. try logging in again in a few minutes."
     },
     {
       "speaker": "caller",
-      "start_time": 15.206820680594605,
-      "end_time": 17.806820680594605,
-      "text": "kinda, can I set up autopay"
+      "start_time": 39.84624890250954,
+      "end_time": 40.94624890250954,
+      "text": "Done. Now what?"
     },
     {
       "speaker": "agent",
-      "start_time": 19.715082971317525,
-      "end_time": 23.615082971317523,
-      "text": "uh, I can see why that would be frustrating"
+      "start_time": 42.08804810205939,
+      "end_time": 47.78804810205939,
+      "text": "You're all set. You should be able to log in now without any issues."
     },
     {
       "speaker": "agent",
-      "start_time": 24.167398953529098,
-      "end_time": 27.2673989535291,
-      "text": "can... can you give me your account number"
+      "start_time": 48.405627277538535,
+      "end_time": 49.50562727753854,
+      "text": "Does that help?"
     },
     {
       "speaker": "caller",
-      "start_time": 29.082211750290796,
-      "end_time": 30.182211750290797,
-      "text": "It's 555-1234., uh"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.06830457028116,
-      "end_time": 33.76830457028116,
-      "text": "here are your options"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 34.800945937020415,
-      "end_time": 36.800945937020415,
-      "text": "sure, I can try that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 37.593757966009356,
-      "end_time": 40.29375796600936,
-      "text": "Oh, and while we're at it..."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 41.00948472346932,
-      "end_time": 43.20948472346932,
-      "text": "I have a solution for you"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 44.138664578677215,
-      "end_time": 46.33866457867722,
-      "text": "Does that work for you?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 47.087434129681434,
-      "end_time": 50.88743412968143,
-      "text": "uh, Nope, that should do it. I appreciate it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 51.391802984987415,
-      "end_time": 52.69180298498741,
-      "text": "Enjoy your service!"
+      "start_time": 49.87635011431567,
+      "end_time": 51.67635011431567,
+      "text": "Great, appreciate it., so"
     }
   ]
 }

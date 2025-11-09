@@ -1,86 +1,67 @@
 {
   "call_id": 435,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "James",
-    "duration": 52.7,
+    "call_type": "support",
+    "agent_name": "Mike",
+    "duration": 49.76070016977933,
     "sentiment": "positive",
-    "billing_issue": "promotion",
-    "issue_resolved": true,
-    "resolution_type": "the dispute will be investigated"
+    "issue_category": "account access",
+    "issue_resolved": false
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 4.0,
-      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+      "end_time": 6.9,
+      "text": "You've reached Telecom Haiku customer service. For technical support, press 1. For billing, press 2. For sales, press 3."
     },
     {
       "speaker": "agent",
-      "start_time": 5.8315509605961475,
-      "end_time": 11.531550960596148,
-      "text": "Hi, this is James from billing. How can I assist with your account?"
+      "start_time": 9.306734171626038,
+      "end_time": 16.50673417162604,
+      "text": "Hi, thanks for calling. This is Mike with technical support. How can I help you today?"
     },
     {
       "speaker": "caller",
-      "start_time": 12.395023347358965,
-      "end_time": 15.395023347358965,
-      "text": "like, Yeah, hi. I'm having an issue."
+      "start_time": 17.48346587664684,
+      "end_time": 25.48346587664684,
+      "text": "I can't log into my account online. It says my password is wrong but I know it's correct."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.245958181434336,
+      "end_time": 30.345958181434334,
+      "text": "Let me unlock that for you and get you back in."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.69095979465034,
+      "end_time": 36.19095979465034,
+      "text": "Can you tell me the email address associated with your account?"
     },
     {
       "speaker": "caller",
-      "start_time": 16.67493687882645,
-      "end_time": 19.774936878826452,
-      "text": "can you lower my bill, you know"
+      "start_time": 38.28356029656791,
+      "end_time": 39.58356029656791,
+      "text": "Alright, it's restarting."
     },
     {
       "speaker": "agent",
-      "start_time": 21.53688954839838,
-      "end_time": 25.136889548398383,
-      "text": "I can see why that would be frustrating"
+      "start_time": 40.64227335583257,
+      "end_time": 44.54227335583257,
+      "text": "Your account is unlocked now. Try resetting your password."
     },
     {
       "speaker": "agent",
-      "start_time": 25.69645716698593,
-      "end_time": 29.19645716698593,
-      "text": "can... can you give me your account number"
+      "start_time": 45.321125815041746,
+      "end_time": 48.221125815041745,
+      "text": "You should be good to go now."
     },
     {
       "speaker": "caller",
-      "start_time": 31.20772262291772,
-      "end_time": 33.70772262291772,
-      "text": "It's starting with a C... CUST12345."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 35.40883649220704,
-      "end_time": 38.308836492207035,
-      "text": "actually, I can help you with that"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 39.59431010886827,
-      "end_time": 41.794310108868274,
-      "text": "how soon can you do that"
-    },
-    {
-      "speaker": "agent",
-      "start_time": 42.325151640798985,
-      "end_time": 45.52515164079899,
-      "text": "Is there anything else I can help with today?"
-    },
-    {
-      "speaker": "caller",
-      "start_time": 46.049628235435385,
-      "end_time": 49.949628235435384,
-      "text": "um, I think that covers it. Thanks for your help."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 50.44148787519312,
-      "end_time": 52.741487875193116,
-      "text": "Thanks for choosing Telecom Haiku!"
+      "start_time": 48.86070016977933,
+      "end_time": 49.76070016977933,
+      "text": "Okay, thanks."
     }
   ]
 }
