@@ -1,12 +1,111 @@
 {
   "call_id": 1184,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Robert",
-    "duration": 42.3,
+    "call_type": "support",
+    "agent_name": "Amanda",
+    "duration": 58.6,
     "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": true,
+    "resolution_type": "the issue was resolved"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.6047918565692765,7.904791856569276,Hello! Robert here. How may I assist you?\r\ncaller,9.38602788711106,13.68602788711106,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.616351000485661,17.61635100048566,\"Yeah, so my internet's been really slow today\"\r\nagent,18.079283258336375,20.179283258336376,\"Yeah, let's troubleshoot that together.\"\r\nagent,21.252508322854958,27.252508322854958,Let me check our systems to see if there's an outage in your area.\r\ncaller,28.858896988205625,31.058896988205625,\"Uh-huh, okay, I got it\"\r\nagent,31.608546312154193,35.70854631215419,I think I found the issue. Let me reset your connection.\r\nagent,36.28753209528513,39.58753209528513,Let me send that information to your email.\r\ncaller,40.50639631251343,42.30639631251343,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.013048451415546,
+      "end_time": 7.913048451415547,
+      "text": "Hi there! Amanda speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.370498001659147,
+      "end_time": 12.470498001659147,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.643643453582907,
+      "end_time": 16.043643453582906,
+      "text": "hang on... well, streaming is buffering constantly"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.491136426163727,
+      "end_time": 20.291136426163728,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.80281737426474,
+      "end_time": 24.102817374264742,
+      "text": "just a second... I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.38820900847456,
+      "end_time": 27.28820900847456,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.142004541276602,
+      "end_time": 31.3420045412766,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.58471434348169,
+      "end_time": 33.88471434348169,
+      "text": "yeah, okay, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.434531627246244,
+      "end_time": 36.73453162724624,
+      "text": "sorta, here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.46410344135887,
+      "end_time": 41.164103441358876,
+      "text": "like, I'm not sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.11936011006928,
+      "end_time": 44.81936011006928,
+      "text": "basically, Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.59858950549824,
+      "end_time": 47.59858950549824,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.53162354944256,
+      "end_time": 51.73162354944256,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.348252541657104,
+      "end_time": 55.6482525416571,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.063970399311344,
+      "end_time": 58.563970399311344,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

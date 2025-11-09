@@ -1,12 +1,75 @@
 {
   "call_id": 448,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Mike",
-    "duration": 45.6,
-    "sentiment": "neutral",
-    "issue": "cancellation",
-    "issue_resolved": false
+    "call_type": "sales",
+    "agent_name": "Susan",
+    "duration": 42.0,
+    "sentiment": "positive",
+    "product_category": "Add-on",
+    "inquiry_type": "device",
+    "sale_completed": false,
+    "resolution_type": "the customer purchased an upgrade"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,Thank you. Connecting you to the next available agent.\r\nagent,4.790526386704734,9.790526386704734,Hi! This is Mike. I'm here to help with any billing questions.\r\ncaller,10.614168691094301,13.114168691094301,Hi there. So I've got a problem...\r\ncaller,13.898862922179667,19.298862922179666,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,19.92804476274417,23.62804476274417,\"I understand, let me look into that for you.\"\r\nagent,25.014165692872353,28.714165692872353,What do you see when you open your browser?\r\ncaller,30.669628957436657,32.469628957436655,\"Uh-huh, okay, I got it\"\r\nagent,33.41099491333702,37.110994913337024,I'm going to push a software update to your device.\r\nagent,38.3069403504417,41.8069403504417,You should see improvement within the next 15 minutes.\r\ncaller,42.33171303432561,45.63171303432561,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.7,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.257613858234664,
+      "end_time": 11.357613858234664,
+      "text": "Hey, thanks for calling! This is Susan. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.982462654231849,
+      "end_time": 14.682462654231848,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.23654772356187,
+      "end_time": 19.23654772356187,
+      "text": "sorry... can I get a device with my plan"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.147125284682346,
+      "end_time": 23.747125284682348,
+      "text": "let me help you resolve this, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.206520027233772,
+      "end_time": 27.506520027233773,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.729669096764173,
+      "end_time": 30.029669096764174,
+      "text": "yeah, okay, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.647008542438932,
+      "end_time": 34.54700854243893,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.38831720869393,
+      "end_time": 39.788317208693925,
+      "text": "I think that covers it. Thanks for your help., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.527886043643065,
+      "end_time": 42.027886043643065,
+      "text": "We appreciate your business."
+    }
+  ]
 }

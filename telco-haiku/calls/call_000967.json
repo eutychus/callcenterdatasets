@@ -1,13 +1,73 @@
 {
   "call_id": 967,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "James",
-    "duration": 43.2,
+    "call_type": "technical",
+    "agent_name": "Jennifer",
+    "duration": 34.6,
     "sentiment": "neutral",
-    "issue": "interested in new plan",
-    "sale_completed": false,
-    "product_category": "Bundles"
+    "technical_issue": "troubleshooting",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.7,Your call is important to us. Please hold while we connect you.\r\nagent,5.657730952147622,10.657730952147622,Hello! James speaking. I'd love to tell you about our latest offers.\r\ncaller,11.737925437539928,15.437925437539928,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.995055346726211,19.795055346726212,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.35040198479907,22.450401984799072,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.576581563271084,27.876581563271085,Our customers are really happy with the new bundled package.\r\ncaller,29.27204240592932,30.87204240592932,\"Yeah, that sounds good\"\r\nagent,31.549560816241183,35.44956081624118,That should fix it. Let me verify everything looks good.\r\nagent,36.066336776166224,40.36633677616622,\"If it happens again, just give us a call back.\"\r\ncaller,41.08437238742936,43.18437238742936,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.787478470048361,
+      "end_time": 8.387478470048361,
+      "text": "Hi! Jennifer from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.824752057248048,
+      "end_time": 12.224752057248049,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.353594201262394,
+      "end_time": 15.153594201262395,
+      "text": "the signal is weak"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.117846157491222,
+      "end_time": 19.217846157491223,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.462239916233735,
+      "end_time": 22.962239916233735,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.45576855758311,
+      "end_time": 26.55576855758311,
+      "text": "how long will that take, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.5621954359231,
+      "end_time": 29.9621954359231,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.614342173390252,
+      "end_time": 32.21434217339025,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.65437296729493,
+      "end_time": 34.55437296729493,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

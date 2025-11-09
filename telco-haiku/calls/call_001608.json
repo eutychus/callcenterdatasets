@@ -1,12 +1,85 @@
 {
   "call_id": 1608,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Robert",
-    "duration": 37.2,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "technical",
+    "agent_name": "Susan",
+    "duration": 42.3,
+    "sentiment": "mixed",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.1,Please enter your account number followed by the pound sign.\r\nagent,5.030945373525728,9.230945373525728,\"Hello, Robert here. How can I help with your account?\"\r\ncaller,10.662338436550616,14.262338436550616,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.972754178099356,18.972754178099358,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.308746852832048,23.408746852832046,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,24.872019667293586,27.072019667293585,Have you tried restarting your modem?\r\ncaller,28.64418440206864,30.344184402068638,\"Yeah, that sounds good\"\r\nagent,31.293987111724988,34.79398711172499,You should see improvement within the next 15 minutes.\r\ncaller,35.39899299411523,37.19899299411523,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.627475331285465,
+      "end_time": 9.127475331285465,
+      "text": "Hello, Susan here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.353923845832316,
+      "end_time": 13.853923845832316,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.3263181870633,
+      "end_time": 18.0263181870633,
+      "text": "wait... I keep getting error messages"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.346009135696264,
+      "end_time": 22.246009135696262,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.76078119181546,
+      "end_time": 26.76078119181546,
+      "text": "sorta, let me see if there's an outage in your area"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.42800631531079,
+      "end_time": 30.02800631531079,
+      "text": "that sounds good, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.71925120546146,
+      "end_time": 33.01925120546146,
+      "text": "sorta, Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.55063942765106,
+      "end_time": 35.250639427651066,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.98248623728307,
+      "end_time": 37.68248623728307,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.36489642777997,
+      "end_time": 40.164896427779965,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.47550929732304,
+      "end_time": 42.27550929732304,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

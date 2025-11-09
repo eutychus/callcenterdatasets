@@ -2,11 +2,109 @@
   "call_id": 636,
   "metadata": {
     "call_type": "billing",
-    "agent_name": "James",
-    "duration": 43.2,
-    "sentiment": "neutral",
-    "issue": "dispute charge",
-    "issue_resolved": true
+    "agent_name": "David",
+    "duration": 57.0,
+    "sentiment": "positive",
+    "billing_issue": "dispute",
+    "issue_resolved": false,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.732158911506689,9.832158911506689,\"Good day, James here. What billing matter can I help you with?\"\r\ncaller,10.860034339345605,13.460034339345604,Hi there. So I've got a problem...\r\ncaller,14.350887570890306,18.450887570890306,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.849838920928256,22.749838920928255,I got it. Let me pull up your account here.\r\nagent,23.804915314539805,27.704915314539804,What do you see when you open your browser?\r\ncaller,29.605748519528127,31.005748519528126,\"Yeah, that sounds good\"\r\nagent,31.99159800099395,36.39159800099395,That should fix it. Let me verify everything looks good.\r\nagent,37.272133385187175,40.17213338518717,Let me send that information to your email.\r\ncaller,41.1197191569928,43.2197191569928,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.949917663720573,
+      "end_time": 9.449917663720573,
+      "text": "Hello! David speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.660537206351027,
+      "end_time": 13.560537206351027,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.77663797991817,
+      "end_time": 17.876637979918172,
+      "text": "actually,... actually, can you remove this charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.644773583390258,
+      "end_time": 23.144773583390258,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.112618215679447,
+      "end_time": 26.612618215679447,
+      "text": "let... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.18560798366841,
+      "end_time": 29.985607983668412,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.99863656926962,
+      "end_time": 32.59863656926962,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.522836920473644,
+      "end_time": 36.32283692047364,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.22233161110382,
+      "end_time": 39.82233161110382,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.699320686286455,
+      "end_time": 43.49932068628645,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.49125995829709,
+      "end_time": 45.89125995829709,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.053058581683956,
+      "end_time": 49.85305858168395,
+      "text": "kinda, let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.69189536396083,
+      "end_time": 52.49189536396083,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.17665520376207,
+      "end_time": 54.976655203762064,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.68029936284791,
+      "end_time": 56.98029936284791,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

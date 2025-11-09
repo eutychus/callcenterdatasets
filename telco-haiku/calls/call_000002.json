@@ -1,12 +1,109 @@
 {
   "call_id": 2,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Robert",
-    "duration": 45.6,
+    "call_type": "account",
+    "agent_name": "Mark",
+    "duration": 59.9,
     "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.545824383655662,8.945824383655662,Hello! Robert here. How may I assist you?\r\ncaller,10.435479448118194,14.735479448118195,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.50156780564561,20.00156780564561,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.55695033092467,24.45695033092467,I got it. Let me pull up your account here.\r\nagent,26.127125505302367,28.527125505302365,Have you tried restarting your modem?\r\ncaller,29.620898615484077,31.620898615484077,\"Uh-huh, okay, I got it\"\r\nagent,32.615660290802374,37.615660290802374,Looks like we need to restart your modem. Can you do that?\r\nagent,38.95851221099218,41.95851221099218,Let me send that information to your email.\r\ncaller,42.4745623329442,45.574562332944204,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.293447851590996,
+      "end_time": 10.193447851590996,
+      "text": "Hello! Mark speaking. What can I do with your account today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.133078171116502,
+      "end_time": 14.133078171116502,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.061511998411081,
+      "end_time": 17.96151199841108,
+      "text": "I... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.70178575074553,
+      "end_time": 22.30178575074553,
+      "text": "like, I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.223945717545213,
+      "end_time": 26.023945717545214,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.901066897517932,
+      "end_time": 29.30106689751793,
+      "text": "um, Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.185855347647042,
+      "end_time": 33.58585534764704,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.93032379524209,
+      "end_time": 37.53032379524209,
+      "text": "well, I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.53800546984641,
+      "end_time": 41.33800546984641,
+      "text": "well, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.37669879196409,
+      "end_time": 45.07669879196409,
+      "text": "kinda, how long will that take"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.49519228635979,
+      "end_time": 48.295192286359786,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.41029760083602,
+      "end_time": 51.61029760083602,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.39397607268047,
+      "end_time": 55.593976072680476,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.33697130433878,
+      "end_time": 58.13697130433878,
+      "text": "kinda, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.769668969007895,
+      "end_time": 59.8696689690079,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

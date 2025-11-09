@@ -2,12 +2,86 @@
   "call_id": 423,
   "metadata": {
     "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 39.2,
-    "sentiment": "neutral",
-    "issue": "internet is down",
-    "issue_resolved": true,
-    "resolution_type": "scheduled followup"
+    "agent_name": "Mike",
+    "duration": 50.0,
+    "sentiment": "mixed",
+    "issue_category": "account_access",
+    "issue": "account_access",
+    "issue_resolved": "partial",
+    "resolution_type": "the device needs to be replaced"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.1,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.533960389660633,8.833960389660632,\"Hello, thanks for calling. I'm Jennifer. What seems to be the issue?\"\r\ncaller,9.680098149057383,12.680098149057383,Hi there. So I've got a problem...\r\ncaller,13.62913444393946,16.62913444393946,\"Yeah, so my internet's been really slow today\"\r\nagent,17.189395495909487,20.889395495909486,\"I understand, let me look into that for you.\"\r\nagent,22.73323600156774,24.93323600156774,Have you tried restarting your modem?\r\ncaller,25.830280994737628,27.530280994737627,\"Yeah, that sounds good\"\r\nagent,28.143987378394353,31.743987378394355,That should fix it. Let me verify everything looks good.\r\nagent,32.81349925491907,36.11349925491907,You should see improvement within the next 15 minutes.\r\ncaller,36.844686982485435,39.24468698248543,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.152966215911311,
+      "end_time": 10.552966215911312,
+      "text": "Good, this is Mike. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.212713873078055,
+      "end_time": 15.412713873078054,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.079099794911485,
+      "end_time": 18.779099794911485,
+      "text": "I can't log into my account, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.166406352977905,
+      "end_time": 23.166406352977905,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.172963532615604,
+      "end_time": 27.872963532615604,
+      "text": "one moment... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.860465011162546,
+      "end_time": 33.66046501116254,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.467419790096834,
+      "end_time": 38.067419790096835,
+      "text": "well, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.05767571221731,
+      "end_time": 41.75767571221731,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.04560498951808,
+      "end_time": 44.84560498951808,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.771218400610216,
+      "end_time": 47.57121840061021,
+      "text": "actually, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.218798523876835,
+      "end_time": 50.01879852387683,
+      "text": "Have a great day!"
+    }
+  ]
 }

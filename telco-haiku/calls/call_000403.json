@@ -1,13 +1,73 @@
 {
   "call_id": 403,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Sarah",
-    "duration": 42.4,
-    "sentiment": "negative",
-    "issue": "wifi not working",
-    "issue_resolved": false,
-    "resolution_type": "partial resolution"
+    "call_type": "technical",
+    "agent_name": "Jennifer",
+    "duration": 34.5,
+    "sentiment": "neutral",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.13595197158961,8.93595197158961,Good day! Sarah here from our support team. What can I assist with?\r\ncaller,10.2363839055443,13.036383905544302,Hi there. So I've got a problem...\r\ncaller,13.756916788312987,19.256916788312985,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,19.586524636233534,23.386524636233535,\"I understand, let me look into that for you.\"\r\nagent,24.68415349824634,30.584153498246337,Let me check our systems to see if there's an outage in your area.\r\ncaller,32.019178999405455,34.119178999405456,\"Uh-huh, okay, I got it\"\r\nagent,34.943192456350275,39.043192456350276,Is there anything else I can help you with today?\r\ncaller,39.95002510819853,42.35002510819853,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.530311104049781,
+      "end_time": 8.33031110404978,
+      "text": "Thanks for calling. Jennifer with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.13313166815134,
+      "end_time": 11.233131668151339,
+      "text": "like, Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.930623053162451,
+      "end_time": 15.03062305316245,
+      "text": "I... I keep getting error messages, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.87100457895615,
+      "end_time": 19.17100457895615,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.067399861560794,
+      "end_time": 22.967399861560793,
+      "text": "what error message are you seeing, kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 23.77849955100327,
+      "end_time": 25.578499551003272,
+      "text": "that sounds good, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.14277716225048,
+      "end_time": 29.64277716225048,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.274728761000105,
+      "end_time": 32.37472876100011,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.87590476737018,
+      "end_time": 34.47590476737018,
+      "text": "We appreciate your business."
+    }
+  ]
 }

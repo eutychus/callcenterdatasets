@@ -1,12 +1,73 @@
 {
   "call_id": 445,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Robert",
-    "duration": 43.2,
-    "sentiment": "neutral",
-    "issue": "considering leaving",
+    "call_type": "technical",
+    "agent_name": "Patricia",
+    "duration": 38.6,
+    "sentiment": "negative",
+    "technical_issue": "troubleshooting",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.1,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,3.876848851075427,8.576848851075427,Hi! Robert here. I'd love to make sure we're taking care of you.\r\ncaller,9.599743160357722,13.399743160357723,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.555491603203858,19.35549160320386,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.3396393895847,24.0396393895847,I got it. Let me pull up your account here.\r\nagent,25.60586582553232,29.10586582553232,What do you see when you open your browser?\r\ncaller,29.926154211605212,31.526154211605213,\"Yeah, that sounds good\"\r\nagent,32.21414183941108,36.21414183941108,I'm going to push a software update to your device.\r\nagent,37.21079299236274,40.51079299236274,You should see improvement within the next 15 minutes.\r\ncaller,41.41250705282027,43.212507052820264,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.812773512667471,
+      "end_time": 9.41277351266747,
+      "text": "Hello, Patricia here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.587371011662329,
+      "end_time": 13.587371011662329,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.459244479263516,
+      "end_time": 17.059244479263516,
+      "text": "sorry... something changed and now it's slow"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.960497904367408,
+      "end_time": 21.660497904367407,
+      "text": "I'm sorry you're experiencing this, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.97192034016369,
+      "end_time": 25.771920340163692,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.535437829079672,
+      "end_time": 28.93543782907967,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.315349038620663,
+      "end_time": 32.51534903862066,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.17246207328386,
+      "end_time": 35.17246207328386,
+      "text": "No, that's all. Thanks!, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.08100658145102,
+      "end_time": 38.58100658145102,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

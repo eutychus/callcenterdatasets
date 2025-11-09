@@ -1,12 +1,85 @@
 {
   "call_id": 226,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 46.7,
+    "call_type": "technical",
+    "agent_name": "James",
+    "duration": 40.7,
     "sentiment": "negative",
-    "issue": "switching provider",
-    "issue_resolved": true
+    "technical_issue": "device_issue",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Thank you. Connecting you to the next available agent.\r\nagent,4.323685310685452,9.523685310685451,Hi! Mike here. I'd love to make sure we're taking care of you.\r\ncaller,10.931853956606943,14.331853956606944,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.93793042422277,18.33793042422277,\"Yeah, so my internet's been really slow today\"\r\nagent,18.703234029771604,23.403234029771603,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.210710063648886,30.010710063648887,Can you check if the lights on your router are on?\r\ncaller,31.41265396348573,33.51265396348573,\"Yeah, sounds good to me\"\r\nagent,34.47776756520248,39.07776756520248,Looks like we need to restart your modem. Can you do that?\r\nagent,39.93808392090379,43.538083920903794,Is there anything else I can help you with today?\r\ncaller,44.39446516129469,46.69446516129469,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.144781098835632,
+      "end_time": 7.744781098835633,
+      "text": "Thanks for calling. James with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.680447740271475,
+      "end_time": 10.780447740271475,
+      "text": "Thanks for picking up., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.791375907798406,
+      "end_time": 12.891375907798405,
+      "text": "it's not responding"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 13.971020601411913,
+      "end_time": 16.171020601411914,
+      "text": "uh, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.128187337891635,
+      "end_time": 20.428187337891636,
+      "text": "you know, what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 22.388131605636787,
+      "end_time": 24.188131605636787,
+      "text": "will it take long, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.6433244067463,
+      "end_time": 28.6433244067463,
+      "text": "like, Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.702906480202856,
+      "end_time": 31.202906480202856,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.979474678968145,
+      "end_time": 33.479474678968145,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.062756592088824,
+      "end_time": 38.46275659208882,
+      "text": "you know, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.14087108112436,
+      "end_time": 40.74087108112436,
+      "text": "We appreciate your business."
+    }
+  ]
 }

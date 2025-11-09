@@ -1,12 +1,86 @@
 {
   "call_id": 1988,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "James",
-    "duration": 44.8,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "billing",
+    "agent_name": "Susan",
+    "duration": 45.7,
+    "sentiment": "negative",
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "we applied a credit"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.2,Please enter your account number followed by the pound sign.\r\nagent,5.412255760342605,9.412255760342605,\"Hi, this is James. What can I do for you today?\"\r\ncaller,10.339647234048885,14.239647234048885,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.0947664893977,18.7947664893977,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.657291465821764,24.457291465821765,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.778928174870522,28.278928174870522,Have you tried restarting your modem?\r\ncaller,29.59383252726542,31.79383252726542,\"Uh-huh, okay, I got it\"\r\nagent,32.71573075309747,37.41573075309747,I think I found the issue. Let me reset your connection.\r\nagent,38.39863706178212,41.39863706178212,Let me send that information to your email.\r\ncaller,42.22705098721078,44.82705098721078,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.4059098817037325,
+      "end_time": 10.205909881703732,
+      "text": "Hi, this is Susan from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.31436736240896,
+      "end_time": 13.514367362408962,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.336374721912517,
+      "end_time": 16.036374721912516,
+      "text": "are there loyalty discounts"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.425579317339988,
+      "end_time": 20.625579317339987,
+      "text": "kinda, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.904257528287204,
+      "end_time": 24.704257528287204,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.45610282890342,
+      "end_time": 28.25610282890342,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.329745241481653,
+      "end_time": 31.529745241481653,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.687379652359716,
+      "end_time": 34.88737965235972,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.5048115912861,
+      "end_time": 39.6048115912861,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.18580502958318,
+      "end_time": 43.18580502958318,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.069314937473855,
+      "end_time": 45.66931493747386,
+      "text": "Have a great day!"
+    }
+  ]
 }

@@ -1,12 +1,99 @@
 {
   "call_id": 1456,
   "metadata": {
-    "call_type": "retention",
+    "call_type": "support",
     "agent_name": "David",
-    "duration": 48.5,
-    "sentiment": "neutral",
-    "issue": "service complaint",
-    "issue_resolved": false
+    "duration": 55.8,
+    "sentiment": "positive",
+    "issue_category": "connectivity",
+    "issue": "connectivity",
+    "issue_resolved": true,
+    "resolution_type": "it was a software issue that's now updated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.5,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.37240751171306,12.97240751171306,\"Hello, this is David. I see you've been with us for a while.\"\r\ncaller,14.456388209796907,17.756388209796906,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,18.745310101883547,21.84531010188355,\"Um, I can't... I keep getting disconnected\"\r\nagent,22.249801346750235,25.949801346750235,\"I understand, let me look into that for you.\"\r\nagent,27.51073969263409,32.51073969263409,Let me check our systems to see if there's an outage in your area.\r\ncaller,33.54018380890364,35.04018380890364,\"Yeah, that sounds good\"\r\nagent,35.9188285125978,39.8188285125978,I'm going to push a software update to your device.\r\nagent,40.89218395903171,44.99218395903171,\"If it happens again, just give us a call back.\"\r\ncaller,45.578612668035824,48.47861266803582,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.102416670904837,
+      "end_time": 9.602416670904837,
+      "text": "Hi there! David speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.785735615650946,
+      "end_time": 12.485735615650945,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.329710171160627,
+      "end_time": 15.529710171160627,
+      "text": "I'm... I'm having connectivity issues"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.71709120972152,
+      "end_time": 20.91709120972152,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.584911813253854,
+      "end_time": 23.884911813253854,
+      "text": "I'm... I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.670075133955777,
+      "end_time": 28.570075133955775,
+      "text": "Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.28869123481458,
+      "end_time": 33.88869123481458,
+      "text": "you know, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.397084158929566,
+      "end_time": 37.397084158929566,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.224309894329714,
+      "end_time": 40.724309894329714,
+      "text": "well, Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.67525061225792,
+      "end_time": 44.17525061225792,
+      "text": "let me walk you through this, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.810932804529145,
+      "end_time": 48.910932804529146,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.6025718082338,
+      "end_time": 53.1025718082338,
+      "text": "I think that covers it. Thanks for your help., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 54.08558711020813,
+      "end_time": 55.785587110208134,
+      "text": "We appreciate your business."
+    }
+  ]
 }

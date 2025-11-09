@@ -1,12 +1,111 @@
 {
   "call_id": 332,
   "metadata": {
-    "call_type": "account",
+    "call_type": "support",
     "agent_name": "Emily",
-    "duration": 48.4,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "duration": 60.2,
+    "sentiment": "positive",
+    "issue_category": "device",
+    "issue": "device",
+    "issue_resolved": false,
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.3,Your call is important to us. Please hold while we connect you.\r\nagent,6.567313288841021,11.26731328884102,Hi! Emily with account services. What do you need help with?\r\ncaller,12.593474748842791,16.29347474884279,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,17.078952793533208,21.078952793533208,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,21.55619300817416,25.85619300817416,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.214861697942652,30.61486169794265,\"Okay, and how long has this been happening?\"\r\ncaller,32.449021650466996,35.049021650467,\"Okay, sure, I can try that\"\r\nagent,35.72074853108575,40.62074853108575,Looks like we need to restart your modem. Can you do that?\r\nagent,41.66095957260106,45.56095957260106,You should see improvement within the next 15 minutes.\r\ncaller,46.347805868119934,48.447805868119936,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.7,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.706949723841642,
+      "end_time": 10.006949723841641,
+      "text": "Good, this is Emily. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.73509238016554,
+      "end_time": 14.13509238016554,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.69385306101865,
+      "end_time": 18.19385306101865,
+      "text": "sorry... there's a red light on my modem"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.36786225602542,
+      "end_time": 21.66786225602542,
+      "text": "uh, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.01545813260674,
+      "end_time": 26.11545813260674,
+      "text": "wait... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.618968490799865,
+      "end_time": 30.918968490799866,
+      "text": "Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.474613895578315,
+      "end_time": 34.57461389557832,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.38307318823108,
+      "end_time": 39.08307318823108,
+      "text": "will that really fix it, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.51695981084773,
+      "end_time": 43.21695981084773,
+      "text": "I can help you with that, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.03591960289615,
+      "end_time": 46.93591960289615,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.86462289004703,
+      "end_time": 49.46462289004703,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.4214032588492,
+      "end_time": 52.8214032588492,
+      "text": "yeah, okay, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.979024575355716,
+      "end_time": 55.77902457535571,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.59973232177112,
+      "end_time": 58.39973232177112,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.75302693123576,
+      "end_time": 60.15302693123576,
+      "text": "Have a great day!"
+    }
+  ]
 }

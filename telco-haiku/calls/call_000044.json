@@ -1,12 +1,110 @@
 {
   "call_id": 44,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 42.9,
+    "call_type": "billing",
+    "agent_name": "Chris",
+    "duration": 59.0,
     "sentiment": "neutral",
-    "issue": "competitor offer",
-    "issue_resolved": true
+    "billing_issue": "promotion",
+    "issue_resolved": false,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Please enter your account number followed by the pound sign.\r\nagent,5.1987671041885335,10.498767104188534,\"Hello, this is Mike. I see you've been with us for a while.\"\r\ncaller,11.484638410078539,15.684638410078538,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.593104704011886,20.693104704011887,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,21.42691976786265,23.32691976786265,\"Yeah, let's troubleshoot that together.\"\r\nagent,25.007646662913327,27.307646662913328,Have you tried restarting your modem?\r\ncaller,28.636892942335006,30.536892942335005,\"Uh-huh, okay, I got it\"\r\nagent,31.382143072794268,35.68214307279427,That should fix it. Let me verify everything looks good.\r\nagent,36.91798034406295,40.217980344062944,Let me send that information to your email.\r\ncaller,40.977321949843,42.877321949843,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.566189808980905,
+      "end_time": 9.366189808980906,
+      "text": "Hello! Chris speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.313901827967019,
+      "end_time": 12.61390182796702,
+      "text": "kinda, Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.487492608050392,
+      "end_time": 15.287492608050393,
+      "text": "are there loyalty discounts"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.386020646187355,
+      "end_time": 20.586020646187354,
+      "text": "basically, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.054763542520522,
+      "end_time": 24.95476354252052,
+      "text": "hold on... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.676444897184993,
+      "end_time": 30.176444897184993,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.303793261908528,
+      "end_time": 34.50379326190853,
+      "text": "I can help you with that, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.46201399025359,
+      "end_time": 37.262013990253585,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.57082091602372,
+      "end_time": 40.17082091602372,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.094846268288826,
+      "end_time": 43.494846268288825,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.341656392972055,
+      "end_time": 47.04165639297206,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.948127608056204,
+      "end_time": 50.14812760805621,
+      "text": "I'm not sure about that, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.89766847119148,
+      "end_time": 53.09766847119148,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.95787526518996,
+      "end_time": 55.657875265189965,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.63624654276394,
+      "end_time": 59.03624654276394,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

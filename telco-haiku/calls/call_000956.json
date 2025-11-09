@@ -1,13 +1,99 @@
 {
   "call_id": 956,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "James",
-    "duration": 46.3,
+    "call_type": "support",
+    "agent_name": "Jennifer",
+    "duration": 49.0,
     "sentiment": "neutral",
-    "issue": "upgrade options",
-    "sale_completed": false,
-    "product_category": "Mobile Plan"
+    "issue_category": "device",
+    "issue": "device",
+    "issue_resolved": "partial",
+    "resolution_type": "we're escalating to our technical team"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.801231505544737,10.801231505544738,Hello! James speaking. I'd love to tell you about our latest offers.\r\ncaller,11.609537304212711,14.209537304212711,Hi there. So I've got a problem...\r\ncaller,15.017038232970371,19.21703823297037,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.775769380279304,21.575769380279304,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.284678501557554,27.684678501557556,\"If you upgrade now, we can waive your installation fee.\"\r\ncaller,29.279692015682482,31.17969201568248,\"Yeah, sounds good to me\"\r\nagent,32.15931957593635,37.359319575936354,Looks like we need to restart your modem. Can you do that?\r\nagent,38.76313251070005,42.16313251070005,Let me send that information to your email.\r\ncaller,42.950471431994174,46.25047143199417,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.621120650592463,
+      "end_time": 9.421120650592464,
+      "text": "Hi there! Jennifer speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.852753688514877,
+      "end_time": 14.252753688514877,
+      "text": "so, Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.434363601317331,
+      "end_time": 17.03436360131733,
+      "text": "the router keeps resetting"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.26082081360221,
+      "end_time": 20.36082081360221,
+      "text": "I completely understand your frustration, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.002535149081005,
+      "end_time": 24.402535149081004,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.926690638205702,
+      "end_time": 28.6266906382057,
+      "text": "Sure, it's on the bill., uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.93899816207916,
+      "end_time": 31.338998162079157,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.950133661410895,
+      "end_time": 34.25013366141089,
+      "text": "that sounds good"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.3106381815325,
+      "end_time": 38.4106381815325,
+      "text": "Oh, and while we're at it..., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.919775871470755,
+      "end_time": 41.419775871470755,
+      "text": "uh, here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.18641385469058,
+      "end_time": 43.88641385469058,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.53624310948732,
+      "end_time": 46.736243109487326,
+      "text": "Yeah, that's good. Thanks!, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.0727784435926,
+      "end_time": 48.972778443592595,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

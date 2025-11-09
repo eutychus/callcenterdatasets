@@ -1,13 +1,85 @@
 {
   "call_id": 480,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Mike",
-    "duration": 44.3,
+    "call_type": "technical",
+    "agent_name": "Susan",
+    "duration": 40.5,
     "sentiment": "negative",
-    "issue": "special offers",
-    "sale_completed": false,
-    "product_category": "Broadband"
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Your call is important to us. Please hold while we connect you.\r\nagent,5.469893279993441,11.369893279993441,Hi there! Welcome to Telecom Haiku sales. Mike here. What brings you in today?\r\ncaller,12.843153685343012,17.04315368534301,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,17.693268026298718,22.093268026298716,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,22.973848092262493,26.37384809226249,\"I understand, let me look into that for you.\"\r\nagent,27.382276834291584,33.38227683429159,\"While I have you, we actually just launched a new plan that might interest you.\"\r\ncaller,34.94657554636647,37.14657554636647,\"Uh-huh, okay, I got it\"\r\nagent,37.739720401064616,41.239720401064616,You should see improvement within the next 15 minutes.\r\ncaller,42.133482554328225,44.33348255432823,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.951192736720981,
+      "end_time": 7.5511927367209815,
+      "text": "Thanks for calling. Susan with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.691611960443746,
+      "end_time": 11.391611960443747,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.431264075434699,
+      "end_time": 15.1312640754347,
+      "text": "hold on... so, my modem is overheating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.039887480751666,
+      "end_time": 19.239887480751666,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.00855524625858,
+      "end_time": 22.70855524625858,
+      "text": "like, try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.38728682129652,
+      "end_time": 27.08728682129652,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.18935034302418,
+      "end_time": 30.38935034302418,
+      "text": "um, There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.187683486696407,
+      "end_time": 33.88768348669641,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.43734006720254,
+      "end_time": 36.637340067202544,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.261100345993285,
+      "end_time": 38.96110034599329,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.455545351151464,
+      "end_time": 40.455545351151464,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

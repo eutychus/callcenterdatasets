@@ -2,11 +2,109 @@
   "call_id": 525,
   "metadata": {
     "call_type": "billing",
-    "agent_name": "Emily",
-    "duration": 40.6,
-    "sentiment": "neutral",
-    "issue": "refund request",
-    "issue_resolved": true
+    "agent_name": "David",
+    "duration": 58.2,
+    "sentiment": "mixed",
+    "billing_issue": "dispute",
+    "issue_resolved": false,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.3,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.760730210894145,11.060730210894146,\"Hello, Emily from billing. How can I assist with your account?\"\r\ncaller,12.127541852067676,15.827541852067675,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,16.764992441151627,20.964992441151626,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,21.316575549387103,25.416575549387105,I got it. Let me pull up your account here.\r\nagent,26.983523164657395,29.983523164657395,\"Okay, and how long has this been happening?\"\r\ncaller,30.844120426008587,32.744120426008585,\"Alright, let me try that\"\r\nagent,33.506337852260025,37.606337852260026,Is there anything else I can help you with today?\r\ncaller,38.1707432861349,40.5707432861349,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.096903412833847,
+      "end_time": 8.896903412833847,
+      "text": "Hello! David speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.082522651926972,
+      "end_time": 13.282522651926971,
+      "text": "you know, Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.909600803980178,
+      "end_time": 16.509600803980177,
+      "text": "I need to dispute a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.982725981072104,
+      "end_time": 21.782725981072105,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.469075227076484,
+      "end_time": 26.069075227076485,
+      "text": "hang on... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.11518698380444,
+      "end_time": 28.91518698380444,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.31204776301961,
+      "end_time": 32.91204776301961,
+      "text": "I can help you with that, kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.773462502190554,
+      "end_time": 35.57346250219055,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.70695175940387,
+      "end_time": 39.406951759403874,
+      "text": "basically, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.861822584764965,
+      "end_time": 43.06182258476497,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.99519320188577,
+      "end_time": 46.49519320188577,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.50852910967693,
+      "end_time": 50.20852910967693,
+      "text": "actually, I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.14412018664956,
+      "end_time": 52.74412018664956,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.36209836119781,
+      "end_time": 56.662098361197806,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.14012014745496,
+      "end_time": 58.24012014745496,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

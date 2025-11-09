@@ -1,13 +1,97 @@
 {
   "call_id": 1805,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Robert",
-    "duration": 49.1,
-    "sentiment": "negative",
-    "issue": "need password reset",
-    "issue_resolved": true,
-    "resolution_type": "callback needed"
+    "call_type": "account",
+    "agent_name": "Daniel",
+    "duration": 58.0,
+    "sentiment": "mixed",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,Please enter your account number followed by the pound sign.\r\nagent,4.979624153234665,10.179624153234666,Good day! Robert here from our support team. What can I assist with?\r\ncaller,11.193999535634067,15.293999535634066,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.176331772083408,20.376331772083407,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,21.317102287723525,26.117102287723526,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.21435254812284,32.31435254812284,Let me check our systems to see if there's an outage in your area.\r\ncaller,34.01385329183748,35.51385329183748,\"Yeah, that sounds good\"\r\nagent,36.259893454429154,41.45989345442916,Looks like we need to restart your modem. Can you do that?\r\nagent,41.96625896625173,45.66625896625173,You should see improvement within the next 15 minutes.\r\ncaller,46.624956322906975,49.124956322906975,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.384684051040285,
+      "end_time": 10.884684051040285,
+      "text": "Hi, Daniel with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.33452849892788,
+      "end_time": 15.634528498927878,
+      "text": "Hi! So I've been having some trouble., so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.37960143406784,
+      "end_time": 19.87960143406784,
+      "text": "actually,... actually, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.043768740262962,
+      "end_time": 24.74376874026296,
+      "text": "you know, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.707411812348962,
+      "end_time": 29.707411812348962,
+      "text": "just a second... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.073135127499775,
+      "end_time": 35.073135127499775,
+      "text": "It's starting with a C... CUST12345., well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.97965197895906,
+      "end_time": 39.27965197895906,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.9796155281944,
+      "end_time": 42.7796155281944,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.542975998588076,
+      "end_time": 47.24297599858808,
+      "text": "so, By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.84940268241104,
+      "end_time": 49.94940268241104,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.51253081714031,
+      "end_time": 52.41253081714031,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.140678490317825,
+      "end_time": 55.140678490317825,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.52933411372472,
+      "end_time": 58.02933411372472,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

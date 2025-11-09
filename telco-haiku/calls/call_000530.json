@@ -2,11 +2,108 @@
   "call_id": 530,
   "metadata": {
     "call_type": "general",
-    "agent_name": "James",
-    "duration": 47.3,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "agent_name": "Daniel",
+    "duration": 58.3,
+    "sentiment": "positive",
+    "issue": "general",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.688061159531498,8.688061159531497,\"Hi, this is James. What can I do for you today?\"\r\ncaller,9.974614723209946,14.274614723209947,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.189777374025933,18.289777374025935,\"Yeah, so my internet's been really slow today\"\r\nagent,18.858246037381715,22.458246037381716,I got it. Let me pull up your account here.\r\nagent,24.27218908873015,29.872189088730153,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.085364874387764,33.185364874387766,\"Yeah, sounds good to me\"\r\nagent,34.04982475310292,38.349824753102915,I'm going to push a software update to your device.\r\nagent,39.301716482789864,43.50171648278987,\"If it happens again, just give us a call back.\"\r\ncaller,44.31129375931924,47.31129375931924,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.703599096502494,
+      "end_time": 7.303599096502493,
+      "text": "Hello, thanks for calling. Daniel speaking."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.47185140658517,
+      "end_time": 11.97185140658517,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.25448579143759,
+      "end_time": 18.65448579143759,
+      "text": "just a second... I had a question about my service., you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.9258356974331,
+      "end_time": 23.025835697433102,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.888242698734185,
+      "end_time": 26.488242698734187,
+      "text": "let me walk you through this, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.300866707460205,
+      "end_time": 29.800866707460205,
+      "text": "um, how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.989439607636236,
+      "end_time": 32.58943960763624,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.852648014215994,
+      "end_time": 35.952648014215995,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.39226322713314,
+      "end_time": 39.89226322713314,
+      "text": "here's what we can do, uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.63867332527601,
+      "end_time": 43.63867332527601,
+      "text": "that sounds good, you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.31472803289729,
+      "end_time": 46.014728032897295,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.693694621842056,
+      "end_time": 48.39369462184206,
+      "text": "um, here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.19627245953589,
+      "end_time": 51.09627245953589,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.09233561522013,
+      "end_time": 55.69233561522013,
+      "text": "um, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.0939007981571,
+      "end_time": 58.293900798157104,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

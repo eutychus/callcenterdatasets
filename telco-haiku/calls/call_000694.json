@@ -1,12 +1,99 @@
 {
   "call_id": 694,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Jennifer",
-    "duration": 42.7,
-    "sentiment": "negative",
-    "issue": "competitor offer",
-    "issue_resolved": false
+    "call_type": "sales",
+    "agent_name": "Amanda",
+    "duration": 48.9,
+    "sentiment": "mixed",
+    "product_category": "Broadband",
+    "inquiry_type": "device",
+    "sale_completed": true,
+    "resolution_type": "we scheduled a follow-up"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Your call is important to us. Please hold while we connect you.\r\nagent,5.9091128322374855,11.409112832237486,\"Hello, this is Jennifer. I see you've been with us for a while.\"\r\ncaller,12.236633608193277,15.936633608193276,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,16.801825312729765,19.801825312729765,\"Yeah, so my internet's been really slow today\"\r\nagent,20.410789041132837,22.610789041132836,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.373285735456665,27.673285735456666,What do you see when you open your browser?\r\ncaller,28.476488985673534,30.676488985673533,\"Okay, sure, I can try that\"\r\nagent,31.485080349435812,35.185080349435815,I'm going to push a software update to your device.\r\nagent,36.155040638536995,39.355040638537,Let me send that information to your email.\r\ncaller,40.213275614620656,42.713275614620656,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.204789716863753,
+      "end_time": 10.404789716863753,
+      "text": "Hi! Welcome to Telecom Haiku. Amanda speaking. What brings you in today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.653433568227236,
+      "end_time": 14.453433568227236,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.5901120622935,
+      "end_time": 18.1901120622935,
+      "text": "hang on... actually, what phones are available"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.466231787556165,
+      "end_time": 22.966231787556165,
+      "text": "kinda, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.77040147636562,
+      "end_time": 26.07040147636562,
+      "text": "here are your options, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.084304201974057,
+      "end_time": 29.084304201974057,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.91607538630656,
+      "end_time": 32.61607538630656,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.45151990106679,
+      "end_time": 35.251519901066786,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.20268328264342,
+      "end_time": 38.10268328264342,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.96402788454563,
+      "end_time": 41.06402788454563,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.641652132547776,
+      "end_time": 43.141652132547776,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.7878297667141,
+      "end_time": 45.7878297667141,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.71685289648756,
+      "end_time": 48.91685289648756,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

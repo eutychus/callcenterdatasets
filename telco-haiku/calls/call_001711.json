@@ -1,13 +1,85 @@
 {
   "call_id": 1711,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Emily",
-    "duration": 38.7,
-    "sentiment": "negative",
-    "issue": "wifi not working",
-    "issue_resolved": true,
-    "resolution_type": "escalated"
+    "call_type": "retention",
+    "agent_name": "David",
+    "duration": 41.8,
+    "sentiment": "positive",
+    "churn_reason": "leaving",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.1,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.613347337553056,11.513347337553057,Hi there! This is Emily from Technical Support. How can I help you today?\r\ncaller,12.997045711266775,15.697045711266775,Hi there. So I've got a problem...\r\ncaller,16.31025451769943,19.01025451769943,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.638134041633364,23.938134041633365,I got it. Let me pull up your account here.\r\nagent,25.385080475783628,28.68508047578363,What do you see when you open your browser?\r\ncaller,29.936932988910534,31.436932988910534,\"Yeah, that sounds good\"\r\nagent,32.0146717437826,35.7146717437826,Is there anything else I can help you with today?\r\ncaller,36.59684879985507,38.69684879985507,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.466084164186591,
+      "end_time": 8.86608416418659,
+      "text": "Hello! David speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.410191262782439,
+      "end_time": 12.810191262782439,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.258236739638454,
+      "end_time": 17.858236739638453,
+      "text": "sorry... I want to cancel my service, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.397569107383713,
+      "end_time": 21.997569107383715,
+      "text": "that must be really annoying, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.665082010512013,
+      "end_time": 24.06508201051201,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.247370198116734,
+      "end_time": 27.147370198116732,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.00773100859969,
+      "end_time": 31.107731008599693,
+      "text": "Oh, and while we're at it..., sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.977451533992195,
+      "end_time": 34.477451533992195,
+      "text": "basically, let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.12220204384956,
+      "end_time": 36.822202043849565,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.46000746324773,
+      "end_time": 38.860007463247726,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.585753167415454,
+      "end_time": 41.78575316741546,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

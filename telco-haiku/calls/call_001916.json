@@ -1,12 +1,85 @@
 {
   "call_id": 1916,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Lisa",
-    "duration": 42.5,
-    "sentiment": "positive",
-    "issue": "service complaint",
-    "issue_resolved": true
+    "call_type": "technical",
+    "agent_name": "Mike",
+    "duration": 45.0,
+    "sentiment": "mixed",
+    "technical_issue": "setup",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.514543116898899,10.9145431168989,Hi! Lisa here. I'd love to make sure we're taking care of you.\r\ncaller,11.762993129806233,15.362993129806233,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.919151948320621,20.01915194832062,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.830147500409296,24.130147500409297,\"I understand, let me look into that for you.\"\r\nagent,25.928267151589786,29.428267151589786,What do you see when you open your browser?\r\ncaller,31.179714036224958,33.479714036224955,\"Okay, sure, I can try that\"\r\nagent,34.311253899094346,38.51125389909435,\"If it happens again, just give us a call back.\"\r\ncaller,39.072958773852996,42.472958773852994,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.175644657501114,
+      "end_time": 9.175644657501113,
+      "text": "Hello, Mike here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.499302135177913,
+      "end_time": 13.199302135177913,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.595241743190439,
+      "end_time": 19.795241743190438,
+      "text": "I... I just got my modem and don't know how to set it up"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.986663694554714,
+      "end_time": 23.186663694554714,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.538464706227074,
+      "end_time": 26.538464706227074,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.72856901328516,
+      "end_time": 29.52856901328516,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.689866843300155,
+      "end_time": 33.489866843300156,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.52874819966196,
+      "end_time": 36.12874819966196,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.55097178559966,
+      "end_time": 39.75097178559966,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.63141468428283,
+      "end_time": 42.13141468428283,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.76692979313617,
+      "end_time": 44.966929793136174,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -1,12 +1,75 @@
 {
   "call_id": 1075,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "James",
-    "duration": 48.0,
+    "call_type": "sales",
+    "agent_name": "Jennifer",
+    "duration": 42.5,
     "sentiment": "positive",
-    "issue": "late payment",
-    "issue_resolved": false
+    "product_category": "Add-on",
+    "inquiry_type": "new_service",
+    "sale_completed": false,
+    "resolution_type": "the customer wasn't interested"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.4,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.589433952414615,12.289433952414615,Hi! This is James. I'm here to help with any billing questions.\r\ncaller,13.319692459446198,16.719692459446197,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,17.35677040743283,21.85677040743283,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,22.391174703519052,26.29117470351905,\"I understand, let me look into that for you.\"\r\nagent,27.81375000075883,33.61375000075883,Let me check our systems to see if there's an outage in your area.\r\ncaller,34.65113824385128,36.75113824385128,\"Uh-huh, okay, I got it\"\r\nagent,37.433124216877715,41.53312421687772,I'm going to push a software update to your device.\r\nagent,42.196656251767806,45.4966562517678,Let me send that information to your email.\r\ncaller,46.11973172911646,48.01973172911646,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.015607892016064,
+      "end_time": 13.015607892016064,
+      "text": "Hey, thanks for calling! This is Jennifer. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.884743448640156,
+      "end_time": 16.984743448640156,
+      "text": "basically, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 18.257026380077782,
+      "end_time": 21.357026380077784,
+      "text": "I'm... I'm thinking about adding a line"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.5995129426055,
+      "end_time": 24.5995129426055,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.419330782636138,
+      "end_time": 27.71933078263614,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.838222917531656,
+      "end_time": 31.138222917531657,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.20990934381995,
+      "end_time": 34.10990934381995,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.099102933922005,
+      "end_time": 39.499102933922,
+      "text": "I think that covers it. Thanks for your help., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.014509656765114,
+      "end_time": 42.514509656765114,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

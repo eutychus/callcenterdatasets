@@ -1,12 +1,73 @@
 {
   "call_id": 621,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Lisa",
-    "duration": 38.2,
-    "sentiment": "positive",
-    "issue": "payment method",
+    "call_type": "technical",
+    "agent_name": "Sarah",
+    "duration": 37.4,
+    "sentiment": "negative",
+    "technical_issue": "device_issue",
     "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.430817331055864,9.030817331055864,\"Good day, Lisa here. What billing matter can I help you with?\"\r\ncaller,10.396774219297548,12.896774219297548,Hi there. So I've got a problem...\r\ncaller,13.817420301276787,18.117420301276788,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.04353221442574,22.34353221442574,\"I understand, let me look into that for you.\"\r\nagent,24.079370832665155,27.579370832665155,\"Okay, and how long has this been happening?\"\r\ncaller,28.8792049528466,30.6792049528466,\"Alright, let me try that\"\r\nagent,31.58055825460998,35.58055825460998,\"If it happens again, just give us a call back.\"\r\ncaller,36.176761010407624,38.176761010407624,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.30378820522951,
+      "end_time": 8.10378820522951,
+      "text": "Thanks for calling. Sarah with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.5074029837128,
+      "end_time": 12.5074029837128,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.691854753121575,
+      "end_time": 16.891854753121574,
+      "text": "hold on... I hear a strange noise"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.350504557291444,
+      "end_time": 21.950504557291445,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.98371805038755,
+      "end_time": 25.48371805038755,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.39253572342053,
+      "end_time": 28.39253572342053,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.351941744531985,
+      "end_time": 31.351941744531985,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.879823480615563,
+      "end_time": 35.37982348061556,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.96980520228601,
+      "end_time": 37.36980520228601,
+      "text": "We appreciate your business."
+    }
+  ]
 }

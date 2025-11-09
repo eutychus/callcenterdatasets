@@ -1,13 +1,110 @@
 {
   "call_id": 683,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Mike",
-    "duration": 39.8,
+    "call_type": "billing",
+    "agent_name": "Lisa",
+    "duration": 63.8,
     "sentiment": "neutral",
-    "issue": "bundle packages",
-    "sale_completed": false,
-    "product_category": "Device"
+    "billing_issue": "payment",
+    "issue_resolved": false,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Thank you. Connecting you to the next available agent.\r\nagent,5.062927464473433,9.662927464473434,Hello! Mike speaking. I'd love to tell you about our latest offers.\r\ncaller,10.794588343784401,14.794588343784401,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.757562996310941,19.557562996310942,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.895819851012696,23.495819851012698,I got it. Let me pull up your account here.\r\nagent,24.710614411220504,29.610614411220503,We have a special promotion running through the end of the month.\r\ncaller,31.14673865484746,33.14673865484746,\"Yeah, sounds good to me\"\r\nagent,33.94887295987223,37.24887295987223,Let me send that information to your email.\r\ncaller,37.94546516693073,39.84546516693073,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.233794244616919,
+      "end_time": 11.43379424461692,
+      "text": "Hi, this is Lisa from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.429096445045623,
+      "end_time": 15.029096445045623,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.828380565040108,
+      "end_time": 17.328380565040106,
+      "text": "what's my current balance"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.00204963233698,
+      "end_time": 22.102049632336982,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.234816789270667,
+      "end_time": 25.83481678927067,
+      "text": "hang on... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.249732070784944,
+      "end_time": 30.849732070784945,
+      "text": "Sure, it's on the bill., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.972740895550512,
+      "end_time": 34.57274089555051,
+      "text": "I have a solution for you, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.369285059702364,
+      "end_time": 39.069285059702366,
+      "text": "well, how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.91345748130507,
+      "end_time": 43.013457481305075,
+      "text": "let me walk you through this, uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.573393388879396,
+      "end_time": 46.473393388879394,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.438983377870905,
+      "end_time": 50.538983377870906,
+      "text": "like, Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.57781055836442,
+      "end_time": 54.17781055836442,
+      "text": "like, here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 54.89093552633014,
+      "end_time": 56.79093552633014,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 57.6577529170041,
+      "end_time": 61.1577529170041,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 61.995688551824486,
+      "end_time": 63.79568855182448,
+      "text": "We appreciate your business."
+    }
+  ]
 }

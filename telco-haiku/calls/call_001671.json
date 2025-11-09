@@ -1,12 +1,87 @@
 {
   "call_id": 1671,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Robert",
-    "duration": 42.9,
-    "sentiment": "neutral",
-    "issue": "router configuration",
-    "issue_resolved": false
+    "call_type": "sales",
+    "agent_name": "Amanda",
+    "duration": 43.6,
+    "sentiment": "positive",
+    "product_category": "TV Package",
+    "inquiry_type": "device",
+    "sale_completed": false,
+    "resolution_type": "the customer wasn't interested"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.8,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.4885299497819915,9.18852994978199,\"Hi, Robert technical support here. Let me help you troubleshoot.\"\r\ncaller,10.476899581078438,13.476899581078438,Hi there. So I've got a problem...\r\ncaller,14.269837940428326,19.769837940428324,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.27156399721436,24.071563997214362,\"I understand, let me look into that for you.\"\r\nagent,25.29782183129217,27.59782183129217,Have you tried restarting your modem?\r\ncaller,29.005729583391027,30.905729583391025,\"Alright, let me try that\"\r\nagent,31.40989555999906,35.50989555999906,I'm going to push a software update to your device.\r\nagent,36.10635270201118,39.80635270201118,Is there anything else I can help you with today?\r\ncaller,40.729790139299965,42.92979013929997,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.3,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.719072306988936,
+      "end_time": 10.319072306988936,
+      "text": "Hey, thanks for calling! This is Amanda. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.32216838291881,
+      "end_time": 13.72216838291881,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.337625002922067,
+      "end_time": 17.637625002922068,
+      "text": "you... you know, I'm interested in a new router"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.002068243296037,
+      "end_time": 22.202068243296036,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.146498371147693,
+      "end_time": 25.246498371147695,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.460512101248025,
+      "end_time": 28.560512101248026,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.989718612986568,
+      "end_time": 31.389718612986567,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.159981256769406,
+      "end_time": 34.35998125676941,
+      "text": "here are your options, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.211429702393325,
+      "end_time": 37.311429702393326,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.20117541863477,
+      "end_time": 40.60117541863477,
+      "text": "No, that's all. Thanks!, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.4929446318346,
+      "end_time": 43.5929446318346,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

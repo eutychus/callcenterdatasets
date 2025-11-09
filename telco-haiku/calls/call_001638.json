@@ -1,12 +1,111 @@
 {
   "call_id": 1638,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Mike",
-    "duration": 38.5,
-    "sentiment": "neutral",
-    "issue": "modem issues",
-    "issue_resolved": true
+    "call_type": "sales",
+    "agent_name": "Robert",
+    "duration": 57.4,
+    "sentiment": "mixed",
+    "product_category": "Device",
+    "inquiry_type": "device",
+    "sale_completed": true,
+    "resolution_type": "the customer wasn't interested"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.832875364923464,8.632875364923464,\"Hi there, Mike here. What device are we troubleshooting today?\"\r\ncaller,10.068747291150014,13.768747291150014,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.330929348850407,17.93092934885041,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.846472405705278,22.746472405705276,\"I understand, let me look into that for you.\"\r\nagent,24.045882035997302,27.845882035997302,What do you see when you open your browser?\r\ncaller,29.572395004418738,31.972395004418736,\"Okay, sure, I can try that\"\r\nagent,32.477277492405356,35.977277492405356,Let me send that information to your email.\r\ncaller,36.56391987594668,38.46391987594668,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.923670519794809,
+      "end_time": 12.12367051979481,
+      "text": "Hello! Robert here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.627994729252677,
+      "end_time": 15.327994729252676,
+      "text": "so, Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.295042987963086,
+      "end_time": 18.695042987963085,
+      "text": "do you offer device payment plans, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.041491913062895,
+      "end_time": 22.041491913062895,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.586298522135404,
+      "end_time": 24.486298522135403,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.955581303284195,
+      "end_time": 27.755581303284195,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.242723352856913,
+      "end_time": 31.042723352856914,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.563858074586655,
+      "end_time": 33.663858074586656,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.77747158294082,
+      "end_time": 37.87747158294082,
+      "text": "kinda, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.65523083943681,
+      "end_time": 41.75523083943681,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.91486788577798,
+      "end_time": 44.61486788577798,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.79707967573999,
+      "end_time": 47.89707967573999,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.795713726502285,
+      "end_time": 50.39571372650229,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.008849085495854,
+      "end_time": 54.108849085495855,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 54.779470483565305,
+      "end_time": 57.379470483565306,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

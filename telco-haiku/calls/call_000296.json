@@ -1,12 +1,87 @@
 {
   "call_id": 296,
   "metadata": {
-    "call_type": "technical",
+    "call_type": "sales",
     "agent_name": "Robert",
-    "duration": 42.1,
+    "duration": 51.2,
     "sentiment": "neutral",
-    "issue": "software update",
-    "issue_resolved": false
+    "product_category": "Bundle",
+    "inquiry_type": "upgrade",
+    "sale_completed": false,
+    "resolution_type": "we scheduled a follow-up"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,Please enter your account number followed by the pound sign.\r\nagent,5.183268898917959,8.48326889891796,Hello! I'm Robert. Let's get your device working again.\r\ncaller,9.612620526178077,13.912620526178078,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.44517014121576,18.64517014121576,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.063988302932227,22.363988302932228,\"I understand, let me look into that for you.\"\r\nagent,24.261176997876458,26.86117699787646,Have you tried restarting your modem?\r\ncaller,27.79606970566001,29.79606970566001,\"Uh-huh, okay, I got it\"\r\nagent,30.503608127321193,34.203608127321196,That should fix it. Let me verify everything looks good.\r\nagent,35.306879222846106,38.40687922284611,Let me send that information to your email.\r\ncaller,39.14162271328706,42.14162271328706,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.501703170243525,
+      "end_time": 12.101703170243525,
+      "text": "Hello! Robert here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.99534931724762,
+      "end_time": 16.09534931724762,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.290177149877724,
+      "end_time": 20.390177149877726,
+      "text": "is there a faster plan I can get"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.990527065399657,
+      "end_time": 25.490527065399657,
+      "text": "I can see why that would be frustrating, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.120326166088667,
+      "end_time": 28.620326166088667,
+      "text": "here's what we can do, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.69424917092179,
+      "end_time": 31.29424917092179,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.238942064442995,
+      "end_time": 35.13894206444299,
+      "text": "you know, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.97975808140963,
+      "end_time": 38.779758081409625,
+      "text": "that sounds good, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.8969762424783,
+      "end_time": 43.996976242478304,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.64681138250249,
+      "end_time": 49.14681138250249,
+      "text": "I think that covers it. Thanks for your help., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.6482051833379,
+      "end_time": 51.2482051833379,
+      "text": "Have a great day!"
+    }
+  ]
 }

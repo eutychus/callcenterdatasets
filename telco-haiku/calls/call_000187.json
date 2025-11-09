@@ -1,12 +1,110 @@
 {
   "call_id": 187,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Emily",
-    "duration": 39.8,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "billing",
+    "agent_name": "Mark",
+    "duration": 58.2,
+    "sentiment": "mixed",
+    "billing_issue": "payment",
+    "issue_resolved": false,
+    "resolution_type": "autopay was activated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Your call is important to us. Please hold while we connect you.\r\nagent,5.989878043582479,9.989878043582479,\"Hi, this is Emily. What can I do for you today?\"\r\ncaller,11.040398708937598,14.340398708937599,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.148684392599911,19.44868439259991,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.000620858330677,23.400620858330676,\"I understand, let me look into that for you.\"\r\nagent,24.684721742337196,29.284721742337197,Can you check if the lights on your router are on?\r\ncaller,30.492502733958815,32.392502733958814,\"Yeah, sounds good to me\"\r\nagent,32.99049651396637,37.29049651396637,\"If it happens again, just give us a call back.\"\r\ncaller,37.80099339419759,39.80099339419759,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.5451187188448845,
+      "end_time": 10.045118718844884,
+      "text": "Hello! Mark speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.590088073342415,
+      "end_time": 12.990088073342415,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.842983038229113,
+      "end_time": 17.042983038229114,
+      "text": "just a second... can I set up autopay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.391617394464,
+      "end_time": 22.791617394463998,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.67718156091746,
+      "end_time": 26.67718156091746,
+      "text": "one moment... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.661824761742437,
+      "end_time": 31.361824761742437,
+      "text": "Yeah, let me find that."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.15319986844522,
+      "end_time": 35.45319986844522,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.51359241296673,
+      "end_time": 37.21359241296673,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.05090763110063,
+      "end_time": 40.25090763110063,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.04664142825025,
+      "end_time": 43.54664142825025,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.5331761996243,
+      "end_time": 47.2331761996243,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.22496097923859,
+      "end_time": 50.524960979238585,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.091867058537964,
+      "end_time": 53.591867058537964,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.16260595614154,
+      "end_time": 56.16260595614154,
+      "text": "Yeah, that's good. Thanks!, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.678211330135476,
+      "end_time": 58.178211330135476,
+      "text": "Have a great day!"
+    }
+  ]
 }

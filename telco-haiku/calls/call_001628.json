@@ -1,12 +1,73 @@
 {
   "call_id": 1628,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Mike",
-    "duration": 39.9,
-    "sentiment": "negative",
-    "issue": "general inquiry",
+    "call_type": "technical",
+    "agent_name": "Patricia",
+    "duration": 38.0,
+    "sentiment": "mixed",
+    "technical_issue": "setup",
     "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.9,Your call is important to us. Please hold while we connect you.\r\nagent,5.867943787733803,9.867943787733804,\"Hello, Mike here. How can I help with your account?\"\r\ncaller,11.294522557504866,14.694522557504866,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.208841714009441,18.508841714009442,\"Yeah, so my internet's been really slow today\"\r\nagent,19.15043223490156,23.05043223490156,\"I understand, let me look into that for you.\"\r\nagent,25.001707236532926,29.801707236532927,Can you check if the lights on your router are on?\r\ncaller,31.04268993133312,32.94268993133312,\"Yeah, sounds good to me\"\r\nagent,33.9423787636603,37.2423787636603,You should see improvement within the next 15 minutes.\r\ncaller,37.779442765059876,39.87944276505988,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.87604849251463,
+      "end_time": 8.77604849251463,
+      "text": "Hi! Patricia from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.394008473370203,
+      "end_time": 13.594008473370202,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.10292373276585,
+      "end_time": 16.602923732765852,
+      "text": "what... what cables do I need"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.06890677471425,
+      "end_time": 20.86890677471425,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.305316047335026,
+      "end_time": 24.705316047335025,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.064119344512555,
+      "end_time": 27.864119344512556,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.449511652261744,
+      "end_time": 32.249511652261745,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.01201126925673,
+      "end_time": 34.51201126925673,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.256167988352544,
+      "end_time": 37.95616798835255,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -1,12 +1,97 @@
 {
   "call_id": 866,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Jennifer",
-    "duration": 37.9,
-    "sentiment": "negative",
-    "issue": "modem issues",
+    "call_type": "general",
+    "agent_name": "Mike",
+    "duration": 46.7,
+    "sentiment": "positive",
+    "issue": "general",
     "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.9,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.301934067527416,10.601934067527417,\"Hi there, Jennifer here. What device are we troubleshooting today?\"\r\ncaller,11.533949755211445,15.733949755211444,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.262696550126634,19.962696550126633,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.32221676986328,22.122216769863282,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.36742563081444,27.767425630814444,Can you check if the lights on your router are on?\r\ncaller,29.015871230715007,30.815871230715008,\"Alright, let me try that\"\r\nagent,31.640923739059367,35.24092373905937,Is there anything else I can help you with today?\r\ncaller,35.83129092094529,37.931290920945294,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.955224495613676,
+      "end_time": 7.855224495613676,
+      "text": "Hi! Mike here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.367324575782895,
+      "end_time": 11.067324575782894,
+      "text": "Thanks for picking up., sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.694472043550432,
+      "end_time": 15.49447204355043,
+      "text": "hold on... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.62480073021393,
+      "end_time": 19.62480073021393,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.806632918103034,
+      "end_time": 22.606632918103035,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.015369247426307,
+      "end_time": 25.815369247426307,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.548823536839883,
+      "end_time": 28.648823536839885,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.77136492673639,
+      "end_time": 31.87136492673639,
+      "text": "what if it doesn't work, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.06179082010428,
+      "end_time": 35.66179082010428,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.86914443190433,
+      "end_time": 38.66914443190433,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.49776931825828,
+      "end_time": 41.797769318258275,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.69299338723931,
+      "end_time": 44.19299338723931,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.95006428777987,
+      "end_time": 46.65006428777987,
+      "text": "Have a great day!"
+    }
+  ]
 }

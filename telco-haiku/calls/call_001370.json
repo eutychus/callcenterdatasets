@@ -1,13 +1,85 @@
 {
   "call_id": 1370,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "James",
-    "duration": 39.3,
-    "sentiment": "negative",
-    "issue": "bundle packages",
-    "sale_completed": false,
-    "product_category": "Mobile Plan"
+    "call_type": "retention",
+    "agent_name": "Mark",
+    "duration": 41.6,
+    "sentiment": "positive",
+    "churn_reason": "leaving",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.3,Your call is important to us. Please hold while we connect you.\r\nagent,4.941955377449892,11.141955377449893,Hi! This is James with our sales team. Are you interested in any of our plans?\r\ncaller,12.039532545041457,15.039532545041457,Hi there. So I've got a problem...\r\ncaller,16.14166251267463,18.94166251267463,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.710124503462282,23.710124503462282,I got it. Let me pull up your account here.\r\nagent,24.763419198585417,28.563419198585418,Our customers are really happy with the new bundled package.\r\ncaller,29.820066831004766,31.720066831004765,\"Alright, let me try that\"\r\nagent,32.63967906464221,36.73967906464221,\"If it happens again, just give us a call back.\"\r\ncaller,37.295829887412715,39.295829887412715,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.042759569442623,
+      "end_time": 9.942759569442623,
+      "text": "Hi, thanks for calling. Mark here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.828689092526243,
+      "end_time": 14.528689092526243,
+      "text": "Hey, thanks. Yeah, I need help with something., uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.283843470422571,
+      "end_time": 17.28384347042257,
+      "text": "I'm done with this company"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.5245403037169,
+      "end_time": 20.9245403037169,
+      "text": "like, I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.544824979195333,
+      "end_time": 23.844824979195334,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.878534188310212,
+      "end_time": 26.378534188310212,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.775516282374667,
+      "end_time": 30.175516282374666,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.729776894558405,
+      "end_time": 33.729776894558405,
+      "text": "um, I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.34407902799912,
+      "end_time": 36.74407902799912,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.2689832801429,
+      "end_time": 39.4689832801429,
+      "text": "That's everything. Thanks so much!, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.31906959633174,
+      "end_time": 41.619069596331734,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

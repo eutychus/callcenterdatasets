@@ -1,12 +1,109 @@
 {
   "call_id": 1792,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Sarah",
-    "duration": 46.2,
-    "sentiment": "positive",
-    "issue": "switching provider",
-    "issue_resolved": true
+    "call_type": "account",
+    "agent_name": "Susan",
+    "duration": 58.2,
+    "sentiment": "neutral",
+    "issue": "general",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.0,Please enter your account number followed by the pound sign.\r\nagent,5.21988223227839,10.61988223227839,Hi! Sarah here. I'd love to make sure we're taking care of you.\r\ncaller,11.932950574346112,16.13295057434611,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.682458066433828,19.882458066433827,\"Yeah, so my internet's been really slow today\"\r\nagent,20.857667000940317,25.557667000940317,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.02725741921246,29.32725741921246,Have you tried restarting your modem?\r\ncaller,30.796429251667092,32.996429251667095,\"Okay, sure, I can try that\"\r\nagent,33.83367493254723,38.533674932547235,Looks like we need to restart your modem. Can you do that?\r\nagent,39.46730701285654,43.367307012856536,Is there anything else I can help you with today?\r\ncaller,44.13673722548103,46.23673722548103,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.655968034810353,
+      "end_time": 8.955968034810354,
+      "text": "Hello! Susan speaking. What can I do with your account today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.631525346292838,
+      "end_time": 12.131525346292838,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.379129628829537,
+      "end_time": 17.479129628829536,
+      "text": "let me check... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.89048857534762,
+      "end_time": 21.79048857534762,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.759058608521094,
+      "end_time": 25.559058608521095,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.272455707735936,
+      "end_time": 29.072455707735937,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.95709233744053,
+      "end_time": 33.757092337440525,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.70330500151656,
+      "end_time": 37.403305001516564,
+      "text": "actually, that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.76236675630354,
+      "end_time": 41.66236675630354,
+      "text": "I can help you with that, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.43797713902891,
+      "end_time": 45.33797713902891,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.91622438057932,
+      "end_time": 47.71622438057932,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.57322958055572,
+      "end_time": 50.67322958055572,
+      "text": "is there a charge, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.75668970206593,
+      "end_time": 53.75668970206593,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.37459091786355,
+      "end_time": 55.87459091786355,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.74295340082178,
+      "end_time": 58.24295340082178,
+      "text": "We appreciate your business."
+    }
+  ]
 }

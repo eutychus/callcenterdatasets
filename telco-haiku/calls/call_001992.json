@@ -2,11 +2,85 @@
   "call_id": 1992,
   "metadata": {
     "call_type": "billing",
-    "agent_name": "David",
-    "duration": 42.6,
+    "agent_name": "Sarah",
+    "duration": 44.3,
     "sentiment": "negative",
-    "issue": "refund request",
-    "issue_resolved": false
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.4,Your call is important to us. Please hold while we connect you.\r\nagent,5.492179171943225,10.492179171943224,Hi! This is David. I'm here to help with any billing questions.\r\ncaller,11.425427669094304,14.025427669094304,Hi there. So I've got a problem...\r\ncaller,14.702900322296493,17.60290032229649,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.357655008362666,20.457655008362668,\"Yeah, let's troubleshoot that together.\"\r\nagent,21.86988171949911,27.069881719499108,Let me check our systems to see if there's an outage in your area.\r\ncaller,28.884809195343912,30.58480919534391,\"Yeah, that sounds good\"\r\nagent,31.178143232932804,35.178143232932804,I'm going to push a software update to your device.\r\nagent,35.89195737053139,39.691957370531384,Is there anything else I can help you with today?\r\ncaller,40.68734847820375,42.58734847820375,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.385841696476042,
+      "end_time": 10.285841696476043,
+      "text": "Hello! Sarah speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.229873329327656,
+      "end_time": 14.929873329327656,
+      "text": "Hi! So I've been having some trouble., uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.25294116311747,
+      "end_time": 19.152941163117468,
+      "text": "sorta,... sorta, do you have any promotions"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.681400068158542,
+      "end_time": 23.181400068158542,
+      "text": "you know, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.79216701942157,
+      "end_time": 26.29216701942157,
+      "text": "wait... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.300778746069685,
+      "end_time": 29.500778746069685,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.1877062010241,
+      "end_time": 33.2877062010241,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.29295557739164,
+      "end_time": 35.192955577391636,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.784649282801006,
+      "end_time": 39.284649282801006,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.09908834877701,
+      "end_time": 41.899088348777006,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.66947923156473,
+      "end_time": 44.26947923156473,
+      "text": "We appreciate your business."
+    }
+  ]
 }

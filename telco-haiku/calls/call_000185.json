@@ -1,12 +1,110 @@
 {
   "call_id": 185,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Sarah",
-    "duration": 40.4,
+    "call_type": "billing",
+    "agent_name": "Mike",
+    "duration": 61.1,
     "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "billing_issue": "payment",
+    "issue_resolved": true,
+    "resolution_type": "we applied a credit"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.8,Your call is important to us. Please hold while we connect you.\r\nagent,5.728105740844742,8.828105740844743,Hello! Sarah here. How may I assist you?\r\ncaller,10.284415137417476,13.884415137417475,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.614150705668708,17.214150705668708,\"Um, I can't... I keep getting disconnected\"\r\nagent,17.522752713271032,21.22275271327103,\"I understand, let me look into that for you.\"\r\nagent,23.06353217568016,28.86353217568016,Let me check our systems to see if there's an outage in your area.\r\ncaller,29.971075498321333,31.971075498321333,\"Uh-huh, okay, I got it\"\r\nagent,32.78150094168983,36.581500941689825,You should see improvement within the next 15 minutes.\r\ncaller,37.111746533120495,40.41174653312049,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.716059738326249,
+      "end_time": 11.31605973832625,
+      "text": "Hi, this is Mike from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.051088617603416,
+      "end_time": 15.251088617603415,
+      "text": "Thanks for picking up., so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.537665872756122,
+      "end_time": 21.137665872756124,
+      "text": "just a second... what payment methods do you accept, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.685489840368504,
+      "end_time": 24.585489840368503,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.60592144761699,
+      "end_time": 28.005921447616988,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.864127340140904,
+      "end_time": 30.764127340140902,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.101645168191574,
+      "end_time": 34.601645168191574,
+      "text": "so, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.57554356343079,
+      "end_time": 38.57554356343079,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.37825403235388,
+      "end_time": 41.87825403235388,
+      "text": "here's what we can do, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.00259445954564,
+      "end_time": 44.702594459545644,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.056221120500986,
+      "end_time": 48.15622112050099,
+      "text": "like, There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.04288897510088,
+      "end_time": 51.14288897510088,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.867826085937594,
+      "end_time": 55.76782608593759,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.7244969339146,
+      "end_time": 58.924496933914604,
+      "text": "um, Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 59.29943165990007,
+      "end_time": 61.09943165990007,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

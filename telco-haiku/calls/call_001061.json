@@ -2,11 +2,96 @@
   "call_id": 1061,
   "metadata": {
     "call_type": "technical",
-    "agent_name": "Emily",
-    "duration": 46.3,
-    "sentiment": "negative",
-    "issue": "connection setup",
-    "issue_resolved": false
+    "agent_name": "Mark",
+    "duration": 53.0,
+    "sentiment": "neutral",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.6,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.519184409023065,8.819184409023066,\"Hi there, Emily here. What device are we troubleshooting today?\"\r\ncaller,9.689779312131375,13.589779312131375,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.33472182309689,19.43472182309689,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.133212003432668,24.633212003432668,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.925032179207104,30.025032179207102,Can you check if the lights on your router are on?\r\ncaller,31.376271268376527,33.37627126837653,\"Uh-huh, okay, I got it\"\r\nagent,34.29357032878694,38.493570328786944,That should fix it. Let me verify everything looks good.\r\nagent,39.80481221445942,43.50481221445942,You should see improvement within the next 15 minutes.\r\ncaller,44.29108289017048,46.29108289017048,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.101589326457978,
+      "end_time": 8.901589326457977,
+      "text": "Hi! Mark from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.001182460349039,
+      "end_time": 13.80118246034904,
+      "text": "Hey, thanks. Yeah, I need help with something., you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.019883689764676,
+      "end_time": 17.019883689764676,
+      "text": "my... my modem is overheating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.475369419648818,
+      "end_time": 21.27536941964882,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.542915753423948,
+      "end_time": 26.34291575342395,
+      "text": "let me see if there's an outage in your area"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.86484779916384,
+      "end_time": 29.36484779916384,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.001427135173177,
+      "end_time": 32.101427135173175,
+      "text": "actually, let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.34788298021986,
+      "end_time": 34.54788298021986,
+      "text": "sorta, yeah, okay"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.560788862787106,
+      "end_time": 37.76078886278711,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.910661965726675,
+      "end_time": 41.21066196572667,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.95216973625182,
+      "end_time": 45.752169736251815,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.750309141660054,
+      "end_time": 50.850309141660055,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.387002350909235,
+      "end_time": 52.987002350909236,
+      "text": "Have a great day!"
+    }
+  ]
 }

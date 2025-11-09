@@ -1,12 +1,73 @@
 {
   "call_id": 434,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "David",
-    "duration": 44.0,
+    "call_type": "technical",
+    "agent_name": "Sarah",
+    "duration": 37.2,
     "sentiment": "positive",
-    "issue": "considering leaving",
-    "issue_resolved": true
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Thank you. Connecting you to the next available agent.\r\nagent,4.803338121574647,9.803338121574647,Hi! David here. I'd love to make sure we're taking care of you.\r\ncaller,10.636262504596617,13.336262504596618,Hi there. So I've got a problem...\r\ncaller,13.838282591522297,19.2382825915223,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,19.954692141098093,21.954692141098093,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.310551066067255,29.010551066067254,Let me check our systems to see if there's an outage in your area.\r\ncaller,30.07964500988981,31.77964500988981,\"Yeah, that sounds good\"\r\nagent,32.605525649747975,36.90552564974797,I think I found the issue. Let me reset your connection.\r\nagent,38.288986043392505,41.48898604339251,Let me send that information to your email.\r\ncaller,42.178046097609744,43.97804609760974,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.721404715598885,
+      "end_time": 8.921404715598886,
+      "text": "Hi! Sarah from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.47261828729321,
+      "end_time": 14.07261828729321,
+      "text": "Hi! So I've been having some trouble., so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.27461299026876,
+      "end_time": 17.07461299026876,
+      "text": "hold on... it's not responding"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.285358757857217,
+      "end_time": 20.185358757857216,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.647079247826838,
+      "end_time": 23.74707924782684,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.73751074277967,
+      "end_time": 27.03751074277967,
+      "text": "that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.473144520822135,
+      "end_time": 30.473144520822135,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.14752280185427,
+      "end_time": 35.04752280185427,
+      "text": "well, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.421874559230204,
+      "end_time": 37.2218745592302,
+      "text": "Have a great day!"
+    }
+  ]
 }

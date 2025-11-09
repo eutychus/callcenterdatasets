@@ -1,12 +1,111 @@
 {
   "call_id": 1822,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "David",
-    "duration": 39.3,
-    "sentiment": "positive",
-    "issue": "cancellation",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Susan",
+    "duration": 56.6,
+    "sentiment": "negative",
+    "issue_category": "device",
+    "issue": "device",
+    "issue_resolved": "partial",
+    "resolution_type": "we identified a network issue and it should be fixed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.1,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.218762155195231,11.21876215519523,\"Good day, David here. What billing matter can I help you with?\"\r\ncaller,12.648401482531764,15.648401482531764,Hi there. So I've got a problem...\r\ncaller,16.69002049063129,20.69002049063129,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,21.20480828676627,23.30480828676627,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.660978770941934,28.560978770941933,What do you see when you open your browser?\r\ncaller,29.39618727818076,31.89618727818076,\"Okay, sure, I can try that\"\r\nagent,32.78846719491186,36.98846719491186,\"If it happens again, just give us a call back.\"\r\ncaller,37.520846997148595,39.32084699714859,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.737087477455203,
+      "end_time": 10.937087477455204,
+      "text": "Hi there! Susan speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.517587743952813,
+      "end_time": 14.017587743952813,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.347565334343775,
+      "end_time": 18.347565334343777,
+      "text": "I can't get my device to connect"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.43065314010827,
+      "end_time": 22.13065314010827,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.195848714948887,
+      "end_time": 25.995848714948888,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.579925954382578,
+      "end_time": 29.87992595438258,
+      "text": "like, Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.54541795926324,
+      "end_time": 33.94541795926324,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.65109873529844,
+      "end_time": 36.75109873529844,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.59600847537834,
+      "end_time": 39.79600847537834,
+      "text": "actually, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.78715738594205,
+      "end_time": 41.887157385942054,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.90650043831939,
+      "end_time": 45.606500438319394,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.49099513977659,
+      "end_time": 49.19099513977659,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.083563424398235,
+      "end_time": 51.583563424398235,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.292738615334535,
+      "end_time": 54.09273861533453,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 54.836019835140874,
+      "end_time": 56.63601983514087,
+      "text": "We appreciate your business."
+    }
+  ]
 }

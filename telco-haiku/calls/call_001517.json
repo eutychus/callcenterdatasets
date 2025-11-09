@@ -3,10 +3,107 @@
   "metadata": {
     "call_type": "technical",
     "agent_name": "Sarah",
-    "duration": 40.3,
-    "sentiment": "neutral",
-    "issue": "signal strength",
-    "issue_resolved": true
+    "duration": 54.4,
+    "sentiment": "positive",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Thank you. Connecting you to the next available agent.\r\nagent,5.233544099029261,8.933544099029262,Hello! I'm Sarah. Let's get your device working again.\r\ncaller,10.29594783594939,13.79594783594939,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.775582274120076,19.675582274120075,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.526619106540558,24.82661910654056,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,26.013003761661167,29.413003761661166,What do you see when you open your browser?\r\ncaller,30.22099129569332,32.12099129569332,\"Uh-huh, okay, I got it\"\r\nagent,32.90689773039657,36.20689773039657,You should see improvement within the next 15 minutes.\r\ncaller,37.06299539895394,40.26299539895394,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.585661550806026,
+      "end_time": 7.485661550806025,
+      "text": "Thanks for calling. Sarah with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.640046893576269,
+      "end_time": 11.44004689357627,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.048861210010733,
+      "end_time": 14.148861210010732,
+      "text": "there are lights flashing oddly"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 15.211940342246848,
+      "end_time": 17.211940342246848,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.45912637367121,
+      "end_time": 20.65912637367121,
+      "text": "let's try restarting the device, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 22.316483267004447,
+      "end_time": 24.816483267004447,
+      "text": "what if it doesn't work, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.809798244495244,
+      "end_time": 30.109798244495245,
+      "text": "let me see if there's an outage in your area"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.02217355310594,
+      "end_time": 32.822173553105934,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.38618267824432,
+      "end_time": 36.08618267824432,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.92999699600581,
+      "end_time": 38.629996996005815,
+      "text": "that seems complicated, kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.44563467546109,
+      "end_time": 41.045634675461095,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.930129508097274,
+      "end_time": 44.73012950809727,
+      "text": "basically, I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.38510361854854,
+      "end_time": 47.38510361854854,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.32550941682668,
+      "end_time": 51.52550941682668,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.347011202945716,
+      "end_time": 54.44701120294572,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

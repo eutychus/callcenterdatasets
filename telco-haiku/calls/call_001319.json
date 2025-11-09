@@ -1,12 +1,73 @@
 {
   "call_id": 1319,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "David",
-    "duration": 42.5,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "technical",
+    "agent_name": "Chris",
+    "duration": 36.7,
+    "sentiment": "mixed",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.627645182359359,8.727645182359359,\"Hi, this is David. What can I do for you today?\"\r\ncaller,9.741124170629309,13.54112417062931,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.67015369077217,19.37015369077217,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.031179207088428,23.431179207088427,\"I understand, let me look into that for you.\"\r\nagent,24.974457875790876,30.574457875790877,Let me check our systems to see if there's an outage in your area.\r\ncaller,32.177697258595074,34.47769725859507,\"Okay, sure, I can try that\"\r\nagent,35.455479646595094,39.35547964659509,\"If it happens again, just give us a call back.\"\r\ncaller,40.28437469161661,42.484374691616615,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.437496952780504,
+      "end_time": 8.137496952780504,
+      "text": "Thanks for calling. Chris with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.958039346476955,
+      "end_time": 12.258039346476956,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.655617519754397,
+      "end_time": 16.055617519754396,
+      "text": "let me check... it's not responding"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.04182055725449,
+      "end_time": 20.74182055725449,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.410396249069077,
+      "end_time": 24.610396249069076,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.009669991593775,
+      "end_time": 28.209669991593774,
+      "text": "um, alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.542009719959783,
+      "end_time": 31.242009719959782,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.940996472579204,
+      "end_time": 34.140996472579204,
+      "text": "basically, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.60745040518684,
+      "end_time": 36.70745040518684,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

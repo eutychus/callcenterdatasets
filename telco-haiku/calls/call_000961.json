@@ -1,12 +1,109 @@
 {
   "call_id": 961,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "David",
-    "duration": 42.7,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "account",
+    "agent_name": "Lisa",
+    "duration": 57.5,
+    "sentiment": "mixed",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.287666051781882,7.787666051781882,Hello! David here. How may I assist you?\r\ncaller,8.593560956676784,12.593560956676784,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,13.535278148138193,16.035278148138193,\"Um, I can't... I keep getting disconnected\"\r\nagent,16.403543983837075,21.103543983837074,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,22.999700138518577,26.59970013851858,What do you see when you open your browser?\r\ncaller,27.453800665180612,29.953800665180612,\"Okay, sure, I can try that\"\r\nagent,30.649377549713,35.049377549713,That should fix it. Let me verify everything looks good.\r\nagent,35.84794635820139,39.74794635820139,\"If it happens again, just give us a call back.\"\r\ncaller,40.382954540323496,42.68295454032349,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.448570573649151,
+      "end_time": 8.74857057364915,
+      "text": "Hi, Lisa with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.176853961198294,
+      "end_time": 11.876853961198293,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.783372320078223,
+      "end_time": 15.683372320078224,
+      "text": "I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.218050457105544,
+      "end_time": 19.118050457105543,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.89661053240554,
+      "end_time": 23.49661053240554,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.15251048047798,
+      "end_time": 27.75251048047798,
+      "text": "It's starting with a C... CUST12345., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.45986434501443,
+      "end_time": 32.159864345014434,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.90550428162828,
+      "end_time": 35.40550428162828,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.391905447574075,
+      "end_time": 37.99190544757408,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.885619209435774,
+      "end_time": 41.985619209435775,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.014124695627004,
+      "end_time": 46.114124695627005,
+      "text": "actually, Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.04602676296244,
+      "end_time": 49.64602676296244,
+      "text": "let me walk you through this, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.20267130460028,
+      "end_time": 52.60267130460028,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.5161623080958,
+      "end_time": 55.216162308095804,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.745974835066235,
+      "end_time": 57.54597483506623,
+      "text": "We appreciate your business."
+    }
+  ]
 }

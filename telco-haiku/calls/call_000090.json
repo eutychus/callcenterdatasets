@@ -1,12 +1,110 @@
 {
   "call_id": 90,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Robert",
-    "duration": 42.3,
-    "sentiment": "negative",
-    "issue": "switching provider",
-    "issue_resolved": true
+    "call_type": "billing",
+    "agent_name": "Jennifer",
+    "duration": 56.8,
+    "sentiment": "neutral",
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.7,Your call is important to us. Please hold while we connect you.\r\nagent,5.808993693559693,10.808993693559692,\"Hello, this is Robert. I see you've been with us for a while.\"\r\ncaller,12.28350916993552,15.083509169935521,Hi there. So I've got a problem...\r\ncaller,15.676869451646786,19.876869451646787,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.700768257761325,25.000768257761326,I got it. Let me pull up your account here.\r\nagent,26.54857422912084,29.94857422912084,What do you see when you open your browser?\r\ncaller,31.49757533616731,33.59757533616731,\"Alright, let me try that\"\r\nagent,34.558171218375854,38.158171218375855,You should see improvement within the next 15 minutes.\r\ncaller,39.00532720523952,42.305327205239514,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.1,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.73720760893991,
+      "end_time": 11.23720760893991,
+      "text": "Hi, this is Jennifer from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.811899916980282,
+      "end_time": 15.611899916980281,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.904955098631017,
+      "end_time": 18.604955098631017,
+      "text": "can you lower my bill"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.606334733930822,
+      "end_time": 23.30633473393082,
+      "text": "I completely understand your frustration, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.991116558509173,
+      "end_time": 26.591116558509174,
+      "text": "let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.50718004919192,
+      "end_time": 29.60718004919192,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.107814464496595,
+      "end_time": 32.70781446449659,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.626741286022764,
+      "end_time": 35.82674128602277,
+      "text": "are you sure about that, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.60859807748755,
+      "end_time": 38.30859807748755,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.217676593976954,
+      "end_time": 42.317676593976955,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.184139619622364,
+      "end_time": 44.88413961962237,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.81292902527389,
+      "end_time": 47.31292902527389,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.02720302575653,
+      "end_time": 51.927203025756526,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.584343161982105,
+      "end_time": 54.3843431619821,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.21793473755158,
+      "end_time": 56.81793473755158,
+      "text": "We appreciate your business."
+    }
+  ]
 }

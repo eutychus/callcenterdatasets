@@ -1,12 +1,109 @@
 {
   "call_id": 224,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Jennifer",
-    "duration": 44.4,
-    "sentiment": "negative",
-    "issue": "considering leaving",
+    "call_type": "general",
+    "agent_name": "Sarah",
+    "duration": 53.8,
+    "sentiment": "positive",
+    "issue": "general",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.2,Please enter your account number followed by the pound sign.\r\nagent,4.999507695959393,10.399507695959393,Hi! Jennifer here. I'd love to make sure we're taking care of you.\r\ncaller,11.510289241501408,14.910289241501408,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.51941037669154,19.719410376691542,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.371717172648065,23.871717172648065,\"I understand, let me look into that for you.\"\r\nagent,25.295337938154567,28.795337938154567,\"Okay, and how long has this been happening?\"\r\ncaller,30.197584863145288,32.597584863145286,\"Okay, sure, I can try that\"\r\nagent,33.17598518173743,37.57598518173743,That should fix it. Let me verify everything looks good.\r\nagent,38.20111853776574,41.70111853776574,You should see improvement within the next 15 minutes.\r\ncaller,42.22911694874654,44.42911694874654,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.1,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.561370718719891,
+      "end_time": 6.861370718719891,
+      "text": "Hello, thanks for calling. Sarah speaking."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 7.768893350355913,
+      "end_time": 10.668893350355914,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.342403010466612,
+      "end_time": 15.342403010466612,
+      "text": "you... you know, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.699626265640514,
+      "end_time": 19.699626265640514,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.215683026486595,
+      "end_time": 23.115683026486593,
+      "text": "like, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.046608660544223,
+      "end_time": 25.44660866054422,
+      "text": "um, that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.32954105242407,
+      "end_time": 28.32954105242407,
+      "text": "uh, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.80332376816316,
+      "end_time": 31.80332376816316,
+      "text": "like, are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.664310359515504,
+      "end_time": 35.264310359515505,
+      "text": "kinda, here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.54694268805073,
+      "end_time": 38.446942688050726,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.75604057348724,
+      "end_time": 41.55604057348724,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.660864667522326,
+      "end_time": 44.36086466752233,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.08575450301006,
+      "end_time": 47.28575450301006,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.217050844755576,
+      "end_time": 51.617050844755575,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.15315057733493,
+      "end_time": 53.75315057733493,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,13 +1,97 @@
 {
   "call_id": 764,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 43.6,
-    "sentiment": "neutral",
-    "issue": "getting disconnected",
-    "issue_resolved": true,
-    "resolution_type": "partial resolution"
+    "call_type": "technical",
+    "agent_name": "Lisa",
+    "duration": 54.1,
+    "sentiment": "negative",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.4,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.772918176567544,10.672918176567546,Good day! Jennifer here from our support team. What can I assist with?\r\ncaller,11.863049366074392,15.463049366074392,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.458313809928516,20.658313809928515,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,21.61489075450224,23.51489075450224,\"Yeah, let's troubleshoot that together.\"\r\nagent,25.464581256855457,27.964581256855457,Have you tried restarting your modem?\r\ncaller,29.459842300311173,31.559842300311175,\"Alright, let me try that\"\r\nagent,32.46997617455052,36.56997617455052,I'm going to push a software update to your device.\r\nagent,37.32798514760451,40.627985147604505,Let me send that information to your email.\r\ncaller,41.377805471540434,43.57780547154044,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.374935210253767,
+      "end_time": 10.374935210253767,
+      "text": "Hello, Lisa here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.021545258833322,
+      "end_time": 13.721545258833322,
+      "text": "Thanks for picking up., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.86965967023081,
+      "end_time": 17.86965967023081,
+      "text": "just a second... there are lights flashing oddly"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.52172414728706,
+      "end_time": 22.62172414728706,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.629475212449844,
+      "end_time": 26.729475212449845,
+      "text": "uh, what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.910091047053815,
+      "end_time": 29.410091047053815,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.90591060989415,
+      "end_time": 34.60591060989415,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.56570487823945,
+      "end_time": 38.265704878239454,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.75777950006715,
+      "end_time": 42.65777950006715,
+      "text": "try unplugging it for 30 seconds, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.80511338739724,
+      "end_time": 45.505113387397245,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.9570583168474,
+      "end_time": 50.157058316847404,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.99532458112764,
+      "end_time": 52.69532458112764,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.10364586187458,
+      "end_time": 54.10364586187458,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

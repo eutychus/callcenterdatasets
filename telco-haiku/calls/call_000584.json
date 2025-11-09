@@ -1,12 +1,85 @@
 {
   "call_id": 584,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 44.4,
+    "call_type": "technical",
+    "agent_name": "Robert",
+    "duration": 46.5,
     "sentiment": "positive",
-    "issue": "general inquiry",
+    "technical_issue": "setup",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Your call is important to us. Please hold while we connect you.\r\nagent,5.701705439399536,10.001705439399537,\"Hi, this is Lisa. What can I do for you today?\"\r\ncaller,11.200792719807865,14.200792719807865,Hi there. So I've got a problem...\r\ncaller,15.34433764828896,17.84433764828896,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.213190936770047,22.31319093677005,I got it. Let me pull up your account here.\r\nagent,23.34352479709679,26.34352479709679,\"Okay, and how long has this been happening?\"\r\ncaller,27.65708913988989,29.55708913988989,\"Alright, let me try that\"\r\nagent,30.279647362101038,35.47964736210104,Looks like we need to restart your modem. Can you do that?\r\nagent,36.34844760780042,39.948447607800425,You should see improvement within the next 15 minutes.\r\ncaller,40.94515920941407,44.44515920941407,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.314690399486254,
+      "end_time": 9.814690399486254,
+      "text": "Hi! Robert from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.934306850580018,
+      "end_time": 13.034306850580018,
+      "text": "like, Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.68151411278878,
+      "end_time": 17.28151411278878,
+      "text": "uh,... uh, can you walk me through the setup"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.14567155351652,
+      "end_time": 22.245671553516523,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.297379402471375,
+      "end_time": 25.997379402471374,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.648728532079904,
+      "end_time": 29.348728532079903,
+      "text": "so, will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.74198143608391,
+      "end_time": 34.74198143608391,
+      "text": "can you check if the lights are green, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.19124614268871,
+      "end_time": 38.49124614268871,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.338545111432744,
+      "end_time": 40.938545111432745,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.87219053021282,
+      "end_time": 43.87219053021282,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.69906417100384,
+      "end_time": 46.49906417100384,
+      "text": "We appreciate your business."
+    }
+  ]
 }

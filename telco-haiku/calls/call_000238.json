@@ -1,13 +1,109 @@
 {
   "call_id": 238,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "James",
-    "duration": 39.9,
-    "sentiment": "positive",
-    "issue": "line quality",
-    "issue_resolved": false,
-    "resolution_type": "callback needed"
+    "call_type": "account",
+    "agent_name": "Amanda",
+    "duration": 59.9,
+    "sentiment": "mixed",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Thank you. Connecting you to the next available agent.\r\nagent,5.023253669597196,9.623253669597196,\"Hello, thanks for calling. I'm James. What seems to be the issue?\"\r\ncaller,10.665330797294075,14.265330797294075,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.984553060136083,18.084553060136084,\"Yeah, so my internet's been really slow today\"\r\nagent,18.87207291733987,20.87207291733987,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.513170052936985,24.713170052936984,Have you tried restarting your modem?\r\ncaller,25.7819872814435,27.2819872814435,\"Yeah, that sounds good\"\r\nagent,28.278757467133346,32.07875746713334,That should fix it. Let me verify everything looks good.\r\nagent,32.66677418718362,36.96677418718362,\"If it happens again, just give us a call back.\"\r\ncaller,37.73555337181401,39.93555337181401,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.287455448793203,
+      "end_time": 8.887455448793203,
+      "text": "Hi, Amanda with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.766587589764097,
+      "end_time": 12.966587589764096,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.910675929053562,
+      "end_time": 17.310675929053563,
+      "text": "um, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.499468406562073,
+      "end_time": 22.099468406562075,
+      "text": "that must be really annoying, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.51899015680824,
+      "end_time": 26.11899015680824,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.945737072968843,
+      "end_time": 29.745737072968844,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.33447927496392,
+      "end_time": 32.93447927496392,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.90292277136106,
+      "end_time": 37.20292277136106,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.65091077123285,
+      "end_time": 40.45091077123285,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.91990127026484,
+      "end_time": 43.01990127026484,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.77311906696327,
+      "end_time": 47.17311906696327,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.97358514606517,
+      "end_time": 50.67358514606517,
+      "text": "well, I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.24640614430867,
+      "end_time": 53.04640614430867,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.58475803814867,
+      "end_time": 58.18475803814867,
+      "text": "like, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.68458421117721,
+      "end_time": 59.88458421117721,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

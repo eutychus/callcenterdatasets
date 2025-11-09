@@ -1,12 +1,111 @@
 {
   "call_id": 565,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Mike",
-    "duration": 43.0,
+    "call_type": "support",
+    "agent_name": "Robert",
+    "duration": 61.9,
     "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "issue_category": "billing_issue",
+    "issue": "billing_issue",
+    "issue_resolved": true,
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.283648335798357,8.583648335798356,\"Hi, this is Mike. What can I do for you today?\"\r\ncaller,9.616409272519803,13.016409272519804,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.051230695871999,18.851230695871998,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.410043058209663,24.110043058209662,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.620940069225814,31.120940069225814,Let me check our systems to see if there's an outage in your area.\r\ncaller,32.04721173074523,34.147211730745234,\"Uh-huh, okay, I got it\"\r\nagent,34.83194868747265,38.53194868747265,\"If it happens again, just give us a call back.\"\r\ncaller,39.47102715794687,42.97102715794687,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.117982942948606,
+      "end_time": 10.017982942948606,
+      "text": "Good, this is Robert. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.014261965216251,
+      "end_time": 14.11426196521625,
+      "text": "well, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.138139404699285,
+      "end_time": 17.238139404699286,
+      "text": "wait... I was charged twice"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.45075235700174,
+      "end_time": 22.15075235700174,
+      "text": "actually, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.639715356439233,
+      "end_time": 25.839715356439232,
+      "text": "hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.85307844684271,
+      "end_time": 30.553078446842708,
+      "text": "um, It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.296066586342114,
+      "end_time": 33.796066586342114,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.58462961126395,
+      "end_time": 36.68462961126395,
+      "text": "actually, yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.231895034615654,
+      "end_time": 40.331895034615656,
+      "text": "let me walk you through this, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.24438870165538,
+      "end_time": 44.444388701655384,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.04999759944599,
+      "end_time": 47.74999759944599,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.45393005829573,
+      "end_time": 51.35393005829573,
+      "text": "like, is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.6591280941936,
+      "end_time": 55.3591280941936,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.23223322227646,
+      "end_time": 58.53223322227646,
+      "text": "That's everything. Thanks so much!, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 59.51880537542159,
+      "end_time": 61.91880537542159,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

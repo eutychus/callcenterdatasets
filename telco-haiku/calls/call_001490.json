@@ -1,13 +1,98 @@
 {
   "call_id": 1490,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Robert",
-    "duration": 46.3,
+    "call_type": "billing",
+    "agent_name": "Mike",
+    "duration": 53.4,
     "sentiment": "negative",
-    "issue": "getting disconnected",
-    "issue_resolved": false,
-    "resolution_type": "callback needed"
+    "billing_issue": "dispute",
+    "issue_resolved": true,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.650072398111191,9.650072398111192,Good day! Robert here from our support team. What can I assist with?\r\ncaller,10.568745689303077,14.568745689303077,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.557780372957138,18.55778037295714,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.041981541244784,23.341981541244785,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.075752113671882,30.97575211367188,Let me check our systems to see if there's an outage in your area.\r\ncaller,32.156563325056375,34.156563325056375,\"Alright, let me try that\"\r\nagent,34.772008420497905,38.772008420497905,I'm going to push a software update to your device.\r\nagent,39.583236813769496,43.2832368137695,Is there anything else I can help you with today?\r\ncaller,43.91529960259905,46.31529960259905,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.264064137342768,
+      "end_time": 11.364064137342767,
+      "text": "Hi, this is Mike from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.338850808878359,
+      "end_time": 15.438850808878358,
+      "text": "uh, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.86776822784131,
+      "end_time": 18.96776822784131,
+      "text": "one moment... I was overcharged"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.181107089286517,
+      "end_time": 23.181107089286517,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.966032692215375,
+      "end_time": 26.666032692215374,
+      "text": "I'm... I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.420750680352423,
+      "end_time": 31.120750680352423,
+      "text": "actually, Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.12004457473465,
+      "end_time": 34.82004457473465,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.36155548930493,
+      "end_time": 39.061555489304936,
+      "text": "actually, will that really fix it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.53862535358273,
+      "end_time": 42.33862535358273,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.89653957637539,
+      "end_time": 44.99653957637539,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.52099902522077,
+      "end_time": 47.72099902522077,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.47437846996479,
+      "end_time": 50.17437846996479,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.001582188992096,
+      "end_time": 53.401582188992094,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -2,11 +2,72 @@
   "call_id": 1199,
   "metadata": {
     "call_type": "technical",
-    "agent_name": "James",
-    "duration": 45.3,
-    "sentiment": "positive",
-    "issue": "connection setup",
-    "issue_resolved": false
+    "agent_name": "Robert",
+    "duration": 43.8,
+    "sentiment": "neutral",
+    "technical_issue": "setup",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.1,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.198792017151445,8.098792017151444,Hello! I'm James. Let's get your device working again.\r\ncaller,9.319923317256839,12.119923317256838,Hi there. So I've got a problem...\r\ncaller,13.073037669686272,16.573037669686272,\"Yeah, so my internet's been really slow today\"\r\nagent,17.285271944698973,21.985271944698972,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,23.62388898877346,28.72388898877346,Let me check our systems to see if there's an outage in your area.\r\ncaller,30.170579952223264,32.770579952223265,\"Okay, sure, I can try that\"\r\nagent,33.65154240411775,37.55154240411775,That should fix it. Let me verify everything looks good.\r\nagent,38.90818542094529,42.60818542094529,\"If it happens again, just give us a call back.\"\r\ncaller,43.118622992310584,45.31862299231059,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.757309174569665,
+      "end_time": 8.357309174569664,
+      "text": "Thanks for calling. Robert with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.767320295151142,
+      "end_time": 11.267320295151142,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.475442469054846,
+      "end_time": 18.375442469054846,
+      "text": "wait... you know, I just got my modem and don't know how to set it up"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.020789204140403,
+      "end_time": 22.820789204140404,
+      "text": "let me help you resolve this, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.21920090270934,
+      "end_time": 26.619200902709338,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.522967231498697,
+      "end_time": 30.6229672314987,
+      "text": "I can do that, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.866353161135294,
+      "end_time": 35.16635316113529,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.08144162001383,
+      "end_time": 40.58144162001383,
+      "text": "well, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.54697705506641,
+      "end_time": 43.846977055066404,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

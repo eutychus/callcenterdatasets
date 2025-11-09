@@ -1,12 +1,111 @@
 {
   "call_id": 31,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 44.8,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "sales",
+    "agent_name": "Mark",
+    "duration": 54.1,
+    "sentiment": "positive",
+    "product_category": "Add-on",
+    "inquiry_type": "device",
+    "sale_completed": false,
+    "resolution_type": "the customer purchased an upgrade"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.7,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.979117868603264,10.179117868603264,Hello! Lisa here. How may I assist you?\r\ncaller,11.058936516490252,15.358936516490253,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.10349920232092,18.803499202320918,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.206010155115305,23.306010155115302,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,24.458879944121236,27.058879944121237,Have you tried restarting your modem?\r\ncaller,28.61241847066328,30.71241847066328,\"Uh-huh, okay, I got it\"\r\nagent,31.592357045467153,35.89235704546715,I'm going to push a software update to your device.\r\nagent,37.019574452366925,40.619574452366926,You should see improvement within the next 15 minutes.\r\ncaller,41.35403499413011,44.75403499413011,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.043439428557472,
+      "end_time": 9.443439428557472,
+      "text": "Hi! Welcome to Telecom Haiku. Mark speaking. What brings you in today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.15856588815103,
+      "end_time": 13.758565888151029,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.724816348996635,
+      "end_time": 16.124816348996635,
+      "text": "what phones are available"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.5967940342665,
+      "end_time": 22.0967940342665,
+      "text": "so, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.010724204845125,
+      "end_time": 25.710724204845125,
+      "text": "here's what we can do, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.205695716090005,
+      "end_time": 28.705695716090005,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.43571434209327,
+      "end_time": 31.73571434209327,
+      "text": "basically, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.94079148293708,
+      "end_time": 34.64079148293708,
+      "text": "that seems complicated, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.492967651269076,
+      "end_time": 38.19296765126908,
+      "text": "here's what we can do, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.1813559003249,
+      "end_time": 41.0813559003249,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.65568631176793,
+      "end_time": 44.15568631176793,
+      "text": "Actually, there's one more thing..., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.703263870933725,
+      "end_time": 46.703263870933725,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.38986421727713,
+      "end_time": 49.88986421727713,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.39773010071174,
+      "end_time": 51.79773010071174,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.468322453500896,
+      "end_time": 54.0683224535009,
+      "text": "We appreciate your business."
+    }
+  ]
 }

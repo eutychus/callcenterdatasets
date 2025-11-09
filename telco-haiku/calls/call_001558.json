@@ -1,13 +1,99 @@
 {
   "call_id": 1558,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Mike",
-    "duration": 43.2,
-    "sentiment": "positive",
-    "issue": "can't access account",
-    "issue_resolved": true,
-    "resolution_type": "scheduled followup"
+    "call_type": "sales",
+    "agent_name": "Amanda",
+    "duration": 50.8,
+    "sentiment": "neutral",
+    "product_category": "Mobile Plan",
+    "inquiry_type": "device",
+    "sale_completed": true,
+    "resolution_type": "they added a service"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.413076766189281,9.51307676618928,\"Hello, thanks for calling. I'm Mike. What seems to be the issue?\"\r\ncaller,10.859342122715272,14.559342122715272,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.479710653195664,19.179710653195663,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.548127974810253,21.548127974810253,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.432168529293445,25.632168529293445,Have you tried restarting your modem?\r\ncaller,27.330697645077734,29.430697645077736,\"Alright, let me try that\"\r\nagent,30.31830765092133,34.51830765092133,That should fix it. Let me verify everything looks good.\r\nagent,35.62337155779176,39.023371557791755,You should see improvement within the next 15 minutes.\r\ncaller,39.731047937833665,43.231047937833665,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.073101501798431,
+      "end_time": 10.57310150179843,
+      "text": "Hello! Amanda here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.532993509714581,
+      "end_time": 14.33299350971458,
+      "text": "Hi! So I've been having some trouble., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.294259912217516,
+      "end_time": 17.994259912217515,
+      "text": "do... do you offer device payment plans"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.04189360278287,
+      "end_time": 22.34189360278287,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.97858871718244,
+      "end_time": 25.97858871718244,
+      "text": "I can help you with that, like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.33827490156694,
+      "end_time": 28.83827490156694,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.672230539575725,
+      "end_time": 32.27223053957572,
+      "text": "I have a solution for you, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.302659501300376,
+      "end_time": 34.40265950130038,
+      "text": "that sounds good"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.847635628648625,
+      "end_time": 38.747635628648624,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.624191725786844,
+      "end_time": 42.224191725786845,
+      "text": "so, let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.88030475617439,
+      "end_time": 44.88030475617439,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.53458081314263,
+      "end_time": 48.03458081314263,
+      "text": "That's everything. Thanks so much!, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.677822827574595,
+      "end_time": 50.777822827574596,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

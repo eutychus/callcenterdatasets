@@ -1,12 +1,111 @@
 {
   "call_id": 845,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Lisa",
-    "duration": 47.2,
-    "sentiment": "neutral",
-    "issue": "switching provider",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Jennifer",
+    "duration": 56.0,
+    "sentiment": "mixed",
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": true,
+    "resolution_type": "we're escalating to our technical team"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.8,Your call is important to us. Please hold while we connect you.\r\nagent,5.923702310204858,11.623702310204859,\"Hello, this is Lisa. I see you've been with us for a while.\"\r\ncaller,12.730513495788673,16.53051349578867,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,17.309980508534256,21.809980508534256,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,22.591463608839796,26.891463608839796,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,28.575747474973937,30.875747474973938,Have you tried restarting your modem?\r\ncaller,32.1659171000079,34.765917100007904,\"Okay, sure, I can try that\"\r\nagent,35.63761865107268,40.03761865107268,I think I found the issue. Let me reset your connection.\r\nagent,40.8730089176944,44.3730089176944,You should see improvement within the next 15 minutes.\r\ncaller,45.189614744262904,47.189614744262904,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.897179972168447,
+      "end_time": 8.797179972168447,
+      "text": "Hi, thanks for calling. This is Jennifer from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.140144408868359,
+      "end_time": 11.740144408868359,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.21577704611745,
+      "end_time": 15.81577704611745,
+      "text": "hold on... streaming is buffering constantly, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.30344186981264,
+      "end_time": 19.30344186981264,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.018720247626575,
+      "end_time": 22.518720247626575,
+      "text": "hold... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.24327740824686,
+      "end_time": 26.44327740824686,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.58824617773888,
+      "end_time": 29.388246177738882,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.93246950516385,
+      "end_time": 32.83246950516385,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.2548399516246,
+      "end_time": 36.4548399516246,
+      "text": "here are your options, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.22045803474307,
+      "end_time": 40.32045803474307,
+      "text": "um, is there a charge"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.46949214472094,
+      "end_time": 43.269492144720935,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.02190802906483,
+      "end_time": 46.221908029064835,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.16043018654976,
+      "end_time": 51.06043018654976,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.64872137937235,
+      "end_time": 53.948721379372344,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 54.447953041703734,
+      "end_time": 56.047953041703735,
+      "text": "Have a great day!"
+    }
+  ]
 }

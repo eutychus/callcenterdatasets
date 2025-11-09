@@ -1,13 +1,85 @@
 {
   "call_id": 484,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 47.8,
-    "sentiment": "neutral",
-    "issue": "billing question",
-    "issue_resolved": false,
-    "resolution_type": "resolved"
+    "call_type": "technical",
+    "agent_name": "Amanda",
+    "duration": 43.1,
+    "sentiment": "negative",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.58771315418093,10.787713154180931,Hi there! This is Jennifer from Technical Support. How can I help you today?\r\ncaller,12.100511021983488,15.800511021983489,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.514074658817925,21.214074658817925,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,21.777153994596258,25.177153994596257,\"I understand, let me look into that for you.\"\r\nagent,26.359785549949855,29.759785549949854,What do you see when you open your browser?\r\ncaller,30.716445532783045,32.516445532783045,\"Uh-huh, okay, I got it\"\r\nagent,33.24925487747214,38.04925487747214,I think I found the issue. Let me reset your connection.\r\nagent,39.22638211310778,43.62638211310778,\"If it happens again, just give us a call back.\"\r\ncaller,44.539962734484575,47.83996273448457,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.98478209217162,
+      "end_time": 9.88478209217162,
+      "text": "Hi! Amanda from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.24937150115704,
+      "end_time": 14.849371501157039,
+      "text": "Hi! So I've been having some trouble., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.480487680198447,
+      "end_time": 18.180487680198446,
+      "text": "wait... um, something's not working right"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.292296606170922,
+      "end_time": 23.19229660617092,
+      "text": "you know, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.851142046475644,
+      "end_time": 26.451142046475645,
+      "text": "try unplugging it for 30 seconds, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.673353518250906,
+      "end_time": 28.973353518250907,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.288862874706584,
+      "end_time": 32.18886287470659,
+      "text": "There's actually another issue..., like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.98637891212322,
+      "end_time": 36.186378912123224,
+      "text": "you know, here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.86278246455286,
+      "end_time": 38.36278246455286,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.228679066272555,
+      "end_time": 41.02867906627255,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.70560106247816,
+      "end_time": 43.10560106247816,
+      "text": "We appreciate your business."
+    }
+  ]
 }

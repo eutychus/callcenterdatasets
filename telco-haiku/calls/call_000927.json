@@ -3,11 +3,109 @@
   "metadata": {
     "call_type": "sales",
     "agent_name": "James",
-    "duration": 45.5,
+    "duration": 58.1,
     "sentiment": "negative",
-    "issue": "bundle packages",
+    "product_category": "Mobile Plan",
+    "inquiry_type": "information",
     "sale_completed": false,
-    "product_category": "Broadband"
+    "resolution_type": "they added a service"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.0,Please enter your account number followed by the pound sign.\r\nagent,5.023972708362345,9.823972708362344,Hello! James speaking. I'd love to tell you about our latest offers.\r\ncaller,11.040890454713365,14.040890454713365,Hi there. So I've got a problem...\r\ncaller,15.151354742661562,18.15135474266156,\"Yeah, so my internet's been really slow today\"\r\nagent,19.01120710092994,23.411207100929943,I got it. Let me pull up your account here.\r\nagent,24.675153149533116,29.775153149533118,We have a special promotion running through the end of the month.\r\ncaller,30.95931256413227,32.95931256413227,\"Alright, let me try that\"\r\nagent,33.69804838700632,38.39804838700632,Looks like we need to restart your modem. Can you do that?\r\nagent,39.05585932148554,42.45585932148554,You should see improvement within the next 15 minutes.\r\ncaller,43.09294180702431,45.49294180702431,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.549724255329299,
+      "end_time": 11.2497242553293,
+      "text": "Hey, thanks for calling! This is James. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.419516147262893,
+      "end_time": 14.519516147262893,
+      "text": "Thanks for picking up., basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.994384233467006,
+      "end_time": 17.994384233467006,
+      "text": "how much does it cost"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.239792037660433,
+      "end_time": 22.13979203766043,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.770947339570917,
+      "end_time": 25.170947339570915,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.880195159639932,
+      "end_time": 27.980195159639933,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.1078764852695,
+      "end_time": 32.2078764852695,
+      "text": "well, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.04972972927184,
+      "end_time": 35.849729729271836,
+      "text": "sorta, that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.08446610048323,
+      "end_time": 38.88446610048323,
+      "text": "here are your options, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.82551578984396,
+      "end_time": 43.025515789843965,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.171820924701166,
+      "end_time": 45.87182092470117,
+      "text": "There's actually another issue..., well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.41411543681224,
+      "end_time": 50.11411543681224,
+      "text": "you know, I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.94953929438856,
+      "end_time": 52.349539294388556,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.26261186337687,
+      "end_time": 56.16261186337687,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.57148774085841,
+      "end_time": 58.07148774085841,
+      "text": "Have a great day!"
+    }
+  ]
 }

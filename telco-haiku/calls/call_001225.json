@@ -1,13 +1,97 @@
 {
   "call_id": 1225,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Robert",
-    "duration": 49.9,
-    "sentiment": "positive",
-    "issue": "can't access account",
-    "issue_resolved": false,
-    "resolution_type": "resolved"
+    "call_type": "technical",
+    "agent_name": "Mike",
+    "duration": 49.3,
+    "sentiment": "mixed",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.2,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.942355772215532,11.542355772215531,\"Hello, thanks for calling. I'm Robert. What seems to be the issue?\"\r\ncaller,12.896143715550432,16.596143715550433,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,17.400090385375083,22.800090385375086,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,23.781513283165722,28.381513283165724,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,30.305721918917136,34.305721918917136,Can you check if the lights on your router are on?\r\ncaller,35.258320903814436,37.35832090381444,\"Yeah, sounds good to me\"\r\nagent,37.94194815829061,42.64194815829061,Looks like we need to restart your modem. Can you do that?\r\nagent,43.60444730452274,47.204447304522745,You should see improvement within the next 15 minutes.\r\ncaller,48.00290000713142,49.90290000713142,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.751511504695566,
+      "end_time": 10.151511504695566,
+      "text": "Hello, Mike here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.1370761851385,
+      "end_time": 13.2370761851385,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.933770500349242,
+      "end_time": 16.43377050034924,
+      "text": "sorry... something's not working right, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.501000059850217,
+      "end_time": 20.001000059850217,
+      "text": "I completely understand your frustration, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.541634525155402,
+      "end_time": 22.341634525155403,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 23.16304680742074,
+      "end_time": 24.763046807420743,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.811701740557012,
+      "end_time": 28.311701740557012,
+      "text": "kinda, let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.01557324311774,
+      "end_time": 31.51557324311774,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.05828829206159,
+      "end_time": 34.15828829206159,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.98547804152494,
+      "end_time": 38.185478041524945,
+      "text": "uh, I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.531235101081855,
+      "end_time": 43.531235101081855,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.42811171226065,
+      "end_time": 46.32811171226065,
+      "text": "No, that's all. Thanks!, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.11223705498797,
+      "end_time": 49.312237054987975,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

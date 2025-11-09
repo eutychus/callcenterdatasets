@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate synthetic call center dataset for Telecom Haiku
-Creates 2000 realistic call center conversations with metadata
+Enhanced synthetic call center dataset generator for Telecom Haiku
+Creates highly varied and realistic call center conversations
 """
 
 import json
@@ -10,7 +10,7 @@ import random
 import datetime
 from pathlib import Path
 from typing import List, Dict, Tuple
-import io
+import math
 
 # Configuration
 NUM_DOCUMENTS = 2000
@@ -20,352 +20,634 @@ INDEX_FILE = Path(__file__).parent / "index.csv"
 # Seed for reproducibility
 random.seed(42)
 
-# Call center data
+# ============================================================================
+# COMPREHENSIVE DATA DEFINITIONS FOR VARIETY
+# ============================================================================
+
 CALL_TYPES = ["support", "sales", "billing", "technical", "account", "retention", "general"]
-AGENT_NAMES = ["Sarah", "Mike", "Jennifer", "David", "Lisa", "Robert", "Emily", "James"]
-ISSUES = {
-    "support": [
-        "internet is down", "wifi not working", "can't connect to service",
-        "experiencing slow speeds", "getting disconnected", "need password reset",
-        "can't access account", "billing question", "service outage", "line quality"
+
+AGENT_NAMES = ["Sarah", "Mike", "Jennifer", "David", "Lisa", "Robert", "Emily", "James",
+               "Amanda", "Chris", "Susan", "Mark", "Patricia", "Daniel"]
+
+# Filler words and natural speech patterns
+FILLERS = ["um", "uh", "like", "you know", "well", "so", "actually", "basically", "kinda", "sorta"]
+
+# Interruptions and natural conversational elements
+INTERRUPTIONS = ["sorry", "hold on", "wait", "just a second", "let me check", "hang on", "one moment"]
+
+# Rich set of support issues with variants
+SUPPORT_ISSUES = {
+    "connectivity": [
+        "my internet keeps dropping",
+        "I'm having connectivity issues",
+        "my connection is unstable",
+        "I lose connection every few minutes",
+        "can't stay connected for more than a minute"
     ],
-    "sales": [
-        "interested in new plan", "upgrade options", "special offers",
-        "bundle packages", "device purchase", "service expansion"
+    "speed": [
+        "my speeds are really slow today",
+        "I'm only getting like half my normal speed",
+        "pages are taking forever to load",
+        "my download speed is terrible",
+        "streaming is buffering constantly"
     ],
-    "billing": [
-        "late payment", "dispute charge", "cancellation", "payment method",
-        "refund request", "promos and discounts", "usage charges"
+    "device": [
+        "my modem is acting weird",
+        "the router keeps resetting",
+        "I can't get my device to connect",
+        "there's a red light on my modem",
+        "my router stopped working"
     ],
-    "technical": [
-        "modem issues", "router configuration", "device compatibility",
-        "software update", "connection setup", "signal strength"
+    "service": [
+        "I'm not getting service in certain rooms",
+        "my wifi coverage is patchy",
+        "service keeps cutting out",
+        "there's a dead zone in my house",
+        "signal keeps dropping"
     ],
-    "retention": [
-        "considering leaving", "competitor offer", "service complaint",
-        "switching provider", "dissatisfied with service"
+    "billing_issue": [
+        "I was charged twice",
+        "there's an unexpected charge",
+        "my bill is way higher than normal",
+        "I don't think I should be charged this",
+        "can you explain this charge"
+    ],
+    "account_access": [
+        "I can't log into my account",
+        "I forgot my password",
+        "my account is locked",
+        "I can't reset my password",
+        "it says my account has an issue"
     ]
 }
 
-RESOLUTIONS = ["resolved", "escalated", "scheduled followup", "partial resolution", "callback needed"]
-PRODUCTS = ["Mobile Plan", "Broadband", "TV Package", "Bundles", "Device", "Add-on Service"]
-SENTIMENT = ["positive", "neutral", "negative"]
-ISSUE_CATEGORIES = [
-    "connectivity", "billing", "device", "account", "service_quality",
-    "technical_support", "sales_inquiry", "retention", "complaint", "inquiry"
-]
-
-# Realistic speech patterns for IVR
-IVR_PHRASES = [
-    "Welcome to Telecom Haiku. For English, press 1.",
-    "Thank you for calling. Please listen carefully as our menu has changed.",
-    "If you're calling about billing, press 1. For support, press 2. For sales, press 3.",
-    "Your call is important to us. Please hold while we connect you.",
-    "Please enter your account number followed by the pound sign.",
-    "I'm sorry, I didn't understand that. Please try again.",
-    "Thank you. Connecting you to the next available agent.",
-]
-
-# Agent greetings based on call type
-AGENT_GREETINGS = {
-    "support": [
-        "Hi there! This is {agent} from Technical Support. How can I help you today?",
-        "Hello, thanks for calling. I'm {agent}. What seems to be the issue?",
-        "Good day! {agent} here from our support team. What can I assist with?",
+# Sales inquiries with variety
+SALES_QUERIES = {
+    "upgrade": [
+        "I'm interested in upgrading my plan",
+        "do you have any better plans available",
+        "what are my upgrade options",
+        "I need more data",
+        "is there a faster plan I can get"
     ],
-    "sales": [
-        "Hi! This is {agent} with our sales team. Are you interested in any of our plans?",
-        "Hello! {agent} speaking. I'd love to tell you about our latest offers.",
-        "Hi there! Welcome to Telecom Haiku sales. {agent} here. What brings you in today?",
+    "new_service": [
+        "I want to add TV service",
+        "can I bundle my services",
+        "what packages do you offer",
+        "I'm thinking about adding a line",
+        "do you have any promotions"
     ],
-    "billing": [
-        "Hello, {agent} from billing. How can I assist with your account?",
-        "Hi! This is {agent}. I'm here to help with any billing questions.",
-        "Good day, {agent} here. What billing matter can I help you with?",
+    "device": [
+        "I need a new phone",
+        "can I get a device with my plan",
+        "what phones are available",
+        "do you offer device payment plans",
+        "I'm interested in a new router"
     ],
-    "technical": [
-        "Hi, {agent} technical support here. Let me help you troubleshoot.",
-        "Hello! I'm {agent}. Let's get your device working again.",
-        "Hi there, {agent} here. What device are we troubleshooting today?",
-    ],
-    "retention": [
-        "Hello, this is {agent}. I see you've been with us for a while.",
-        "Hi! {agent} here. I'd love to make sure we're taking care of you.",
-    ],
-    "general": [
-        "Hello! {agent} here. How may I assist you?",
-        "Hi, this is {agent}. What can I do for you today?",
-    ],
-    "account": [
-        "Hi! {agent} with account services. What do you need help with?",
-        "Hello, {agent} here. How can I help with your account?",
+    "information": [
+        "I want to know about your plans",
+        "what's different about your service",
+        "how much does it cost",
+        "what speeds can I get",
+        "are there any special offers"
     ]
 }
 
-# Customer phrases (realistic with interruptions)
-CUSTOMER_PHRASES = {
-    "greeting": [
-        "Hi, yes, I'm having an issue with my service",
-        "Hello, uh, I've been trying to... my internet isn't working",
-        "Hi there. So I've got a problem...",
-        "Yeah, hello, um, my service seems to be down",
+# Billing scenarios
+BILLING_ISSUES = {
+    "dispute": [
+        "I need to dispute a charge",
+        "this charge shouldn't be here",
+        "I was overcharged",
+        "can you remove this charge",
+        "why am I being charged for this"
     ],
-    "issue_description": [
-        "Yeah, so my internet's been really slow today",
-        "Um, I can't... I keep getting disconnected",
-        "The thing is, when I try to load pages it just... it hangs",
-        "Well, basically my speeds have gone way down. Like, really slow",
-        "It started maybe an hour ago and... yeah, nothing's working",
+    "payment": [
+        "I need to make a payment",
+        "what's my current balance",
+        "when is my payment due",
+        "can I set up autopay",
+        "what payment methods do you accept"
     ],
-    "agreement": [
-        "Yeah, that sounds good",
-        "Okay, sure, I can try that",
-        "Alright, let me try that",
-        "Uh-huh, okay, I got it",
-        "Yeah, sounds good to me",
-    ],
-    "disagreement": [
-        "Um, well... I already tried that",
-        "I don't think that's gonna work",
-        "Yeah, but I already did that before I called",
-        "Hmm, no, that doesn't seem to help",
-    ],
-    "additional_issues": [
-        "Oh, and also... could you look at my bill?",
-        "By the way, um, I had another question",
-        "While we're at it, can you... can you check something else?",
-        "Actually, there's one more thing...",
-    ],
-    "closing": [
-        "Okay, great, thanks so much",
-        "Alright, I really appreciate it",
-        "Thanks for your help, that was really quick",
-        "Okay, uh, thanks. That should work",
-        "Yeah, okay, thanks a lot",
-    ],
-    "frustration": [
-        "This is... this is ridiculous",
-        "I've been trying to get this fixed for days",
-        "This is pretty frustrating",
-        "I'm really not happy with the service",
+    "promotion": [
+        "do you have any promotions",
+        "can I get a discount",
+        "I saw an offer online",
+        "are there loyalty discounts",
+        "can you lower my bill"
     ]
 }
 
-# Agent phrases
-AGENT_PHRASES = {
-    "acknowledgment": [
-        "I understand, let me look into that for you.",
-        "Okay, I see what you mean. Let me check on that.",
-        "I got it. Let me pull up your account here.",
-        "Yeah, let's troubleshoot that together.",
+# Technical issues
+TECHNICAL_ISSUES = {
+    "setup": [
+        "I just got my modem and don't know how to set it up",
+        "how do I connect everything",
+        "can you walk me through the setup",
+        "I can't figure out how to configure this",
+        "what cables do I need"
     ],
     "troubleshooting": [
-        "Have you tried restarting your modem?",
-        "Can you check if the lights on your router are on?",
-        "What do you see when you open your browser?",
-        "Okay, and how long has this been happening?",
-        "Let me check our systems to see if there's an outage in your area.",
+        "something's not working right",
+        "the signal is weak",
+        "I keep getting error messages",
+        "it's not working like it used to",
+        "something changed and now it's slow"
     ],
-    "solution": [
-        "I think I found the issue. Let me reset your connection.",
-        "Looks like we need to restart your modem. Can you do that?",
-        "I'm going to push a software update to your device.",
-        "That should fix it. Let me verify everything looks good.",
-    ],
-    "follow_up": [
-        "Let me send that information to your email.",
-        "You should see improvement within the next 15 minutes.",
-        "If it happens again, just give us a call back.",
-        "Is there anything else I can help you with today?",
-    ],
-    "apology": [
-        "I sincerely apologize for the inconvenience.",
-        "Sorry you've been experiencing this issue.",
-        "We really appreciate your patience.",
-        "I'm sorry we didn't catch this sooner.",
-    ],
-    "sales_pitch": [
-        "While I have you, we actually just launched a new plan that might interest you.",
-        "Our customers are really happy with the new bundled package.",
-        "If you upgrade now, we can waive your installation fee.",
-        "We have a special promotion running through the end of the month.",
+    "device_issue": [
+        "my modem is overheating",
+        "there are lights flashing oddly",
+        "I hear a strange noise",
+        "it's not responding",
+        "I need to reset it"
     ]
 }
 
-def calculate_speech_duration(text: str) -> float:
-    """Estimate duration in seconds based on speech rate (150 words per minute)"""
-    words = len(text.split())
-    # Average 150 words per minute = 2.5 words per second
-    base_duration = words / 2.5
-    # Add some variation (±10%)
-    variation = random.uniform(0.9, 1.1)
-    return round(base_duration * variation, 1)
+# Retention/churn scenarios
+RETENTION_ISSUES = {
+    "competitor": [
+        "I got an offer from another provider",
+        "your competitor is cheaper",
+        "I'm looking at switching",
+        "another company has better service",
+        "I found a better deal elsewhere"
+    ],
+    "service_complaint": [
+        "I'm really not happy with the service",
+        "the quality has gone downhill",
+        "I've had too many outages",
+        "your customer service is frustrating",
+        "I don't think it's worth the price"
+    ],
+    "leaving": [
+        "I want to cancel my service",
+        "I need to disconnect",
+        "can you process my cancellation",
+        "I'm done with this company",
+        "when can I terminate my contract"
+    ]
+}
 
-def generate_conversation(call_type: str) -> Tuple[List[Dict], Dict]:
-    """Generate a realistic conversation based on call type"""
+# Resolutions and outcomes
+RESOLUTIONS = {
+    "support": [
+        "the issue was resolved",
+        "a service call was scheduled",
+        "we identified a network issue and it should be fixed",
+        "the device needs to be replaced",
+        "we're escalating to our technical team",
+        "it was a software issue that's now updated"
+    ],
+    "sales": [
+        "the customer purchased an upgrade",
+        "the customer wasn't interested",
+        "they want to think about it",
+        "we scheduled a follow-up",
+        "they purchased a new device",
+        "they added a service"
+    ],
+    "billing": [
+        "the charge was reversed",
+        "we applied a credit",
+        "the dispute will be investigated",
+        "we set up a payment plan",
+        "autopay was activated"
+    ]
+}
+
+# Agent responses with variety
+AGENT_RESPONSES = {
+    "empathy": [
+        "I completely understand your frustration",
+        "that must be really annoying",
+        "I'm sorry you're experiencing this",
+        "I can see why that would be frustrating",
+        "let me help you resolve this"
+    ],
+    "investigation": [
+        "let me look into your account",
+        "can you give me your account number",
+        "let me pull up your information",
+        "I'm checking our system now",
+        "hold on while I investigate"
+    ],
+    "solution_offer": [
+        "I can help you with that",
+        "here's what we can do",
+        "I have a solution for you",
+        "let me walk you through this",
+        "here are your options"
+    ],
+    "technical": [
+        "let's try restarting the device",
+        "can you check if the lights are green",
+        "try unplugging it for 30 seconds",
+        "what error message are you seeing",
+        "let me see if there's an outage in your area"
+    ],
+    "closing": [
+        "is there anything else I can help with",
+        "thanks for choosing us",
+        "we appreciate your business",
+        "feel free to call back anytime",
+        "have a great day"
+    ]
+}
+
+# Customer responses - diverse and realistic
+CUSTOMER_RESPONSES = {
+    "affirmative": [
+        "yeah, okay",
+        "sure, I can try that",
+        "alright, let's do it",
+        "that sounds good",
+        "I can do that"
+    ],
+    "questioning": [
+        "how long will that take",
+        "is there a charge",
+        "will that really fix it",
+        "how soon can you do that",
+        "are you sure about that"
+    ],
+    "frustrated": [
+        "I've already tried that",
+        "this shouldn't be happening",
+        "I'm not happy with this",
+        "this is ridiculous",
+        "I can't believe I have to deal with this"
+    ],
+    "agreement": [
+        "yeah, I think that makes sense",
+        "okay, that works for me",
+        "I'm on board with that",
+        "that sounds reasonable",
+        "I can live with that"
+    ],
+    "concern": [
+        "I'm worried that won't work",
+        "I'm not sure about that",
+        "that seems complicated",
+        "will it take long",
+        "what if it doesn't work"
+    ]
+}
+
+def add_filler(text: str) -> str:
+    """Randomly add filler words to make speech more natural"""
+    if random.random() > 0.6:
+        filler = random.choice(FILLERS)
+        if random.random() > 0.5:
+            return f"{filler}, {text}"
+        else:
+            return f"{text}, {filler}"
+    return text
+
+def create_interruption(text: str) -> str:
+    """Add interruptions and stutters for naturalness"""
+    if random.random() > 0.7:
+        interruption = random.choice(INTERRUPTIONS)
+        return f"{interruption}... {text}"
+    elif random.random() > 0.5:
+        # Stutter/repeat
+        words = text.split()
+        if len(words) > 1:
+            first_word = words[0]
+            return f"{first_word}... {first_word} {' '.join(words[1:])}"
+    return text
+
+def calculate_speech_duration(text: str, speaking_rate: float = 150) -> float:
+    """Calculate duration based on word count and speaking rate"""
+    words = len(text.split())
+    # Speaking rate in words per minute, convert to seconds
+    duration = (words / speaking_rate) * 60
+    # Add variation
+    variation = random.uniform(0.85, 1.15)
+    return round(duration * variation, 1)
+
+def generate_dynamic_conversation(call_type: str) -> Tuple[List[Dict], Dict]:
+    """Generate highly varied and natural conversation"""
     conversation = []
     current_time = 0.0
     metadata = {
         "call_type": call_type,
         "agent_name": random.choice(AGENT_NAMES),
         "duration": 0,
-        "sentiment": random.choice(SENTIMENT),
+        "sentiment": random.choice(["positive", "neutral", "negative", "mixed"]),
     }
 
-    # IVR portion (1-3 seconds)
-    ivr_phrase = random.choice(IVR_PHRASES)
-    ivr_duration = calculate_speech_duration(ivr_phrase)
+    # IVR greeting (varied)
+    ivr_options = [
+        "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish.",
+        "Thank you for calling Telecom Haiku. Your call is important to us.",
+        "Welcome. Please listen carefully as our menu has changed.",
+        "Thank you for contacting Telecom Haiku support.",
+        "Please hold while we route you to the next available representative.",
+    ]
+
+    ivr_phrase = random.choice(ivr_options)
+    ivr_duration = calculate_speech_duration(ivr_phrase, 160)
     conversation.append({
         "speaker": "ivr",
         "start_time": current_time,
         "end_time": current_time + ivr_duration,
         "text": ivr_phrase
     })
-    current_time += ivr_duration + random.uniform(0.5, 1.5)  # Gap before agent speaks
+    current_time += ivr_duration + random.uniform(1.0, 2.5)
 
-    # Agent greeting
-    agent_greeting = random.choice(AGENT_GREETINGS.get(call_type, AGENT_GREETINGS["general"]))
-    agent_greeting = agent_greeting.format(agent=metadata["agent_name"])
-    greeting_duration = calculate_speech_duration(agent_greeting)
+    # Agent greeting - contextual and varied
+    agent_name = metadata["agent_name"]
+    greetings = {
+        "support": [
+            f"Hi, thanks for calling. This is {agent_name} from technical support.",
+            f"Hello! I'm {agent_name}. How can I help you with your service today?",
+            f"Hi there! {agent_name} speaking. What seems to be the issue?",
+            f"Good, this is {agent_name}. I'm here to help with any technical issues.",
+        ],
+        "sales": [
+            f"Hey, thanks for calling! This is {agent_name}. I'd love to tell you about some great offers.",
+            f"Hello! {agent_name} here with our sales team. Are you interested in learning about our plans?",
+            f"Hi! Welcome to Telecom Haiku. {agent_name} speaking. What brings you in today?",
+        ],
+        "billing": [
+            f"Hi, this is {agent_name} from billing. How can I assist with your account?",
+            f"Hello! {agent_name} speaking. I'm here to help with any billing questions.",
+            f"Thanks for calling. {agent_name} here. What can I do for you?",
+        ],
+        "technical": [
+            f"Hi! {agent_name} from technical support. Let's get your device working.",
+            f"Hello, {agent_name} here. What device are we troubleshooting today?",
+            f"Thanks for calling. {agent_name} with technical support.",
+        ],
+        "account": [
+            f"Hi, {agent_name} with account services here. How can I help?",
+            f"Hello! {agent_name} speaking. What can I do with your account today?",
+        ],
+        "retention": [
+            f"Hi, thanks for calling. {agent_name} here. I see you've been with us a while.",
+            f"Hello! {agent_name} speaking. I appreciate your business.",
+        ],
+        "general": [
+            f"Hi! {agent_name} here. How can I help you?",
+            f"Hello, thanks for calling. {agent_name} speaking.",
+        ]
+    }
+
+    greeting = random.choice(greetings.get(call_type, greetings["general"]))
+    greeting_duration = calculate_speech_duration(greeting)
     conversation.append({
         "speaker": "agent",
         "start_time": current_time,
         "end_time": current_time + greeting_duration,
-        "text": agent_greeting
+        "text": greeting
     })
-    current_time += greeting_duration + random.uniform(0.8, 1.5)
+    current_time += greeting_duration + random.uniform(0.8, 1.8)
 
-    # Customer response
-    customer_greeting = random.choice(CUSTOMER_PHRASES["greeting"])
-    greeting_dur = calculate_speech_duration(customer_greeting)
+    # Customer initial response
+    customer_responses = [
+        "Yeah, hi. I'm having an issue.",
+        "Thanks for picking up.",
+        "Hi, uh, I'm calling because of a problem.",
+        "Hey, thanks. Yeah, I need help with something.",
+        "Hi! So I've been having some trouble.",
+    ]
+
+    cust_resp = random.choice(customer_responses)
+    cust_resp = add_filler(cust_resp)
+    resp_duration = calculate_speech_duration(cust_resp)
     conversation.append({
         "speaker": "caller",
         "start_time": current_time,
-        "end_time": current_time + greeting_dur,
-        "text": customer_greeting
+        "end_time": current_time + resp_duration,
+        "text": cust_resp
     })
-    current_time += greeting_dur + random.uniform(0.5, 1.2)
+    current_time += resp_duration + random.uniform(0.5, 1.5)
 
-    # Main issue discussion
-    if call_type in ISSUES:
-        issue_list = ISSUES[call_type]
-        issue = random.choice(issue_list)
-        metadata["issue"] = issue
+    # Main issue/request - varies by call type
+    if call_type == "support":
+        metadata["issue_category"] = random.choice(list(SUPPORT_ISSUES.keys()))
+        issue_text = random.choice(SUPPORT_ISSUES[metadata["issue_category"]])
+        metadata["issue"] = metadata["issue_category"]
+    elif call_type == "sales":
+        metadata["product_category"] = random.choice(["Mobile Plan", "Broadband", "TV Package", "Bundle", "Device", "Add-on"])
+        query = random.choice(list(SALES_QUERIES.keys()))
+        issue_text = random.choice(SALES_QUERIES[query])
+        metadata["inquiry_type"] = query
+    elif call_type == "billing":
+        issue_key = random.choice(list(BILLING_ISSUES.keys()))
+        issue_text = random.choice(BILLING_ISSUES[issue_key])
+        metadata["billing_issue"] = issue_key
+    elif call_type == "technical":
+        issue_key = random.choice(list(TECHNICAL_ISSUES.keys()))
+        issue_text = random.choice(TECHNICAL_ISSUES[issue_key])
+        metadata["technical_issue"] = issue_key
+    elif call_type == "retention":
+        issue_key = random.choice(list(RETENTION_ISSUES.keys()))
+        issue_text = random.choice(RETENTION_ISSUES[issue_key])
+        metadata["churn_reason"] = issue_key
     else:
-        issue = "general inquiry"
-        metadata["issue"] = issue
+        issue_text = "I had a question about my service."
+        metadata["issue"] = "general"
 
-    # Customer describes issue (with possible interruptions)
-    customer_issue = random.choice(CUSTOMER_PHRASES["issue_description"])
-    customer_issue_dur = calculate_speech_duration(customer_issue)
+    # Add natural variation to issue description
+    issue_text = add_filler(issue_text)
+    issue_text = create_interruption(issue_text)
+
+    issue_duration = calculate_speech_duration(issue_text)
     conversation.append({
         "speaker": "caller",
         "start_time": current_time,
-        "end_time": current_time + customer_issue_dur,
-        "text": customer_issue
+        "end_time": current_time + issue_duration,
+        "text": issue_text
     })
-    current_time += customer_issue_dur + random.uniform(0.3, 1.0)
+    current_time += issue_duration + random.uniform(1.0, 2.5)
 
-    # Agent acknowledgment
-    agent_ack = random.choice(AGENT_PHRASES["acknowledgment"])
-    ack_dur = calculate_speech_duration(agent_ack)
+    # Agent acknowledges and investigates
+    ack = random.choice(AGENT_RESPONSES["empathy"])
+    ack = add_filler(ack)
+    ack_duration = calculate_speech_duration(ack)
     conversation.append({
         "speaker": "agent",
         "start_time": current_time,
-        "end_time": current_time + ack_dur,
-        "text": agent_ack
+        "end_time": current_time + ack_duration,
+        "text": ack
     })
-    current_time += ack_dur + random.uniform(1.0, 2.0)
+    current_time += ack_duration + random.uniform(0.5, 1.5)
 
-    # Troubleshooting or resolution exchange
-    if call_type == "sales":
-        # Sales calls focus on product pitch
-        agent_phrase = random.choice(AGENT_PHRASES["sales_pitch"])
-        agent_ack2 = random.choice(AGENT_PHRASES["follow_up"])
-        metadata["sale_completed"] = random.choice([True, False])
-        metadata["product_category"] = random.choice(PRODUCTS)
-    elif call_type == "support":
-        agent_phrase = random.choice(AGENT_PHRASES["troubleshooting"])
-        metadata["issue_resolved"] = random.choice([True, False])
-        metadata["resolution_type"] = random.choice(RESOLUTIONS)
-    else:
-        agent_phrase = random.choice(AGENT_PHRASES["troubleshooting"])
-        metadata["issue_resolved"] = random.choice([True, False])
-
-    agent_phrase_dur = calculate_speech_duration(agent_phrase)
-    conversation.append({
-        "speaker": "agent",
-        "start_time": current_time,
-        "end_time": current_time + agent_phrase_dur,
-        "text": agent_phrase
-    })
-    current_time += agent_phrase_dur + random.uniform(0.8, 2.0)
-
-    # Customer response
-    customer_response = random.choice(CUSTOMER_PHRASES["agreement"])
-    resp_dur = calculate_speech_duration(customer_response)
-    conversation.append({
-        "speaker": "caller",
-        "start_time": current_time,
-        "end_time": current_time + resp_dur,
-        "text": customer_response
-    })
-    current_time += resp_dur + random.uniform(0.5, 1.0)
-
-    # Possible additional agent phrase or solution
-    if random.random() > 0.3:
-        additional = random.choice(AGENT_PHRASES["solution"])
-        add_dur = calculate_speech_duration(additional)
+    # Investigation phase
+    if call_type in ["support", "billing", "account"]:
+        investigation = random.choice(AGENT_RESPONSES["investigation"])
+        investigation = create_interruption(investigation)
+        inv_duration = calculate_speech_duration(investigation)
         conversation.append({
             "speaker": "agent",
             "start_time": current_time,
-            "end_time": current_time + add_dur,
-            "text": additional
+            "end_time": current_time + inv_duration,
+            "text": investigation
         })
-        current_time += add_dur + random.uniform(0.5, 1.5)
+        current_time += inv_duration + random.uniform(1.5, 3.0)
 
-    # Follow-up from agent
-    followup = random.choice(AGENT_PHRASES["follow_up"])
-    followup_dur = calculate_speech_duration(followup)
+        # Customer provides account info
+        account_responses = [
+            "Sure, it's on the bill.",
+            "Yeah, let me find that.",
+            "It's 555-1234.",
+            "It's starting with a C... CUST12345.",
+            "Okay, hold on."
+        ]
+        account_resp = random.choice(account_responses)
+        account_resp = add_filler(account_resp)
+        account_dur = calculate_speech_duration(account_resp)
+        conversation.append({
+            "speaker": "caller",
+            "start_time": current_time,
+            "end_time": current_time + account_dur,
+            "text": account_resp
+        })
+        current_time += account_dur + random.uniform(1.0, 2.0)
+
+    # Problem-solving phase with interaction
+    for exchange in range(random.randint(1, 3)):
+        # Agent offers help
+        agent_help = random.choice(AGENT_RESPONSES["solution_offer"])
+        if call_type == "technical":
+            agent_help = random.choice(AGENT_RESPONSES["technical"])
+
+        agent_help = add_filler(agent_help)
+        help_duration = calculate_speech_duration(agent_help)
+        conversation.append({
+            "speaker": "agent",
+            "start_time": current_time,
+            "end_time": current_time + help_duration,
+            "text": agent_help
+        })
+        current_time += help_duration + random.uniform(0.8, 2.0)
+
+        # Customer responds
+        cust_choice = random.choice(CUSTOMER_RESPONSES["affirmative"] +
+                                   CUSTOMER_RESPONSES["questioning"] +
+                                   CUSTOMER_RESPONSES["concern"])
+        cust_choice = add_filler(cust_choice)
+        cust_dur = calculate_speech_duration(cust_choice)
+        conversation.append({
+            "speaker": "caller",
+            "start_time": current_time,
+            "end_time": current_time + cust_dur,
+            "text": cust_choice
+        })
+        current_time += cust_dur + random.uniform(0.5, 1.5)
+
+    # Additional exchanges or complications
+    if random.random() > 0.5:
+        complication = random.choice([
+            "Actually, there's one more thing...",
+            "Oh, and while we're at it...",
+            "By the way, I also have a question...",
+            "There's actually another issue...",
+        ])
+        complication = add_filler(complication)
+        comp_dur = calculate_speech_duration(complication)
+        conversation.append({
+            "speaker": "caller",
+            "start_time": current_time,
+            "end_time": current_time + comp_dur,
+            "text": complication
+        })
+        current_time += comp_dur + random.uniform(0.5, 1.2)
+
+        agent_follow = random.choice(AGENT_RESPONSES["solution_offer"])
+        agent_follow = add_filler(agent_follow)
+        follow_dur = calculate_speech_duration(agent_follow)
+        conversation.append({
+            "speaker": "agent",
+            "start_time": current_time,
+            "end_time": current_time + follow_dur,
+            "text": agent_follow
+        })
+        current_time += follow_dur + random.uniform(0.5, 1.0)
+
+    # Closing sequence
+    closing_prompts = [
+        "Is there anything else I can help with today?",
+        "Are we all set?",
+        "Does that work for you?",
+        "Any other questions I can answer?",
+    ]
+
+    closing = random.choice(closing_prompts)
+    closing_dur = calculate_speech_duration(closing)
     conversation.append({
         "speaker": "agent",
         "start_time": current_time,
-        "end_time": current_time + followup_dur,
-        "text": followup
+        "end_time": current_time + closing_dur,
+        "text": closing
     })
-    current_time += followup_dur + random.uniform(0.5, 1.0)
+    current_time += closing_dur + random.uniform(0.5, 1.0)
 
     # Customer closing
-    customer_close = random.choice(CUSTOMER_PHRASES["closing"])
-    close_dur = calculate_speech_duration(customer_close)
+    customer_closings = [
+        "No, that's all. Thanks!",
+        "I think that covers it. Thanks for your help.",
+        "Nope, that should do it. I appreciate it.",
+        "That's everything. Thanks so much!",
+        "Yeah, that's good. Thanks!",
+    ]
+
+    cust_closing = random.choice(customer_closings)
+    cust_closing = add_filler(cust_closing)
+    cust_close_dur = calculate_speech_duration(cust_closing)
     conversation.append({
         "speaker": "caller",
         "start_time": current_time,
-        "end_time": current_time + close_dur,
-        "text": customer_close
+        "end_time": current_time + cust_close_dur,
+        "text": cust_closing
     })
-    current_time += close_dur
+    current_time += cust_close_dur + random.uniform(0.3, 1.0)
+
+    # Final agent farewell
+    farewells = [
+        "Thanks for choosing Telecom Haiku!",
+        "Have a great day!",
+        "We appreciate your business.",
+        "Thanks for calling, and take care.",
+        "Enjoy your service!",
+    ]
+
+    farewell = random.choice(farewells)
+    farewell_dur = calculate_speech_duration(farewell)
+    conversation.append({
+        "speaker": "agent",
+        "start_time": current_time,
+        "end_time": current_time + farewell_dur,
+        "text": farewell
+    })
+    current_time += farewell_dur
+
+    # Set outcomes based on call type
+    if call_type == "support":
+        metadata["issue_resolved"] = random.choice([True, False, "partial"])
+        metadata["resolution_type"] = random.choice(RESOLUTIONS["support"])
+    elif call_type == "sales":
+        metadata["sale_completed"] = random.choice([True, False])
+        metadata["resolution_type"] = random.choice(RESOLUTIONS["sales"])
+    elif call_type == "billing":
+        metadata["issue_resolved"] = random.choice([True, False])
+        metadata["resolution_type"] = random.choice(RESOLUTIONS["billing"])
+    else:
+        metadata["issue_resolved"] = random.choice([True, False, "escalated"])
 
     metadata["duration"] = round(current_time, 1)
     return conversation, metadata
 
 def save_call_as_json(call_id: int, conversation: List[Dict], metadata: Dict) -> str:
-    """Save call as JSON file with embedded CSV"""
+    """Save call as JSON file with conversation as JSON array"""
     filename = f"call_{call_id:06d}.json"
     filepath = OUTPUT_DIR / filename
 
-    # Create CSV in memory
-    csv_buffer = io.StringIO()
-    csv_writer = csv.DictWriter(csv_buffer, fieldnames=["speaker", "start_time", "end_time", "text"])
-    csv_writer.writeheader()
-    csv_writer.writerows(conversation)
-    csv_content = csv_buffer.getvalue()
-
-    # Create JSON document
     document = {
         "call_id": call_id,
         "metadata": metadata,
-        "conversation_csv": csv_content
+        "conversation": conversation  # JSON array instead of embedded CSV
     }
 
     with open(filepath, 'w') as f:
@@ -380,16 +662,11 @@ def generate_all_documents(num_docs: int):
     print(f"Generating {num_docs} synthetic call center documents...")
 
     for i in range(1, num_docs + 1):
-        # Choose call type
         call_type = random.choice(CALL_TYPES)
-
-        # Generate conversation
-        conversation, metadata = generate_conversation(call_type)
-
-        # Save as JSON
+        conversation, metadata = generate_dynamic_conversation(call_type)
         filename = save_call_as_json(i, conversation, metadata)
 
-        # Prepare index row
+        # Create index row
         call_date = datetime.datetime.now() - datetime.timedelta(days=random.randint(0, 90))
         call_time = f"{random.randint(8, 17):02d}:{random.randint(0, 59):02d}:{random.randint(0, 59):02d}"
 
@@ -403,7 +680,7 @@ def generate_all_documents(num_docs: int):
             "agent_name": metadata["agent_name"],
             "sentiment": metadata["sentiment"],
             "issue_resolved": metadata.get("issue_resolved", "N/A"),
-            "issue_category": random.choice(ISSUE_CATEGORIES),
+            "issue_category": metadata.get("issue_category", metadata.get("billing_issue", metadata.get("technical_issue", metadata.get("churn_reason", "general")))),
             "sale_completed": metadata.get("sale_completed", "N/A"),
             "product_category": metadata.get("product_category", "N/A"),
             "customer_id": f"CUST{random.randint(10000, 99999)}",
@@ -416,11 +693,9 @@ def generate_all_documents(num_docs: int):
 
         index_data.append(index_row)
 
-        # Progress indicator
         if i % 200 == 0:
             print(f"  Generated {i}/{num_docs} documents...")
 
-    # Write index CSV
     print(f"Writing index file to {INDEX_FILE}...")
     fieldnames = list(index_data[0].keys())
     with open(INDEX_FILE, 'w', newline='') as f:

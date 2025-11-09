@@ -1,13 +1,109 @@
 {
   "call_id": 334,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Lisa",
-    "duration": 42.5,
-    "sentiment": "neutral",
-    "issue": "can't access account",
-    "issue_resolved": false,
-    "resolution_type": "scheduled followup"
+    "call_type": "account",
+    "agent_name": "Jennifer",
+    "duration": 53.5,
+    "sentiment": "positive",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.2,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.057514289480337,8.357514289480337,\"Hello, thanks for calling. I'm Lisa. What seems to be the issue?\"\r\ncaller,9.575806893197715,12.275806893197714,Hi there. So I've got a problem...\r\ncaller,12.921720776590604,17.021720776590605,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,17.656628415949942,21.35662841594994,\"I understand, let me look into that for you.\"\r\nagent,23.33364187747656,26.233641877476558,\"Okay, and how long has this been happening?\"\r\ncaller,27.874399680859412,29.974399680859413,\"Uh-huh, okay, I got it\"\r\nagent,30.859293377979686,35.25929337797969,I'm going to push a software update to your device.\r\nagent,36.444141548634974,39.544141548634975,Let me send that information to your email.\r\ncaller,40.525525678783,42.525525678783,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.8882609646935262,
+      "end_time": 7.388260964693526,
+      "text": "Hi, Jennifer with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.058442590720928,
+      "end_time": 10.458442590720928,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.106525809511378,
+      "end_time": 13.706525809511378,
+      "text": "I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 15.196639044027554,
+      "end_time": 17.096639044027555,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.202634733293397,
+      "end_time": 20.002634733293398,
+      "text": "hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 22.59206956657387,
+      "end_time": 23.79206956657387,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.907891592917313,
+      "end_time": 27.607891592917312,
+      "text": "I can help you with that, you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.43148432378839,
+      "end_time": 30.53148432378839,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.811253006385066,
+      "end_time": 34.61125300638506,
+      "text": "like, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.568755403596285,
+      "end_time": 37.36875540359628,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.15802370441017,
+      "end_time": 41.85802370441017,
+      "text": "kinda, By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.683076587639825,
+      "end_time": 44.98307658763982,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.49167339853014,
+      "end_time": 48.59167339853014,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.24172436684308,
+      "end_time": 51.04172436684308,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.001979941506065,
+      "end_time": 53.501979941506065,
+      "text": "Have a great day!"
+    }
+  ]
 }

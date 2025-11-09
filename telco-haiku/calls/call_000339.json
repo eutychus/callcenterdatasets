@@ -1,12 +1,97 @@
 {
   "call_id": 339,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "James",
-    "duration": 48.2,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
+    "call_type": "retention",
+    "agent_name": "Daniel",
+    "duration": 50.0,
+    "sentiment": "mixed",
+    "churn_reason": "service_complaint",
     "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,Thank you. Connecting you to the next available agent.\r\nagent,5.088451689403959,9.48845168940396,Hi! James with account services. What do you need help with?\r\ncaller,10.352143075865193,14.252143075865193,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.125060455765247,19.225060455765245,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.701175512938505,24.001175512938506,I got it. Let me pull up your account here.\r\nagent,25.875927030777838,31.275927030777837,Let me check our systems to see if there's an outage in your area.\r\ncaller,33.162900015367455,35.562900015367454,\"Okay, sure, I can try that\"\r\nagent,36.23715662315455,40.23715662315455,I'm going to push a software update to your device.\r\nagent,41.148695866901264,45.248695866901265,\"If it happens again, just give us a call back.\"\r\ncaller,46.08353817871238,48.18353817871238,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.769111658656783,
+      "end_time": 8.869111658656783,
+      "text": "Hi, thanks for calling. Daniel here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.155406048345037,
+      "end_time": 12.655406048345037,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.02441074598125,
+      "end_time": 16.82441074598125,
+      "text": "I don't think it's worth the price, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.093115393018138,
+      "end_time": 21.19311539301814,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.72203339808942,
+      "end_time": 23.622033398089417,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.512030054081016,
+      "end_time": 27.612030054081018,
+      "text": "sorta, are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.35531976841025,
+      "end_time": 30.55531976841025,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.768815302467615,
+      "end_time": 33.96881530246762,
+      "text": "I'm worried that won't work, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.43971409073162,
+      "end_time": 37.43971409073162,
+      "text": "here are your options, uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.201450939828135,
+      "end_time": 41.201450939828135,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.583835590128814,
+      "end_time": 44.38383559012881,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.95356611053087,
+      "end_time": 46.45356611053087,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.36312484573189,
+      "end_time": 49.96312484573189,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

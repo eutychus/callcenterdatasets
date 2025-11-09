@@ -1,12 +1,86 @@
 {
   "call_id": 1601,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Jennifer",
-    "duration": 39.0,
+    "call_type": "billing",
+    "agent_name": "Susan",
+    "duration": 46.8,
     "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "billing_issue": "payment",
+    "issue_resolved": true,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,Thank you. Connecting you to the next available agent.\r\nagent,4.5764457408792545,8.876445740879255,Hi! Jennifer with account services. What do you need help with?\r\ncaller,10.210183961266855,14.510183961266854,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.183585183837383,18.483585183837384,\"Yeah, so my internet's been really slow today\"\r\nagent,19.227433627640018,23.427433627640017,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.201860952714306,27.601860952714304,Have you tried restarting your modem?\r\ncaller,28.84303756108571,31.243037561085707,\"Okay, sure, I can try that\"\r\nagent,31.988377775167315,36.18837777516732,Is there anything else I can help you with today?\r\ncaller,37.16130975311271,38.96130975311271,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.941872472875358,
+      "end_time": 10.741872472875357,
+      "text": "Hi, this is Susan from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.63486217756185,
+      "end_time": 14.03486217756185,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.125883820381883,
+      "end_time": 18.125883820381883,
+      "text": "sorry... well, when is my payment due"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.321787422757076,
+      "end_time": 21.721787422757075,
+      "text": "I'm sorry you're experiencing this, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.376175547113174,
+      "end_time": 25.976175547113176,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.81126335400712,
+      "end_time": 30.11126335400712,
+      "text": "Yeah, let me find that., well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.325881148376908,
+      "end_time": 33.92588114837691,
+      "text": "here are your options, you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.917948474792794,
+      "end_time": 37.417948474792794,
+      "text": "kinda, how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.74761049736409,
+      "end_time": 40.447610497364096,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.17933168712358,
+      "end_time": 43.479331687123576,
+      "text": "kinda, Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.184805873535204,
+      "end_time": 46.784805873535205,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -1,12 +1,85 @@
 {
   "call_id": 295,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 35.4,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "retention",
+    "agent_name": "Amanda",
+    "duration": 45.2,
+    "sentiment": "negative",
+    "churn_reason": "competitor",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.443581955210636,9.143581955210635,\"Hi, this is Lisa. What can I do for you today?\"\r\ncaller,9.954676975876732,12.854676975876732,Hi there. So I've got a problem...\r\ncaller,13.98280881272536,16.98280881272536,\"Yeah, so my internet's been really slow today\"\r\nagent,17.457107497949348,20.75710749794935,\"I understand, let me look into that for you.\"\r\nagent,21.912865812828738,24.812865812828736,\"Okay, and how long has this been happening?\"\r\ncaller,26.575722140211887,28.475722140211886,\"Alright, let me try that\"\r\nagent,29.183160325364486,32.58316032536449,You should see improvement within the next 15 minutes.\r\ncaller,33.34246016601333,35.44246016601333,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.587693223183987,
+      "end_time": 9.987693223183987,
+      "text": "Hi, thanks for calling. Amanda here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.711670994709866,
+      "end_time": 15.211670994709866,
+      "text": "uh, Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.267120138946787,
+      "end_time": 18.467120138946786,
+      "text": "um, your competitor is cheaper"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.867859458222437,
+      "end_time": 24.46785945822244,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.267735190340495,
+      "end_time": 26.867735190340497,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.97007763393315,
+      "end_time": 29.770077633933152,
+      "text": "uh, alright, let's do it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.432602879820816,
+      "end_time": 32.43260287982082,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.3484180335985,
+      "end_time": 36.4484180335985,
+      "text": "I can help you with that, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.17011004450691,
+      "end_time": 38.770110044506914,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.27023340474691,
+      "end_time": 42.77023340474691,
+      "text": "um, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.20617712024162,
+      "end_time": 45.20617712024162,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

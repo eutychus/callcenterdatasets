@@ -1,13 +1,97 @@
 {
   "call_id": 211,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 45.5,
-    "sentiment": "negative",
-    "issue": "line quality",
-    "issue_resolved": false,
-    "resolution_type": "callback needed"
+    "call_type": "retention",
+    "agent_name": "Daniel",
+    "duration": 48.6,
+    "sentiment": "neutral",
+    "churn_reason": "service_complaint",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.567560775096881,9.967560775096882,\"Hello, thanks for calling. I'm Jennifer. What seems to be the issue?\"\r\ncaller,11.275354266038967,14.175354266038967,Hi there. So I've got a problem...\r\ncaller,14.849732405376496,19.449732405376494,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.877905573434234,24.077905573434233,I got it. Let me pull up your account here.\r\nagent,25.58013481908813,29.48013481908813,What do you see when you open your browser?\r\ncaller,31.337800071092502,33.6378000710925,\"Okay, sure, I can try that\"\r\nagent,34.56676080825735,38.76676080825735,That should fix it. Let me verify everything looks good.\r\nagent,40.112006416126235,43.01200641612623,Let me send that information to your email.\r\ncaller,43.632024786370394,45.53202478637039,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.670583461467147,
+      "end_time": 8.770583461467147,
+      "text": "Hello! Daniel speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.727980618635353,
+      "end_time": 12.627980618635354,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.081598723756747,
+      "end_time": 16.681598723756746,
+      "text": "the quality has gone downhill, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.839313021777315,
+      "end_time": 20.739313021777313,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.011871089035374,
+      "end_time": 24.511871089035374,
+      "text": "uh, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.376421723327777,
+      "end_time": 27.676421723327778,
+      "text": "uh, I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.826077002700874,
+      "end_time": 30.626077002700875,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.47703590343685,
+      "end_time": 33.77703590343685,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.78545188450832,
+      "end_time": 36.78545188450832,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.522830255028445,
+      "end_time": 39.022830255028445,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.79728397002569,
+      "end_time": 41.19728397002569,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.94253814706795,
+      "end_time": 45.84253814706795,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.63168101085845,
+      "end_time": 48.63168101085845,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

@@ -1,13 +1,97 @@
 {
   "call_id": 1896,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Emily",
-    "duration": 47.9,
+    "call_type": "retention",
+    "agent_name": "Daniel",
+    "duration": 47.7,
     "sentiment": "neutral",
-    "issue": "special offers",
-    "sale_completed": false,
-    "product_category": "Add-on Service"
+    "churn_reason": "competitor",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.3,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.215205916711519,14.11520591671152,Hi! This is Emily with our sales team. Are you interested in any of our plans?\r\ncaller,15.08261489663887,18.78261489663887,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,19.89217585095705,23.292175850957047,\"Yeah, so my internet's been really slow today\"\r\nagent,24.219907079947575,26.219907079947575,\"Yeah, let's troubleshoot that together.\"\r\nagent,27.360419493111138,31.260419493111137,\"If you upgrade now, we can waive your installation fee.\"\r\ncaller,32.28249270132034,34.382492701320345,\"Yeah, sounds good to me\"\r\nagent,34.965661736033454,39.66566173603346,I think I found the issue. Let me reset your connection.\r\nagent,40.314457106454455,44.51445710645446,Is there anything else I can help you with today?\r\ncaller,45.39184092021077,47.89184092021077,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.448491041141214,
+      "end_time": 9.648491041141213,
+      "text": "Hello! Daniel speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.158761247832468,
+      "end_time": 12.758761247832467,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.854053207533477,
+      "end_time": 15.454053207533477,
+      "text": "your competitor is cheaper"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.831198143793614,
+      "end_time": 20.231198143793613,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.057944710462223,
+      "end_time": 22.657944710462225,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 23.719959717297336,
+      "end_time": 25.419959717297335,
+      "text": "that sounds good, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.7039795207337,
+      "end_time": 28.8039795207337,
+      "text": "basically, here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.24016719685643,
+      "end_time": 32.24016719685643,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.87976037555128,
+      "end_time": 34.97976037555128,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.50935059827876,
+      "end_time": 38.00935059827876,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.98465229653539,
+      "end_time": 42.98465229653539,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.58415412694003,
+      "end_time": 45.18415412694003,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.90553301829097,
+      "end_time": 47.705533018290964,
+      "text": "Have a great day!"
+    }
+  ]
 }

@@ -2,11 +2,72 @@
   "call_id": 1338,
   "metadata": {
     "call_type": "technical",
-    "agent_name": "James",
-    "duration": 47.2,
+    "agent_name": "Mark",
+    "duration": 34.1,
     "sentiment": "neutral",
-    "issue": "router configuration",
-    "issue_resolved": false
+    "technical_issue": "device_issue",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.4,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.763606942685599,10.9636069426856,\"Hi there, James here. What device are we troubleshooting today?\"\r\ncaller,12.417285746093135,16.317285746093134,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,17.347875885121216,20.347875885121216,\"Um, I can't... I keep getting disconnected\"\r\nagent,21.049604018095582,25.449604018095584,I got it. Let me pull up your account here.\r\nagent,26.81802939631956,30.31802939631956,\"Okay, and how long has this been happening?\"\r\ncaller,32.29426234127094,34.89426234127094,\"Okay, sure, I can try that\"\r\nagent,35.43077797562497,39.63077797562497,That should fix it. Let me verify everything looks good.\r\nagent,41.03882647959197,44.73882647959197,Is there anything else I can help you with today?\r\ncaller,45.30697526246377,47.20697526246377,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.729800283942914,
+      "end_time": 9.329800283942912,
+      "text": "Hi! Mark from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.7254309050997,
+      "end_time": 12.425430905099699,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.100064413907072,
+      "end_time": 15.700064413907072,
+      "text": "I... I hear a strange noise"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.429284859046845,
+      "end_time": 19.829284859046844,
+      "text": "like, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.49220304651475,
+      "end_time": 23.19220304651475,
+      "text": "try unplugging it for 30 seconds, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.15878353728648,
+      "end_time": 26.258783537286483,
+      "text": "yeah, okay, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.902537483961094,
+      "end_time": 29.202537483961095,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.84376015689414,
+      "end_time": 31.943760156894143,
+      "text": "actually, Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.4826980363687,
+      "end_time": 34.082698036368704,
+      "text": "Have a great day!"
+    }
+  ]
 }

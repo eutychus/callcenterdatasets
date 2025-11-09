@@ -1,12 +1,111 @@
 {
   "call_id": 499,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Mike",
-    "duration": 37.3,
+    "call_type": "support",
+    "agent_name": "Amanda",
+    "duration": 58.5,
     "sentiment": "positive",
-    "issue": "refund request",
-    "issue_resolved": true
+    "issue_category": "device",
+    "issue": "device",
+    "issue_resolved": false,
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.1,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.4201853790766865,9.620185379076688,Hi! This is Mike. I'm here to help with any billing questions.\r\ncaller,10.714613159747387,14.714613159747387,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.788797184572106,20.488797184572107,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.87439282231111,22.774392822311107,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.11135285728467,26.511352857284667,Have you tried restarting your modem?\r\ncaller,27.402984885856924,29.602984885856923,\"Uh-huh, okay, I got it\"\r\nagent,30.267742785078628,33.96774278507863,You should see improvement within the next 15 minutes.\r\ncaller,34.85028121384263,37.25028121384263,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.51784863601358,
+      "end_time": 10.01784863601358,
+      "text": "Hi there! Amanda speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.166888510855356,
+      "end_time": 14.166888510855356,
+      "text": "Hi! So I've been having some trouble., so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.82436608193377,
+      "end_time": 16.92436608193377,
+      "text": "the... the router keeps resetting"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.981467102407272,
+      "end_time": 22.081467102407274,
+      "text": "actually, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.354908191903796,
+      "end_time": 26.054908191903795,
+      "text": "let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.93291906718993,
+      "end_time": 29.03291906718993,
+      "text": "It's 555-1234., like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.9760865475019,
+      "end_time": 33.0760865475019,
+      "text": "here are your options, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.644353625168826,
+      "end_time": 37.34435362516883,
+      "text": "so, sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.696271558694676,
+      "end_time": 40.696271558694676,
+      "text": "like, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.40921394896525,
+      "end_time": 43.80921394896525,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.0957521075025,
+      "end_time": 47.5957521075025,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.097513016018624,
+      "end_time": 50.79751301601863,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.35773356169745,
+      "end_time": 53.25773356169745,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.97656188592941,
+      "end_time": 55.67656188592941,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.21630395188991,
+      "end_time": 58.51630395188991,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

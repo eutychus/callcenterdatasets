@@ -1,12 +1,99 @@
 {
   "call_id": 493,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Jennifer",
-    "duration": 44.6,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "sales",
+    "agent_name": "Patricia",
+    "duration": 48.3,
+    "sentiment": "mixed",
+    "product_category": "TV Package",
+    "inquiry_type": "new_service",
+    "sale_completed": false,
+    "resolution_type": "they purchased a new device"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Your call is important to us. Please hold while we connect you.\r\nagent,5.776412276931329,9.87641227693133,\"Hello, Jennifer here. How can I help with your account?\"\r\ncaller,10.737971266638638,14.037971266638639,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.035151483612072,19.63515148361207,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.317842869099554,23.917842869099555,\"I understand, let me look into that for you.\"\r\nagent,25.381442180280544,27.681442180280545,Have you tried restarting your modem?\r\ncaller,28.75185894672168,30.85185894672168,\"Yeah, sounds good to me\"\r\nagent,31.602080343981626,36.602080343981626,Looks like we need to restart your modem. Can you do that?\r\nagent,37.630315433140765,41.73031543314077,\"If it happens again, just give us a call back.\"\r\ncaller,42.44020315578513,44.64020315578513,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.478126371763329,
+      "end_time": 10.67812637176333,
+      "text": "Hello! Patricia here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.485063715831116,
+      "end_time": 13.585063715831115,
+      "text": "Thanks for picking up., basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.915841577309575,
+      "end_time": 17.315841577309573,
+      "text": "sorry... what packages do you offer"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.56097244156321,
+      "end_time": 20.66097244156321,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.603663329926142,
+      "end_time": 23.603663329926142,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.545029145745204,
+      "end_time": 26.345029145745205,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.855911317443166,
+      "end_time": 29.055911317443165,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.847611762796653,
+      "end_time": 32.64761176279665,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.997443644791794,
+      "end_time": 35.79744364479179,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.313289146568195,
+      "end_time": 39.213289146568194,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.11451889555335,
+      "end_time": 42.61451889555335,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.530479536286165,
+      "end_time": 46.030479536286165,
+      "text": "That's everything. Thanks so much!, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.520541100869785,
+      "end_time": 48.32054110086978,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,12 +1,111 @@
 {
   "call_id": 394,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "James",
-    "duration": 40.4,
-    "sentiment": "positive",
-    "issue": "switching provider",
-    "issue_resolved": false
+    "call_type": "sales",
+    "agent_name": "Lisa",
+    "duration": 54.9,
+    "sentiment": "mixed",
+    "product_category": "TV Package",
+    "inquiry_type": "new_service",
+    "sale_completed": true,
+    "resolution_type": "we scheduled a follow-up"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.1,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.889842793696636,11.189842793696636,\"Hello, this is James. I see you've been with us for a while.\"\r\ncaller,12.172569344587165,14.972569344587164,Hi there. So I've got a problem...\r\ncaller,16.13972353261255,20.33972353261255,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.72125876711095,22.72125876711095,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.56920263828581,29.56920263828581,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.0544544897342,32.8544544897342,\"Uh-huh, okay, I got it\"\r\nagent,33.38217325104087,37.58217325104087,Is there anything else I can help you with today?\r\ncaller,38.537504991933176,40.437504991933174,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.019784389460808,
+      "end_time": 10.519784389460808,
+      "text": "Hello! Lisa here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.539543390093325,
+      "end_time": 14.039543390093325,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.830593088262866,
+      "end_time": 17.230593088262864,
+      "text": "sorry... do you have any promotions"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.691080458238346,
+      "end_time": 21.991080458238347,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.057474012164203,
+      "end_time": 25.257474012164202,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.96298781481912,
+      "end_time": 28.56298781481912,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.25763923492978,
+      "end_time": 31.85763923492978,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.84575393594995,
+      "end_time": 35.04575393594995,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.17759031604588,
+      "end_time": 38.27759031604588,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.122416297272196,
+      "end_time": 40.622416297272196,
+      "text": "that sounds good, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.59051406191032,
+      "end_time": 43.29051406191032,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.048787843471125,
+      "end_time": 46.048787843471125,
+      "text": "here are your options, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.863304537443184,
+      "end_time": 50.26330453744318,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.96971340841792,
+      "end_time": 52.96971340841792,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.35004434126503,
+      "end_time": 54.85004434126503,
+      "text": "Have a great day!"
+    }
+  ]
 }

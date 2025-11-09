@@ -1,12 +1,75 @@
 {
   "call_id": 1686,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Robert",
-    "duration": 40.3,
+    "call_type": "sales",
+    "agent_name": "Mark",
+    "duration": 37.4,
     "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "product_category": "Device",
+    "inquiry_type": "device",
+    "sale_completed": false,
+    "resolution_type": "they purchased a new device"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.9,Your call is important to us. Please hold while we connect you.\r\nagent,5.426389927937063,10.026389927937062,Hi! Robert with account services. What do you need help with?\r\ncaller,11.075274119355035,14.375274119355034,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.361719494295063,20.46171949429506,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,21.17751967568637,24.77751967568637,\"I understand, let me look into that for you.\"\r\nagent,26.2098120626284,29.2098120626284,\"Okay, and how long has this been happening?\"\r\ncaller,30.775166115899992,32.27516611589999,\"Yeah, that sounds good\"\r\nagent,33.03856070815483,36.638560708154834,You should see improvement within the next 15 minutes.\r\ncaller,37.261355500236974,40.261355500236974,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.594926736483553,
+      "end_time": 8.694926736483552,
+      "text": "Hi! Welcome to Telecom Haiku. Mark speaking. What brings you in today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.343535919268978,
+      "end_time": 12.943535919268978,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.113466477993356,
+      "end_time": 16.013466477993354,
+      "text": "I need a new phone"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.067619070462463,
+      "end_time": 20.167619070462464,
+      "text": "like, let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.606551878065375,
+      "end_time": 23.706551878065376,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.274903685988143,
+      "end_time": 27.274903685988143,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.62397994680859,
+      "end_time": 31.72397994680859,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.311055602816715,
+      "end_time": 35.11105560281671,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.77741523315517,
+      "end_time": 37.37741523315517,
+      "text": "Have a great day!"
+    }
+  ]
 }

@@ -1,12 +1,73 @@
 {
   "call_id": 1564,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Emily",
-    "duration": 43.9,
-    "sentiment": "negative",
-    "issue": "device compatibility",
+    "call_type": "retention",
+    "agent_name": "Amanda",
+    "duration": 38.1,
+    "sentiment": "neutral",
+    "churn_reason": "competitor",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,Please enter your account number followed by the pound sign.\r\nagent,5.090774728251444,8.590774728251443,Hello! I'm Emily. Let's get your device working again.\r\ncaller,9.60225228097357,13.20225228097357,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.34596021650879,18.445960216508787,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.192996759093386,22.592996759093385,\"I understand, let me look into that for you.\"\r\nagent,24.54691047129728,27.84691047129728,\"Okay, and how long has this been happening?\"\r\ncaller,29.139617475974216,31.339617475974215,\"Alright, let me try that\"\r\nagent,32.112005770996156,36.31200577099616,I'm going to push a software update to your device.\r\nagent,37.27981857273757,40.77981857273757,You should see improvement within the next 15 minutes.\r\ncaller,41.68551885568445,43.88551885568445,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.114765261387367,
+      "end_time": 9.914765261387366,
+      "text": "Hi, thanks for calling. Amanda here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.408208144186982,
+      "end_time": 14.208208144186983,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.298991805149292,
+      "end_time": 17.598991805149293,
+      "text": "I found a better deal elsewhere"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.853112810072243,
+      "end_time": 23.153112810072244,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.5240629861318,
+      "end_time": 26.8240629861318,
+      "text": "actually, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.893427570748038,
+      "end_time": 29.19342757074804,
+      "text": "that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.28536947271101,
+      "end_time": 31.68536947271101,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.503848971125144,
+      "end_time": 34.603848971125146,
+      "text": "No, that's all. Thanks!, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.602319786131865,
+      "end_time": 38.102319786131865,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

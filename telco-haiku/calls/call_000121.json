@@ -1,13 +1,73 @@
 {
   "call_id": 121,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Lisa",
-    "duration": 47.0,
-    "sentiment": "negative",
-    "issue": "billing question",
-    "issue_resolved": false,
-    "resolution_type": "resolved"
+    "call_type": "technical",
+    "agent_name": "Jennifer",
+    "duration": 38.6,
+    "sentiment": "positive",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.1,Please enter your account number followed by the pound sign.\r\nagent,5.196360692621637,10.996360692621636,Hi there! This is Lisa from Technical Support. How can I help you today?\r\ncaller,12.047843626795823,15.347843626795822,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,16.440140391969038,21.340140391969037,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,21.911362593286675,23.811362593286674,\"Yeah, let's troubleshoot that together.\"\r\nagent,25.004622422765184,27.604622422765186,Have you tried restarting your modem?\r\ncaller,29.544860073753085,32.044860073753085,\"Okay, sure, I can try that\"\r\nagent,33.03898178248456,37.138981782484564,I think I found the issue. Let me reset your connection.\r\nagent,38.59368085163903,42.893680851639026,Is there anything else I can help you with today?\r\ncaller,43.638652300894464,47.03865230089446,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.675146707204943,
+      "end_time": 9.375146707204944,
+      "text": "Thanks for calling. Jennifer with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.323715029170373,
+      "end_time": 13.123715029170373,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.020359826261751,
+      "end_time": 17.82035982626175,
+      "text": "hang on... actually, something changed and now it's slow"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.986956042936725,
+      "end_time": 23.286956042936726,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.15427909888655,
+      "end_time": 26.254279098886553,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.144453239009817,
+      "end_time": 29.344453239009816,
+      "text": "that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.417083804470575,
+      "end_time": 34.31708380447058,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.90763210142863,
+      "end_time": 37.007632101428634,
+      "text": "That's everything. Thanks so much!, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.535292383716,
+      "end_time": 38.635292383716,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

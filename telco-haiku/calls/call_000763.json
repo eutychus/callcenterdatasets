@@ -1,12 +1,85 @@
 {
   "call_id": 763,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "James",
-    "duration": 38.0,
-    "sentiment": "positive",
-    "issue": "general inquiry",
+    "call_type": "technical",
+    "agent_name": "Jennifer",
+    "duration": 44.4,
+    "sentiment": "neutral",
+    "technical_issue": "device_issue",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.6,Your call is important to us. Please hold while we connect you.\r\nagent,5.890444070216221,8.89044407021622,Hello! James here. How may I assist you?\r\ncaller,9.698209460451535,12.598209460451535,Hi there. So I've got a problem...\r\ncaller,13.350316692148176,17.750316692148175,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.351938762512415,22.851938762512415,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,23.888622760770335,27.188622760770336,\"Okay, and how long has this been happening?\"\r\ncaller,28.465133866955608,30.465133866955608,\"Alright, let me try that\"\r\nagent,31.45940240066083,34.859402400660834,You should see improvement within the next 15 minutes.\r\ncaller,35.81647532274391,38.016475322743915,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.1,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.501883994095817,
+      "end_time": 8.501883994095817,
+      "text": "Hello, Jennifer here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.81763473169047,
+      "end_time": 12.71763473169047,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.29911309835073,
+      "end_time": 15.79911309835073,
+      "text": "well,... well, I need to reset it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.82775906405615,
+      "end_time": 19.82775906405615,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.055046127811963,
+      "end_time": 23.155046127811964,
+      "text": "let's try restarting the device, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.80369960906122,
+      "end_time": 25.90369960906122,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.34038575916355,
+      "end_time": 31.14038575916355,
+      "text": "basically, can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.799203023109136,
+      "end_time": 35.09920302310913,
+      "text": "uh, I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.95638662724083,
+      "end_time": 38.05638662724083,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.79542474084937,
+      "end_time": 41.09542474084937,
+      "text": "kinda, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.84133379939577,
+      "end_time": 44.44133379939577,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

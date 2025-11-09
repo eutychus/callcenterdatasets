@@ -1,12 +1,73 @@
 {
   "call_id": 1939,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "David",
-    "duration": 42.8,
-    "sentiment": "positive",
-    "issue": "service complaint",
+    "call_type": "technical",
+    "agent_name": "Sarah",
+    "duration": 34.5,
+    "sentiment": "neutral",
+    "technical_issue": "device_issue",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.7,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.36521809952249,10.36521809952249,\"Hello, this is David. I see you've been with us for a while.\"\r\ncaller,11.601906104192722,14.201906104192721,Hi there. So I've got a problem...\r\ncaller,15.369440834276606,18.469440834276607,\"Yeah, so my internet's been really slow today\"\r\nagent,19.277149127926123,23.477149127926122,I got it. Let me pull up your account here.\r\nagent,24.529682404408096,26.929682404408094,Have you tried restarting your modem?\r\ncaller,28.071334307204403,29.671334307204404,\"Yeah, that sounds good\"\r\nagent,30.206552508605686,34.906552508605685,I think I found the issue. Let me reset your connection.\r\nagent,36.389732056302414,39.78973205630241,Let me send that information to your email.\r\ncaller,40.71536514195317,42.81536514195317,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.229423613972088,
+      "end_time": 7.929423613972088,
+      "text": "Thanks for calling. Sarah with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.010453360589164,
+      "end_time": 12.010453360589164,
+      "text": "like, Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.004963151715817,
+      "end_time": 15.004963151715817,
+      "text": "like,... like, it's not responding"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.125316087347514,
+      "end_time": 18.125316087347514,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.228406242761476,
+      "end_time": 21.928406242761476,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 23.757964567571264,
+      "end_time": 26.057964567571265,
+      "text": "uh, I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.57209616383426,
+      "end_time": 28.67209616383426,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.380558076099234,
+      "end_time": 31.180558076099235,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.838188373567554,
+      "end_time": 34.53818837356756,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

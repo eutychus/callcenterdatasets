@@ -2,11 +2,108 @@
   "call_id": 372,
   "metadata": {
     "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 46.8,
-    "sentiment": "neutral",
-    "issue": "considering leaving",
-    "issue_resolved": false
+    "agent_name": "Sarah",
+    "duration": 58.2,
+    "sentiment": "mixed",
+    "churn_reason": "leaving",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.041416078850239,8.841416078850239,\"Hello, this is Mike. I see you've been with us for a while.\"\r\ncaller,10.139329952194142,13.739329952194142,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.744206159866334,18.344206159866335,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.327119342087933,23.827119342087933,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.45799293785304,29.657992937853038,Can you check if the lights on your router are on?\r\ncaller,30.943986346807435,33.14398634680744,\"Alright, let me try that\"\r\nagent,33.66359191963602,38.26359191963602,I think I found the issue. Let me reset your connection.\r\nagent,39.719802511159855,43.91980251115986,Is there anything else I can help you with today?\r\ncaller,44.58352304437966,46.78352304437966,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.207078123577079,
+      "end_time": 12.40707812357708,
+      "text": "Hi, thanks for calling. Sarah here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.199368285854948,
+      "end_time": 15.599368285854949,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.37881048802063,
+      "end_time": 18.77881048802063,
+      "text": "basically,... basically, can you process my cancellation"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.542220091594118,
+      "end_time": 22.742220091594117,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.97249637265552,
+      "end_time": 25.97249637265552,
+      "text": "so, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.913382477223685,
+      "end_time": 29.613382477223684,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.824680389772805,
+      "end_time": 33.4246803897728,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.10197278185782,
+      "end_time": 37.10197278185782,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.16276703281823,
+      "end_time": 39.56276703281823,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.24526690117099,
+      "end_time": 42.945266901170996,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.00966633230561,
+      "end_time": 47.109666332305615,
+      "text": "Oh, and while we're at it..., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.78875958595667,
+      "end_time": 49.78875958595667,
+      "text": "actually, here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.67387094551519,
+      "end_time": 52.57387094551519,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.4042857106543,
+      "end_time": 55.7042857106543,
+      "text": "so, Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.37864300766118,
+      "end_time": 58.17864300766118,
+      "text": "Have a great day!"
+    }
+  ]
 }

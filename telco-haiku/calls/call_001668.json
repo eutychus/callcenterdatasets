@@ -1,12 +1,110 @@
 {
   "call_id": 1668,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Robert",
-    "duration": 38.5,
-    "sentiment": "negative",
-    "issue": "device compatibility",
-    "issue_resolved": true
+    "call_type": "billing",
+    "agent_name": "Susan",
+    "duration": 56.9,
+    "sentiment": "neutral",
+    "billing_issue": "payment",
+    "issue_resolved": true,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,5.080308644830113,8.980308644830114,\"Hi, Robert technical support here. Let me help you troubleshoot.\"\r\ncaller,10.325399055538252,14.225399055538253,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.11104557009576,20.11104557009576,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.433680964213387,22.433680964213387,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.297577531773715,26.697577531773714,Have you tried restarting your modem?\r\ncaller,28.460773137872774,30.960773137872774,\"Okay, sure, I can try that\"\r\nagent,31.805926371617574,35.10592637161757,Let me send that information to your email.\r\ncaller,36.01052655868796,38.51052655868796,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.976808759235661,
+      "end_time": 10.876808759235661,
+      "text": "Hello! Susan speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.42939008441007,
+      "end_time": 14.129390084410069,
+      "text": "actually, Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.86698744834058,
+      "end_time": 17.76698744834058,
+      "text": "what... what payment methods do you accept"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.77593614221751,
+      "end_time": 22.57593614221751,
+      "text": "you know, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.397598779684934,
+      "end_time": 25.997598779684935,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.847182692130524,
+      "end_time": 29.847182692130524,
+      "text": "Yeah, let me find that."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.600661806376056,
+      "end_time": 33.10066180637605,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.56263879838658,
+      "end_time": 36.06263879838658,
+      "text": "kinda, that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.57203502861149,
+      "end_time": 39.47203502861149,
+      "text": "I have a solution for you, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.51978518409172,
+      "end_time": 42.21978518409172,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.66978944990679,
+      "end_time": 45.36978944990679,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.49122261843806,
+      "end_time": 47.99122261843806,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.979963571901216,
+      "end_time": 51.07996357190122,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.924479826819095,
+      "end_time": 55.1244798268191,
+      "text": "That's everything. Thanks so much!, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.506682636048126,
+      "end_time": 56.906682636048124,
+      "text": "We appreciate your business."
+    }
+  ]
 }

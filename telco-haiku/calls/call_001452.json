@@ -2,11 +2,108 @@
   "call_id": 1452,
   "metadata": {
     "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 43.8,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "agent_name": "Mike",
+    "duration": 63.3,
+    "sentiment": "mixed",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,Thank you. Connecting you to the next available agent.\r\nagent,4.292077817581216,7.192077817581216,Hello! Lisa here. How may I assist you?\r\ncaller,8.595093228398824,11.895093228398824,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,13.035205014029014,18.035205014029014,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,18.43468818224456,22.73468818224456,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,24.66578651888174,27.96578651888174,What do you see when you open your browser?\r\ncaller,29.515336489593558,31.61533648959356,\"Uh-huh, okay, I got it\"\r\nagent,32.215317508053246,36.41531750805325,I think I found the issue. Let me reset your connection.\r\nagent,37.8675434173721,40.9675434173721,Let me send that information to your email.\r\ncaller,41.69931951574307,43.79931951574307,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 7.041855950422997,
+      "end_time": 9.941855950422998,
+      "text": "Hi! Mike here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.239881076013859,
+      "end_time": 14.339881076013858,
+      "text": "uh, Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.784028703190994,
+      "end_time": 18.984028703190994,
+      "text": "I... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.4305388916671,
+      "end_time": 23.530538891667103,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.13782340049246,
+      "end_time": 26.937823400492462,
+      "text": "you know, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.77053866598419,
+      "end_time": 29.370538665984192,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.36538870950479,
+      "end_time": 32.16538870950479,
+      "text": "um, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.79537233465424,
+      "end_time": 36.49537233465424,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.76940394879435,
+      "end_time": 40.46940394879435,
+      "text": "here's what we can do, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.708119789743286,
+      "end_time": 43.00811978974328,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.38566738312763,
+      "end_time": 47.985667383127634,
+      "text": "By the way, I also have a question..., sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.54944941959411,
+      "end_time": 51.249449419594114,
+      "text": "I have a solution for you, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.779574217226354,
+      "end_time": 55.879574217226356,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.84060132249011,
+      "end_time": 60.84060132249011,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 61.766091370306825,
+      "end_time": 63.266091370306825,
+      "text": "We appreciate your business."
+    }
+  ]
 }

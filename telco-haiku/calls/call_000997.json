@@ -1,13 +1,97 @@
 {
   "call_id": 997,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Emily",
-    "duration": 41.1,
+    "call_type": "general",
+    "agent_name": "Jennifer",
+    "duration": 49.0,
     "sentiment": "negative",
-    "issue": "interested in new plan",
-    "sale_completed": false,
-    "product_category": "Device"
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.460872240717462,9.760872240717461,Hello! Emily speaking. I'd love to tell you about our latest offers.\r\ncaller,10.759985794847667,14.459985794847668,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.144354266318683,19.144354266318683,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.800196222321738,23.60019622232174,I got it. Let me pull up your account here.\r\nagent,25.438682513658055,30.338682513658057,We have a special promotion running through the end of the month.\r\ncaller,31.811810416644555,33.811810416644555,\"Alright, let me try that\"\r\nagent,34.68119817437539,37.981198174375386,Let me send that information to your email.\r\ncaller,38.92200006055822,41.12200006055822,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.361420919573482,
+      "end_time": 8.261420919573482,
+      "text": "Hi! Jennifer here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.853514001340649,
+      "end_time": 12.953514001340649,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.886262025111268,
+      "end_time": 17.586262025111267,
+      "text": "one moment... I had a question about my service., so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.5098581218322,
+      "end_time": 21.6098581218322,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.379987107633188,
+      "end_time": 25.17998710763319,
+      "text": "basically, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.593335308767553,
+      "end_time": 29.193335308767555,
+      "text": "basically, are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.766886779531493,
+      "end_time": 32.96688677953149,
+      "text": "well, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.82993275087491,
+      "end_time": 36.02993275087491,
+      "text": "uh, will that really fix it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.639848160178765,
+      "end_time": 39.639848160178765,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.32927034902826,
+      "end_time": 42.429270349028265,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.075482676878316,
+      "end_time": 44.77548267687832,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.621822457608694,
+      "end_time": 47.221822457608695,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.88948608039181,
+      "end_time": 48.98948608039181,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

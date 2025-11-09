@@ -1,13 +1,97 @@
 {
   "call_id": 267,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 43.6,
+    "call_type": "account",
+    "agent_name": "Amanda",
+    "duration": 53.4,
     "sentiment": "neutral",
-    "issue": "need password reset",
-    "issue_resolved": false,
-    "resolution_type": "callback needed"
+    "issue": "general",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.3,Please enter your account number followed by the pound sign.\r\nagent,5.32340566905612,10.82340566905612,Good day! Jennifer here from our support team. What can I assist with?\r\ncaller,11.664658739866454,15.064658739866454,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.782677209962728,18.282677209962728,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.064975530462675,21.164975530462677,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.433120426272545,26.833120426272544,Can you check if the lights on your router are on?\r\ncaller,28.784490766727203,31.084490766727203,\"Okay, sure, I can try that\"\r\nagent,31.93892485267372,36.73892485267372,I think I found the issue. Let me reset your connection.\r\nagent,37.66462687840951,40.76462687840951,Let me send that information to your email.\r\ncaller,41.643070231338356,43.643070231338356,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.103515956619703,
+      "end_time": 9.703515956619704,
+      "text": "Hello! Amanda speaking. What can I do with your account today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.51254842037886,
+      "end_time": 14.212548420378859,
+      "text": "like, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.157600226561401,
+      "end_time": 19.2576002265614,
+      "text": "like,... like, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.351993931740978,
+      "end_time": 23.45199393174098,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.97358761839939,
+      "end_time": 26.57358761839939,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.093161118757298,
+      "end_time": 29.8931611187573,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.743769345197986,
+      "end_time": 34.443769345197985,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.47601884478178,
+      "end_time": 37.876018844781775,
+      "text": "are you sure about that, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.664994104733246,
+      "end_time": 41.164994104733246,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.212503563978466,
+      "end_time": 44.41250356397847,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.01932140548776,
+      "end_time": 48.319321405487756,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.97733995356613,
+      "end_time": 50.67733995356613,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.5416824313061,
+      "end_time": 53.4416824313061,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

@@ -1,13 +1,86 @@
 {
   "call_id": 1720,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Emily",
-    "duration": 43.4,
-    "sentiment": "positive",
-    "issue": "bundle packages",
-    "sale_completed": false,
-    "product_category": "Mobile Plan"
+    "call_type": "billing",
+    "agent_name": "Mike",
+    "duration": 45.2,
+    "sentiment": "mixed",
+    "billing_issue": "promotion",
+    "issue_resolved": false,
+    "resolution_type": "we set up a payment plan"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,5.2558355707879905,10.055835570787991,Hello! Emily speaking. I'd love to tell you about our latest offers.\r\ncaller,11.524919239905614,15.124919239905614,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.757599857783283,20.057599857783284,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.57761093332752,22.57761093332752,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.739890426064786,27.839890426064784,\"If you upgrade now, we can waive your installation fee.\"\r\ncaller,29.12325694586559,31.223256945865593,\"Uh-huh, okay, I got it\"\r\nagent,32.05596253587575,36.35596253587575,That should fix it. Let me verify everything looks good.\r\nagent,37.00461703739229,40.704617037392296,\"If it happens again, just give us a call back.\"\r\ncaller,41.51063961084098,43.41063961084098,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.611438727766804,
+      "end_time": 12.311438727766804,
+      "text": "Hi, this is Mike from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.518472748733743,
+      "end_time": 16.018472748733743,
+      "text": "Yeah, hi. I'm having an issue., well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.563996081097542,
+      "end_time": 19.363996081097543,
+      "text": "let me check... are there loyalty discounts"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.44389142124465,
+      "end_time": 22.14389142124465,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.067736924966873,
+      "end_time": 26.067736924966873,
+      "text": "let... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.25484157217813,
+      "end_time": 30.654841572178128,
+      "text": "basically, Yeah, let me find that."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.665743234019892,
+      "end_time": 33.06574323401989,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.054138997957175,
+      "end_time": 36.554138997957175,
+      "text": "that sounds good, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.09470044371697,
+      "end_time": 38.79470044371697,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.36952973262511,
+      "end_time": 43.16952973262511,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.825455229247645,
+      "end_time": 45.22545522924764,
+      "text": "Have a great day!"
+    }
+  ]
 }

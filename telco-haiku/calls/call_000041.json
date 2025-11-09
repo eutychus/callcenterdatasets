@@ -1,12 +1,85 @@
 {
   "call_id": 41,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Jennifer",
-    "duration": 38.7,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "general",
+    "agent_name": "Patricia",
+    "duration": 43.2,
+    "sentiment": "neutral",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,Please enter your account number followed by the pound sign.\r\nagent,4.8587328733837545,9.158732873383755,\"Hello, Jennifer here. How can I help with your account?\"\r\ncaller,10.353265497485662,13.653265497485663,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.817248295264935,18.617248295264936,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.06481416105631,21.06481416105631,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.095100059637744,27.895100059637745,Let me check our systems to see if there's an outage in your area.\r\ncaller,29.05761299518329,31.55761299518329,\"Okay, sure, I can try that\"\r\nagent,32.400108415781126,35.70010841578112,Let me send that information to your email.\r\ncaller,36.27914863928873,38.67914863928873,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.767690311564875,
+      "end_time": 9.367690311564875,
+      "text": "Hi! Patricia here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.19160056754088,
+      "end_time": 13.291600567540879,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.668799181792455,
+      "end_time": 18.068799181792453,
+      "text": "um,... um, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.376590741151304,
+      "end_time": 21.676590741151305,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.149149977118697,
+      "end_time": 25.849149977118696,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.725894943436447,
+      "end_time": 30.425894943436447,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.384352971980597,
+      "end_time": 33.4843529719806,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.26039887444425,
+      "end_time": 35.86039887444425,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.84250801181062,
+      "end_time": 38.34250801181062,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.26796486470493,
+      "end_time": 41.46796486470493,
+      "text": "That's everything. Thanks so much!, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.82024606976667,
+      "end_time": 43.22024606976667,
+      "text": "Have a great day!"
+    }
+  ]
 }

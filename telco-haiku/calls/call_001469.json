@@ -1,12 +1,123 @@
 {
   "call_id": 1469,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "David",
-    "duration": 42.8,
+    "call_type": "support",
+    "agent_name": "Robert",
+    "duration": 62.5,
     "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "issue_category": "service",
+    "issue": "service",
+    "issue_resolved": "partial",
+    "resolution_type": "we're escalating to our technical team"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.6,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.174564626577611,10.274564626577611,\"Hello, David here. How can I help with your account?\"\r\ncaller,11.300864087144252,14.800864087144252,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.390055282534018,18.090055282534017,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.94455018829712,22.744550188297122,\"I understand, let me look into that for you.\"\r\nagent,24.29506097897858,27.59506097897858,\"Okay, and how long has this been happening?\"\r\ncaller,29.515117886634517,31.215117886634516,\"Yeah, that sounds good\"\r\nagent,32.144662455504196,36.044662455504195,That should fix it. Let me verify everything looks good.\r\nagent,37.012198085462884,40.112198085462886,Let me send that information to your email.\r\ncaller,40.61718066655676,42.817180666556766,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.821214932017549,
+      "end_time": 10.22121493201755,
+      "text": "Good, this is Robert. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.150934899961474,
+      "end_time": 14.650934899961474,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.085972904551046,
+      "end_time": 17.685972904551047,
+      "text": "service keeps cutting out"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.940120189744874,
+      "end_time": 22.640120189744874,
+      "text": "I can see why that would be frustrating, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.283402358671424,
+      "end_time": 25.683402358671422,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.10234434956476,
+      "end_time": 29.60234434956476,
+      "text": "Okay, hold on., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.234315210623297,
+      "end_time": 33.834315210623295,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.89364884302206,
+      "end_time": 36.993648843022065,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.75285549169671,
+      "end_time": 39.95285549169671,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.20011588747724,
+      "end_time": 43.000115887477236,
+      "text": "alright, let's do it, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.00786624524703,
+      "end_time": 46.40786624524703,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.41230300481811,
+      "end_time": 49.012303004818115,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.019710254949665,
+      "end_time": 51.619710254949666,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.36499533352603,
+      "end_time": 54.564995333526035,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.126946127765194,
+      "end_time": 57.226946127765196,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 57.939122437652216,
+      "end_time": 61.03912243765222,
+      "text": "uh, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 61.3597437652456,
+      "end_time": 62.4597437652456,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

@@ -1,13 +1,75 @@
 {
   "call_id": 352,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Sarah",
-    "duration": 43.6,
+    "call_type": "sales",
+    "agent_name": "James",
+    "duration": 39.5,
     "sentiment": "negative",
-    "issue": "billing question",
-    "issue_resolved": true,
-    "resolution_type": "scheduled followup"
+    "product_category": "Mobile Plan",
+    "inquiry_type": "new_service",
+    "sale_completed": false,
+    "resolution_type": "they added a service"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.0,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.498225722081365,9.698225722081364,Hi there! This is Sarah from Technical Support. How can I help you today?\r\ncaller,10.549635231097437,13.449635231097437,Hi there. So I've got a problem...\r\ncaller,14.355124444619795,18.655124444619794,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.606035733708353,23.906035733708354,I got it. Let me pull up your account here.\r\nagent,25.115807611947787,28.115807611947787,\"Okay, and how long has this been happening?\"\r\ncaller,29.145593936553897,30.645593936553897,\"Yeah, that sounds good\"\r\nagent,31.56615461261104,35.26615461261104,That should fix it. Let me verify everything looks good.\r\nagent,36.263771540409905,40.46377154040991,Is there anything else I can help you with today?\r\ncaller,41.395058740874134,43.59505874087414,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.9,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 7.025895181575464,
+      "end_time": 12.325895181575465,
+      "text": "Hi! Welcome to Telecom Haiku. James speaking. What brings you in today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.884327624498441,
+      "end_time": 15.58432762449844,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.98997526070765,
+      "end_time": 20.08997526070765,
+      "text": "hold on... can I bundle my services, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.366951125828678,
+      "end_time": 25.366951125828678,
+      "text": "like, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.247255297764227,
+      "end_time": 28.347255297764228,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.583428148157672,
+      "end_time": 30.78342814815767,
+      "text": "that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.960325222068036,
+      "end_time": 34.26032522206803,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.89009725423923,
+      "end_time": 37.39009725423923,
+      "text": "sorta, That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.09931747559855,
+      "end_time": 39.49931747559855,
+      "text": "We appreciate your business."
+    }
+  ]
 }

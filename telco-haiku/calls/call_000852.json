@@ -1,12 +1,86 @@
 {
   "call_id": 852,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Lisa",
-    "duration": 42.4,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "billing",
+    "agent_name": "David",
+    "duration": 47.0,
+    "sentiment": "mixed",
+    "billing_issue": "payment",
+    "issue_resolved": false,
+    "resolution_type": "we applied a credit"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,3.827468654866209,8.027468654866208,\"Hello, Lisa here. How can I help with your account?\"\r\ncaller,8.829308809464358,11.629308809464359,Hi there. So I've got a problem...\r\ncaller,12.243980459124707,17.343980459124708,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,17.986552267616403,21.386552267616402,\"I understand, let me look into that for you.\"\r\nagent,22.883125607795485,26.483125607795486,What do you see when you open your browser?\r\ncaller,27.87369058934109,29.473690589341093,\"Yeah, that sounds good\"\r\nagent,30.336729118898162,34.23672911889816,That should fix it. Let me verify everything looks good.\r\nagent,35.39660847771219,38.49660847771219,Let me send that information to your email.\r\ncaller,39.25157693177622,42.35157693177622,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.668128024493225,
+      "end_time": 7.868128024493226,
+      "text": "Hello! David speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.619538619296435,
+      "end_time": 13.519538619296435,
+      "text": "Hi! So I've been having some trouble., you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.583228806569192,
+      "end_time": 16.883228806569193,
+      "text": "when is my payment due"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.184458169613436,
+      "end_time": 21.784458169613437,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.995943099913717,
+      "end_time": 25.995943099913717,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.851209836147785,
+      "end_time": 29.951209836147786,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.96056300291452,
+      "end_time": 34.66056300291452,
+      "text": "you know, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.84264666200948,
+      "end_time": 37.642646662009476,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.08200381268184,
+      "end_time": 41.18200381268184,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.994887526134534,
+      "end_time": 43.694887526134536,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.34130389138073,
+      "end_time": 47.041303891380736,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

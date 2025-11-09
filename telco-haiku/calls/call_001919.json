@@ -1,13 +1,109 @@
 {
   "call_id": 1919,
   "metadata": {
-    "call_type": "sales",
+    "call_type": "technical",
     "agent_name": "Jennifer",
-    "duration": 41.4,
-    "sentiment": "neutral",
-    "issue": "upgrade options",
-    "sale_completed": true,
-    "product_category": "Broadband"
+    "duration": 58.6,
+    "sentiment": "mixed",
+    "technical_issue": "setup",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.8,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.496587294275865,10.096587294275864,Hello! Jennifer speaking. I'd love to tell you about our latest offers.\r\ncaller,11.460044434600402,15.360044434600402,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.944551955261366,18.444551955261367,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.290878223254865,23.790878223254865,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.725014174384743,30.32501417438474,We have a special promotion running through the end of the month.\r\ncaller,31.78104919211046,33.68104919211046,\"Alright, let me try that\"\r\nagent,34.309923014494494,38.0099230144945,\"If it happens again, just give us a call back.\"\r\ncaller,38.84102592152334,41.44102592152334,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.302167899985067,
+      "end_time": 8.002167899985068,
+      "text": "Hello, Jennifer here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.525605242506494,
+      "end_time": 12.925605242506494,
+      "text": "so, Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.216950319010987,
+      "end_time": 17.416950319010986,
+      "text": "hang on... what cables do I need"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.32832597945569,
+      "end_time": 22.628325979455692,
+      "text": "I can see why that would be frustrating, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.743874899442467,
+      "end_time": 26.34387489944247,
+      "text": "try unplugging it for 30 seconds, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.32683479249934,
+      "end_time": 29.12683479249934,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.120210339640884,
+      "end_time": 32.92021033964088,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.73327312956373,
+      "end_time": 36.133273129563726,
+      "text": "so, I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.55658176989966,
+      "end_time": 40.25658176989966,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.69719149643038,
+      "end_time": 44.19719149643038,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.409750699141725,
+      "end_time": 48.10975069914173,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.05233124049059,
+      "end_time": 51.15233124049059,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.69663902645709,
+      "end_time": 54.19663902645709,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 55.08045400234555,
+      "end_time": 56.68045400234555,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.17129359923149,
+      "end_time": 58.57129359923149,
+      "text": "We appreciate your business."
+    }
+  ]
 }

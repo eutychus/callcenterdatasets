@@ -1,13 +1,99 @@
 {
   "call_id": 1102,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Robert",
-    "duration": 48.0,
-    "sentiment": "neutral",
-    "issue": "special offers",
-    "sale_completed": false,
-    "product_category": "Bundles"
+    "call_type": "support",
+    "agent_name": "James",
+    "duration": 54.2,
+    "sentiment": "mixed",
+    "issue_category": "billing_issue",
+    "issue": "billing_issue",
+    "issue_resolved": false,
+    "resolution_type": "we're escalating to our technical team"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.1,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.355460922245938,13.855460922245939,Hi! This is Robert with our sales team. Are you interested in any of our plans?\r\ncaller,14.886212168276419,18.58621216827642,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,19.296592440883398,23.996592440883397,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,24.45938589106675,26.359385891066747,\"Yeah, let's troubleshoot that together.\"\r\nagent,28.242966239745897,32.3429662397459,Our customers are really happy with the new bundled package.\r\ncaller,33.170162547433435,34.97016254743343,\"Yeah, that sounds good\"\r\nagent,35.61726926424196,39.71726926424196,I think I found the issue. Let me reset your connection.\r\nagent,40.92840718787323,45.32840718787323,\"If it happens again, just give us a call back.\"\r\ncaller,45.92006133838654,48.02006133838654,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.944532164618459,
+      "end_time": 8.444532164618458,
+      "text": "Hi, thanks for calling. This is James from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.374461955769771,
+      "end_time": 12.07446195576977,
+      "text": "Hi! So I've been having some trouble., actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.653860918715239,
+      "end_time": 14.753860918715239,
+      "text": "can... can you explain this charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.107744707135033,
+      "end_time": 20.307744707135033,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.73386232805457,
+      "end_time": 23.53386232805457,
+      "text": "I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.9403229838044,
+      "end_time": 28.2403229838044,
+      "text": "Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.023026069951655,
+      "end_time": 32.32302606995165,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.38273037555142,
+      "end_time": 35.38273037555142,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.92273558330244,
+      "end_time": 39.42273558330244,
+      "text": "Oh, and while we're at it..., you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.25997705514308,
+      "end_time": 42.65997705514308,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.35996099112532,
+      "end_time": 46.65996099112532,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.4714837286836,
+      "end_time": 51.171483728683604,
+      "text": "I think that covers it. Thanks for your help., uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.66125131352184,
+      "end_time": 54.16125131352184,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

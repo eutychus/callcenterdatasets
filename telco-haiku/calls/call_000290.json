@@ -1,13 +1,87 @@
 {
   "call_id": 290,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Lisa",
-    "duration": 44.0,
-    "sentiment": "neutral",
-    "issue": "interested in new plan",
-    "sale_completed": false,
-    "product_category": "TV Package"
+    "call_type": "support",
+    "agent_name": "Jennifer",
+    "duration": 41.7,
+    "sentiment": "mixed",
+    "issue_category": "service",
+    "issue": "service",
+    "issue_resolved": false,
+    "resolution_type": "it was a software issue that's now updated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.745213935638567,9.345213935638567,Hello! Lisa speaking. I'd love to tell you about our latest offers.\r\ncaller,10.539514418623046,13.739514418623045,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.897505532009028,19.19750553200903,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.06126506158437,22.16126506158437,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.18074468515938,27.48074468515938,Our customers are really happy with the new bundled package.\r\ncaller,28.30915948283957,30.40915948283957,\"Uh-huh, okay, I got it\"\r\nagent,31.072002049203334,36.172002049203336,Looks like we need to restart your modem. Can you do that?\r\nagent,37.28955788730352,41.58955788730352,Is there anything else I can help you with today?\r\ncaller,42.142975175347715,44.04297517534771,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.52087125289055,
+      "end_time": 9.12087125289055,
+      "text": "Hi there! Jennifer speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.318391923696701,
+      "end_time": 13.418391923696701,
+      "text": "Hey, thanks. Yeah, I need help with something., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.989844783117604,
+      "end_time": 17.089844783117606,
+      "text": "I'm... I'm not getting service in certain rooms, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.603494824398858,
+      "end_time": 20.803494824398857,
+      "text": "well, I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.716763650072398,
+      "end_time": 24.0167636500724,
+      "text": "I'm... I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.852578787542296,
+      "end_time": 28.052578787542295,
+      "text": "Sure, it's on the bill., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.4961800488692,
+      "end_time": 30.9961800488692,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.47156601903711,
+      "end_time": 34.77156601903711,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.531675578192115,
+      "end_time": 37.631675578192116,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.438049661717145,
+      "end_time": 40.13804966171715,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.59133834066656,
+      "end_time": 41.69133834066656,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

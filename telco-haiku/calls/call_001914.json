@@ -3,10 +3,84 @@
   "metadata": {
     "call_type": "billing",
     "agent_name": "Robert",
-    "duration": 45.7,
+    "duration": 46.9,
     "sentiment": "neutral",
-    "issue": "promos and discounts",
-    "issue_resolved": true
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.372305143865344,9.372305143865344,\"Good day, Robert here. What billing matter can I help you with?\"\r\ncaller,10.676365328673757,13.676365328673757,Hi there. So I've got a problem...\r\ncaller,14.522401987060054,18.822401987060054,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.339389860417697,24.039389860417696,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.58927252677693,29.38927252677693,What do you see when you open your browser?\r\ncaller,31.02473378810643,33.224733788106434,\"Okay, sure, I can try that\"\r\nagent,33.94822998337755,37.94822998337755,I think I found the issue. Let me reset your connection.\r\nagent,39.19542731804296,43.09542731804296,\"If it happens again, just give us a call back.\"\r\ncaller,43.70635987153081,45.70635987153081,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.117668820673201,
+      "end_time": 8.7176688206732,
+      "text": "Hello! Robert speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.301893568542868,
+      "end_time": 13.701893568542868,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.116373346359298,
+      "end_time": 17.3163733463593,
+      "text": "I... I saw an offer online"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.320140747329273,
+      "end_time": 20.420140747329274,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.016616281307854,
+      "end_time": 24.416616281307853,
+      "text": "hold on... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.97270553888709,
+      "end_time": 29.87270553888709,
+      "text": "It's starting with a C... CUST12345., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.072812306939394,
+      "end_time": 33.872812306939394,
+      "text": "you know, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.857894164267606,
+      "end_time": 38.95789416426761,
+      "text": "actually, how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.93139787218908,
+      "end_time": 41.73139787218908,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.69179925653433,
+      "end_time": 44.49179925653433,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.3701450617403,
+      "end_time": 46.8701450617403,
+      "text": "Have a great day!"
+    }
+  ]
 }

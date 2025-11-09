@@ -2,11 +2,108 @@
   "call_id": 1358,
   "metadata": {
     "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 47.4,
+    "agent_name": "Chris",
+    "duration": 55.2,
     "sentiment": "neutral",
-    "issue": "considering leaving",
-    "issue_resolved": false
+    "churn_reason": "service_complaint",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.056102392623345,11.056102392623345,Hi! Mike here. I'd love to make sure we're taking care of you.\r\ncaller,12.428966967671649,15.328966967671649,Hi there. So I've got a problem...\r\ncaller,15.883038458170768,20.08303845817077,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.916335536557227,25.116335536557227,I got it. Let me pull up your account here.\r\nagent,26.814603649109213,32.61460364910921,Let me check our systems to see if there's an outage in your area.\r\ncaller,33.56026411071247,35.26026411071247,\"Yeah, that sounds good\"\r\nagent,35.90459294024188,39.604592940241886,I'm going to push a software update to your device.\r\nagent,40.998595567405175,44.59859556740518,\"If it happens again, just give us a call back.\"\r\ncaller,45.27753277189234,47.37753277189234,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.6163433101621947,
+      "end_time": 8.416343310162194,
+      "text": "Hi, thanks for calling. Chris here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.26976832755344,
+      "end_time": 10.969768327553439,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.534357637827767,
+      "end_time": 13.734357637827767,
+      "text": "your customer service is frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 15.476999783736636,
+      "end_time": 18.876999783736636,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.771841180811457,
+      "end_time": 21.971841180811456,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 23.734974863282055,
+      "end_time": 26.334974863282056,
+      "text": "how long will that take, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.865553499408424,
+      "end_time": 28.365553499408424,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.017762816659395,
+      "end_time": 32.0177628166594,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.854764977921995,
+      "end_time": 34.754764977921994,
+      "text": "actually, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.674584795201035,
+      "end_time": 39.27458479520104,
+      "text": "so, how long will that take"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.01180390029219,
+      "end_time": 42.711803900292196,
+      "text": "Oh, and while we're at it..., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.627529377810376,
+      "end_time": 45.627529377810376,
+      "text": "sorta, here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.193974653244524,
+      "end_time": 48.49397465324452,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.45328635668137,
+      "end_time": 53.15328635668137,
+      "text": "actually, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.59126868128668,
+      "end_time": 55.19126868128668,
+      "text": "We appreciate your business."
+    }
+  ]
 }

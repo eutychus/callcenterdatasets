@@ -1,12 +1,109 @@
 {
   "call_id": 590,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Emily",
-    "duration": 45.1,
+    "call_type": "technical",
+    "agent_name": "Robert",
+    "duration": 60.8,
     "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "technical_issue": "setup",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.2,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.170022811193777,8.470022811193777,\"Hi, this is Emily. What can I do for you today?\"\r\ncaller,9.675422546578138,13.775422546578138,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.387304500724138,17.587304500724137,\"Yeah, so my internet's been really slow today\"\r\nagent,17.916483597717882,22.216483597717883,I got it. Let me pull up your account here.\r\nagent,23.549323056672563,29.049323056672563,Let me check our systems to see if there's an outage in your area.\r\ncaller,30.15602315539458,31.95602315539458,\"Yeah, sounds good to me\"\r\nagent,32.62991191106619,37.429911911066185,Looks like we need to restart your modem. Can you do that?\r\nagent,38.17682564488193,42.17682564488193,You should see improvement within the next 15 minutes.\r\ncaller,42.96607686308216,45.06607686308216,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.284824370012675,
+      "end_time": 9.884824370012675,
+      "text": "Hello, Robert here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.039143859032885,
+      "end_time": 13.139143859032885,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.030596302986512,
+      "end_time": 16.53059630298651,
+      "text": "kinda, how do I connect everything"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.177520288457828,
+      "end_time": 21.577520288457826,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.713978652274704,
+      "end_time": 26.313978652274706,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.42248834344143,
+      "end_time": 30.52248834344143,
+      "text": "uh, how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.405941897229756,
+      "end_time": 34.505941897229754,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.66036696770975,
+      "end_time": 37.06036696770975,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.5241904777508,
+      "end_time": 41.2241904777508,
+      "text": "sorta, let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.42872939724033,
+      "end_time": 44.72872939724033,
+      "text": "so, sure, I can try that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.18592104006066,
+      "end_time": 48.285921040060664,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.79884618871199,
+      "end_time": 51.29884618871199,
+      "text": "let me walk you through this, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.95641380312104,
+      "end_time": 53.756413803121035,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.480953040918024,
+      "end_time": 57.78095304091802,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.521384548333984,
+      "end_time": 60.82138454833398,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

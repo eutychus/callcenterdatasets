@@ -1,12 +1,109 @@
 {
   "call_id": 511,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Lisa",
-    "duration": 46.9,
-    "sentiment": "neutral",
-    "issue": "switching provider",
+    "call_type": "general",
+    "agent_name": "James",
+    "duration": 55.1,
+    "sentiment": "mixed",
+    "issue": "general",
     "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.5,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.519765327375707,11.919765327375707,Hi! Lisa here. I'd love to make sure we're taking care of you.\r\ncaller,13.091048692673574,17.491048692673573,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,18.21549600107705,22.31549600107705,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,23.167471278294755,26.967471278294756,\"I understand, let me look into that for you.\"\r\nagent,28.233596766560346,31.533596766560347,\"Okay, and how long has this been happening?\"\r\ncaller,33.2682991346554,35.1682991346554,\"Alright, let me try that\"\r\nagent,35.77665236896981,39.976652368969816,I'm going to push a software update to your device.\r\nagent,40.556805467565965,44.25680546756597,Is there anything else I can help you with today?\r\ncaller,44.836317457117055,46.936317457117056,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.143812510174621,
+      "end_time": 8.743812510174621,
+      "text": "Hello, thanks for calling. James speaking."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.037105460800905,
+      "end_time": 13.037105460800905,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.41095918758128,
+      "end_time": 18.11095918758128,
+      "text": "one moment... kinda, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.493760234058005,
+      "end_time": 23.193760234058004,
+      "text": "let me help you resolve this, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.72725669107985,
+      "end_time": 25.92725669107985,
+      "text": "here are your options, like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.97831372954481,
+      "end_time": 27.77831372954481,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.760488223742506,
+      "end_time": 30.860488223742507,
+      "text": "here are your options, like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.45535651055018,
+      "end_time": 33.95535651055018,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.33580112264595,
+      "end_time": 37.635801122645944,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.12722625398056,
+      "end_time": 40.62722625398056,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.490714601024735,
+      "end_time": 44.69071460102474,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.726576822775264,
+      "end_time": 48.02657682277526,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.92995783998773,
+      "end_time": 50.729957839987726,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.39152729428327,
+      "end_time": 53.49152729428327,
+      "text": "sorta, That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.87027861073724,
+      "end_time": 55.07027861073724,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

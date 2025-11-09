@@ -1,12 +1,109 @@
 {
   "call_id": 513,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Jennifer",
-    "duration": 42.5,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "general",
+    "agent_name": "Chris",
+    "duration": 59.5,
+    "sentiment": "neutral",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.6,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.5636803574386695,10.36368035743867,Hi! Jennifer with account services. What do you need help with?\r\ncaller,11.319215304861004,15.019215304861003,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.813125720894595,19.313125720894597,\"Yeah, so my internet's been really slow today\"\r\nagent,19.713622036276885,21.813622036276886,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.133992832599514,26.433992832599515,What do you see when you open your browser?\r\ncaller,28.056097644998324,30.156097644998326,\"Uh-huh, okay, I got it\"\r\nagent,30.683544095567065,35.38354409556707,Looks like we need to restart your modem. Can you do that?\r\nagent,36.10193273278726,39.70193273278726,\"If it happens again, just give us a call back.\"\r\ncaller,40.48815418605744,42.48815418605744,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 7.227133716052597,
+      "end_time": 10.727133716052597,
+      "text": "Hi! Chris here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.239858438698864,
+      "end_time": 14.839858438698863,
+      "text": "Thanks for picking up., you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.340834813943722,
+      "end_time": 19.340834813943722,
+      "text": "I... I had a question about my service., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.483024535462135,
+      "end_time": 22.783024535462136,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.561229297387655,
+      "end_time": 25.161229297387656,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.597033827362864,
+      "end_time": 28.597033827362864,
+      "text": "what if it doesn't work, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.987574093640077,
+      "end_time": 32.08757409364008,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.97306881977511,
+      "end_time": 35.57306881977511,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.263852844418885,
+      "end_time": 39.06385284441888,
+      "text": "I have a solution for you, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.83984187103995,
+      "end_time": 43.539841871039954,
+      "text": "how soon can you do that, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.83304765011368,
+      "end_time": 47.03304765011368,
+      "text": "There's actually another issue..., uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.088676982899585,
+      "end_time": 50.28867698289959,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.05862433444387,
+      "end_time": 52.95862433444387,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.938832137637746,
+      "end_time": 57.438832137637746,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.21848790096625,
+      "end_time": 59.51848790096625,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

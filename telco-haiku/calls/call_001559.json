@@ -1,12 +1,73 @@
 {
   "call_id": 1559,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "James",
-    "duration": 41.2,
+    "call_type": "technical",
+    "agent_name": "Mike",
+    "duration": 39.3,
     "sentiment": "positive",
-    "issue": "refund request",
-    "issue_resolved": false
+    "technical_issue": "setup",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.416199669540428,9.716199669540428,\"Good day, James here. What billing matter can I help you with?\"\r\ncaller,10.885968847519457,13.885968847519457,Hi there. So I've got a problem...\r\ncaller,14.848037350369072,17.848037350369072,\"Yeah, so my internet's been really slow today\"\r\nagent,18.837897762006897,20.737897762006895,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.618922606098657,24.918922606098658,Have you tried restarting your modem?\r\ncaller,26.34022475058704,28.24022475058704,\"Yeah, sounds good to me\"\r\nagent,29.121497521651154,33.32149752165115,I think I found the issue. Let me reset your connection.\r\nagent,34.70008613653154,38.40008613653154,\"If it happens again, just give us a call back.\"\r\ncaller,39.338693001613656,41.238693001613655,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.475141387034517,
+      "end_time": 8.375141387034517,
+      "text": "Hello, Mike here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.277043814463052,
+      "end_time": 13.077043814463053,
+      "text": "Hey, thanks. Yeah, I need help with something., kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.45702471995401,
+      "end_time": 17.05702471995401,
+      "text": "what... what cables do I need"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.352812610042857,
+      "end_time": 22.052812610042857,
+      "text": "I completely understand your frustration, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.878507618224603,
+      "end_time": 26.7785076182246,
+      "text": "actually, can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.308224620619946,
+      "end_time": 30.608224620619946,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.456967968286275,
+      "end_time": 34.05696796828627,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.78455766338062,
+      "end_time": 36.88455766338062,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.759004177060845,
+      "end_time": 39.259004177060845,
+      "text": "We appreciate your business."
+    }
+  ]
 }

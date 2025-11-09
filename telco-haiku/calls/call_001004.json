@@ -1,12 +1,110 @@
 {
   "call_id": 1004,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Jennifer",
-    "duration": 38.0,
-    "sentiment": "negative",
-    "issue": "service complaint",
-    "issue_resolved": false
+    "call_type": "billing",
+    "agent_name": "Amanda",
+    "duration": 52.6,
+    "sentiment": "positive",
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,Thank you. Connecting you to the next available agent.\r\nagent,4.897939417414252,10.397939417414252,Hi! Jennifer here. I'd love to make sure we're taking care of you.\r\ncaller,11.323229581591786,14.823229581591786,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.385423199216557,18.285423199216556,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.11718015873867,23.517180158738668,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,24.65117788115016,26.951177881150162,Have you tried restarting your modem?\r\ncaller,28.474288138473085,29.974288138473085,\"Yeah, that sounds good\"\r\nagent,30.799791690059752,34.99979169005975,\"If it happens again, just give us a call back.\"\r\ncaller,35.89943643413947,37.99943643413947,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.847719824290703,
+      "end_time": 10.647719824290704,
+      "text": "Hello! Amanda speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.1094146436761,
+      "end_time": 14.3094146436761,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.68232121487818,
+      "end_time": 18.582321214878178,
+      "text": "just a second... are there loyalty discounts, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.697550491809977,
+      "end_time": 23.497550491809978,
+      "text": "like, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.200726108343652,
+      "end_time": 26.10072610834365,
+      "text": "I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.76345802324119,
+      "end_time": 28.76345802324119,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.49994515720049,
+      "end_time": 32.29994515720049,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.31883672348278,
+      "end_time": 34.11883672348278,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.756971254867025,
+      "end_time": 36.256971254867025,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.52038813170612,
+      "end_time": 39.12038813170612,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.643740900674764,
+      "end_time": 41.643740900674764,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.52831303735368,
+      "end_time": 45.228313037353686,
+      "text": "I have a solution for you, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.93160481799802,
+      "end_time": 47.83160481799802,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.756926856562124,
+      "end_time": 50.15692685656212,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.9210817378334,
+      "end_time": 52.6210817378334,
+      "text": "Have a great day!"
+    }
+  ]
 }

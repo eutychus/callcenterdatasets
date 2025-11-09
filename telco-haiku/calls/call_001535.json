@@ -2,12 +2,110 @@
   "call_id": 1535,
   "metadata": {
     "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 39.1,
-    "sentiment": "neutral",
-    "issue": "wifi not working",
-    "issue_resolved": true,
-    "resolution_type": "resolved"
+    "agent_name": "Mark",
+    "duration": 58.9,
+    "sentiment": "negative",
+    "issue_category": "service",
+    "issue": "service",
+    "issue_resolved": false,
+    "resolution_type": "the device needs to be replaced"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.674834526760961,10.17483452676096,Good day! Jennifer here from our support team. What can I assist with?\r\ncaller,11.265553288183579,15.66555328818358,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.232149725743056,19.432149725743056,\"Yeah, so my internet's been really slow today\"\r\nagent,20.179261189222217,23.879261189222216,I got it. Let me pull up your account here.\r\nagent,25.742862322800512,29.44286232280051,What do you see when you open your browser?\r\ncaller,30.934812382452648,32.53481238245265,\"Yeah, that sounds good\"\r\nagent,33.39668829448382,36.596688294483826,Let me send that information to your email.\r\ncaller,37.282427109954526,39.08242710995452,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.136904655033273,
+      "end_time": 8.936904655033274,
+      "text": "Hi there! Mark speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.387064155402962,
+      "end_time": 12.987064155402962,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.788908455764703,
+      "end_time": 16.588908455764702,
+      "text": "well,... well, service keeps cutting out"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.790868828982816,
+      "end_time": 20.790868828982816,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.223048251196953,
+      "end_time": 24.923048251196953,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.80818995843799,
+      "end_time": 28.90818995843799,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.908306495231827,
+      "end_time": 32.308306495231825,
+      "text": "like, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.12073105497813,
+      "end_time": 35.32073105497813,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.44110094319694,
+      "end_time": 38.84110094319694,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.189402761131134,
+      "end_time": 42.38940276113114,
+      "text": "like, alright, let's do it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.012590397733916,
+      "end_time": 44.412590397733915,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.4273209787758,
+      "end_time": 48.127320978775806,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.928280964155796,
+      "end_time": 52.5282809641558,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.47289179317264,
+      "end_time": 55.672891793172646,
+      "text": "That's everything. Thanks so much!, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.1644475836129,
+      "end_time": 58.8644475836129,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -2,11 +2,96 @@
   "call_id": 235,
   "metadata": {
     "call_type": "account",
-    "agent_name": "Sarah",
-    "duration": 37.6,
-    "sentiment": "negative",
-    "issue": "general inquiry",
+    "agent_name": "Patricia",
+    "duration": 54.1,
+    "sentiment": "neutral",
+    "issue": "general",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.2,Please enter your account number followed by the pound sign.\r\nagent,4.9163065289473105,8.61630652894731,\"Hello, Sarah here. How can I help with your account?\"\r\ncaller,9.568176978733558,12.168176978733557,Hi there. So I've got a problem...\r\ncaller,12.726586911059492,15.426586911059491,\"Um, I can't... I keep getting disconnected\"\r\nagent,16.063689321550797,19.563689321550797,\"I understand, let me look into that for you.\"\r\nagent,21.115186435642347,24.915186435642347,What do you see when you open your browser?\r\ncaller,26.31014848211116,28.51014848211116,\"Yeah, sounds good to me\"\r\nagent,29.471322531313714,33.17132253131371,You should see improvement within the next 15 minutes.\r\ncaller,34.11497997691358,37.61497997691358,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.980703669782989,
+      "end_time": 10.580703669782988,
+      "text": "Hi, Patricia with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.253836466402607,
+      "end_time": 15.153836466402607,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.373550917295653,
+      "end_time": 19.77355091729565,
+      "text": "I... I had a question about my service., so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.540116263578323,
+      "end_time": 25.040116263578323,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.562047136301857,
+      "end_time": 28.962047136301855,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.205435079189453,
+      "end_time": 31.905435079189452,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.223318754364506,
+      "end_time": 35.623318754364504,
+      "text": "here's what we can do, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.90579645070991,
+      "end_time": 39.00579645070991,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.402372154267894,
+      "end_time": 42.902372154267894,
+      "text": "like, Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.80363635929978,
+      "end_time": 46.00363635929978,
+      "text": "kinda, here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.50506213915764,
+      "end_time": 48.905062139157636,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.68063861570722,
+      "end_time": 51.28063861570722,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.87022824772573,
+      "end_time": 54.07022824772573,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

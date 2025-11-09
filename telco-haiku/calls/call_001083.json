@@ -1,13 +1,73 @@
 {
   "call_id": 1083,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 46.8,
-    "sentiment": "positive",
-    "issue": "service outage",
-    "issue_resolved": true,
-    "resolution_type": "escalated"
+    "call_type": "technical",
+    "agent_name": "Amanda",
+    "duration": 32.9,
+    "sentiment": "neutral",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.502458858905179,9.602458858905178,Hi there! This is Jennifer from Technical Support. How can I help you today?\r\ncaller,10.535935858982164,14.135935858982164,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.058458000169875,17.758458000169874,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.22351451664613,21.92351451664613,\"I understand, let me look into that for you.\"\r\nagent,23.759689567145475,29.159689567145477,Let me check our systems to see if there's an outage in your area.\r\ncaller,30.87040860564804,32.77040860564804,\"Yeah, sounds good to me\"\r\nagent,33.46072481006395,37.86072481006395,That should fix it. Let me verify everything looks good.\r\nagent,38.544518210205425,42.84451821020542,\"If it happens again, just give us a call back.\"\r\ncaller,43.69268470397682,46.792684703976825,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.157579936492389,
+      "end_time": 8.25757993649239,
+      "text": "Thanks for calling. Amanda with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.143832822504024,
+      "end_time": 12.643832822504024,
+      "text": "Hey, thanks. Yeah, I need help with something., actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.467486522679778,
+      "end_time": 15.667486522679777,
+      "text": "I need to reset it, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.836117969187157,
+      "end_time": 19.036117969187156,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.41249732695169,
+      "end_time": 22.91249732695169,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.67193936594299,
+      "end_time": 26.07193936594299,
+      "text": "yeah, okay, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.9040196429898,
+      "end_time": 28.504019642989803,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.1519280694715,
+      "end_time": 30.9519280694715,
+      "text": "No, that's all. Thanks!, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.256094939073243,
+      "end_time": 32.856094939073245,
+      "text": "We appreciate your business."
+    }
+  ]
 }

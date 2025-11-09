@@ -1,12 +1,111 @@
 {
   "call_id": 1539,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Robert",
-    "duration": 42.3,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "support",
+    "agent_name": "Chris",
+    "duration": 61.3,
+    "sentiment": "neutral",
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": "partial",
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.3,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.127267067988781,10.527267067988781,Hello! Robert here. How may I assist you?\r\ncaller,11.535553747341645,14.935553747341645,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.084066052019963,18.984066052019962,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.46757616252113,21.56757616252113,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.735719668868416,25.835719668868418,\"Okay, and how long has this been happening?\"\r\ncaller,26.895727133130087,28.695727133130088,\"Alright, let me try that\"\r\nagent,29.677978533990444,34.477978533990445,Looks like we need to restart your modem. Can you do that?\r\nagent,35.901373931006965,39.301373931006964,You should see improvement within the next 15 minutes.\r\ncaller,40.15166461270219,42.25166461270219,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.696160620162935,
+      "end_time": 9.096160620162935,
+      "text": "Hi, thanks for calling. This is Chris from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.171581659786082,
+      "end_time": 11.571581659786082,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.585057117900991,
+      "end_time": 14.78505711790099,
+      "text": "wait... my download speed is terrible"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.27154617007494,
+      "end_time": 19.77154617007494,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.647196884107924,
+      "end_time": 24.247196884107925,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.959070398393862,
+      "end_time": 28.35907039839386,
+      "text": "uh, Yeah, let me find that."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.120726594747488,
+      "end_time": 32.72072659474749,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.33685286448196,
+      "end_time": 36.93685286448196,
+      "text": "sure, I can try that, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.67990106787494,
+      "end_time": 40.579901067874935,
+      "text": "I can help you with that, you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.35307378335074,
+      "end_time": 44.753073783350736,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.57634412805957,
+      "end_time": 47.77634412805957,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.687332608146875,
+      "end_time": 51.48733260814687,
+      "text": "will that really fix it, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.55966087563776,
+      "end_time": 55.05966087563776,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 55.669907205364346,
+      "end_time": 57.76990720536435,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.62381371540234,
+      "end_time": 61.323813715402345,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

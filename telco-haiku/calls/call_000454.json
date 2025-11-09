@@ -1,12 +1,109 @@
 {
   "call_id": 454,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Robert",
-    "duration": 43.2,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "retention",
+    "agent_name": "Amanda",
+    "duration": 52.8,
+    "sentiment": "negative",
+    "churn_reason": "leaving",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.756665533584064,9.856665533584064,\"Hello, Robert here. How can I help with your account?\"\r\ncaller,10.804092097377746,14.704092097377746,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.325221188738647,18.225221188738647,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.914511217092485,23.214511217092486,I got it. Let me pull up your account here.\r\nagent,24.38513853716594,26.68513853716594,Have you tried restarting your modem?\r\ncaller,28.5866182995183,30.7866182995183,\"Okay, sure, I can try that\"\r\nagent,31.55671018073389,35.55671018073389,I think I found the issue. Let me reset your connection.\r\nagent,36.77440950852347,40.47440950852347,You should see improvement within the next 15 minutes.\r\ncaller,41.04061088354851,43.24061088354851,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.6771866432753466,
+      "end_time": 6.677186643275347,
+      "text": "Hello! Amanda speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 7.80504464117054,
+      "end_time": 11.30504464117054,
+      "text": "so, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.204439120949889,
+      "end_time": 14.904439120949888,
+      "text": "basically, can you process my cancellation"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.410425346559787,
+      "end_time": 18.610425346559786,
+      "text": "basically, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.36587360553076,
+      "end_time": 21.66587360553076,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 22.73490325710354,
+      "end_time": 24.634903257103538,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.390263308810933,
+      "end_time": 28.090263308810933,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.849826652811466,
+      "end_time": 31.349826652811466,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.937606785557307,
+      "end_time": 33.43760678555731,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.09603741939804,
+      "end_time": 36.496037419398036,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.32183454571224,
+      "end_time": 39.32183454571224,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.29130345343239,
+      "end_time": 42.79130345343239,
+      "text": "I can help you with that, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.403202506427085,
+      "end_time": 45.10320250642709,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.64699784479665,
+      "end_time": 49.44699784479665,
+      "text": "like, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.09749083561543,
+      "end_time": 52.797490835615434,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

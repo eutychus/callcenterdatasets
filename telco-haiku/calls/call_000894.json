@@ -1,12 +1,110 @@
 {
   "call_id": 894,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Emily",
-    "duration": 42.5,
+    "call_type": "billing",
+    "agent_name": "Sarah",
+    "duration": 58.1,
     "sentiment": "positive",
-    "issue": "modem issues",
-    "issue_resolved": false
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "autopay was activated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.6,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.951037534532023,11.951037534532023,\"Hi, Emily technical support here. Let me help you troubleshoot.\"\r\ncaller,12.910618670421883,16.710618670421884,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,17.853245776433543,20.853245776433543,\"Um, I can't... I keep getting disconnected\"\r\nagent,21.35998823274324,24.75998823274324,\"I understand, let me look into that for you.\"\r\nagent,26.7242027565355,30.7242027565355,Can you check if the lights on your router are on?\r\ncaller,32.431002238360016,34.331002238360014,\"Uh-huh, okay, I got it\"\r\nagent,35.029718844612226,38.62971884461223,You should see improvement within the next 15 minutes.\r\ncaller,39.3826330049543,42.4826330049543,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.599363193415381,
+      "end_time": 8.799363193415381,
+      "text": "Hello! Sarah speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.387748320264663,
+      "end_time": 14.187748320264664,
+      "text": "Hey, thanks. Yeah, I need help with something., sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.539350575734105,
+      "end_time": 17.739350575734104,
+      "text": "can I get a discount"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.234336338339375,
+      "end_time": 22.634336338339374,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.332296864674095,
+      "end_time": 26.432296864674097,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.02046931821564,
+      "end_time": 30.12046931821564,
+      "text": "Yeah, let me find that., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.105372321561845,
+      "end_time": 34.105372321561845,
+      "text": "uh, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.86193073822615,
+      "end_time": 37.46193073822615,
+      "text": "actually, that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.61200068802061,
+      "end_time": 41.31200068802061,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.521569754982416,
+      "end_time": 43.72156975498242,
+      "text": "so, yeah, okay"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.8309968205091,
+      "end_time": 47.0309968205091,
+      "text": "like, There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.71722428120067,
+      "end_time": 51.11722428120067,
+      "text": "I can help you with that, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.77066387081705,
+      "end_time": 53.470663870817056,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.413889375712614,
+      "end_time": 56.21388937571261,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.73284106378998,
+      "end_time": 58.132841063789975,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

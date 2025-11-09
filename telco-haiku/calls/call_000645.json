@@ -1,12 +1,109 @@
 {
   "call_id": 645,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Robert",
-    "duration": 46.4,
-    "sentiment": "negative",
-    "issue": "refund request",
-    "issue_resolved": false
+    "call_type": "account",
+    "agent_name": "James",
+    "duration": 60.5,
+    "sentiment": "neutral",
+    "issue": "general",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Thank you. Connecting you to the next available agent.\r\nagent,5.138430908742244,9.638430908742244,\"Hello, Robert from billing. How can I assist with your account?\"\r\ncaller,11.041057664678146,14.641057664678145,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.753383967236463,18.353383967236464,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.764484376940867,23.064484376940868,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,24.28202850004205,29.78202850004205,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.351645779023244,33.25164577902324,\"Alright, let me try that\"\r\nagent,33.94935777949209,38.64935777949209,I think I found the issue. Let me reset your connection.\r\nagent,39.97949378316065,43.279493783160646,Let me send that information to your email.\r\ncaller,44.22634908815648,46.426349088156485,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.17537827845727,
+      "end_time": 9.97537827845727,
+      "text": "Hello! James speaking. What can I do with your account today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.891916999568789,
+      "end_time": 12.591916999568788,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.076383537212536,
+      "end_time": 18.176383537212537,
+      "text": "wait... I had a question about my service., so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.293911776546043,
+      "end_time": 22.993911776546042,
+      "text": "kinda, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.140774916460252,
+      "end_time": 26.940774916460253,
+      "text": "hold... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.183958228018156,
+      "end_time": 29.983958228018157,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.68494380371246,
+      "end_time": 34.58494380371246,
+      "text": "uh, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.63732598526437,
+      "end_time": 37.83732598526437,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.2295862369412,
+      "end_time": 42.3295862369412,
+      "text": "let me walk you through this, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.808481637747136,
+      "end_time": 45.60848163774713,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.109951706100894,
+      "end_time": 48.609951706100894,
+      "text": "Actually, there's one more thing..., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.54708085350506,
+      "end_time": 52.24708085350506,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.20401584883016,
+      "end_time": 55.30401584883016,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.229263175234685,
+      "end_time": 58.329263175234686,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.81207589939679,
+      "end_time": 60.51207589939679,
+      "text": "Have a great day!"
+    }
+  ]
 }

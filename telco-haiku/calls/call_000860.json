@@ -2,11 +2,84 @@
   "call_id": 860,
   "metadata": {
     "call_type": "technical",
-    "agent_name": "Mike",
-    "duration": 40.5,
-    "sentiment": "neutral",
-    "issue": "modem issues",
+    "agent_name": "Sarah",
+    "duration": 47.9,
+    "sentiment": "negative",
+    "technical_issue": "device_issue",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.4,Your call is important to us. Please hold while we connect you.\r\nagent,5.481308312781072,9.181308312781072,\"Hi, Mike technical support here. Let me help you troubleshoot.\"\r\ncaller,10.096591269462433,13.396591269462434,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.590247568231755,18.590247568231753,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.52708946200918,22.927089462009178,\"I understand, let me look into that for you.\"\r\nagent,24.909934235544593,29.609934235544593,Can you check if the lights on your router are on?\r\ncaller,31.564622434647934,33.76462243464793,\"Yeah, sounds good to me\"\r\nagent,34.58405828493168,37.884058284931676,You should see improvement within the next 15 minutes.\r\ncaller,38.579613636191105,40.479613636191104,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.5763250606625405,
+      "end_time": 9.47632506066254,
+      "text": "Thanks for calling. Sarah with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.98949195079869,
+      "end_time": 14.58949195079869,
+      "text": "uh, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.412618985400487,
+      "end_time": 17.512618985400486,
+      "text": "I hear a strange noise"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.70645249784414,
+      "end_time": 22.80645249784414,
+      "text": "um, let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.88739789023408,
+      "end_time": 25.78739789023408,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.326385121785506,
+      "end_time": 29.326385121785506,
+      "text": "will it take long, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.635897677013165,
+      "end_time": 34.23589767701316,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.71585215253699,
+      "end_time": 37.61585215253699,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.453091140738636,
+      "end_time": 39.953091140738636,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.86081708203188,
+      "end_time": 45.46081708203188,
+      "text": "you know, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.08976572365701,
+      "end_time": 47.88976572365701,
+      "text": "Have a great day!"
+    }
+  ]
 }

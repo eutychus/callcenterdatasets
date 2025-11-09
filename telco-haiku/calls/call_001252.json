@@ -2,11 +2,108 @@
   "call_id": 1252,
   "metadata": {
     "call_type": "account",
-    "agent_name": "David",
-    "duration": 45.1,
+    "agent_name": "Mike",
+    "duration": 60.5,
     "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Your call is important to us. Please hold while we connect you.\r\nagent,6.230630884723185,10.530630884723184,Hi! David with account services. What do you need help with?\r\ncaller,11.616629339493073,14.916629339493074,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.906960296635305,20.706960296635305,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,21.477198497781984,23.677198497781983,\"Yeah, let's troubleshoot that together.\"\r\nagent,25.13261484872168,28.13261484872168,\"Okay, and how long has this been happening?\"\r\ncaller,29.425872806858383,31.525872806858384,\"Yeah, sounds good to me\"\r\nagent,32.4925574152929,36.5925574152929,That should fix it. Let me verify everything looks good.\r\nagent,37.450072943007754,41.65007294300776,\"If it happens again, just give us a call back.\"\r\ncaller,42.46633148380988,45.06633148380988,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.234136342472327,
+      "end_time": 10.034136342472326,
+      "text": "Hello! Mike speaking. What can I do with your account today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.563877774699453,
+      "end_time": 14.263877774699452,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.617958672925774,
+      "end_time": 18.717958672925775,
+      "text": "kinda,... kinda, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.811250168498333,
+      "end_time": 21.611250168498334,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.573224535050883,
+      "end_time": 24.773224535050883,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.772423868001464,
+      "end_time": 28.272423868001464,
+      "text": "Okay, hold on., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.12868027783931,
+      "end_time": 33.12868027783931,
+      "text": "uh, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.350060096404945,
+      "end_time": 35.65006009640494,
+      "text": "yeah, okay, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.530291221627,
+      "end_time": 39.030291221627,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.32990281754478,
+      "end_time": 42.629902817544775,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.892220741530444,
+      "end_time": 46.892220741530444,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.832292355378925,
+      "end_time": 50.63229235537892,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.39480247349226,
+      "end_time": 54.89480247349226,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 55.5328276035699,
+      "end_time": 57.4328276035699,
+      "text": "so, Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.271009516439136,
+      "end_time": 60.47100951643914,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

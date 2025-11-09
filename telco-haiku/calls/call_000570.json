@@ -1,12 +1,86 @@
 {
   "call_id": 570,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 40.9,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "billing",
+    "agent_name": "James",
+    "duration": 45.7,
+    "sentiment": "mixed",
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "autopay was activated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.73865251057239,10.438652510572389,\"Hi, this is Lisa. What can I do for you today?\"\r\ncaller,11.886733239396445,15.786733239396446,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,16.986209498025158,20.386209498025156,\"Yeah, so my internet's been really slow today\"\r\nagent,21.107764712606713,25.307764712606712,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,26.429758611615142,30.82975861161514,Can you check if the lights on your router are on?\r\ncaller,32.52102021545813,34.42102021545813,\"Alright, let me try that\"\r\nagent,35.051586782224014,38.051586782224014,Let me send that information to your email.\r\ncaller,38.6503276693991,40.8503276693991,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.0000688168622975,
+      "end_time": 11.200068816862299,
+      "text": "Hi, this is James from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.922260774963195,
+      "end_time": 14.522260774963195,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.682489128890708,
+      "end_time": 18.18248912889071,
+      "text": "hang on... are there loyalty discounts, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.155863569972418,
+      "end_time": 22.45586356997242,
+      "text": "kinda, I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.96963519616476,
+      "end_time": 26.369635196164758,
+      "text": "let me check... I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.655004581905988,
+      "end_time": 30.355004581905987,
+      "text": "Yeah, let me find that."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.08191674410253,
+      "end_time": 34.58191674410253,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.83483600963376,
+      "end_time": 38.23483600963376,
+      "text": "actually, how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.184422830212206,
+      "end_time": 40.9844228302122,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.78999600907589,
+      "end_time": 43.889996009075894,
+      "text": "That's everything. Thanks so much!, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.5803227157208,
+      "end_time": 45.6803227157208,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

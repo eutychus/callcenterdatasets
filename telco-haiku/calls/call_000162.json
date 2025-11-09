@@ -1,12 +1,110 @@
 {
   "call_id": 162,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Sarah",
-    "duration": 42.7,
+    "call_type": "billing",
+    "agent_name": "Susan",
+    "duration": 61.0,
     "sentiment": "positive",
-    "issue": "competitor offer",
-    "issue_resolved": false
+    "billing_issue": "payment",
+    "issue_resolved": false,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.830156341518499,9.530156341518499,\"Hello, this is Sarah. I see you've been with us for a while.\"\r\ncaller,10.470209064209554,13.170209064209555,Hi there. So I've got a problem...\r\ncaller,13.727771500205936,16.527771500205937,\"Um, I can't... I keep getting disconnected\"\r\nagent,17.50653671099333,22.20653671099333,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,23.89229008934225,27.49229008934225,What do you see when you open your browser?\r\ncaller,29.174496619914812,31.07449661991481,\"Alright, let me try that\"\r\nagent,31.87100682766758,35.671006827667576,I'm going to push a software update to your device.\r\nagent,36.58550325222038,40.08550325222038,You should see improvement within the next 15 minutes.\r\ncaller,40.77416326643533,42.67416326643533,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.918336733738524,
+      "end_time": 7.818336733738525,
+      "text": "Hello! Susan speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.12530716452983,
+      "end_time": 12.42530716452983,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.59550209140047,
+      "end_time": 16.495502091400468,
+      "text": "I... I need to make a payment"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.69912968418997,
+      "end_time": 22.19912968418997,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.411153160962453,
+      "end_time": 26.011153160962454,
+      "text": "sorry... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.982254922840717,
+      "end_time": 30.482254922840717,
+      "text": "Okay, hold on., uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.41643199896858,
+      "end_time": 35.01643199896858,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.689586518814465,
+      "end_time": 38.689586518814465,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.22943096560432,
+      "end_time": 41.329430965604324,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.84862483560982,
+      "end_time": 44.74862483560982,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.54476928954391,
+      "end_time": 47.74476928954391,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.97303172370218,
+      "end_time": 49.773031723702175,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.3086467997954,
+      "end_time": 53.9086467997954,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.60675408428403,
+      "end_time": 57.80675408428403,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.615505267296534,
+      "end_time": 61.01550526729653,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

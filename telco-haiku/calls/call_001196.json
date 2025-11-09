@@ -1,12 +1,111 @@
 {
   "call_id": 1196,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Emily",
-    "duration": 42.6,
+    "call_type": "sales",
+    "agent_name": "Mike",
+    "duration": 52.9,
     "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "product_category": "Bundle",
+    "inquiry_type": "information",
+    "sale_completed": false,
+    "resolution_type": "they want to think about it"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.0,Please enter your account number followed by the pound sign.\r\nagent,4.945851954084056,8.845851954084056,\"Hello, Emily here. How can I help with your account?\"\r\ncaller,9.866564351429933,12.666564351429933,Hi there. So I've got a problem...\r\ncaller,13.246994604732219,17.446994604732218,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,18.433405495925427,22.53340549592543,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,23.66050120189869,27.26050120189869,What do you see when you open your browser?\r\ncaller,29.18781976139278,31.08781976139278,\"Uh-huh, okay, I got it\"\r\nagent,31.607812719774053,35.807812719774056,I think I found the issue. Let me reset your connection.\r\nagent,36.372937122270585,39.372937122270585,Let me send that information to your email.\r\ncaller,40.25501073204491,42.555010732044906,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.477153648523786,
+      "end_time": 10.077153648523787,
+      "text": "Hello! Mike here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.843588377860133,
+      "end_time": 14.843588377860133,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.787976170189307,
+      "end_time": 17.587976170189307,
+      "text": "what speeds can I get"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.90169926077501,
+      "end_time": 21.501699260775013,
+      "text": "that must be really annoying, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.54058119486738,
+      "end_time": 25.04058119486738,
+      "text": "basically, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.478903025111254,
+      "end_time": 28.978903025111254,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.581704036174074,
+      "end_time": 31.981704036174072,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.22768954757384,
+      "end_time": 35.12768954757384,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.68034065704998,
+      "end_time": 37.48034065704998,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.12553182887825,
+      "end_time": 40.22553182887825,
+      "text": "yeah, okay, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.41788421752123,
+      "end_time": 43.717884217521224,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.534445247186966,
+      "end_time": 45.934445247186964,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.676266399639076,
+      "end_time": 48.076266399639074,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.91462245878733,
+      "end_time": 50.91462245878733,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.59013837388541,
+      "end_time": 52.89013837388541,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

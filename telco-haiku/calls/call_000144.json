@@ -2,12 +2,98 @@
   "call_id": 144,
   "metadata": {
     "call_type": "support",
-    "agent_name": "Sarah",
-    "duration": 44.9,
-    "sentiment": "negative",
-    "issue": "can't connect to service",
-    "issue_resolved": false,
-    "resolution_type": "escalated"
+    "agent_name": "Lisa",
+    "duration": 54.0,
+    "sentiment": "mixed",
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": true,
+    "resolution_type": "it was a software issue that's now updated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.218006485199273,8.818006485199273,\"Hello, thanks for calling. I'm Sarah. What seems to be the issue?\"\r\ncaller,10.071354624122218,13.371354624122219,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.339679549972443,19.039679549972444,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.862780237599654,23.762780237599653,\"I understand, let me look into that for you.\"\r\nagent,25.226540880097158,29.926540880097157,Can you check if the lights on your router are on?\r\ncaller,31.171045432820424,33.27104543282042,\"Uh-huh, okay, I got it\"\r\nagent,33.77172725728248,38.071727257282475,That should fix it. Let me verify everything looks good.\r\nagent,38.90463339566474,42.00463339566474,Let me send that information to your email.\r\ncaller,42.88107740114585,44.88107740114585,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.216529465994292,
+      "end_time": 8.616529465994292,
+      "text": "Hi there! Lisa speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.066951792419164,
+      "end_time": 13.166951792419164,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.021678665480199,
+      "end_time": 16.8216786654802,
+      "text": "wait... my download speed is terrible, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.11321191028977,
+      "end_time": 21.213211910289772,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.10383623610942,
+      "end_time": 24.60383623610942,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.948557881292807,
+      "end_time": 29.948557881292807,
+      "text": "It's starting with a C... CUST12345., like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.25148776640811,
+      "end_time": 34.05148776640811,
+      "text": "I can help you with that, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.6422539386417,
+      "end_time": 38.0422539386417,
+      "text": "kinda, are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.67167590812824,
+      "end_time": 41.17167590812824,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.673067777471836,
+      "end_time": 44.073067777471834,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.42509896170465,
+      "end_time": 49.225098961704646,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.97481591390277,
+      "end_time": 51.77481591390277,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.615036236854365,
+      "end_time": 54.015036236854364,
+      "text": "Have a great day!"
+    }
+  ]
 }

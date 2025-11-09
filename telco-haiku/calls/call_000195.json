@@ -1,12 +1,98 @@
 {
   "call_id": 195,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "David",
-    "duration": 40.8,
-    "sentiment": "neutral",
-    "issue": "switching provider",
-    "issue_resolved": true
+    "call_type": "billing",
+    "agent_name": "Sarah",
+    "duration": 53.7,
+    "sentiment": "positive",
+    "billing_issue": "dispute",
+    "issue_resolved": false,
+    "resolution_type": "the dispute will be investigated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.4347904116773,9.5347904116773,\"Hello, this is David. I see you've been with us for a while.\"\r\ncaller,10.550617387311924,14.250617387311923,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.784682673685172,17.78468267368517,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.34693396612345,22.446933966123453,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,23.462972409433135,25.762972409433136,Have you tried restarting your modem?\r\ncaller,26.793554593151455,28.293554593151455,\"Yeah, that sounds good\"\r\nagent,29.234697621949422,34.23469762194942,Looks like we need to restart your modem. Can you do that?\r\nagent,34.77871013433288,38.17871013433288,Let me send that information to your email.\r\ncaller,38.84004992233039,40.84004992233039,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.598831277179414,
+      "end_time": 9.398831277179415,
+      "text": "Thanks for calling. Sarah here. What can I do for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.0792159221308,
+      "end_time": 12.5792159221308,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.559605090998456,
+      "end_time": 16.059605090998456,
+      "text": "this charge shouldn't be here, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.87170933692966,
+      "end_time": 19.67170933692966,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.681577229682265,
+      "end_time": 23.081577229682264,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.82867630790986,
+      "end_time": 27.92867630790986,
+      "text": "so, It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.33506777252825,
+      "end_time": 32.235067772528254,
+      "text": "I can help you with that, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.152003750228744,
+      "end_time": 35.95200375022874,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.67672480755888,
+      "end_time": 38.976724807558874,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.3881815494469,
+      "end_time": 42.3881815494469,
+      "text": "is there a charge, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.385315033729235,
+      "end_time": 46.885315033729235,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.66615837018045,
+      "end_time": 51.566158370180446,
+      "text": "I think that covers it. Thanks for your help., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.19131333521693,
+      "end_time": 53.69131333521693,
+      "text": "We appreciate your business."
+    }
+  ]
 }

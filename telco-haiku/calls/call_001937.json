@@ -1,12 +1,111 @@
 {
   "call_id": 1937,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 44.0,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "sales",
+    "agent_name": "Sarah",
+    "duration": 53.2,
+    "sentiment": "mixed",
+    "product_category": "Mobile Plan",
+    "inquiry_type": "information",
+    "sale_completed": false,
+    "resolution_type": "the customer wasn't interested"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,5.056652340364894,9.256652340364894,\"Hi, this is Lisa. What can I do for you today?\"\r\ncaller,10.453099193233392,13.753099193233393,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.629068453032223,19.429068453032222,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.42899290026974,23.82899290026974,\"I understand, let me look into that for you.\"\r\nagent,24.864374383707954,28.264374383707953,\"Okay, and how long has this been happening?\"\r\ncaller,29.72580365903786,31.72580365903786,\"Alright, let me try that\"\r\nagent,32.46201702195832,36.06201702195832,That should fix it. Let me verify everything looks good.\r\nagent,37.26845597364276,40.86845597364276,\"If it happens again, just give us a call back.\"\r\ncaller,41.85438962265301,43.95438962265301,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.671492983074343,
+      "end_time": 12.071492983074343,
+      "text": "Hello! Sarah here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.282633111645824,
+      "end_time": 15.782633111645824,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.513664219315277,
+      "end_time": 19.213664219315277,
+      "text": "are there any special offers, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.679103912554183,
+      "end_time": 22.879103912554182,
+      "text": "I completely understand your frustration, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.61603784109348,
+      "end_time": 25.11603784109348,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.036000471676047,
+      "end_time": 27.936000471676046,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.980437383642382,
+      "end_time": 30.780437383642383,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.266179982048854,
+      "end_time": 33.16617998204885,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.808677993789786,
+      "end_time": 35.90867799378979,
+      "text": "here are your options, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.652224895860925,
+      "end_time": 39.052224895860924,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.351726097231904,
+      "end_time": 42.1517260972319,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.2472990341736,
+      "end_time": 45.6472990341736,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.5976502877037,
+      "end_time": 48.6976502877037,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.51132148479512,
+      "end_time": 51.01132148479512,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.577723181624386,
+      "end_time": 53.17772318162439,
+      "text": "We appreciate your business."
+    }
+  ]
 }

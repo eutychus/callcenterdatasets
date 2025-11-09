@@ -2,11 +2,96 @@
   "call_id": 1205,
   "metadata": {
     "call_type": "technical",
-    "agent_name": "Robert",
-    "duration": 37.4,
-    "sentiment": "neutral",
-    "issue": "connection setup",
-    "issue_resolved": true
+    "agent_name": "James",
+    "duration": 51.7,
+    "sentiment": "negative",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.8312974033358635,8.331297403335864,Hello! I'm Robert. Let's get your device working again.\r\ncaller,9.624918841224874,13.524918841224874,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.17497342718076,16.87497342718076,\"Um, I can't... I keep getting disconnected\"\r\nagent,17.842295419048966,21.642295419048967,I got it. Let me pull up your account here.\r\nagent,23.553313116392715,25.753313116392714,Have you tried restarting your modem?\r\ncaller,26.761278356388537,28.661278356388536,\"Uh-huh, okay, I got it\"\r\nagent,29.29062045818609,33.19062045818609,Is there anything else I can help you with today?\r\ncaller,34.066852759028386,37.36685275902838,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 7.0319911279838205,
+      "end_time": 9.931991127983821,
+      "text": "Thanks for calling. James with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.396053756185479,
+      "end_time": 13.59605375618548,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.636136629617335,
+      "end_time": 16.336136629617336,
+      "text": "my... my modem is overheating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.175645391008683,
+      "end_time": 20.675645391008683,
+      "text": "basically, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.95906239276846,
+      "end_time": 24.65906239276846,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.207722831210468,
+      "end_time": 28.50772283121047,
+      "text": "I can do that, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.842011410488357,
+      "end_time": 32.342011410488354,
+      "text": "what error message are you seeing, kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.72223761320137,
+      "end_time": 35.02223761320137,
+      "text": "yeah, okay, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.35393558561514,
+      "end_time": 39.05393558561514,
+      "text": "Actually, there's one more thing..., you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.08814623815202,
+      "end_time": 42.48814623815202,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.47992587822309,
+      "end_time": 47.179925878223095,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.03501782878392,
+      "end_time": 49.63501782878392,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.088686427680436,
+      "end_time": 51.68868642768044,
+      "text": "We appreciate your business."
+    }
+  ]
 }

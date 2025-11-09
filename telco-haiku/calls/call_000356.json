@@ -1,12 +1,75 @@
 {
   "call_id": 356,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Mike",
-    "duration": 44.3,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "sales",
+    "agent_name": "Patricia",
+    "duration": 40.4,
+    "sentiment": "mixed",
+    "product_category": "Mobile Plan",
+    "inquiry_type": "new_service",
+    "sale_completed": false,
+    "resolution_type": "they purchased a new device"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,Thank you. Connecting you to the next available agent.\r\nagent,3.976398540942972,7.176398540942972,Hello! Mike here. How may I assist you?\r\ncaller,8.151591681656251,12.051591681656252,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,12.985831060697615,16.485831060697613,\"Yeah, so my internet's been really slow today\"\r\nagent,16.899435552662112,20.59943555266211,I got it. Let me pull up your account here.\r\nagent,22.414653499798945,28.014653499798946,Let me check our systems to see if there's an outage in your area.\r\ncaller,29.92431017129898,31.72431017129898,\"Alright, let me try that\"\r\nagent,32.6510632839328,36.3510632839328,That should fix it. Let me verify everything looks good.\r\nagent,37.363483035039465,41.16348303503946,Is there anything else I can help you with today?\r\ncaller,41.758554878384466,44.258554878384466,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.166980258474316,
+      "end_time": 12.166980258474316,
+      "text": "Hey, thanks for calling! This is Patricia. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.63201104436396,
+      "end_time": 16.43201104436396,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.68235360204436,
+      "end_time": 19.882353602044358,
+      "text": "can... can I bundle my services"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.88673661207274,
+      "end_time": 22.88673661207274,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.748398663125297,
+      "end_time": 25.748398663125297,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.7847828941426,
+      "end_time": 28.9847828941426,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.871518478900615,
+      "end_time": 32.071518478900614,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.99206653425526,
+      "end_time": 36.792066534255255,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.568221385126876,
+      "end_time": 40.36822138512687,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

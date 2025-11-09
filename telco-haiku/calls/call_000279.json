@@ -1,12 +1,99 @@
 {
   "call_id": 279,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Robert",
-    "duration": 42.8,
-    "sentiment": "negative",
-    "issue": "modem issues",
-    "issue_resolved": true
+    "call_type": "support",
+    "agent_name": "Jennifer",
+    "duration": 54.9,
+    "sentiment": "positive",
+    "issue_category": "device",
+    "issue": "device",
+    "issue_resolved": true,
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.3,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.823530345728609,10.223530345728609,Hello! I'm Robert. Let's get your device working again.\r\ncaller,11.2733500989876,14.873350098987599,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.581728442608405,19.281728442608404,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.094061461877132,21.99406146187713,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.07810832143197,25.57810832143197,Have you tried restarting your modem?\r\ncaller,27.137612349038072,29.33761234903807,\"Uh-huh, okay, I got it\"\r\nagent,30.010305489737984,35.21030548973798,Looks like we need to restart your modem. Can you do that?\r\nagent,36.61388596783189,40.21388596783189,Is there anything else I can help you with today?\r\ncaller,40.8771802063277,42.7771802063277,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.365660161372302,
+      "end_time": 8.965660161372302,
+      "text": "Hi, thanks for calling. This is Jennifer from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.19552720949051,
+      "end_time": 14.09552720949051,
+      "text": "well, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.480423356843145,
+      "end_time": 19.680423356843146,
+      "text": "let me check... there's a red light on my modem"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.870775922048548,
+      "end_time": 23.67077592204855,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.180447539349355,
+      "end_time": 25.880447539349355,
+      "text": "hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.504249689733555,
+      "end_time": 31.704249689733555,
+      "text": "kinda, It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.813785149698184,
+      "end_time": 35.413785149698185,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.3705405442084,
+      "end_time": 37.7705405442084,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.841821148339754,
+      "end_time": 41.54182114833976,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.479550214871864,
+      "end_time": 45.079550214871865,
+      "text": "here's what we can do, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.798073349425366,
+      "end_time": 48.49807334942537,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.017609697500674,
+      "end_time": 52.71760969750068,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.38705854472861,
+      "end_time": 54.88705854472861,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,12 +1,73 @@
 {
   "call_id": 600,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Sarah",
-    "duration": 41.7,
+    "call_type": "retention",
+    "agent_name": "Jennifer",
+    "duration": 44.7,
     "sentiment": "positive",
-    "issue": "dispute charge",
+    "churn_reason": "service_complaint",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.690908806955803,9.090908806955802,Hi! This is Sarah. I'm here to help with any billing questions.\r\ncaller,10.553965980345716,14.053965980345716,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.939971219593236,18.639971219593235,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.516046597633853,23.816046597633854,I got it. Let me pull up your account here.\r\nagent,25.166965470298962,27.36696547029896,Have you tried restarting your modem?\r\ncaller,28.303946375010867,30.303946375010867,\"Alright, let me try that\"\r\nagent,30.82363527577993,35.02363527577993,I'm going to push a software update to your device.\r\nagent,35.52799807290908,38.92799807290908,You should see improvement within the next 15 minutes.\r\ncaller,39.725180996851904,41.725180996851904,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.399459223770461,
+      "end_time": 12.499459223770462,
+      "text": "Hi, thanks for calling. Jennifer here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.693753530848277,
+      "end_time": 17.493753530848277,
+      "text": "Hi, uh, I'm calling because of a problem., basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 18.75686869814271,
+      "end_time": 22.15686869814271,
+      "text": "I'm... I'm really not happy with the service"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.549030645402702,
+      "end_time": 26.849030645402703,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.023076646699135,
+      "end_time": 30.123076646699136,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.37723629159381,
+      "end_time": 32.67723629159381,
+      "text": "yeah, okay, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.55384051038096,
+      "end_time": 37.15384051038096,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.800516377271364,
+      "end_time": 42.400516377271366,
+      "text": "actually, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.930214868522235,
+      "end_time": 44.73021486852223,
+      "text": "We appreciate your business."
+    }
+  ]
 }

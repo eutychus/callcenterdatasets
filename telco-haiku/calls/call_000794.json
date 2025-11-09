@@ -1,12 +1,111 @@
 {
   "call_id": 794,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Robert",
-    "duration": 40.1,
+    "call_type": "support",
+    "agent_name": "Susan",
+    "duration": 59.3,
     "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "issue_category": "connectivity",
+    "issue": "connectivity",
+    "issue_resolved": "partial",
+    "resolution_type": "it was a software issue that's now updated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.9352492183439285,8.735249218343927,\"Hello, Robert here. How can I help with your account?\"\r\ncaller,9.554969196578833,13.154969196578833,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.099987133572629,17.999987133572628,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.786741962701534,22.786741962701534,\"I understand, let me look into that for you.\"\r\nagent,24.604177414799477,28.904177414799477,Can you check if the lights on your router are on?\r\ncaller,30.68332289312179,32.48332289312179,\"Yeah, that sounds good\"\r\nagent,33.16752035398653,37.367520353986535,Is there anything else I can help you with today?\r\ncaller,38.23282385372483,40.13282385372483,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.998041405237808,
+      "end_time": 9.898041405237809,
+      "text": "Good, this is Susan. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.204486372992118,
+      "end_time": 12.604486372992119,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.926151439806711,
+      "end_time": 16.82615143980671,
+      "text": "uh,... uh, I lose connection every few minutes"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.99082282197818,
+      "end_time": 21.790822821978182,
+      "text": "well, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.72123715742955,
+      "end_time": 25.621237157429547,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.482835051373044,
+      "end_time": 29.082835051373046,
+      "text": "Okay, hold on., so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.41018131021653,
+      "end_time": 32.61018131021653,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.203212759760035,
+      "end_time": 36.103212759760034,
+      "text": "I can do that, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.80053541518461,
+      "end_time": 39.500535415184615,
+      "text": "uh, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.067386733470485,
+      "end_time": 42.66738673347049,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.913729625427095,
+      "end_time": 46.6137296254271,
+      "text": "kinda, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.18781092254099,
+      "end_time": 50.08781092254099,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.724165554585426,
+      "end_time": 54.42416555458543,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 55.39273930616023,
+      "end_time": 57.29273930616023,
+      "text": "like, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.67012315254136,
+      "end_time": 59.27012315254136,
+      "text": "We appreciate your business."
+    }
+  ]
 }

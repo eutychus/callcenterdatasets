@@ -1,13 +1,109 @@
 {
   "call_id": 428,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Sarah",
-    "duration": 46.0,
+    "call_type": "account",
+    "agent_name": "Mark",
+    "duration": 58.7,
     "sentiment": "positive",
-    "issue": "special offers",
-    "sale_completed": true,
-    "product_category": "Mobile Plan"
+    "issue": "general",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.4,Your call is important to us. Please hold while we connect you.\r\nagent,5.511574662467314,9.911574662467315,Hello! Sarah speaking. I'd love to tell you about our latest offers.\r\ncaller,11.091507409577474,14.991507409577475,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.184847365069487,20.28484736506949,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.706831058400155,24.606831058400154,I got it. Let me pull up your account here.\r\nagent,26.356873819097395,30.256873819097393,\"If you upgrade now, we can waive your installation fee.\"\r\ncaller,31.14166783408705,32.741667834087046,\"Yeah, that sounds good\"\r\nagent,33.48511421983348,37.98511421983348,I think I found the issue. Let me reset your connection.\r\nagent,38.882897682322074,43.28289768232207,Is there anything else I can help you with today?\r\ncaller,44.23731429941847,46.03731429941847,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.030026288977754,
+      "end_time": 9.330026288977754,
+      "text": "Hi, Mark with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.35712658183185,
+      "end_time": 12.65712658183185,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.804422698694188,
+      "end_time": 16.30442269869419,
+      "text": "I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.81831971580161,
+      "end_time": 20.418319715801612,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.49307559748033,
+      "end_time": 24.593075597480333,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.412686929411926,
+      "end_time": 30.012686929411927,
+      "text": "actually, It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.14868993560621,
+      "end_time": 33.04868993560621,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.02802817503274,
+      "end_time": 36.62802817503274,
+      "text": "like, how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.35890600262756,
+      "end_time": 39.85890600262756,
+      "text": "here's what we can do, you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.0633283133755,
+      "end_time": 42.7633283133755,
+      "text": "are you sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.07324140644639,
+      "end_time": 46.173241406446394,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.891777257387055,
+      "end_time": 49.09177725738706,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.69398423910211,
+      "end_time": 51.69398423910211,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.29274107840387,
+      "end_time": 56.89274107840387,
+      "text": "you know, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.56892538559961,
+      "end_time": 58.668925385599614,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

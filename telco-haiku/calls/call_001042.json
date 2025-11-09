@@ -1,12 +1,109 @@
 {
   "call_id": 1042,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 44.6,
-    "sentiment": "negative",
-    "issue": "service complaint",
-    "issue_resolved": true
+    "call_type": "general",
+    "agent_name": "Sarah",
+    "duration": 58.6,
+    "sentiment": "neutral",
+    "issue": "general",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.1,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,3.8301431727345827,9.430143172734581,Hi! Mike here. I'd love to make sure we're taking care of you.\r\ncaller,10.91272387933159,13.712723879331591,Hi there. So I've got a problem...\r\ncaller,14.805593855155205,19.905593855155203,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.217285687467804,24.417285687467803,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,26.416805945929177,29.51680594592918,\"Okay, and how long has this been happening?\"\r\ncaller,30.59936633799071,32.59936633799071,\"Yeah, sounds good to me\"\r\nagent,33.505801878419646,37.60580187841965,That should fix it. Let me verify everything looks good.\r\nagent,38.482968535017605,41.68296853501761,Let me send that information to your email.\r\ncaller,42.573665559239856,44.573665559239856,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.380994163789955,
+      "end_time": 9.480994163789955,
+      "text": "Hi! Sarah here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.344561460869253,
+      "end_time": 11.744561460869253,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.793877082472667,
+      "end_time": 15.993877082472668,
+      "text": "I had a question about my service., so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.316863453595527,
+      "end_time": 21.616863453595528,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.465218554342854,
+      "end_time": 25.565218554342856,
+      "text": "let me walk you through this, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.444705588998183,
+      "end_time": 29.244705588998183,
+      "text": "um, is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.42018645724224,
+      "end_time": 32.52018645724224,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.998390872311674,
+      "end_time": 35.39839087231167,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.91899236526301,
+      "end_time": 38.61899236526301,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.499694588180894,
+      "end_time": 40.999694588180894,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.08629469755357,
+      "end_time": 43.78629469755357,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.62618017415306,
+      "end_time": 47.02618017415306,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.59134973466651,
+      "end_time": 51.59134973466651,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.22849902948207,
+      "end_time": 55.928499029482076,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.41276930786884,
+      "end_time": 58.612769307868845,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

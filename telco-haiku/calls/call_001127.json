@@ -1,12 +1,109 @@
 {
   "call_id": 1127,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Jennifer",
-    "duration": 46.8,
-    "sentiment": "neutral",
-    "issue": "usage charges",
+    "call_type": "general",
+    "agent_name": "Chris",
+    "duration": 58.8,
+    "sentiment": "negative",
+    "issue": "general",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.742353764490923,10.642353764490924,\"Good day, Jennifer here. What billing matter can I help you with?\"\r\ncaller,11.890765205798736,15.390765205798736,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.237620646005297,21.037620646005298,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,21.487156631697125,25.287156631697126,I got it. Let me pull up your account here.\r\nagent,27.054637264914827,30.754637264914827,What do you see when you open your browser?\r\ncaller,32.27124406180627,33.971244061806274,\"Yeah, that sounds good\"\r\nagent,34.77180808187256,39.071808081872554,That should fix it. Let me verify everything looks good.\r\nagent,40.21374366176309,44.31374366176309,\"If it happens again, just give us a call back.\"\r\ncaller,45.00038392562372,46.80038392562372,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.44083816985333,
+      "end_time": 10.14083816985333,
+      "text": "Hi! Chris here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.37544247495125,
+      "end_time": 14.37544247495125,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.437713429142505,
+      "end_time": 18.137713429142504,
+      "text": "I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.416600649923602,
+      "end_time": 23.416600649923602,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.80607001311395,
+      "end_time": 27.10607001311395,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.35626678307859,
+      "end_time": 30.15626678307859,
+      "text": "will it take long, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.45009906418025,
+      "end_time": 34.15009906418025,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.412328766698515,
+      "end_time": 37.81232876669851,
+      "text": "kinda, I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.58401252005066,
+      "end_time": 40.784012520050666,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.861510801827116,
+      "end_time": 43.06151080182712,
+      "text": "kinda, yeah, okay"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.27978820074132,
+      "end_time": 46.07978820074132,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.15404014938437,
+      "end_time": 49.65404014938437,
+      "text": "you know, here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.289277052605506,
+      "end_time": 52.189277052605505,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.81024374403252,
+      "end_time": 56.21024374403252,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.15977137320862,
+      "end_time": 58.75977137320862,
+      "text": "We appreciate your business."
+    }
+  ]
 }

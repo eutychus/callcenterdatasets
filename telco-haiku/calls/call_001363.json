@@ -2,11 +2,85 @@
   "call_id": 1363,
   "metadata": {
     "call_type": "billing",
-    "agent_name": "Robert",
-    "duration": 46.4,
-    "sentiment": "neutral",
-    "issue": "usage charges",
-    "issue_resolved": false
+    "agent_name": "Lisa",
+    "duration": 47.7,
+    "sentiment": "positive",
+    "billing_issue": "dispute",
+    "issue_resolved": true,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.9,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.621083273666825,11.621083273666825,Hi! This is Robert. I'm here to help with any billing questions.\r\ncaller,12.56791639897142,16.96791639897142,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,17.854237499319048,20.854237499319048,\"Yeah, so my internet's been really slow today\"\r\nagent,21.587546190851004,26.287546190851003,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.49834994444334,30.098349944443342,Have you tried restarting your modem?\r\ncaller,31.118044759395108,32.618044759395104,\"Yeah, that sounds good\"\r\nagent,33.41527878331467,38.61527878331467,Looks like we need to restart your modem. Can you do that?\r\nagent,39.41751926411521,43.51751926411521,Is there anything else I can help you with today?\r\ncaller,44.3757449812767,46.3757449812767,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.855436301548496,
+      "end_time": 10.655436301548495,
+      "text": "Hello! Lisa speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.670188787770549,
+      "end_time": 14.770188787770548,
+      "text": "uh, Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.928094196414344,
+      "end_time": 18.828094196414344,
+      "text": "you... you know, can you remove this charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.2315753226016,
+      "end_time": 24.5315753226016,
+      "text": "you know, let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.0866128850066,
+      "end_time": 28.5866128850066,
+      "text": "hold on... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.179852871208013,
+      "end_time": 32.279852871208014,
+      "text": "Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.038930074970544,
+      "end_time": 36.23893007497055,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.69826751203748,
+      "end_time": 39.898267512037485,
+      "text": "I'm not sure about that, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.399311324787064,
+      "end_time": 42.29931132478706,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.026083723485954,
+      "end_time": 45.126083723485955,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.032842259993856,
+      "end_time": 47.73284225999386,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,13 +1,73 @@
 {
   "call_id": 1804,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Jennifer",
-    "duration": 42.5,
-    "sentiment": "neutral",
-    "issue": "can't access account",
-    "issue_resolved": true,
-    "resolution_type": "callback needed"
+    "call_type": "retention",
+    "agent_name": "Chris",
+    "duration": 34.4,
+    "sentiment": "mixed",
+    "churn_reason": "service_complaint",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Your call is important to us. Please hold while we connect you.\r\nagent,5.775348263981435,10.575348263981436,\"Hello, thanks for calling. I'm Jennifer. What seems to be the issue?\"\r\ncaller,11.537875649382975,15.437875649382976,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.168023702317214,19.068023702317213,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.745340070235855,21.845340070235856,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.888236916326186,26.288236916326184,\"Okay, and how long has this been happening?\"\r\ncaller,27.375978117969346,29.375978117969346,\"Uh-huh, okay, I got it\"\r\nagent,29.95590283850903,35.15590283850903,Looks like we need to restart your modem. Can you do that?\r\nagent,36.0676259201524,39.3676259201524,Let me send that information to your email.\r\ncaller,40.088285102030206,42.488285102030204,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.592772432678459,
+      "end_time": 9.49277243267846,
+      "text": "Hi, thanks for calling. Chris here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.622293182381728,
+      "end_time": 13.522293182381729,
+      "text": "Yeah, hi. I'm having an issue., like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.660312756077058,
+      "end_time": 16.96031275607706,
+      "text": "sorry... your customer service is frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.027150370147226,
+      "end_time": 20.227150370147225,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.630293671989925,
+      "end_time": 23.830293671989924,
+      "text": "here's what we can do, like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.287238812633113,
+      "end_time": 27.287238812633113,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.055479278234973,
+      "end_time": 30.255479278234972,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.879327934811858,
+      "end_time": 32.479327934811856,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.20471051834394,
+      "end_time": 34.40471051834394,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

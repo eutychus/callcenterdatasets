@@ -1,13 +1,73 @@
 {
   "call_id": 1281,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Emily",
-    "duration": 41.4,
-    "sentiment": "positive",
-    "issue": "billing question",
-    "issue_resolved": true,
-    "resolution_type": "scheduled followup"
+    "call_type": "technical",
+    "agent_name": "Robert",
+    "duration": 34.9,
+    "sentiment": "mixed",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.1,Please enter your account number followed by the pound sign.\r\nagent,4.656806430841761,9.55680643084176,Good day! Emily here from our support team. What can I assist with?\r\ncaller,10.949826679781825,13.949826679781825,Hi there. So I've got a problem...\r\ncaller,14.728520544996801,17.6285205449968,\"Yeah, so my internet's been really slow today\"\r\nagent,18.53456215399936,22.13456215399936,\"I understand, let me look into that for you.\"\r\nagent,23.253330968688037,25.753330968688037,Have you tried restarting your modem?\r\ncaller,27.41230549649515,29.512305496495152,\"Yeah, sounds good to me\"\r\nagent,30.091654271928242,34.291654271928245,That should fix it. Let me verify everything looks good.\r\nagent,35.7017098907785,38.7017098907785,Let me send that information to your email.\r\ncaller,39.24109481183116,41.441094811831164,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.3344509693171114,
+      "end_time": 7.334450969317111,
+      "text": "Hi! Robert from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.65167608756203,
+      "end_time": 11.451676087562031,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.952299674160503,
+      "end_time": 14.552299674160503,
+      "text": "I... I hear a strange noise"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 15.85221473997542,
+      "end_time": 17.752214739975418,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.434522500548567,
+      "end_time": 22.03452250054857,
+      "text": "let me see if there's an outage in your area"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 23.451221137458777,
+      "end_time": 26.151221137458776,
+      "text": "so, sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.785127966374972,
+      "end_time": 29.18512796637497,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.782161152747125,
+      "end_time": 31.882161152747127,
+      "text": "That's everything. Thanks so much!, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.70337472547182,
+      "end_time": 34.90337472547182,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -1,12 +1,85 @@
 {
   "call_id": 1487,
   "metadata": {
-    "call_type": "general",
+    "call_type": "technical",
     "agent_name": "Robert",
-    "duration": 46.2,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "duration": 40.3,
+    "sentiment": "neutral",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.287263731521658,10.287263731521659,\"Hi, this is Robert. What can I do for you today?\"\r\ncaller,11.557454036118582,14.157454036118581,Hi there. So I've got a problem...\r\ncaller,14.670460304272105,19.870460304272104,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.738705385048256,24.738705385048256,I got it. Let me pull up your account here.\r\nagent,26.44161091115854,29.64161091115854,\"Okay, and how long has this been happening?\"\r\ncaller,31.03650338870864,33.03650338870864,\"Alright, let me try that\"\r\nagent,33.69461348367757,38.394613483677574,Looks like we need to restart your modem. Can you do that?\r\nagent,39.108219489554,43.208219489554004,Is there anything else I can help you with today?\r\ncaller,44.047847899192575,46.24784789919258,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.4010237298424695,
+      "end_time": 10.60102372984247,
+      "text": "Hi! Robert from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.178935198482248,
+      "end_time": 13.97893519848225,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.961008304996305,
+      "end_time": 17.061008304996307,
+      "text": "there are lights flashing oddly"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.700159440487106,
+      "end_time": 20.800159440487107,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.421221230486807,
+      "end_time": 23.721221230486808,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.266509439822098,
+      "end_time": 26.966509439822097,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.580571290070484,
+      "end_time": 29.680571290070485,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.708550688538782,
+      "end_time": 33.00855068853878,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.72622287688064,
+      "end_time": 35.72622287688064,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.32191297503861,
+      "end_time": 37.82191297503861,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.790437930630794,
+      "end_time": 40.290437930630794,
+      "text": "We appreciate your business."
+    }
+  ]
 }

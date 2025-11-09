@@ -1,12 +1,122 @@
 {
   "call_id": 451,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Robert",
-    "duration": 39.3,
-    "sentiment": "positive",
-    "issue": "competitor offer",
-    "issue_resolved": true
+    "call_type": "billing",
+    "agent_name": "Daniel",
+    "duration": 65.5,
+    "sentiment": "negative",
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "we set up a payment plan"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.1,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.804040160282245,10.804040160282245,Hi! Robert here. I'd love to make sure we're taking care of you.\r\ncaller,11.879477773151265,14.679477773151266,Hi there. So I've got a problem...\r\ncaller,15.595911689944465,20.895911689944466,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,21.635514800900708,23.835514800900707,\"Yeah, let's troubleshoot that together.\"\r\nagent,25.39089203795184,28.89089203795184,\"Okay, and how long has this been happening?\"\r\ncaller,30.422272770771883,31.922272770771883,\"Yeah, that sounds good\"\r\nagent,32.60252087686615,36.802520876866154,\"If it happens again, just give us a call back.\"\r\ncaller,37.50079526349519,39.30079526349519,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.702937395233345,
+      "end_time": 10.902937395233344,
+      "text": "Hi, this is Daniel from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.631826249893212,
+      "end_time": 14.831826249893211,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.696363275407382,
+      "end_time": 18.796363275407383,
+      "text": "one moment... can I get a discount, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.44907551772853,
+      "end_time": 23.14907551772853,
+      "text": "actually, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.312637414817786,
+      "end_time": 27.712637414817785,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.26167062789534,
+      "end_time": 32.36167062789534,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.182042812874656,
+      "end_time": 37.182042812874656,
+      "text": "well, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.09203218503839,
+      "end_time": 40.69203218503839,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.48573529556134,
+      "end_time": 43.78573529556134,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.98129006174388,
+      "end_time": 47.18129006174388,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.7747797803729,
+      "end_time": 49.2747797803729,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.54394263095539,
+      "end_time": 52.34394263095539,
+      "text": "sorta, is there a charge"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.912509762923456,
+      "end_time": 55.21250976292345,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.33085692465128,
+      "end_time": 58.03085692465128,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.54307881973327,
+      "end_time": 61.64307881973327,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 62.328981593285114,
+      "end_time": 63.72898159328511,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 64.10460039871293,
+      "end_time": 65.50460039871294,
+      "text": "Have a great day!"
+    }
+  ]
 }

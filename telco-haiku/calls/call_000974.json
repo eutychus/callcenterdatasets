@@ -2,12 +2,86 @@
   "call_id": 974,
   "metadata": {
     "call_type": "support",
-    "agent_name": "Lisa",
-    "duration": 39.5,
-    "sentiment": "positive",
-    "issue": "getting disconnected",
-    "issue_resolved": false,
-    "resolution_type": "resolved"
+    "agent_name": "Chris",
+    "duration": 45.7,
+    "sentiment": "mixed",
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": true,
+    "resolution_type": "the issue was resolved"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.7,Your call is important to us. Please hold while we connect you.\r\nagent,6.071986552006976,11.771986552006975,Hi there! This is Lisa from Technical Support. How can I help you today?\r\ncaller,13.178326607430208,16.678326607430208,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,17.76272202741931,21.16272202741931,\"Yeah, so my internet's been really slow today\"\r\nagent,21.802975894287638,25.502975894287637,\"I understand, let me look into that for you.\"\r\nagent,26.553171492448303,28.853171492448304,Have you tried restarting your modem?\r\ncaller,30.498409813536412,32.09840981353641,\"Yeah, that sounds good\"\r\nagent,32.64955208353065,36.44955208353065,\"If it happens again, just give us a call back.\"\r\ncaller,37.293790265123526,39.49379026512353,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.3,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.5807629947283495,
+      "end_time": 9.780762994728349,
+      "text": "Hi there! Chris speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.855389889750231,
+      "end_time": 14.755389889750232,
+      "text": "kinda, Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.69709361955896,
+      "end_time": 19.19709361955896,
+      "text": "hold on... my speeds are really slow today"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.634834637997844,
+      "end_time": 22.934834637997845,
+      "text": "that must be really annoying, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.63872806269929,
+      "end_time": 26.73872806269929,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.38649980531104,
+      "end_time": 31.58649980531104,
+      "text": "well, Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.91734851685666,
+      "end_time": 34.71734851685666,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.755858058748366,
+      "end_time": 36.655858058748365,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.646226571336605,
+      "end_time": 39.046226571336604,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.772731382815564,
+      "end_time": 43.772731382815564,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.19329000997329,
+      "end_time": 45.69329000997329,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,12 +1,110 @@
 {
   "call_id": 1124,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Emily",
-    "duration": 39.0,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "billing",
+    "agent_name": "Mike",
+    "duration": 59.1,
+    "sentiment": "mixed",
+    "billing_issue": "payment",
+    "issue_resolved": false,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.442892671474684,8.942892671474684,Hi! Emily with account services. What do you need help with?\r\ncaller,9.940767660458047,12.440767660458047,Hi there. So I've got a problem...\r\ncaller,13.604933743992483,18.904933743992483,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,19.29462947727025,22.59462947727025,\"I understand, let me look into that for you.\"\r\nagent,24.478988694283395,27.778988694283395,\"Okay, and how long has this been happening?\"\r\ncaller,28.749855548431782,30.94985554843178,\"Alright, let me try that\"\r\nagent,31.812343610453663,35.212343610453665,You should see improvement within the next 15 minutes.\r\ncaller,35.988297421435,38.988297421435,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.057015108166649,
+      "end_time": 11.35701510816665,
+      "text": "Hi, this is Mike from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.787596669507003,
+      "end_time": 15.387596669507003,
+      "text": "Yeah, hi. I'm having an issue., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.364423660022666,
+      "end_time": 18.164423660022667,
+      "text": "what's my current balance"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.911375696014414,
+      "end_time": 22.011375696014415,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.271765126685917,
+      "end_time": 25.87176512668592,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.711397908778835,
+      "end_time": 29.511397908778836,
+      "text": "well, Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.973800528845093,
+      "end_time": 32.57380052884509,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.055821198439446,
+      "end_time": 36.35582119843944,
+      "text": "sorta, sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.117178941037785,
+      "end_time": 39.71717894103779,
+      "text": "I can help you with that, uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.10771186861596,
+      "end_time": 43.50771186861596,
+      "text": "sure, I can try that, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.39694003555893,
+      "end_time": 46.696940035558924,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.48238055182217,
+      "end_time": 50.282380551822165,
+      "text": "let me walk you through this, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.84672988227841,
+      "end_time": 53.54672988227841,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.255701854435564,
+      "end_time": 57.255701854435564,
+      "text": "That's everything. Thanks so much!, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.61137478531375,
+      "end_time": 59.11137478531375,
+      "text": "Have a great day!"
+    }
+  ]
 }

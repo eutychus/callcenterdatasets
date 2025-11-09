@@ -1,12 +1,111 @@
 {
   "call_id": 942,
   "metadata": {
-    "call_type": "billing",
+    "call_type": "support",
     "agent_name": "Sarah",
-    "duration": 40.7,
+    "duration": 62.3,
     "sentiment": "positive",
-    "issue": "cancellation",
-    "issue_resolved": false
+    "issue_category": "connectivity",
+    "issue": "connectivity",
+    "issue_resolved": "partial",
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.7,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.737745595412859,10.43774559541286,\"Hello, Sarah from billing. How can I assist with your account?\"\r\ncaller,11.393202682650346,14.493202682650345,Hi there. So I've got a problem...\r\ncaller,15.043576577947128,20.543576577947128,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,21.311281885295692,25.811281885295692,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.35545935720975,29.755459357209748,Have you tried restarting your modem?\r\ncaller,30.86756821492297,32.56756821492297,\"Yeah, that sounds good\"\r\nagent,33.35746923233353,37.55746923233353,Is there anything else I can help you with today?\r\ncaller,38.063625295041234,40.663625295041236,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.604433115325745,
+      "end_time": 11.004433115325746,
+      "text": "Hello! I'm Sarah. How can I help you with your service today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.970563261862619,
+      "end_time": 13.87056326186262,
+      "text": "Thanks for picking up., so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.369940926516986,
+      "end_time": 17.169940926516986,
+      "text": "I'm having connectivity issues"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.930214150350974,
+      "end_time": 22.430214150350974,
+      "text": "uh, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.960438636647197,
+      "end_time": 25.0604386366472,
+      "text": "I'm... I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.690869479378446,
+      "end_time": 28.790869479378447,
+      "text": "It's 555-1234., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.71488456485975,
+      "end_time": 33.71488456485975,
+      "text": "I have a solution for you, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.38609476496079,
+      "end_time": 38.08609476496079,
+      "text": "uh, are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.935387640784406,
+      "end_time": 41.13538764078441,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.53166349049941,
+      "end_time": 44.33166349049941,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.47194570288582,
+      "end_time": 47.47194570288582,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.194638327069086,
+      "end_time": 51.79463832706909,
+      "text": "sorta, will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.56492169346676,
+      "end_time": 56.56492169346676,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 57.359803706617434,
+      "end_time": 59.55980370661744,
+      "text": "No, that's all. Thanks!, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 60.45697367484117,
+      "end_time": 62.25697367484117,
+      "text": "We appreciate your business."
+    }
+  ]
 }

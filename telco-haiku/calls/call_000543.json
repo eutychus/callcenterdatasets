@@ -1,12 +1,85 @@
 {
   "call_id": 543,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Mike",
-    "duration": 45.4,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "retention",
+    "agent_name": "Chris",
+    "duration": 43.4,
+    "sentiment": "positive",
+    "churn_reason": "leaving",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.3,Please enter your account number followed by the pound sign.\r\nagent,5.30608609935082,8.606086099350819,Hello! Mike here. How may I assist you?\r\ncaller,9.840240697185472,12.840240697185472,Hi there. So I've got a problem...\r\ncaller,13.350184927553778,18.650184927553777,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,19.510489915455878,23.61048991545588,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.02743584807573,28.02743584807573,\"Okay, and how long has this been happening?\"\r\ncaller,28.985581535762844,31.585581535762845,\"Okay, sure, I can try that\"\r\nagent,32.21421149175937,36.61421149175937,Looks like we need to restart your modem. Can you do that?\r\nagent,37.83281252893423,41.132812528934224,Let me send that information to your email.\r\ncaller,42.0879272813771,45.387927281377095,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.117680090043104,
+      "end_time": 8.617680090043104,
+      "text": "Hello! Chris speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.373695881210809,
+      "end_time": 13.57369588121081,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.123313462135885,
+      "end_time": 15.923313462135885,
+      "text": "I need to disconnect"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.933739382915018,
+      "end_time": 19.633739382915017,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.087557527013207,
+      "end_time": 23.187557527013208,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.53160976800561,
+      "end_time": 26.33160976800561,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.849500073785563,
+      "end_time": 28.649500073785564,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.6355646541024,
+      "end_time": 31.8355646541024,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.074496173379515,
+      "end_time": 35.67449617337952,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.41568408488727,
+      "end_time": 40.41568408488727,
+      "text": "I think that covers it. Thanks for your help., well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.944140492858715,
+      "end_time": 43.444140492858715,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

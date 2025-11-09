@@ -1,13 +1,73 @@
 {
   "call_id": 104,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Lisa",
-    "duration": 48.3,
+    "call_type": "technical",
+    "agent_name": "Chris",
+    "duration": 32.4,
     "sentiment": "positive",
-    "issue": "internet is down",
-    "issue_resolved": false,
-    "resolution_type": "scheduled followup"
+    "technical_issue": "setup",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.9,Your call is important to us. Please hold while we connect you.\r\nagent,6.394198033365476,11.794198033365475,Good day! Lisa here from our support team. What can I assist with?\r\ncaller,13.1543110090598,17.0543110090598,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,17.915863961103184,22.815863961103183,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,23.18097056221665,26.88097056221665,I got it. Let me pull up your account here.\r\nagent,28.812366802052313,31.812366802052313,\"Okay, and how long has this been happening?\"\r\ncaller,33.3008219450487,35.900821945048705,\"Okay, sure, I can try that\"\r\nagent,36.74237559931059,40.942375599310594,That should fix it. Let me verify everything looks good.\r\nagent,41.67723697124075,45.57723697124075,You should see improvement within the next 15 minutes.\r\ncaller,46.18062628740176,48.28062628740176,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.9348948725308093,
+      "end_time": 7.234894872530809,
+      "text": "Hello, Chris here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.058951812755936,
+      "end_time": 10.658951812755936,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.273596436898181,
+      "end_time": 13.073596436898182,
+      "text": "what cables do I need"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 14.533787764442089,
+      "end_time": 17.933787764442087,
+      "text": "um, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.460958956859386,
+      "end_time": 20.560958956859388,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 22.43257218211873,
+      "end_time": 24.23257218211873,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.853538445620657,
+      "end_time": 26.45353844562066,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.329733434945844,
+      "end_time": 29.729733434945842,
+      "text": "That's everything. Thanks so much!, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.314686959459543,
+      "end_time": 32.414686959459544,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

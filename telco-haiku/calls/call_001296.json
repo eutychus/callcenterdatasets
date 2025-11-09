@@ -1,12 +1,85 @@
 {
   "call_id": 1296,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Mike",
-    "duration": 39.4,
-    "sentiment": "positive",
-    "issue": "modem issues",
-    "issue_resolved": true
+    "call_type": "retention",
+    "agent_name": "Patricia",
+    "duration": 44.2,
+    "sentiment": "negative",
+    "churn_reason": "competitor",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,Please enter your account number followed by the pound sign.\r\nagent,4.823847092508128,8.123847092508129,Hello! I'm Mike. Let's get your device working again.\r\ncaller,9.487000084213598,12.387000084213598,Hi there. So I've got a problem...\r\ncaller,13.467757310168206,17.367757310168205,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,17.81835521484311,19.718355214843108,\"Yeah, let's troubleshoot that together.\"\r\nagent,20.989889481567296,24.689889481567295,What do you see when you open your browser?\r\ncaller,25.59200252456469,27.692002524564693,\"Alright, let me try that\"\r\nagent,28.55740783240384,32.35740783240384,I'm going to push a software update to your device.\r\nagent,33.42210776507272,36.822107765072715,You should see improvement within the next 15 minutes.\r\ncaller,37.55321917963734,39.353219179637335,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.766853679349428,
+      "end_time": 7.966853679349428,
+      "text": "Hello! Patricia speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.774789970491415,
+      "end_time": 12.274789970491415,
+      "text": "Hi! So I've been having some trouble., kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.349754809206802,
+      "end_time": 16.549754809206803,
+      "text": "just a second... I'm looking at switching"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.034189123116196,
+      "end_time": 21.734189123116195,
+      "text": "I'm sorry you're experiencing this, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.091558403611273,
+      "end_time": 25.791558403611273,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.921870056098417,
+      "end_time": 29.421870056098417,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.29864822631216,
+      "end_time": 32.79864822631216,
+      "text": "uh, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.69446572089554,
+      "end_time": 35.294465720895545,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.22235721507426,
+      "end_time": 38.12235721507426,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.934489368710196,
+      "end_time": 42.0344893687102,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.63491503616162,
+      "end_time": 44.234915036161624,
+      "text": "We appreciate your business."
+    }
+  ]
 }

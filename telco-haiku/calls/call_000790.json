@@ -1,12 +1,85 @@
 {
   "call_id": 790,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Mike",
-    "duration": 42.5,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
+    "call_type": "retention",
+    "agent_name": "Daniel",
+    "duration": 44.1,
+    "sentiment": "mixed",
+    "churn_reason": "competitor",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.504424251860209,8.50442425186021,\"Hi, this is Mike. What can I do for you today?\"\r\ncaller,9.72917845687067,13.529178456870671,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.571461037868595,17.171461037868596,\"Um, I can't... I keep getting disconnected\"\r\nagent,17.763114362846334,21.763114362846334,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,23.245108296677998,26.645108296677996,What do you see when you open your browser?\r\ncaller,28.285776973803962,29.68577697380396,\"Yeah, that sounds good\"\r\nagent,30.595592849767304,34.895592849767304,I think I found the issue. Let me reset your connection.\r\nagent,36.38644670525461,39.986446705254615,You should see improvement within the next 15 minutes.\r\ncaller,40.710933361864555,42.51093336186455,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.559720281349485,
+      "end_time": 11.659720281349484,
+      "text": "Hi, thanks for calling. Daniel here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.550371768348903,
+      "end_time": 15.250371768348902,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.69688692271051,
+      "end_time": 18.496886922710512,
+      "text": "I'm looking at switching, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.394093423904668,
+      "end_time": 22.394093423904668,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.225642886200227,
+      "end_time": 26.125642886200225,
+      "text": "let me walk you through this, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.533913483690984,
+      "end_time": 29.233913483690984,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.79966649937446,
+      "end_time": 32.19966649937446,
+      "text": "sorta, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.769148628352454,
+      "end_time": 35.96914862835246,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.17314869762896,
+      "end_time": 38.97314869762896,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.92328528871589,
+      "end_time": 41.82328528871589,
+      "text": "like, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.36702331289289,
+      "end_time": 44.06702331289289,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,12 +1,73 @@
 {
   "call_id": 1267,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Lisa",
-    "duration": 45.4,
-    "sentiment": "negative",
-    "issue": "signal strength",
-    "issue_resolved": false
+    "call_type": "retention",
+    "agent_name": "Emily",
+    "duration": 35.3,
+    "sentiment": "neutral",
+    "churn_reason": "competitor",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.4,Your call is important to us. Please hold while we connect you.\r\nagent,5.548657557554467,9.248657557554466,Hello! I'm Lisa. Let's get your device working again.\r\ncaller,10.483006560257365,14.083006560257365,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.866290917925234,19.766290917925232,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.529753972496692,24.829753972496693,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.97330001873066,31.87330001873066,Let me check our systems to see if there's an outage in your area.\r\ncaller,32.87989478159069,34.579894781590696,\"Yeah, that sounds good\"\r\nagent,35.521230142795176,39.12123014279518,That should fix it. Let me verify everything looks good.\r\nagent,39.66538299837423,42.565382998374226,Let me send that information to your email.\r\ncaller,43.50139088229551,45.40139088229551,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.317231595674922,
+      "end_time": 8.217231595674923,
+      "text": "Hello! Emily speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.301945620153113,
+      "end_time": 11.601945620153113,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.439106549266494,
+      "end_time": 15.039106549266494,
+      "text": "I'm... I'm looking at switching, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.01882494071277,
+      "end_time": 19.11882494071277,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.289648020529306,
+      "end_time": 23.289648020529306,
+      "text": "let me walk you through this, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.989591208519897,
+      "end_time": 26.889591208519896,
+      "text": "well, I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.29236698072999,
+      "end_time": 30.09236698072999,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.04242870250097,
+      "end_time": 33.24242870250097,
+      "text": "No, that's all. Thanks!, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.94036184977773,
+      "end_time": 35.34036184977773,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,12 +1,109 @@
 {
   "call_id": 1168,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 43.8,
+    "call_type": "account",
+    "agent_name": "David",
+    "duration": 63.4,
     "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,Please enter your account number followed by the pound sign.\r\nagent,5.017903041011143,8.117903041011143,Hello! Lisa here. How may I assist you?\r\ncaller,9.463922519524207,12.963922519524207,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,13.596712358883817,17.796712358883816,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.721941997604922,22.62194199760492,I got it. Let me pull up your account here.\r\nagent,24.432698578946393,28.632698578946393,Can you check if the lights on your router are on?\r\ncaller,30.245327457185876,31.945327457185876,\"Yeah, that sounds good\"\r\nagent,32.66773326384511,36.26773326384511,I'm going to push a software update to your device.\r\nagent,37.69332637827847,41.09332637827847,You should see improvement within the next 15 minutes.\r\ncaller,41.6674847609812,43.767484760981205,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.653522299518009,
+      "end_time": 10.753522299518009,
+      "text": "Hi, David with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.063913783432932,
+      "end_time": 15.163913783432932,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.92854376230682,
+      "end_time": 20.12854376230682,
+      "text": "you... you know, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.740694625003385,
+      "end_time": 24.240694625003385,
+      "text": "uh, I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.06334774182389,
+      "end_time": 28.16334774182389,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.673018510636066,
+      "end_time": 33.873018510636065,
+      "text": "It's starting with a C... CUST12345., like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.232558427076626,
+      "end_time": 37.632558427076624,
+      "text": "kinda, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.34178802001498,
+      "end_time": 41.34178802001498,
+      "text": "actually, will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.51734424869178,
+      "end_time": 44.317344248691775,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.03741355779036,
+      "end_time": 47.43741355779036,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.014187417364504,
+      "end_time": 49.8141874173645,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.28880239467188,
+      "end_time": 52.78880239467188,
+      "text": "sorta, that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.61206308570147,
+      "end_time": 57.61206308570147,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 58.54347794531984,
+      "end_time": 60.54347794531984,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 61.390304758878955,
+      "end_time": 63.390304758878955,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

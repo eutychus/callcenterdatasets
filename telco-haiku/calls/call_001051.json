@@ -1,12 +1,73 @@
 {
   "call_id": 1051,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 40.3,
+    "call_type": "technical",
+    "agent_name": "Lisa",
+    "duration": 37.2,
     "sentiment": "neutral",
-    "issue": "switching provider",
-    "issue_resolved": true
+    "technical_issue": "troubleshooting",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.233946198091509,9.233946198091509,\"Hello, this is Mike. I see you've been with us for a while.\"\r\ncaller,10.604659567255649,13.604659567255649,Hi there. So I've got a problem...\r\ncaller,14.344655639463884,17.344655639463884,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.017720136337545,20.117720136337546,\"Yeah, let's troubleshoot that together.\"\r\nagent,21.764239566336634,25.164239566336633,\"Okay, and how long has this been happening?\"\r\ncaller,26.261911120861868,28.161911120861866,\"Yeah, sounds good to me\"\r\nagent,29.01771377777549,33.217713777775494,I think I found the issue. Let me reset your connection.\r\nagent,34.48241179335593,37.68241179335593,Let me send that information to your email.\r\ncaller,38.31901631708337,40.31901631708337,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.171312274248475,
+      "end_time": 9.371312274248474,
+      "text": "Thanks for calling. Lisa with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.91384182745913,
+      "end_time": 14.41384182745913,
+      "text": "Hi! So I've been having some trouble., like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.425610936368955,
+      "end_time": 19.025610936368956,
+      "text": "something... something changed and now it's slow, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.069621570417485,
+      "end_time": 22.669621570417487,
+      "text": "that must be really annoying, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.97236640763671,
+      "end_time": 26.17236640763671,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.05239307567264,
+      "end_time": 29.15239307567264,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.62941202311544,
+      "end_time": 32.42941202311544,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.334756397394656,
+      "end_time": 35.43475639739466,
+      "text": "like, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.824988269409275,
+      "end_time": 37.22498826940927,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

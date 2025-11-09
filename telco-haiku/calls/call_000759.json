@@ -1,12 +1,85 @@
 {
   "call_id": 759,
   "metadata": {
-    "call_type": "billing",
+    "call_type": "account",
     "agent_name": "Robert",
-    "duration": 39.4,
-    "sentiment": "positive",
-    "issue": "payment method",
+    "duration": 46.3,
+    "sentiment": "negative",
+    "issue": "general",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.2,Please enter your account number followed by the pound sign.\r\nagent,4.886687905421737,9.386687905421738,Hi! This is Robert. I'm here to help with any billing questions.\r\ncaller,10.877595888779918,14.377595888779918,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.182199611216522,18.38219961121652,\"Yeah, so my internet's been really slow today\"\r\nagent,19.0604345570665,20.9604345570665,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.667203805137042,27.767203805137044,Let me check our systems to see if there's an outage in your area.\r\ncaller,29.365355582488377,30.965355582488378,\"Yeah, that sounds good\"\r\nagent,31.622058552485036,35.42205855248503,You should see improvement within the next 15 minutes.\r\ncaller,36.11707153376366,39.417071533763654,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.647983437560618,
+      "end_time": 8.847983437560618,
+      "text": "Hi, Robert with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.394787615290486,
+      "end_time": 13.394787615290486,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.841283809633518,
+      "end_time": 18.641283809633517,
+      "text": "hold on... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.66807587536387,
+      "end_time": 21.568075875363867,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.20737810596113,
+      "end_time": 25.30737810596113,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.76330495849701,
+      "end_time": 28.56330495849701,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.857107345048362,
+      "end_time": 32.65710734504836,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.17962978479387,
+      "end_time": 36.17962978479387,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.524431941505334,
+      "end_time": 39.524431941505334,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.31728106535691,
+      "end_time": 44.31728106535691,
+      "text": "um, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.73674184715035,
+      "end_time": 46.33674184715035,
+      "text": "We appreciate your business."
+    }
+  ]
 }

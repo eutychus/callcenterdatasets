@@ -1,12 +1,85 @@
 {
   "call_id": 801,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Emily",
-    "duration": 45.9,
+    "call_type": "technical",
+    "agent_name": "Mark",
+    "duration": 44.2,
     "sentiment": "positive",
-    "issue": "cancellation",
-    "issue_resolved": true
+    "technical_issue": "device_issue",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.8,Your call is important to us. Please hold while we connect you.\r\nagent,6.205446057076549,10.90544605707655,Hi! This is Emily. I'm here to help with any billing questions.\r\ncaller,12.170566353115241,15.77056635311524,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.93855487647293,21.738554876472932,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,22.191387222672965,26.491387222672966,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.851043681250623,30.25104368125062,Have you tried restarting your modem?\r\ncaller,32.22767236869531,34.32767236869531,\"Yeah, sounds good to me\"\r\nagent,34.861340887986366,38.861340887986366,I'm going to push a software update to your device.\r\nagent,39.80058568467073,43.100585684670726,Let me send that information to your email.\r\ncaller,43.964099256713325,45.864099256713324,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.660201040143688,
+      "end_time": 7.760201040143688,
+      "text": "Hi! Mark from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.56386640639921,
+      "end_time": 11.06386640639921,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.527890139385782,
+      "end_time": 14.627890139385782,
+      "text": "I hear a strange noise"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.116517622625025,
+      "end_time": 19.616517622625025,
+      "text": "so, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.109330741791887,
+      "end_time": 23.909330741791887,
+      "text": "well, what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.345243376532103,
+      "end_time": 27.145243376532104,
+      "text": "that sounds good, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.375300917977327,
+      "end_time": 30.675300917977328,
+      "text": "let's try restarting the device, uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.19384872779587,
+      "end_time": 34.093848727795866,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.151663939549024,
+      "end_time": 36.95166393954902,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.55650664273556,
+      "end_time": 41.156506642735565,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.12234026002565,
+      "end_time": 44.22234026002565,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

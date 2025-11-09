@@ -1,13 +1,85 @@
 {
   "call_id": 1748,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Robert",
-    "duration": 38.6,
-    "sentiment": "negative",
-    "issue": "need password reset",
-    "issue_resolved": true,
-    "resolution_type": "escalated"
+    "call_type": "general",
+    "agent_name": "James",
+    "duration": 41.8,
+    "sentiment": "positive",
+    "issue": "general",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,3.9697341012032488,10.069734101203249,Hi there! This is Robert from Technical Support. How can I help you today?\r\ncaller,11.24130071332363,14.74130071332363,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.820160365728595,18.720160365728596,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.259141279654592,23.45914127965459,I got it. Let me pull up your account here.\r\nagent,24.522174203097602,27.822174203097603,What do you see when you open your browser?\r\ncaller,29.36262974265776,31.262629742657758,\"Yeah, sounds good to me\"\r\nagent,31.948668457445105,36.0486684574451,\"If it happens again, just give us a call back.\"\r\ncaller,36.71442404603988,38.61442404603988,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.298295074336704,
+      "end_time": 8.698295074336704,
+      "text": "Hello, thanks for calling. James speaking."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.917933694297645,
+      "end_time": 11.917933694297645,
+      "text": "Thanks for picking up., actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.41532120580213,
+      "end_time": 16.815321205802128,
+      "text": "actually, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.34526646059759,
+      "end_time": 20.44526646059759,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.166815329270783,
+      "end_time": 23.866815329270782,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.663460023723765,
+      "end_time": 28.263460023723766,
+      "text": "uh, are you sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.99799644123732,
+      "end_time": 30.59799644123732,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.858663962184853,
+      "end_time": 33.65866396218485,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.876015762631575,
+      "end_time": 37.17601576263157,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.169877290319185,
+      "end_time": 39.96987729031918,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.4246508449677,
+      "end_time": 41.8246508449677,
+      "text": "We appreciate your business."
+    }
+  ]
 }

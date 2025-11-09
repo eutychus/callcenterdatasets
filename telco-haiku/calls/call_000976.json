@@ -1,13 +1,73 @@
 {
   "call_id": 976,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Lisa",
-    "duration": 44.7,
-    "sentiment": "negative",
-    "issue": "getting disconnected",
-    "issue_resolved": false,
-    "resolution_type": "partial resolution"
+    "call_type": "technical",
+    "agent_name": "Susan",
+    "duration": 34.8,
+    "sentiment": "neutral",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.7,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.276749167048083,10.576749167048082,Good day! Lisa here from our support team. What can I assist with?\r\ncaller,11.487393434871908,15.887393434871909,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.86148047520326,20.36148047520326,\"Yeah, so my internet's been really slow today\"\r\nagent,20.95263038763615,25.352630387636154,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,26.687269812242743,31.78726981224274,Let me check our systems to see if there's an outage in your area.\r\ncaller,33.68592960463912,35.78592960463912,\"Alright, let me try that\"\r\nagent,36.77385440005107,40.77385440005107,\"If it happens again, just give us a call back.\"\r\ncaller,41.29456737857258,44.69456737857258,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.488094179463611,
+      "end_time": 8.688094179463612,
+      "text": "Hello, Susan here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.640066359765822,
+      "end_time": 11.840066359765821,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.430715364077162,
+      "end_time": 15.530715364077162,
+      "text": "wait... so, something changed and now it's slow"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.81535056970324,
+      "end_time": 19.81535056970324,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.346916371415322,
+      "end_time": 24.04691637141532,
+      "text": "let me see if there's an outage in your area"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.28744847514124,
+      "end_time": 26.48744847514124,
+      "text": "kinda, yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.504213825836654,
+      "end_time": 29.204213825836653,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.885582253626197,
+      "end_time": 33.285582253626195,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.63395368998576,
+      "end_time": 34.83395368998576,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

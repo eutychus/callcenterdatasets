@@ -1,12 +1,99 @@
 {
   "call_id": 642,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Jennifer",
-    "duration": 42.8,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "support",
+    "agent_name": "Patricia",
+    "duration": 50.4,
+    "sentiment": "mixed",
+    "issue_category": "device",
+    "issue": "device",
+    "issue_resolved": false,
+    "resolution_type": "it was a software issue that's now updated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.474537984560795,8.874537984560796,\"Hello, Jennifer here. How can I help with your account?\"\r\ncaller,9.735427901255537,13.435427901255537,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.139220720483657,18.039220720483655,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.96034652800688,23.26034652800688,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,24.583577068465836,27.083577068465836,Have you tried restarting your modem?\r\ncaller,28.626159432783787,30.526159432783786,\"Uh-huh, okay, I got it\"\r\nagent,31.138169305534056,35.33816930553406,I'm going to push a software update to your device.\r\nagent,35.91011078384237,40.11011078384237,\"If it happens again, just give us a call back.\"\r\ncaller,40.82802592881741,42.82802592881741,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.030305004825175,
+      "end_time": 9.730305004825176,
+      "text": "Hello! I'm Patricia. How can I help you with your service today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.826292172491673,
+      "end_time": 13.526292172491672,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.249195900686187,
+      "end_time": 16.849195900686187,
+      "text": "hang on... the router keeps resetting"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.11144700750738,
+      "end_time": 19.91144700750738,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.359390257596594,
+      "end_time": 23.859390257596594,
+      "text": "I'm... I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.797741157628113,
+      "end_time": 27.497741157628113,
+      "text": "so, Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.254316492065332,
+      "end_time": 31.754316492065332,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.13042307913433,
+      "end_time": 35.23042307913433,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.85636950679023,
+      "end_time": 37.25636950679023,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.135134555762775,
+      "end_time": 40.635134555762775,
+      "text": "that seems complicated, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.0495716848448,
+      "end_time": 44.7495716848448,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.55761062926164,
+      "end_time": 47.95761062926164,
+      "text": "Yeah, that's good. Thanks!, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.55116031997682,
+      "end_time": 50.35116031997682,
+      "text": "We appreciate your business."
+    }
+  ]
 }

@@ -1,12 +1,109 @@
 {
   "call_id": 333,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Jennifer",
-    "duration": 45.9,
+    "call_type": "technical",
+    "agent_name": "Amanda",
+    "duration": 60.0,
     "sentiment": "negative",
-    "issue": "promos and discounts",
+    "technical_issue": "setup",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.287724244109539,10.687724244109539,Hi! This is Jennifer. I'm here to help with any billing questions.\r\ncaller,12.000022532943099,14.8000225329431,Hi there. So I've got a problem...\r\ncaller,15.576494896312152,19.77649489631215,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.322288946893,22.422288946893,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.41023952601789,28.51023952601789,Can you check if the lights on your router are on?\r\ncaller,30.14297092998176,32.64297092998176,\"Okay, sure, I can try that\"\r\nagent,33.58956269762662,37.98956269762662,I think I found the issue. Let me reset your connection.\r\nagent,39.40540639356675,43.20540639356675,\"If it happens again, just give us a call back.\"\r\ncaller,43.90846632877463,45.90846632877463,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.697510500138718,
+      "end_time": 9.997510500138718,
+      "text": "Hi! Amanda from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.294358612033399,
+      "end_time": 14.794358612033399,
+      "text": "Hi, uh, I'm calling because of a problem., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.780917412378045,
+      "end_time": 19.380917412378047,
+      "text": "I... I can't figure out how to configure this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.75326957560892,
+      "end_time": 23.85326957560892,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.85995314553355,
+      "end_time": 26.65995314553355,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.648443783330677,
+      "end_time": 31.348443783330676,
+      "text": "I'm not sure about that, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.7654583181162,
+      "end_time": 35.1654583181162,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.02927355550998,
+      "end_time": 38.82927355550998,
+      "text": "basically, will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.48533586338719,
+      "end_time": 42.58533586338719,
+      "text": "can you check if the lights are green, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.84467376730967,
+      "end_time": 44.64467376730967,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.227676873233655,
+      "end_time": 48.12767687323365,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.31845693078975,
+      "end_time": 52.01845693078975,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.72894658704867,
+      "end_time": 54.22894658704867,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 55.122673232832874,
+      "end_time": 56.82267323283288,
+      "text": "Yeah, that's good. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.736537384993184,
+      "end_time": 60.03653738499318,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

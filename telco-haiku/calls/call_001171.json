@@ -1,12 +1,87 @@
 {
   "call_id": 1171,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 40.3,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "support",
+    "agent_name": "Mark",
+    "duration": 48.3,
+    "sentiment": "mixed",
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": false,
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.2,Please enter your account number followed by the pound sign.\r\nagent,5.685833052357932,8.885833052357931,Hello! Lisa here. How may I assist you?\r\ncaller,10.286163062105778,14.186163062105779,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.258092836955763,18.658092836955763,\"Yeah, so my internet's been really slow today\"\r\nagent,19.340842096343003,23.340842096343003,I got it. Let me pull up your account here.\r\nagent,25.20662219946326,30.006622199463262,Can you check if the lights on your router are on?\r\ncaller,30.935208222084977,33.035208222084975,\"Yeah, sounds good to me\"\r\nagent,33.8031854529279,37.7031854529279,You should see improvement within the next 15 minutes.\r\ncaller,38.44047500819487,40.34047500819487,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.1,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.862396469295416,
+      "end_time": 8.362396469295415,
+      "text": "Hi there! Mark speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.809361713179051,
+      "end_time": 13.109361713179052,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.25651482560676,
+      "end_time": 18.15651482560676,
+      "text": "hang on... I'm only getting like half my normal speed"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.463927218282958,
+      "end_time": 22.06392721828296,
+      "text": "actually, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.997390376030054,
+      "end_time": 26.697390376030054,
+      "text": "hang on... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.219036639560148,
+      "end_time": 30.419036639560147,
+      "text": "It's 555-1234., like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.29178680656166,
+      "end_time": 34.59178680656166,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.31168447714733,
+      "end_time": 37.71168447714733,
+      "text": "sorta, yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.08797753514253,
+      "end_time": 40.78797753514253,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.60093916685143,
+      "end_time": 44.60093916685143,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.519197972040956,
+      "end_time": 48.31919797204095,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

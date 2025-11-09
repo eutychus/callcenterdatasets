@@ -1,12 +1,109 @@
 {
   "call_id": 842,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Emily",
-    "duration": 47.9,
+    "call_type": "general",
+    "agent_name": "Sarah",
+    "duration": 57.0,
     "sentiment": "negative",
-    "issue": "general inquiry",
+    "issue": "general",
     "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Your call is important to us. Please hold while we connect you.\r\nagent,6.584708794435155,10.484708794435155,\"Hello, Emily here. How can I help with your account?\"\r\ncaller,11.670778985470065,15.270778985470065,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.157696973387793,21.857696973387792,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,22.615652736276783,26.815652736276782,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,28.619078088709788,32.719078088709786,Can you check if the lights on your router are on?\r\ncaller,33.86352855790604,35.763528557906035,\"Uh-huh, okay, I got it\"\r\nagent,36.65800480389099,40.95800480389099,That should fix it. Let me verify everything looks good.\r\nagent,41.986366737457956,45.08636673745796,Let me send that information to your email.\r\ncaller,45.96064897985599,47.86064897985599,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.527223640940603,
+      "end_time": 8.627223640940603,
+      "text": "Hi! Sarah here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.502771542955493,
+      "end_time": 12.302771542955494,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.398139724617065,
+      "end_time": 17.298139724617066,
+      "text": "just a second... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.604897494568043,
+      "end_time": 21.404897494568043,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.225704649482985,
+      "end_time": 24.325704649482986,
+      "text": "here's what we can do, uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.55521321666018,
+      "end_time": 27.25521321666018,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.688479550582286,
+      "end_time": 30.988479550582287,
+      "text": "well, here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.03986059536428,
+      "end_time": 34.13986059536428,
+      "text": "is there a charge, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.529892225897754,
+      "end_time": 37.629892225897756,
+      "text": "like, here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.24307775287319,
+      "end_time": 40.943077752873194,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.63428118309781,
+      "end_time": 44.73428118309781,
+      "text": "Oh, and while we're at it..., uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.48403128021074,
+      "end_time": 47.28403128021074,
+      "text": "so, here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.91802650053704,
+      "end_time": 50.01802650053704,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.71373750727555,
+      "end_time": 54.21373750727555,
+      "text": "Nope, that should do it. I appreciate it., you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 54.89585540425249,
+      "end_time": 56.99585540425249,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

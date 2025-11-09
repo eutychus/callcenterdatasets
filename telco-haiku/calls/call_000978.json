@@ -2,11 +2,109 @@
   "call_id": 978,
   "metadata": {
     "call_type": "billing",
-    "agent_name": "Lisa",
-    "duration": 41.9,
-    "sentiment": "positive",
-    "issue": "refund request",
-    "issue_resolved": true
+    "agent_name": "Amanda",
+    "duration": 60.7,
+    "sentiment": "negative",
+    "billing_issue": "promotion",
+    "issue_resolved": false,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.6,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.5986428899852605,8.99864288998526,Hi! This is Lisa. I'm here to help with any billing questions.\r\ncaller,9.879709140116365,13.379709140116365,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.138074944633312,17.63807494463331,\"Yeah, so my internet's been really slow today\"\r\nagent,18.33534055882588,22.23534055882588,I got it. Let me pull up your account here.\r\nagent,23.72544968242868,29.22544968242868,Let me check our systems to see if there's an outage in your area.\r\ncaller,30.911069953530884,33.011069953530885,\"Uh-huh, okay, I got it\"\r\nagent,33.67411947589944,37.87411947589944,\"If it happens again, just give us a call back.\"\r\ncaller,38.41982374717986,41.91982374717986,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.766249693789323,
+      "end_time": 10.766249693789323,
+      "text": "Thanks for calling. Amanda here. What can I do for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.895217624628872,
+      "end_time": 14.895217624628872,
+      "text": "Yeah, hi. I'm having an issue., like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.359131781665244,
+      "end_time": 18.359131781665244,
+      "text": "are there loyalty discounts, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.53536055150662,
+      "end_time": 22.33536055150662,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.608727640720595,
+      "end_time": 26.408727640720596,
+      "text": "hang on... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.52650698985301,
+      "end_time": 30.626506989853013,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.42495883738377,
+      "end_time": 33.92495883738377,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.58826341474143,
+      "end_time": 37.78826341474143,
+      "text": "is there a charge, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.68553794783553,
+      "end_time": 41.28553794783553,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.87774463930385,
+      "end_time": 44.97774463930385,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.40349760026789,
+      "end_time": 49.40349760026789,
+      "text": "sorta, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.542185038480206,
+      "end_time": 52.942185038480204,
+      "text": "kinda, how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.875652040685885,
+      "end_time": 56.07565204068589,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.798056048123556,
+      "end_time": 58.99805604812356,
+      "text": "basically, That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 59.567838230121794,
+      "end_time": 60.667838230121795,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

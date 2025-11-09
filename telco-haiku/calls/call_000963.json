@@ -1,12 +1,109 @@
 {
   "call_id": 963,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Lisa",
-    "duration": 44.5,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "technical",
+    "agent_name": "Mike",
+    "duration": 59.6,
+    "sentiment": "neutral",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.2,Please enter your account number followed by the pound sign.\r\nagent,4.74850322840395,9.248503228403951,\"Hi, this is Lisa. What can I do for you today?\"\r\ncaller,10.607727890001346,14.207727890001346,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.394405259602072,18.394405259602074,\"Yeah, so my internet's been really slow today\"\r\nagent,18.87465167611768,22.37465167611768,\"I understand, let me look into that for you.\"\r\nagent,23.407920845665195,28.907920845665195,Let me check our systems to see if there's an outage in your area.\r\ncaller,30.282426958769165,32.08242695876916,\"Yeah, sounds good to me\"\r\nagent,32.70984841155753,36.60984841155753,That should fix it. Let me verify everything looks good.\r\nagent,37.628995615847735,41.128995615847735,Let me send that information to your email.\r\ncaller,41.63577134908098,44.53577134908098,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.588381299637012,
+      "end_time": 9.888381299637011,
+      "text": "Hello, Mike here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.708010925106628,
+      "end_time": 13.508010925106628,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.915814856733414,
+      "end_time": 17.315814856733414,
+      "text": "I... I keep getting error messages"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.58880049745094,
+      "end_time": 22.68880049745094,
+      "text": "uh, let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.6042660674236,
+      "end_time": 25.4042660674236,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.826924091481327,
+      "end_time": 29.026924091481327,
+      "text": "alright, let's do it, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.282699121914206,
+      "end_time": 34.0826991219142,
+      "text": "kinda, can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.20053450821419,
+      "end_time": 37.20053450821419,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.86057794353442,
+      "end_time": 40.460577943534425,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.58794670386701,
+      "end_time": 43.787946703867014,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.012039040845956,
+      "end_time": 48.11203904084596,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.820475759494904,
+      "end_time": 51.52047575949491,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.152240177195004,
+      "end_time": 54.452240177195,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 55.30311970583077,
+      "end_time": 57.00311970583077,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.960245994329725,
+      "end_time": 59.560245994329726,
+      "text": "Have a great day!"
+    }
+  ]
 }

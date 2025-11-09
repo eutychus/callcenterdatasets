@@ -1,12 +1,98 @@
 {
   "call_id": 1229,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Emily",
-    "duration": 45.5,
+    "call_type": "billing",
+    "agent_name": "Susan",
+    "duration": 52.7,
     "sentiment": "positive",
-    "issue": "service complaint",
-    "issue_resolved": false
+    "billing_issue": "payment",
+    "issue_resolved": false,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.8,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.568717500675626,11.468717500675627,\"Hello, this is Emily. I see you've been with us for a while.\"\r\ncaller,12.770803291241435,16.470803291241435,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,17.584274044636373,21.584274044636373,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,22.202768568497923,26.302768568497925,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.850961986733974,31.350961986733974,What do you see when you open your browser?\r\ncaller,32.31613703533027,34.41613703533027,\"Yeah, sounds good to me\"\r\nagent,35.13465702338595,38.73465702338595,That should fix it. Let me verify everything looks good.\r\nagent,39.41680819106808,42.91680819106808,You should see improvement within the next 15 minutes.\r\ncaller,43.55889942815824,45.45889942815824,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.667991548950111,
+      "end_time": 9.667991548950111,
+      "text": "Thanks for calling. Susan here. What can I do for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.139830725808954,
+      "end_time": 14.039830725808955,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.206820680594605,
+      "end_time": 17.806820680594605,
+      "text": "kinda, can I set up autopay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.715082971317525,
+      "end_time": 23.615082971317523,
+      "text": "uh, I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.167398953529098,
+      "end_time": 27.2673989535291,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.082211750290796,
+      "end_time": 30.182211750290797,
+      "text": "It's 555-1234., uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.06830457028116,
+      "end_time": 33.76830457028116,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.800945937020415,
+      "end_time": 36.800945937020415,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.593757966009356,
+      "end_time": 40.29375796600936,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.00948472346932,
+      "end_time": 43.20948472346932,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.138664578677215,
+      "end_time": 46.33866457867722,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.087434129681434,
+      "end_time": 50.88743412968143,
+      "text": "uh, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.391802984987415,
+      "end_time": 52.69180298498741,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

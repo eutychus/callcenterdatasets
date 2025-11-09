@@ -1,12 +1,109 @@
 {
   "call_id": 1884,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Mike",
-    "duration": 42.9,
-    "sentiment": "negative",
-    "issue": "signal strength",
-    "issue_resolved": true
+    "call_type": "account",
+    "agent_name": "Patricia",
+    "duration": 57.6,
+    "sentiment": "positive",
+    "issue": "general",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.1,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.815687590318505,11.015687590318505,\"Hi there, Mike here. What device are we troubleshooting today?\"\r\ncaller,12.277928091897287,15.677928091897288,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.78769522524722,20.187695225247218,\"Yeah, so my internet's been really slow today\"\r\nagent,21.085065425095962,23.085065425095962,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.119102160751233,27.419102160751233,What do you see when you open your browser?\r\ncaller,29.327499572192114,31.227499572192112,\"Alright, let me try that\"\r\nagent,31.776689486598933,35.77668948659893,That should fix it. Let me verify everything looks good.\r\nagent,37.06548558621098,40.06548558621098,Let me send that information to your email.\r\ncaller,40.60222841521041,42.90222841521041,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.054301957969336,
+      "end_time": 9.554301957969336,
+      "text": "Hi, Patricia with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.48788377368145,
+      "end_time": 13.28788377368145,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.162486701881361,
+      "end_time": 17.26248670188136,
+      "text": "one moment... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.565756371734416,
+      "end_time": 20.765756371734415,
+      "text": "uh, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.429654452681426,
+      "end_time": 24.229654452681427,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.861733838509736,
+      "end_time": 28.561733838509735,
+      "text": "Okay, hold on., uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.4098586591794,
+      "end_time": 32.8098586591794,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.02481516430294,
+      "end_time": 35.52481516430294,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.28393863737454,
+      "end_time": 38.48393863737454,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.72865135418341,
+      "end_time": 41.52865135418341,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.07395555903016,
+      "end_time": 43.97395555903016,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.63091898988838,
+      "end_time": 47.73091898988838,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.80666592294851,
+      "end_time": 50.60666592294851,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.57756770670311,
+      "end_time": 55.67756770670311,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.46168192404229,
+      "end_time": 57.56168192404229,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

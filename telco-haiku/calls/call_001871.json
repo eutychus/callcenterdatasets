@@ -1,12 +1,97 @@
 {
   "call_id": 1871,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Mike",
-    "duration": 46.7,
-    "sentiment": "neutral",
-    "issue": "promos and discounts",
-    "issue_resolved": true
+    "call_type": "technical",
+    "agent_name": "Amanda",
+    "duration": 57.2,
+    "sentiment": "mixed",
+    "technical_issue": "setup",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Your call is important to us. Please hold while we connect you.\r\nagent,5.637314306931856,10.537314306931856,\"Good day, Mike here. What billing matter can I help you with?\"\r\ncaller,11.855049462176147,15.955049462176147,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.67599104272763,19.17599104272763,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.62060870846471,23.12060870846471,\"I understand, let me look into that for you.\"\r\nagent,24.40906424795372,27.809064247953717,\"Okay, and how long has this been happening?\"\r\ncaller,29.202264368613182,31.202264368613182,\"Yeah, sounds good to me\"\r\nagent,32.08485840543281,37.38485840543281,Looks like we need to restart your modem. Can you do that?\r\nagent,38.8247770241305,42.724777024130496,\"If it happens again, just give us a call back.\"\r\ncaller,43.4844441297615,46.6844441297615,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.1,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.57008045441238,
+      "end_time": 10.77008045441238,
+      "text": "Hi! Amanda from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.522284220507643,
+      "end_time": 15.022284220507643,
+      "text": "Yeah, hi. I'm having an issue., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.048291377991386,
+      "end_time": 19.248291377991386,
+      "text": "can you walk me through the setup"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.335549092092954,
+      "end_time": 23.935549092092955,
+      "text": "I can see why that would be frustrating, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.143441750260283,
+      "end_time": 27.643441750260283,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.458032190907126,
+      "end_time": 30.858032190907124,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.648236421580147,
+      "end_time": 34.54823642158015,
+      "text": "sorta, what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.48972633498654,
+      "end_time": 37.689726334986545,
+      "text": "sorta, how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 39.18402372927862,
+      "end_time": 41.98402372927862,
+      "text": "like, try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.669361162158914,
+      "end_time": 46.669361162158914,
+      "text": "how soon can you do that, uh"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.63144902114755,
+      "end_time": 49.731449021147554,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 50.5693750865273,
+      "end_time": 54.1693750865273,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.02323846524757,
+      "end_time": 57.223238465247576,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

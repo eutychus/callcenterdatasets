@@ -1,12 +1,87 @@
 {
   "call_id": 323,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Emily",
-    "duration": 45.5,
-    "sentiment": "positive",
-    "issue": "connection setup",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Patricia",
+    "duration": 42.2,
+    "sentiment": "neutral",
+    "issue_category": "account_access",
+    "issue": "account_access",
+    "issue_resolved": "partial",
+    "resolution_type": "the issue was resolved"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.3,Your call is important to us. Please hold while we connect you.\r\nagent,5.859760416696737,9.559760416696736,\"Hi, Emily technical support here. Let me help you troubleshoot.\"\r\ncaller,10.586058166977661,14.28605816697766,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.885092623622665,19.585092623622664,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,20.17653441321513,24.07653441321513,\"I understand, let me look into that for you.\"\r\nagent,25.708043018088865,29.408043018088865,What do you see when you open your browser?\r\ncaller,30.72283993622737,32.32283993622737,\"Yeah, that sounds good\"\r\nagent,33.087658296443905,37.28765829644391,I'm going to push a software update to your device.\r\nagent,38.65175583300877,42.75175583300877,\"If it happens again, just give us a call back.\"\r\ncaller,43.48851735479196,45.48851735479196,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.440909440298887,
+      "end_time": 8.840909440298887,
+      "text": "Hi there! Patricia speaking. What seems to be the issue?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.707303094585797,
+      "end_time": 11.507303094585797,
+      "text": "Thanks for picking up., sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.505912216519613,
+      "end_time": 14.805912216519612,
+      "text": "so, I forgot my password"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.70804215992782,
+      "end_time": 19.40804215992782,
+      "text": "that must be really annoying, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.46760244226268,
+      "end_time": 24.16760244226268,
+      "text": "hold on... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.800694797224466,
+      "end_time": 27.100694797224467,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.404994573797445,
+      "end_time": 30.304994573797444,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.556092892385013,
+      "end_time": 33.55609289238501,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.682921695051576,
+      "end_time": 36.28292169505158,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.181470180349514,
+      "end_time": 39.781470180349515,
+      "text": "No, that's all. Thanks!, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.67406150576414,
+      "end_time": 42.17406150576414,
+      "text": "We appreciate your business."
+    }
+  ]
 }

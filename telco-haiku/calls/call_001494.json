@@ -1,12 +1,97 @@
 {
   "call_id": 1494,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Jennifer",
-    "duration": 48.8,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "technical",
+    "agent_name": "Chris",
+    "duration": 51.5,
+    "sentiment": "neutral",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.6,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.603305365588001,10.003305365588002,Hello! Jennifer here. How may I assist you?\r\ncaller,10.975446279322139,14.875446279322139,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.500128834386711,20.80012883438671,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,21.474936804512073,25.774936804512073,I got it. Let me pull up your account here.\r\nagent,27.557389035697444,33.25738903569744,Let me check our systems to see if there's an outage in your area.\r\ncaller,34.5605150249842,36.4605150249842,\"Uh-huh, okay, I got it\"\r\nagent,37.30406828826685,41.204068288266846,That should fix it. Let me verify everything looks good.\r\nagent,42.64375491527565,46.54375491527565,You should see improvement within the next 15 minutes.\r\ncaller,47.04971110865115,48.84971110865115,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.50419756843506,
+      "end_time": 6.904197568435061,
+      "text": "Thanks for calling. Chris with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 7.8732940672381515,
+      "end_time": 9.273294067238151,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.244954307781637,
+      "end_time": 11.844954307781636,
+      "text": "my modem is overheating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 13.083872870946937,
+      "end_time": 15.283872870946936,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.531438332140297,
+      "end_time": 20.931438332140296,
+      "text": "like, let me see if there's an outage in your area"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 22.07712795284705,
+      "end_time": 24.77712795284705,
+      "text": "how long will that take, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.104061822849637,
+      "end_time": 30.504061822849636,
+      "text": "let me see if there's an outage in your area"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.91071537844777,
+      "end_time": 32.710715378447766,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.489145168978766,
+      "end_time": 36.78914516897876,
+      "text": "sorta, can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.29066845550097,
+      "end_time": 39.99066845550097,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.80770874048521,
+      "end_time": 44.10770874048521,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.74266288310678,
+      "end_time": 48.54266288310678,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.44109520223988,
+      "end_time": 51.54109520223988,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

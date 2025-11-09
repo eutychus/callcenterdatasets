@@ -1,12 +1,73 @@
 {
   "call_id": 943,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Jennifer",
-    "duration": 42.2,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
+    "call_type": "technical",
+    "agent_name": "Mike",
+    "duration": 43.9,
+    "sentiment": "negative",
+    "technical_issue": "setup",
     "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,Thank you. Connecting you to the next available agent.\r\nagent,4.952194741659593,7.952194741659593,Hello! Jennifer here. How may I assist you?\r\ncaller,9.398736867387127,11.998736867387127,Hi there. So I've got a problem...\r\ncaller,13.046011182633944,16.046011182633944,\"Um, I can't... I keep getting disconnected\"\r\nagent,16.971641116545378,20.871641116545376,\"I understand, let me look into that for you.\"\r\nagent,22.647990431925788,26.547990431925786,What do you see when you open your browser?\r\ncaller,27.49843755675025,29.098437556750252,\"Yeah, that sounds good\"\r\nagent,29.615020463284722,33.91502046328472,That should fix it. Let me verify everything looks good.\r\nagent,35.30502875326214,39.60502875326214,Is there anything else I can help you with today?\r\ncaller,40.11385951440676,42.213859514406764,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.678855369628255,
+      "end_time": 10.678855369628256,
+      "text": "Hello, Mike here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.180118150363928,
+      "end_time": 14.880118150363927,
+      "text": "you know, Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.331154420491927,
+      "end_time": 20.031154420491927,
+      "text": "I can't figure out how to configure this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.282507377265446,
+      "end_time": 24.482507377265446,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.489408806074767,
+      "end_time": 29.189408806074766,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.004339431525274,
+      "end_time": 32.104339431525275,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.81595216547376,
+      "end_time": 36.71595216547376,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.683445087513675,
+      "end_time": 42.083445087513674,
+      "text": "I think that covers it. Thanks for your help., so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.44760396015501,
+      "end_time": 43.94760396015501,
+      "text": "We appreciate your business."
+    }
+  ]
 }

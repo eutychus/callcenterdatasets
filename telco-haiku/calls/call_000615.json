@@ -1,13 +1,109 @@
 {
   "call_id": 615,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Lisa",
-    "duration": 44.4,
+    "call_type": "retention",
+    "agent_name": "Daniel",
+    "duration": 59.2,
     "sentiment": "negative",
-    "issue": "can't connect to service",
-    "issue_resolved": false,
-    "resolution_type": "scheduled followup"
+    "churn_reason": "service_complaint",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.8,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.903351391259835,10.803351391259834,Good day! Lisa here from our support team. What can I assist with?\r\ncaller,12.113606943036938,15.913606943036939,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.817264139371467,19.817264139371467,\"Um, I can't... I keep getting disconnected\"\r\nagent,20.61212694983032,24.31212694983032,\"I understand, let me look into that for you.\"\r\nagent,25.479794111373646,27.879794111373645,Have you tried restarting your modem?\r\ncaller,29.015985569459545,30.715985569459544,\"Yeah, that sounds good\"\r\nagent,31.240925357507216,36.140925357507214,Looks like we need to restart your modem. Can you do that?\r\nagent,36.722881368141046,40.42288136814105,Is there anything else I can help you with today?\r\ncaller,41.17966285738246,44.37966285738246,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.3,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.511116927810546,
+      "end_time": 10.411116927810546,
+      "text": "Hi, thanks for calling. Daniel here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.976750351278273,
+      "end_time": 14.076750351278273,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.250333179143425,
+      "end_time": 17.750333179143425,
+      "text": "the... the quality has gone downhill"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.99280451918475,
+      "end_time": 22.99280451918475,
+      "text": "you know, let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.743205414673987,
+      "end_time": 26.143205414673986,
+      "text": "I can help you with that, like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.007176741404614,
+      "end_time": 30.407176741404612,
+      "text": "will that really fix it, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.245276051166698,
+      "end_time": 32.8452760511667,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.46265439734964,
+      "end_time": 36.06265439734964,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.50648138756965,
+      "end_time": 39.90648138756965,
+      "text": "um, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.66901837795126,
+      "end_time": 43.869018377951264,
+      "text": "sorta, what if it doesn't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.004231775727774,
+      "end_time": 48.504231775727774,
+      "text": "sorta, By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.39332570990758,
+      "end_time": 51.89332570990758,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.5158782741433,
+      "end_time": 54.7158782741433,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 55.27925223030737,
+      "end_time": 57.37925223030737,
+      "text": "That's everything. Thanks so much!, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.68923101306667,
+      "end_time": 59.18923101306667,
+      "text": "Have a great day!"
+    }
+  ]
 }

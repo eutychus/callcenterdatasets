@@ -1,12 +1,99 @@
 {
   "call_id": 1832,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "James",
-    "duration": 43.6,
-    "sentiment": "neutral",
-    "issue": "service complaint",
-    "issue_resolved": true
+    "call_type": "sales",
+    "agent_name": "David",
+    "duration": 53.7,
+    "sentiment": "mixed",
+    "product_category": "Device",
+    "inquiry_type": "device",
+    "sale_completed": true,
+    "resolution_type": "the customer wasn't interested"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,Thank you. Connecting you to the next available agent.\r\nagent,4.04708671077951,9.34708671077951,Hi! James here. I'd love to make sure we're taking care of you.\r\ncaller,10.182228434648728,14.082228434648728,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.019248885561938,18.21924888556194,\"Yeah, so my internet's been really slow today\"\r\nagent,18.690362042593403,20.5903620425934,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.58870444572776,25.188704445727762,Have you tried restarting your modem?\r\ncaller,26.68525745428554,29.285257454285542,\"Okay, sure, I can try that\"\r\nagent,30.045649190380818,35.045649190380814,Looks like we need to restart your modem. Can you do that?\r\nagent,36.06923271941591,40.16923271941591,\"If it happens again, just give us a call back.\"\r\ncaller,41.10273556955818,43.60273556955818,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.1,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.297937343272482,
+      "end_time": 11.397937343272481,
+      "text": "Hey, thanks for calling! This is David. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.096771203398223,
+      "end_time": 16.596771203398223,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.474014358611313,
+      "end_time": 19.374014358611312,
+      "text": "what... what phones are available"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.154711787038202,
+      "end_time": 24.3547117870382,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.478863974200824,
+      "end_time": 27.478863974200824,
+      "text": "here are your options, so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.79986365315106,
+      "end_time": 30.99986365315106,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.02612993823082,
+      "end_time": 34.62612993823082,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.30599029855637,
+      "end_time": 38.50599029855637,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.64347226947778,
+      "end_time": 42.343472269477786,
+      "text": "Oh, and while we're at it..., kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.87062035847598,
+      "end_time": 45.37062035847598,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.0680711108588,
+      "end_time": 47.5680711108588,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.31232131259658,
+      "end_time": 50.41232131259658,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.989923641649796,
+      "end_time": 53.6899236416498,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

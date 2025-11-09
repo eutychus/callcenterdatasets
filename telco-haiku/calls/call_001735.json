@@ -1,12 +1,87 @@
 {
   "call_id": 1735,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "James",
-    "duration": 38.3,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Patricia",
+    "duration": 46.1,
+    "sentiment": "positive",
+    "issue_category": "service",
+    "issue": "service",
+    "issue_resolved": true,
+    "resolution_type": "the issue was resolved"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.95882960181117,8.958829601811171,\"Hi, this is James. What can I do for you today?\"\r\ncaller,10.117242010568038,14.117242010568038,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.947148789589523,17.84714878958952,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.772991067674646,20.772991067674646,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.34404928362761,28.24404928362761,Let me check our systems to see if there's an outage in your area.\r\ncaller,29.266259500416485,31.466259500416484,\"Okay, sure, I can try that\"\r\nagent,32.41346840532522,35.51346840532522,Let me send that information to your email.\r\ncaller,36.49430581718055,38.29430581718055,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.391293995331118,
+      "end_time": 10.791293995331118,
+      "text": "Hi, thanks for calling. This is Patricia from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.648465015168673,
+      "end_time": 15.048465015168674,
+      "text": "Hi, uh, I'm calling because of a problem., actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.15807845255859,
+      "end_time": 19.758078452558593,
+      "text": "there's a dead zone in my house, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.232224494751726,
+      "end_time": 24.332224494751728,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.882262324001754,
+      "end_time": 27.982262324001756,
+      "text": "hold on... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.736828618456194,
+      "end_time": 31.536828618456195,
+      "text": "Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.58072457321778,
+      "end_time": 35.08072457321778,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.11624884186346,
+      "end_time": 37.01624884186346,
+      "text": "yeah, okay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.61483646331316,
+      "end_time": 39.71483646331316,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.32206408641043,
+      "end_time": 43.02206408641043,
+      "text": "That's everything. Thanks so much!, you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.70101119078314,
+      "end_time": 46.10101119078314,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

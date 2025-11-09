@@ -1,12 +1,85 @@
 {
   "call_id": 607,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "James",
-    "duration": 44.2,
-    "sentiment": "neutral",
-    "issue": "general inquiry",
+    "call_type": "technical",
+    "agent_name": "Amanda",
+    "duration": 39.8,
+    "sentiment": "mixed",
+    "technical_issue": "device_issue",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.3,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.421436252690176,9.721436252690175,Hi! James with account services. What do you need help with?\r\ncaller,10.685265217658838,14.085265217658838,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.13833494620362,18.13833494620362,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.85673396526032,22.456733965260323,\"I understand, let me look into that for you.\"\r\nagent,23.95080579115969,26.250805791159692,Have you tried restarting your modem?\r\ncaller,27.90553810786167,30.00553810786167,\"Yeah, sounds good to me\"\r\nagent,30.775464552089808,35.97546455208981,Looks like we need to restart your modem. Can you do that?\r\nagent,37.17936336733108,41.17936336733108,Is there anything else I can help you with today?\r\ncaller,42.01771275364996,44.21771275364996,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.077958326141571,
+      "end_time": 8.577958326141571,
+      "text": "Thanks for calling. Amanda with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.404930164385863,
+      "end_time": 11.604930164385863,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.83606563527962,
+      "end_time": 15.136065635279621,
+      "text": "there are lights flashing oddly, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.68252342998658,
+      "end_time": 19.38252342998658,
+      "text": "actually, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.184056775916858,
+      "end_time": 22.78405677591686,
+      "text": "basically, what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.76510377570155,
+      "end_time": 25.96510377570155,
+      "text": "that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.23798369130618,
+      "end_time": 29.33798369130618,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.233320557426513,
+      "end_time": 32.533320557426514,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.478240468058175,
+      "end_time": 35.17824046805818,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.942914658267384,
+      "end_time": 37.74291465826738,
+      "text": "No, that's all. Thanks!, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.65125990295262,
+      "end_time": 39.75125990295262,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

@@ -1,12 +1,75 @@
 {
   "call_id": 735,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Jennifer",
-    "duration": 47.4,
+    "call_type": "sales",
+    "agent_name": "Amanda",
+    "duration": 41.2,
     "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "product_category": "Broadband",
+    "inquiry_type": "new_service",
+    "sale_completed": false,
+    "resolution_type": "the customer wasn't interested"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.5,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.514387023493941,12.11438702349394,\"Hi, this is Jennifer. What can I do for you today?\"\r\ncaller,13.395183116010756,16.695183116010757,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,17.506652329741833,21.90665232974183,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,22.868812491418893,27.468812491418895,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,29.09177498325805,32.59177498325805,What do you see when you open your browser?\r\ncaller,33.481645639429495,35.6816456394295,\"Okay, sure, I can try that\"\r\nagent,36.31693766238028,40.31693766238028,I'm going to push a software update to your device.\r\nagent,40.90679985032352,44.606799850323526,\"If it happens again, just give us a call back.\"\r\ncaller,45.45960682039467,47.35960682039467,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.1,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.320904961136568,
+      "end_time": 11.720904961136569,
+      "text": "Hi! Welcome to Telecom Haiku. Amanda speaking. What brings you in today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.206018037571509,
+      "end_time": 14.806018037571508,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.07662445778723,
+      "end_time": 18.476624457787228,
+      "text": "can I bundle my services, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.083928036593278,
+      "end_time": 23.18392803659328,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.4985814737092,
+      "end_time": 27.598581473709203,
+      "text": "I can help you with that, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.11672921424869,
+      "end_time": 30.91672921424869,
+      "text": "kinda, will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.14846036282043,
+      "end_time": 33.84846036282043,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.66120841483102,
+      "end_time": 38.16120841483102,
+      "text": "kinda, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.50047312947346,
+      "end_time": 41.200473129473465,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

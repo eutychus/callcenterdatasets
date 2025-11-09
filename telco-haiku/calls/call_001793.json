@@ -1,13 +1,99 @@
 {
   "call_id": 1793,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Jennifer",
-    "duration": 48.9,
-    "sentiment": "positive",
-    "issue": "special offers",
-    "sale_completed": true,
-    "product_category": "TV Package"
+    "call_type": "support",
+    "agent_name": "Patricia",
+    "duration": 52.9,
+    "sentiment": "mixed",
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": false,
+    "resolution_type": "it was a software issue that's now updated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.1,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,3.7757241657282896,9.47572416572829,Hi there! Welcome to Telecom Haiku sales. Jennifer here. What brings you in today?\r\ncaller,10.600255223834422,14.90025522383442,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.59925184186556,19.69925184186556,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.26846355136099,24.96846355136099,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,26.748750862791766,31.248750862791766,We have a special promotion running through the end of the month.\r\ncaller,33.2474726029084,35.0474726029084,\"Alright, let me try that\"\r\nagent,35.69055445814351,39.99055445814351,I think I found the issue. Let me reset your connection.\r\nagent,41.04978321092521,44.84978321092521,You should see improvement within the next 15 minutes.\r\ncaller,45.825593514092496,48.9255935140925,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.196054887532836,
+      "end_time": 8.596054887532835,
+      "text": "Hi, thanks for calling. This is Patricia from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.694269323895227,
+      "end_time": 12.594269323895228,
+      "text": "Yeah, hi. I'm having an issue., um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.828065719700719,
+      "end_time": 15.928065719700719,
+      "text": "actually, streaming is buffering constantly"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.342569147708925,
+      "end_time": 19.142569147708926,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.447283487197467,
+      "end_time": 23.947283487197467,
+      "text": "let me check... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.990955084049258,
+      "end_time": 28.690955084049257,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.30713181197593,
+      "end_time": 32.50713181197593,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.652741771976224,
+      "end_time": 36.252741771976225,
+      "text": "will that really fix it, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.70225726711171,
+      "end_time": 40.10225726711171,
+      "text": "um, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.291921715837944,
+      "end_time": 43.09192171583794,
+      "text": "basically, is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.0741434254161,
+      "end_time": 46.274143425416106,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.86611769639435,
+      "end_time": 50.766117696394346,
+      "text": "well, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.102254669307655,
+      "end_time": 52.90225466930765,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

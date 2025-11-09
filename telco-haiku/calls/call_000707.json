@@ -1,13 +1,73 @@
 {
   "call_id": 707,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "James",
-    "duration": 48.7,
-    "sentiment": "positive",
-    "issue": "billing question",
-    "issue_resolved": false,
-    "resolution_type": "escalated"
+    "call_type": "retention",
+    "agent_name": "Jennifer",
+    "duration": 37.1,
+    "sentiment": "neutral",
+    "churn_reason": "leaving",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.417903013841239,11.41790301384124,Hi there! This is James from Technical Support. How can I help you today?\r\ncaller,12.306049353340612,16.30604935334061,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,17.262706790011798,22.162706790011796,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,23.008289454307075,26.808289454307076,I got it. Let me pull up your account here.\r\nagent,28.367949250695155,31.867949250695155,\"Okay, and how long has this been happening?\"\r\ncaller,33.78818805383115,35.38818805383115,\"Yeah, that sounds good\"\r\nagent,35.96355100126079,40.76355100126079,I think I found the issue. Let me reset your connection.\r\nagent,42.244401735053785,45.744401735053785,You should see improvement within the next 15 minutes.\r\ncaller,46.53286246862173,48.73286246862173,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.406212266886129,
+      "end_time": 9.606212266886129,
+      "text": "Hello! Jennifer speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.19385471089867,
+      "end_time": 14.19385471089867,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.929957284635403,
+      "end_time": 17.529957284635405,
+      "text": "I want to cancel my service"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.541067623318163,
+      "end_time": 21.641067623318165,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.654312740084023,
+      "end_time": 24.454312740084024,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.020091700289374,
+      "end_time": 27.820091700289375,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.127862466598344,
+      "end_time": 30.627862466598344,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.375985356973835,
+      "end_time": 33.97598535697384,
+      "text": "That's everything. Thanks so much!, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.37828444775982,
+      "end_time": 37.07828444775982,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

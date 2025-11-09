@@ -1,12 +1,109 @@
 {
   "call_id": 732,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Lisa",
-    "duration": 43.4,
-    "sentiment": "neutral",
-    "issue": "usage charges",
-    "issue_resolved": false
+    "call_type": "account",
+    "agent_name": "Emily",
+    "duration": 58.8,
+    "sentiment": "negative",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.5,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.175449943106759,11.97544994310676,Hi! This is Lisa. I'm here to help with any billing questions.\r\ncaller,12.948208952749974,15.948208952749974,Hi there. So I've got a problem...\r\ncaller,17.10836866015609,19.90836866015609,\"Um, I can't... I keep getting disconnected\"\r\nagent,20.27102205712051,24.47102205712051,I got it. Let me pull up your account here.\r\nagent,25.66942665453754,29.069426654537537,What do you see when you open your browser?\r\ncaller,30.27498167195759,32.17498167195759,\"Yeah, sounds good to me\"\r\nagent,32.88011738543029,37.08011738543029,I think I found the issue. Let me reset your connection.\r\nagent,37.587062673993266,40.487062673993265,Let me send that information to your email.\r\ncaller,41.464703200040844,43.36470320004084,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.41915113575271,
+      "end_time": 9.01915113575271,
+      "text": "Hi, Emily with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.025184388626535,
+      "end_time": 12.325184388626536,
+      "text": "Thanks for picking up., uh"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.190873732898982,
+      "end_time": 16.09087373289898,
+      "text": "I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.124855889183166,
+      "end_time": 19.924855889183167,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.535923706749013,
+      "end_time": 23.335923706749014,
+      "text": "let... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.92366454666177,
+      "end_time": 27.52366454666177,
+      "text": "like, It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.42130904942729,
+      "end_time": 32.32130904942729,
+      "text": "I have a solution for you, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.64704100700655,
+      "end_time": 35.44704100700655,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.75531133292603,
+      "end_time": 39.655311332926026,
+      "text": "let me walk you through this, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.61193227020027,
+      "end_time": 42.11193227020027,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.213319120715326,
+      "end_time": 45.41331912071533,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.21251621463294,
+      "end_time": 48.412516214632944,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.96228912468941,
+      "end_time": 52.86228912468941,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.369570555471704,
+      "end_time": 56.469570555471705,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.26798178497309,
+      "end_time": 58.76798178497309,
+      "text": "Have a great day!"
+    }
+  ]
 }

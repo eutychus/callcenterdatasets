@@ -1,12 +1,109 @@
 {
   "call_id": 1579,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Sarah",
-    "duration": 41.6,
+    "call_type": "technical",
+    "agent_name": "Patricia",
+    "duration": 57.4,
     "sentiment": "neutral",
-    "issue": "refund request",
-    "issue_resolved": true
+    "technical_issue": "troubleshooting",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Your call is important to us. Please hold while we connect you.\r\nagent,5.785514568214626,10.185514568214625,\"Good day, Sarah here. What billing matter can I help you with?\"\r\ncaller,11.026021722054157,13.926021722054157,Hi there. So I've got a problem...\r\ncaller,15.01498957189415,17.81498957189415,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.540446913505424,20.440446913505422,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.097847628130488,25.597847628130488,What do you see when you open your browser?\r\ncaller,26.728568513482756,28.728568513482756,\"Uh-huh, okay, I got it\"\r\nagent,29.28531474532137,34.38531474532137,Looks like we need to restart your modem. Can you do that?\r\nagent,35.7768837697631,38.6768837697631,Let me send that information to your email.\r\ncaller,39.610547068860605,41.610547068860605,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.375745083694561,
+      "end_time": 8.57574508369456,
+      "text": "Thanks for calling. Patricia with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.335901378261024,
+      "end_time": 14.235901378261024,
+      "text": "so, Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.22722613926363,
+      "end_time": 19.32722613926363,
+      "text": "hold on... uh, it's not working like it used to"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.862614596995794,
+      "end_time": 22.562614596995793,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.05386446758105,
+      "end_time": 26.45386446758105,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.66043307765865,
+      "end_time": 29.860433077658648,
+      "text": "um, how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.56101411441454,
+      "end_time": 33.36101411441454,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.28014605351549,
+      "end_time": 35.88014605351549,
+      "text": "well, that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.263345888088466,
+      "end_time": 39.56334588808846,
+      "text": "let's try restarting the device, well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.639021046874916,
+      "end_time": 43.139021046874916,
+      "text": "you know, alright, let's do it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.85069925074228,
+      "end_time": 46.050699250742284,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.928604691265186,
+      "end_time": 48.428604691265186,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.28060064108009,
+      "end_time": 51.08060064108009,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.678077847353435,
+      "end_time": 55.178077847353435,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.93275517998168,
+      "end_time": 57.43275517998168,
+      "text": "We appreciate your business."
+    }
+  ]
 }

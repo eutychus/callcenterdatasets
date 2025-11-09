@@ -1,12 +1,85 @@
 {
   "call_id": 870,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Robert",
-    "duration": 43.9,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "account",
+    "agent_name": "Susan",
+    "duration": 43.6,
+    "sentiment": "mixed",
+    "issue": "general",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.1,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.60590504728386,9.60590504728386,\"Hi, this is Robert. What can I do for you today?\"\r\ncaller,10.66518594286654,13.66518594286654,Hi there. So I've got a problem...\r\ncaller,14.849991199838499,18.749991199838497,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,19.42683266116792,23.226832661167922,I got it. Let me pull up your account here.\r\nagent,25.11741206368422,27.61741206368422,Have you tried restarting your modem?\r\ncaller,29.136351624522206,31.236351624522207,\"Alright, let me try that\"\r\nagent,31.798819135867987,35.79881913586799,That should fix it. Let me verify everything looks good.\r\nagent,36.34230712240737,39.84230712240737,You should see improvement within the next 15 minutes.\r\ncaller,40.41393350904524,43.91393350904524,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.9,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.551404692201725,
+      "end_time": 8.551404692201725,
+      "text": "Hi, Susan with account services here. How can I help?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.269524138117944,
+      "end_time": 13.169524138117945,
+      "text": "so, Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.830332867854002,
+      "end_time": 17.030332867854003,
+      "text": "I... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.122097525152043,
+      "end_time": 20.922097525152044,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.527389502390925,
+      "end_time": 24.227389502390924,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.074261483842616,
+      "end_time": 27.974261483842614,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.40024745246091,
+      "end_time": 31.90024745246091,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.684800584034086,
+      "end_time": 35.184800584034086,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.537716674763544,
+      "end_time": 38.43771667476354,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.08537630439422,
+      "end_time": 41.68537630439422,
+      "text": "so, That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.48813717203704,
+      "end_time": 43.588137172037044,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

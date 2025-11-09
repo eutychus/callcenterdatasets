@@ -1,13 +1,97 @@
 {
   "call_id": 1863,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Robert",
-    "duration": 43.7,
-    "sentiment": "neutral",
-    "issue": "wifi not working",
-    "issue_resolved": false,
-    "resolution_type": "escalated"
+    "call_type": "technical",
+    "agent_name": "Jennifer",
+    "duration": 48.1,
+    "sentiment": "positive",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.5,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.911278479822239,12.61127847982224,Good day! Robert here from our support team. What can I assist with?\r\ncaller,13.76882196829985,16.86882196829985,Hi there. So I've got a problem...\r\ncaller,17.931109331730845,23.131109331730844,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,23.55611446927358,27.156114469273582,I got it. Let me pull up your account here.\r\nagent,28.92839740071121,33.028397400711206,Can you check if the lights on your router are on?\r\ncaller,34.472475588965494,37.072475588965496,\"Okay, sure, I can try that\"\r\nagent,37.6533044431414,41.2533044431414,You should see improvement within the next 15 minutes.\r\ncaller,41.91321336315672,43.71321336315672,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.864529006342223,
+      "end_time": 8.264529006342222,
+      "text": "Hi! Jennifer from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.350738038238745,
+      "end_time": 11.650738038238746,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.210510867540837,
+      "end_time": 15.410510867540836,
+      "text": "just a second... the signal is weak"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.15809704311586,
+      "end_time": 19.45809704311586,
+      "text": "sorta, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.607756012150336,
+      "end_time": 24.107756012150336,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.7678635727464,
+      "end_time": 27.9678635727464,
+      "text": "uh, what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.15672540652973,
+      "end_time": 31.15672540652973,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.853481649349874,
+      "end_time": 34.453481649349875,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.34515230569704,
+      "end_time": 36.74515230569704,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.419018175874015,
+      "end_time": 40.11901817587402,
+      "text": "I have a solution for you, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.69162420501524,
+      "end_time": 42.39162420501524,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.08469633008083,
+      "end_time": 45.284696330080834,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.023909181489415,
+      "end_time": 48.12390918148942,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

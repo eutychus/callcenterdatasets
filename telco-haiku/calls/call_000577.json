@@ -1,12 +1,87 @@
 {
   "call_id": 577,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "David",
-    "duration": 44.7,
-    "sentiment": "negative",
-    "issue": "cancellation",
-    "issue_resolved": true
+    "call_type": "support",
+    "agent_name": "James",
+    "duration": 48.1,
+    "sentiment": "neutral",
+    "issue_category": "connectivity",
+    "issue": "connectivity",
+    "issue_resolved": "partial",
+    "resolution_type": "the device needs to be replaced"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.9,Your call is important to us. Please hold while we connect you.\r\nagent,5.413740787796203,10.313740787796203,Hi! This is David. I'm here to help with any billing questions.\r\ncaller,11.78421593576724,15.58421593576724,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,16.49886547521195,19.69886547521195,\"Yeah, so my internet's been really slow today\"\r\nagent,20.193645624750772,23.993645624750773,\"I understand, let me look into that for you.\"\r\nagent,25.596388460367457,28.896388460367458,\"Okay, and how long has this been happening?\"\r\ncaller,30.127531787965996,32.527531787966,\"Okay, sure, I can try that\"\r\nagent,33.42803310454029,37.12803310454029,That should fix it. Let me verify everything looks good.\r\nagent,37.6765040441505,41.5765040441505,\"If it happens again, just give us a call back.\"\r\ncaller,42.19680041153323,44.69680041153323,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.7,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.475669595212761,
+      "end_time": 9.47566959521276,
+      "text": "Good, this is James. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.438751767937134,
+      "end_time": 12.638751767937134,
+      "text": "Thanks for picking up., sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.527554799722267,
+      "end_time": 16.927554799722266,
+      "text": "can't stay connected for more than a minute"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.806897596510044,
+      "end_time": 21.406897596510046,
+      "text": "that must be really annoying, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.475597501440724,
+      "end_time": 25.075597501440726,
+      "text": "hold... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.602379650151462,
+      "end_time": 29.50237965015146,
+      "text": "It's starting with a C... CUST12345., so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.079669159281416,
+      "end_time": 33.87966915928141,
+      "text": "basically, let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.56884879725501,
+      "end_time": 38.16884879725501,
+      "text": "so, will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.8619159974477,
+      "end_time": 41.3619159974477,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.24894748641658,
+      "end_time": 44.848947486416584,
+      "text": "you know, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.379575005515406,
+      "end_time": 48.07957500551541,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

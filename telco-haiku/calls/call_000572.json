@@ -1,12 +1,99 @@
 {
   "call_id": 572,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "James",
-    "duration": 40.9,
-    "sentiment": "neutral",
-    "issue": "considering leaving",
-    "issue_resolved": true
+    "call_type": "support",
+    "agent_name": "Patricia",
+    "duration": 49.5,
+    "sentiment": "positive",
+    "issue_category": "account_access",
+    "issue": "account_access",
+    "issue_resolved": false,
+    "resolution_type": "a service call was scheduled"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.4,Please enter your account number followed by the pound sign.\r\nagent,5.557621316506516,10.357621316506517,Hi! James here. I'd love to make sure we're taking care of you.\r\ncaller,11.561938058473189,14.161938058473188,Hi there. So I've got a problem...\r\ncaller,15.110928903454756,20.110928903454756,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.444448493007744,24.444448493007744,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.779963926690208,29.279963926690208,What do you see when you open your browser?\r\ncaller,30.876115261631675,33.17611526163167,\"Okay, sure, I can try that\"\r\nagent,33.879375238390736,37.779375238390735,\"If it happens again, just give us a call back.\"\r\ncaller,38.77854540510364,40.878545405103644,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.3,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.741453744541284,
+      "end_time": 9.041453744541283,
+      "text": "Good, this is Patricia. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.441352467416841,
+      "end_time": 13.441352467416841,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.368787011257016,
+      "end_time": 16.168787011257017,
+      "text": "I... I forgot my password"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.669937543646633,
+      "end_time": 20.56993754364663,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.248593127598657,
+      "end_time": 23.048593127598657,
+      "text": "hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.626518363600532,
+      "end_time": 28.02651836360053,
+      "text": "It's starting with a C... CUST12345., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.340952117009444,
+      "end_time": 31.540952117009443,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.201675760826355,
+      "end_time": 35.10167576082635,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.13922237706482,
+      "end_time": 38.33922237706482,
+      "text": "here's what we can do, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.782891794563014,
+      "end_time": 41.282891794563014,
+      "text": "that seems complicated, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.66406451306473,
+      "end_time": 44.86406451306473,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.57020442735921,
+      "end_time": 47.870204427359205,
+      "text": "That's everything. Thanks so much!, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.51827075424622,
+      "end_time": 49.51827075424622,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

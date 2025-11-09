@@ -1,13 +1,97 @@
 {
   "call_id": 1090,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Mike",
-    "duration": 39.0,
-    "sentiment": "positive",
-    "issue": "service expansion",
-    "sale_completed": false,
-    "product_category": "Device"
+    "call_type": "technical",
+    "agent_name": "Daniel",
+    "duration": 51.0,
+    "sentiment": "neutral",
+    "technical_issue": "device_issue",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.6,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.407390426966979,10.207390426966978,Hi there! Welcome to Telecom Haiku sales. Mike here. What brings you in today?\r\ncaller,11.025253424883513,13.825253424883513,Hi there. So I've got a problem...\r\ncaller,14.90389165319752,18.103891653197522,\"Yeah, so my internet's been really slow today\"\r\nagent,18.89293405029904,22.69293405029904,\"I understand, let me look into that for you.\"\r\nagent,24.498536446529727,28.598536446529728,Our customers are really happy with the new bundled package.\r\ncaller,29.41806798602598,31.31806798602598,\"Uh-huh, okay, I got it\"\r\nagent,32.262156099575705,35.162156099575704,Let me send that information to your email.\r\ncaller,35.682206549510475,38.98220654951047,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.547955144182485,
+      "end_time": 9.647955144182484,
+      "text": "Hello, Daniel here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.324872183982556,
+      "end_time": 14.324872183982556,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.925916976173152,
+      "end_time": 18.025916976173153,
+      "text": "let me check... there are lights flashing oddly, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.21147423735232,
+      "end_time": 22.81147423735232,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.59039588304903,
+      "end_time": 26.39039588304903,
+      "text": "what error message are you seeing, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.047135328140733,
+      "end_time": 30.44713532814073,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.606552224142533,
+      "end_time": 34.706552224142534,
+      "text": "can you check if the lights are green, basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.4485260113505,
+      "end_time": 37.9485260113505,
+      "text": "well, that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.33358353454624,
+      "end_time": 40.83358353454624,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.864071315879904,
+      "end_time": 43.6640713158799,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.22017169364424,
+      "end_time": 46.42017169364424,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 46.97249134316745,
+      "end_time": 48.772491343167445,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.62733847188138,
+      "end_time": 51.02733847188138,
+      "text": "Have a great day!"
+    }
+  ]
 }

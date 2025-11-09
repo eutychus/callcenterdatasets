@@ -1,13 +1,111 @@
 {
   "call_id": 512,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Emily",
-    "duration": 47.7,
-    "sentiment": "positive",
-    "issue": "special offers",
-    "sale_completed": true,
-    "product_category": "Add-on Service"
+    "call_type": "support",
+    "agent_name": "Robert",
+    "duration": 58.6,
+    "sentiment": "mixed",
+    "issue_category": "account_access",
+    "issue": "account_access",
+    "issue_resolved": false,
+    "resolution_type": "the device needs to be replaced"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.2,Please enter your account number followed by the pound sign.\r\nagent,5.580811886342467,10.680811886342466,Hi there! Welcome to Telecom Haiku sales. Emily here. What brings you in today?\r\ncaller,12.076569044160209,16.276569044160208,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.948547758815852,20.048547758815854,\"Yeah, so my internet's been really slow today\"\r\nagent,20.749926131295098,24.5499261312951,\"I understand, let me look into that for you.\"\r\nagent,26.155410666856344,30.855410666856343,We have a special promotion running through the end of the month.\r\ncaller,31.81666531789537,33.61666531789537,\"Uh-huh, okay, I got it\"\r\nagent,34.57594570755837,39.375945707558365,I think I found the issue. Let me reset your connection.\r\nagent,40.23725221417953,43.637252214179526,You should see improvement within the next 15 minutes.\r\ncaller,44.37585923647972,47.67585923647972,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.130689738256247,
+      "end_time": 8.330689738256247,
+      "text": "Hi, thanks for calling. This is Robert from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.190974313040725,
+      "end_time": 12.890974313040726,
+      "text": "Hey, thanks. Yeah, I need help with something., kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.593247931500462,
+      "end_time": 15.793247931500463,
+      "text": "I... I forgot my password, sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.52054974128864,
+      "end_time": 20.42054974128864,
+      "text": "let me help you resolve this, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.66710385331731,
+      "end_time": 24.767103853317312,
+      "text": "let... let me pull up your information"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.433242374234013,
+      "end_time": 28.533242374234014,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.50481115153992,
+      "end_time": 32.40481115153992,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.269126995172755,
+      "end_time": 35.46912699517276,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.30637036381678,
+      "end_time": 39.10637036381678,
+      "text": "let me walk you through this, like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.91543787380075,
+      "end_time": 41.715437873800745,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.48478147344334,
+      "end_time": 44.78478147344334,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.75034626133585,
+      "end_time": 48.45034626133585,
+      "text": "kinda, let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.41810873330488,
+      "end_time": 51.41810873330488,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.27977826180946,
+      "end_time": 56.07977826180946,
+      "text": "you know, I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.858949148158814,
+      "end_time": 58.55894914815882,
+      "text": "We appreciate your business."
+    }
+  ]
 }

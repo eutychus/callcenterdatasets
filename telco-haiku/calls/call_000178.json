@@ -1,12 +1,73 @@
 {
   "call_id": 178,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Sarah",
-    "duration": 41.2,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "general",
+    "agent_name": "Daniel",
+    "duration": 37.6,
+    "sentiment": "neutral",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Your call is important to us. Please hold while we connect you.\r\nagent,6.145916529659404,10.745916529659404,Hi! Sarah with account services. What do you need help with?\r\ncaller,11.946312885206984,14.746312885206983,Hi there. So I've got a problem...\r\ncaller,15.332960013153748,19.032960013153748,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.001577841590635,23.901577841590633,\"I understand, let me look into that for you.\"\r\nagent,25.423331630996127,28.423331630996127,\"Okay, and how long has this been happening?\"\r\ncaller,30.34674980298479,32.94674980298479,\"Okay, sure, I can try that\"\r\nagent,33.58423106696043,37.28423106696043,Is there anything else I can help you with today?\r\ncaller,38.051003000422355,41.15100300042236,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.567448942100551,
+      "end_time": 8.76744894210055,
+      "text": "Hi! Daniel here. How can I help you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.141708095381803,
+      "end_time": 12.541708095381804,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.632771024387607,
+      "end_time": 16.932771024387606,
+      "text": "sorry... I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.771265086628148,
+      "end_time": 20.87126508662815,
+      "text": "basically, I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.05327209656958,
+      "end_time": 24.753272096569578,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.42658469826324,
+      "end_time": 28.42658469826324,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.69094989406471,
+      "end_time": 31.890949894064708,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.617005755738305,
+      "end_time": 34.617005755738305,
+      "text": "Yeah, that's good. Thanks!, well"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.530183844668315,
+      "end_time": 37.630183844668316,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -1,12 +1,110 @@
 {
   "call_id": 495,
   "metadata": {
-    "call_type": "general",
-    "agent_name": "Mike",
-    "duration": 42.3,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "billing",
+    "agent_name": "Mark",
+    "duration": 60.0,
+    "sentiment": "mixed",
+    "billing_issue": "dispute",
+    "issue_resolved": false,
+    "resolution_type": "we applied a credit"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.396381988730568,7.696381988730568,Hello! Mike here. How may I assist you?\r\ncaller,8.82302632839149,12.12302632839149,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,13.147476838934134,17.847476838934135,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,18.256388495763787,22.356388495763788,I got it. Let me pull up your account here.\r\nagent,23.973227509591894,26.173227509591893,Have you tried restarting your modem?\r\ncaller,27.75084451963303,29.850844519633032,\"Uh-huh, okay, I got it\"\r\nagent,30.51517289683271,35.01517289683271,I think I found the issue. Let me reset your connection.\r\nagent,35.59221421141995,39.49221421141995,Is there anything else I can help you with today?\r\ncaller,40.16106278010571,42.26106278010571,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.1,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 7.535975147464095,
+      "end_time": 12.035975147464095,
+      "text": "Thanks for calling. Mark here. What can I do for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.785585032010601,
+      "end_time": 15.9855850320106,
+      "text": "so, Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.112600920819986,
+      "end_time": 19.112600920819986,
+      "text": "hold on... I was overcharged"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.7139267642955,
+      "end_time": 24.0139267642955,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.042435325462137,
+      "end_time": 26.842435325462137,
+      "text": "I'm checking our system now"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.024804132008263,
+      "end_time": 30.124804132008265,
+      "text": "Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.883599880606383,
+      "end_time": 34.083599880606386,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.9765288345497,
+      "end_time": 37.0765288345497,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.98179000963099,
+      "end_time": 39.88179000963099,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.85853950310942,
+      "end_time": 43.65853950310942,
+      "text": "well, that sounds good"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.78930822062219,
+      "end_time": 47.38930822062219,
+      "text": "I can help you with that, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.124761543680386,
+      "end_time": 51.32476154368039,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.916627741671746,
+      "end_time": 53.416627741671746,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.261145348857546,
+      "end_time": 57.86114534885755,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.309391682462646,
+      "end_time": 60.00939168246265,
+      "text": "Have a great day!"
+    }
+  ]
 }

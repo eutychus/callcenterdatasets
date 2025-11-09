@@ -2,11 +2,108 @@
   "call_id": 1633,
   "metadata": {
     "call_type": "account",
-    "agent_name": "Robert",
-    "duration": 46.6,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "agent_name": "David",
+    "duration": 60.5,
+    "sentiment": "positive",
+    "issue": "general",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.6,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.9234854555666345,8.823485455566635,\"Hello, Robert here. How can I help with your account?\"\r\ncaller,9.668914476808727,13.368914476808726,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.293087539910559,19.693087539910557,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.207571020466844,23.507571020466845,\"I understand, let me look into that for you.\"\r\nagent,25.09607678116689,29.59607678116689,Can you check if the lights on your router are on?\r\ncaller,30.918906119952197,33.1189061199522,\"Alright, let me try that\"\r\nagent,33.725932062271596,38.225932062271596,I think I found the issue. Let me reset your connection.\r\nagent,39.642081253562125,43.94208125356212,Is there anything else I can help you with today?\r\ncaller,44.823625137330666,46.62362513733066,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.453915435252405,
+      "end_time": 9.253915435252406,
+      "text": "Hello! David speaking. What can I do with your account today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.693317918620487,
+      "end_time": 13.793317918620486,
+      "text": "Yeah, hi. I'm having an issue., well"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.262790427143809,
+      "end_time": 20.16279042714381,
+      "text": "let me check... uh, I had a question about my service."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.02816161933772,
+      "end_time": 24.82816161933772,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.262962399032993,
+      "end_time": 28.562962399032994,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.809761496305164,
+      "end_time": 31.909761496305165,
+      "text": "actually, It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.54944651831349,
+      "end_time": 35.449446518313486,
+      "text": "like, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 36.35468317327471,
+      "end_time": 37.95468317327471,
+      "text": "that seems complicated, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.69740029386868,
+      "end_time": 41.397400293868685,
+      "text": "kinda, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.4803617034289,
+      "end_time": 45.280361703428895,
+      "text": "basically, what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.57093731495097,
+      "end_time": 49.470937314950966,
+      "text": "I can help you with that, kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.45586405786306,
+      "end_time": 53.25586405786306,
+      "text": "alright, let's do it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.757174080147394,
+      "end_time": 55.55717408014739,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 56.14702024079755,
+      "end_time": 57.847020240797555,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 58.675689806604964,
+      "end_time": 60.47568980660496,
+      "text": "Have a great day!"
+    }
+  ]
 }

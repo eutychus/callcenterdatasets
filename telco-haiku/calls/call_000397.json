@@ -2,11 +2,108 @@
   "call_id": 397,
   "metadata": {
     "call_type": "technical",
-    "agent_name": "Jennifer",
-    "duration": 43.9,
-    "sentiment": "positive",
-    "issue": "modem issues",
-    "issue_resolved": true
+    "agent_name": "Mark",
+    "duration": 53.5,
+    "sentiment": "negative",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.546021074603779,8.246021074603778,\"Hi, Jennifer technical support here. Let me help you troubleshoot.\"\r\ncaller,9.3138285141835,12.6138285141835,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,13.240323398892738,17.440323398892737,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.052867101727514,22.152867101727516,I got it. Let me pull up your account here.\r\nagent,24.07839775539165,27.07839775539165,\"Okay, and how long has this been happening?\"\r\ncaller,28.625966572054434,30.825966572054433,\"Okay, sure, I can try that\"\r\nagent,31.611908493945872,35.41190849394587,I'm going to push a software update to your device.\r\nagent,35.925317562085795,39.525317562085796,You should see improvement within the next 15 minutes.\r\ncaller,40.46375381942262,43.86375381942262,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.645110370269274,
+      "end_time": 8.745110370269273,
+      "text": "Hello, Mark here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.378566047490306,
+      "end_time": 12.678566047490307,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.98763080420352,
+      "end_time": 16.18763080420352,
+      "text": "the... the signal is weak, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.215798452480012,
+      "end_time": 20.515798452480013,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.618359154491348,
+      "end_time": 23.71835915449135,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.90490215029464,
+      "end_time": 26.70490215029464,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.226220467212006,
+      "end_time": 29.626220467212004,
+      "text": "what error message are you seeing"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.982875438449014,
+      "end_time": 33.082875438449015,
+      "text": "actually, I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.39918401520294,
+      "end_time": 36.79918401520294,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.15994051686672,
+      "end_time": 40.25994051686672,
+      "text": "actually, what if it doesn't work"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.81349775575362,
+      "end_time": 42.21349775575362,
+      "text": "There's actually another issue..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.05389836710042,
+      "end_time": 45.35389836710042,
+      "text": "so, here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.95253371208609,
+      "end_time": 47.752533712086084,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 48.71964972539311,
+      "end_time": 50.51964972539311,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 51.43912672959124,
+      "end_time": 53.53912672959124,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

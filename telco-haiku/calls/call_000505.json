@@ -1,12 +1,87 @@
 {
   "call_id": 505,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Sarah",
-    "duration": 40.6,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "support",
+    "agent_name": "Mike",
+    "duration": 40.1,
+    "sentiment": "neutral",
+    "issue_category": "service",
+    "issue": "service",
+    "issue_resolved": false,
+    "resolution_type": "the issue was resolved"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.732511314313359,9.93251131431336,\"Hello, Sarah here. How can I help with your account?\"\r\ncaller,10.960078789468927,14.360078789468927,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.104934624243954,19.404934624243953,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.089963809267374,23.789963809267373,\"I understand, let me look into that for you.\"\r\nagent,25.008947636337968,30.208947636337967,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.849804839565284,33.749804839565286,\"Uh-huh, okay, I got it\"\r\nagent,34.6803943332535,38.0803943332535,Let me send that information to your email.\r\ncaller,38.691498670186036,40.591498670186034,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.379615089856621,
+      "end_time": 7.879615089856621,
+      "text": "Hi, thanks for calling. This is Mike from technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.070068191579512,
+      "end_time": 11.870068191579513,
+      "text": "uh, Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.795315482635706,
+      "end_time": 15.895315482635706,
+      "text": "so, I'm not getting service in certain rooms"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.120174386972586,
+      "end_time": 18.920174386972587,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.837353125614698,
+      "end_time": 22.6373531256147,
+      "text": "can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.724742456407963,
+      "end_time": 25.524742456407964,
+      "text": "It's 555-1234."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.83413047406527,
+      "end_time": 29.83413047406527,
+      "text": "um, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.894636044731566,
+      "end_time": 32.69463604473157,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.412637632065824,
+      "end_time": 35.11263763206583,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.76494061943599,
+      "end_time": 37.96494061943599,
+      "text": "That's everything. Thanks so much!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.354067939326676,
+      "end_time": 40.05406793932668,
+      "text": "Have a great day!"
+    }
+  ]
 }

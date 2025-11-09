@@ -1,12 +1,98 @@
 {
   "call_id": 1700,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "David",
-    "duration": 41.6,
-    "sentiment": "negative",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "call_type": "billing",
+    "agent_name": "Daniel",
+    "duration": 56.2,
+    "sentiment": "neutral",
+    "billing_issue": "dispute",
+    "issue_resolved": true,
+    "resolution_type": "we applied a credit"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.3,Please enter your account number followed by the pound sign.\r\nagent,5.019757122335599,9.319757122335599,\"Hello, David here. How can I help with your account?\"\r\ncaller,10.299703001265023,13.999703001265022,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.939868339919379,19.43986833991938,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,19.749651585015293,21.549651585015294,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.445688688504088,29.545688688504086,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.259886578794422,33.65988657879442,\"Okay, sure, I can try that\"\r\nagent,34.51346471105804,38.31346471105804,\"If it happens again, just give us a call back.\"\r\ncaller,38.97187197200445,41.57187197200445,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.367630687400584,
+      "end_time": 10.967630687400582,
+      "text": "Hi, this is Daniel from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.351573928625637,
+      "end_time": 16.351573928625637,
+      "text": "Hi, uh, I'm calling because of a problem., basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.72162944051185,
+      "end_time": 20.321629440511852,
+      "text": "I need to dispute a charge, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.53476036531393,
+      "end_time": 24.03476036531393,
+      "text": "I completely understand your frustration, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.49454717274728,
+      "end_time": 28.59454717274728,
+      "text": "let... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.259409491602852,
+      "end_time": 32.359409491602854,
+      "text": "Sure, it's on the bill., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.86889949249175,
+      "end_time": 36.66889949249175,
+      "text": "so, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.167517005310195,
+      "end_time": 40.3675170053102,
+      "text": "I'm worried that won't work, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.458256149032785,
+      "end_time": 43.458256149032785,
+      "text": "There's actually another issue..., actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.641136224392,
+      "end_time": 46.341136224392,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.22261868281881,
+      "end_time": 51.32261868281881,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.265103397851426,
+      "end_time": 54.46510339785143,
+      "text": "No, that's all. Thanks!, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.099127097103974,
+      "end_time": 56.199127097103975,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

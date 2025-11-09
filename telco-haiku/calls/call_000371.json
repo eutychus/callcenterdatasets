@@ -1,12 +1,97 @@
 {
   "call_id": 371,
   "metadata": {
-    "call_type": "account",
+    "call_type": "technical",
     "agent_name": "Jennifer",
-    "duration": 49.1,
+    "duration": 51.6,
     "sentiment": "neutral",
-    "issue": "general inquiry",
-    "issue_resolved": true
+    "technical_issue": "troubleshooting",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.611432949671494,11.111432949671494,Hi! Jennifer with account services. What do you need help with?\r\ncaller,12.240315385113181,15.040315385113182,Hi there. So I've got a problem...\r\ncaller,15.736166735719852,20.93616673571985,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,21.908146927265825,25.708146927265826,\"I understand, let me look into that for you.\"\r\nagent,27.43892700058792,31.038927000587922,What do you see when you open your browser?\r\ncaller,32.44009079783605,35.04009079783605,\"Okay, sure, I can try that\"\r\nagent,35.67780739415465,40.477807394154645,Looks like we need to restart your modem. Can you do that?\r\nagent,41.80956075759402,45.10956075759402,Let me send that information to your email.\r\ncaller,45.77952526123076,49.079525261230756,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.373734470122969,
+      "end_time": 8.973734470122968,
+      "text": "Hi! Jennifer from technical support. Let's get your device working."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.804240008457118,
+      "end_time": 13.504240008457117,
+      "text": "well, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.739256072272607,
+      "end_time": 17.239256072272607,
+      "text": "hold on... the signal is weak"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.371814533125576,
+      "end_time": 20.471814533125578,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.016510441934155,
+      "end_time": 23.716510441934155,
+      "text": "like, let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 24.995830831108997,
+      "end_time": 26.095830831108998,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 26.624510747174202,
+      "end_time": 29.224510747174204,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.04114879934361,
+      "end_time": 33.04114879934361,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.345792425848295,
+      "end_time": 36.845792425848295,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.954403209699066,
+      "end_time": 40.354403209699065,
+      "text": "sorta, sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 41.81733998871987,
+      "end_time": 45.017339988719876,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 45.711804368005254,
+      "end_time": 48.51180436800525,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.1721806984048,
+      "end_time": 51.5721806984048,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

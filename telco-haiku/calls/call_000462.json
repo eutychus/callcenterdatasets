@@ -1,13 +1,110 @@
 {
   "call_id": 462,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Jennifer",
-    "duration": 47.3,
-    "sentiment": "negative",
-    "issue": "device purchase",
-    "sale_completed": true,
-    "product_category": "Mobile Plan"
+    "call_type": "billing",
+    "agent_name": "James",
+    "duration": 56.7,
+    "sentiment": "mixed",
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "we applied a credit"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.6,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,6.496029667470991,12.296029667470991,Hi! This is Jennifer with our sales team. Are you interested in any of our plans?\r\ncaller,13.53829548002065,16.53829548002065,Hi there. So I've got a problem...\r\ncaller,17.227402435928816,20.027402435928817,\"Um, I can't... I keep getting disconnected\"\r\nagent,20.328740135183583,24.328740135183583,I got it. Let me pull up your account here.\r\nagent,25.490578956690864,30.290578956690865,We have a special promotion running through the end of the month.\r\ncaller,31.731357203488542,33.63135720348854,\"Uh-huh, okay, I got it\"\r\nagent,34.360051522305675,39.460051522305676,Looks like we need to restart your modem. Can you do that?\r\nagent,40.137361928303875,44.03736192830387,You should see improvement within the next 15 minutes.\r\ncaller,44.78816275995487,47.28816275995487,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.643815871464583,
+      "end_time": 8.743815871464584,
+      "text": "Hello! James speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.617979978270416,
+      "end_time": 11.917979978270417,
+      "text": "Thanks for picking up., you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.76772214681342,
+      "end_time": 14.967722146813419,
+      "text": "do you have any promotions"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.17880596019683,
+      "end_time": 19.47880596019683,
+      "text": "I can see why that would be frustrating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.494375192859145,
+      "end_time": 23.594375192859147,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.05985329667944,
+      "end_time": 28.55985329667944,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 29.756932435133244,
+      "end_time": 32.05693243513324,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 33.84907280387194,
+      "end_time": 36.14907280387194,
+      "text": "kinda, will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.0488085271039,
+      "end_time": 39.748808527103904,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.32066808278826,
+      "end_time": 42.72066808278826,
+      "text": "I can do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.00651746564217,
+      "end_time": 46.10651746564217,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 47.49065896545527,
+      "end_time": 49.390658965455266,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.08361035671118,
+      "end_time": 51.48361035671118,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.46247239646124,
+      "end_time": 54.66247239646124,
+      "text": "uh, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.3929392561816,
+      "end_time": 56.692939256181596,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

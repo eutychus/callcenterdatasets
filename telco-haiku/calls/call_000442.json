@@ -1,13 +1,98 @@
 {
   "call_id": 442,
   "metadata": {
-    "call_type": "sales",
-    "agent_name": "Robert",
-    "duration": 47.7,
-    "sentiment": "negative",
-    "issue": "bundle packages",
-    "sale_completed": false,
-    "product_category": "Broadband"
+    "call_type": "billing",
+    "agent_name": "Jennifer",
+    "duration": 57.1,
+    "sentiment": "positive",
+    "billing_issue": "payment",
+    "issue_resolved": true,
+    "resolution_type": "we set up a payment plan"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.4,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.759806900168016,13.059806900168017,Hi there! Welcome to Telecom Haiku sales. Robert here. What brings you in today?\r\ncaller,14.024048800491727,17.724048800491726,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,18.70930630194191,21.60930630194191,\"Um, I can't... I keep getting disconnected\"\r\nagent,22.042379179807458,26.042379179807458,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.40596975446585,31.80596975446585,We have a special promotion running through the end of the month.\r\ncaller,33.11384196723483,34.713841967234835,\"Yeah, that sounds good\"\r\nagent,35.69983840369201,40.49983840369201,I think I found the issue. Let me reset your connection.\r\nagent,41.55106548135588,45.15106548135588,Is there anything else I can help you with today?\r\ncaller,45.74478425742207,47.74478425742207,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.724042219315159,
+      "end_time": 11.224042219315159,
+      "text": "Hello! Jennifer speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.112390462505804,
+      "end_time": 14.712390462505804,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.150357526182553,
+      "end_time": 19.05035752618255,
+      "text": "when... when is my payment due, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.438932018682863,
+      "end_time": 24.038932018682864,
+      "text": "so, let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.61218351659724,
+      "end_time": 28.212183516597243,
+      "text": "can... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.025044196555953,
+      "end_time": 32.52504419655595,
+      "text": "It's starting with a C... CUST12345."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.86149808568899,
+      "end_time": 35.86149808568899,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.28509818560161,
+      "end_time": 39.28509818560161,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 40.14597822365674,
+      "end_time": 41.64597822365674,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.37664765929432,
+      "end_time": 45.67664765929432,
+      "text": "sure, I can try that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.24962140673269,
+      "end_time": 50.349621406732695,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 51.17580002281097,
+      "end_time": 54.67580002281097,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.574275743478765,
+      "end_time": 57.074275743478765,
+      "text": "Have a great day!"
+    }
+  ]
 }

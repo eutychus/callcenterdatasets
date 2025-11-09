@@ -2,11 +2,96 @@
   "call_id": 992,
   "metadata": {
     "call_type": "technical",
-    "agent_name": "Mike",
-    "duration": 44.5,
-    "sentiment": "positive",
-    "issue": "software update",
-    "issue_resolved": true
+    "agent_name": "David",
+    "duration": 52.6,
+    "sentiment": "negative",
+    "technical_issue": "device_issue",
+    "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.0,Your call is important to us. Please hold while we connect you.\r\nagent,6.374492224498723,10.374492224498724,\"Hi there, Mike here. What device are we troubleshooting today?\"\r\ncaller,11.375624007887783,14.875624007887783,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.043901253081675,20.443901253081677,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.81280277080409,22.71280277080409,\"Yeah, let's troubleshoot that together.\"\r\nagent,23.790629392066116,28.490629392066115,Can you check if the lights on your router are on?\r\ncaller,30.09301561935991,32.29301561935991,\"Uh-huh, okay, I got it\"\r\nagent,32.92806589185623,37.32806589185623,I'm going to push a software update to your device.\r\nagent,38.08009707842386,41.88009707842386,You should see improvement within the next 15 minutes.\r\ncaller,42.628487358044865,44.52848735804486,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.842284640923683,
+      "end_time": 9.242284640923684,
+      "text": "Hello, David here. What device are we troubleshooting today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.115031456699363,
+      "end_time": 13.715031456699363,
+      "text": "you know, Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.824060182189893,
+      "end_time": 16.824060182189893,
+      "text": "kinda,... kinda, my modem is overheating"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.27841798209379,
+      "end_time": 21.678417982093787,
+      "text": "let me help you resolve this, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.753798187034977,
+      "end_time": 26.653798187034976,
+      "text": "basically, can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.001660224372316,
+      "end_time": 30.001660224372316,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.4562175734107,
+      "end_time": 33.8562175734107,
+      "text": "what error message are you seeing, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.196794864266906,
+      "end_time": 37.39679486426691,
+      "text": "well, I'm not sure about that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.00515638671451,
+      "end_time": 40.20515638671451,
+      "text": "try unplugging it for 30 seconds"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 42.071571728011214,
+      "end_time": 43.87157172801121,
+      "text": "so, that seems complicated"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.89948850353355,
+      "end_time": 48.199488503533544,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.162158600805256,
+      "end_time": 50.562158600805255,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.928532626838425,
+      "end_time": 52.62853262683843,
+      "text": "Have a great day!"
+    }
+  ]
 }

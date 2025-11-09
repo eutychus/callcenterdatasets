@@ -3,11 +3,97 @@
   "metadata": {
     "call_type": "support",
     "agent_name": "David",
-    "duration": 45.6,
-    "sentiment": "negative",
-    "issue": "can't access account",
-    "issue_resolved": true,
-    "resolution_type": "partial resolution"
+    "duration": 58.1,
+    "sentiment": "positive",
+    "issue_category": "speed",
+    "issue": "speed",
+    "issue_resolved": false,
+    "resolution_type": "the device needs to be replaced"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,Thank you. Connecting you to the next available agent.\r\nagent,4.710908200027843,9.510908200027842,\"Hello, thanks for calling. I'm David. What seems to be the issue?\"\r\ncaller,10.916610879635146,14.816610879635146,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.473302325580377,18.57330232558038,\"Yeah, so my internet's been really slow today\"\r\nagent,19.352744084820664,23.552744084820663,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,24.690180793149977,30.590180793149976,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.77013612965888,33.97013612965888,\"Uh-huh, okay, I got it\"\r\nagent,34.490005314479426,38.890005314479424,That should fix it. Let me verify everything looks good.\r\nagent,39.45511353575989,42.75511353575989,Let me send that information to your email.\r\ncaller,43.45001742607727,45.55001742607727,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.630519671466588,
+      "end_time": 11.930519671466588,
+      "text": "Good, this is David. I'm here to help with any technical issues."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.432832703066598,
+      "end_time": 16.632832703066597,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.936157648803537,
+      "end_time": 20.836157648803535,
+      "text": "my speeds are really slow today, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.178558012640504,
+      "end_time": 24.278558012640506,
+      "text": "uh, I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.676270891155987,
+      "end_time": 29.176270891155987,
+      "text": "wait... can you give me your account number"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.202936312456714,
+      "end_time": 32.802936312456715,
+      "text": "uh, Okay, hold on."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.93035593661861,
+      "end_time": 36.43035593661861,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.15481833833371,
+      "end_time": 40.05481833833371,
+      "text": "I'm not sure about that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.22217487996359,
+      "end_time": 44.62217487996359,
+      "text": "By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.515992281362244,
+      "end_time": 47.31599228136224,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.12772798199085,
+      "end_time": 51.52772798199085,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 52.392700730675145,
+      "end_time": 55.992700730675146,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 56.44318691347586,
+      "end_time": 58.143186913475866,
+      "text": "We appreciate your business."
+    }
+  ]
 }

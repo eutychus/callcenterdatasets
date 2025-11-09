@@ -1,12 +1,73 @@
 {
   "call_id": 1656,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Sarah",
-    "duration": 37.7,
-    "sentiment": "neutral",
-    "issue": "signal strength",
-    "issue_resolved": true
+    "call_type": "retention",
+    "agent_name": "Emily",
+    "duration": 40.6,
+    "sentiment": "negative",
+    "churn_reason": "competitor",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,6.511862169405465,10.411862169405465,\"Hi, Sarah technical support here. Let me help you troubleshoot.\"\r\ncaller,11.433885186162549,14.933885186162549,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,15.557409388828965,19.857409388828966,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.419373731348532,24.219373731348533,\"I understand, let me look into that for you.\"\r\nagent,25.61663249077606,28.21663249077606,Have you tried restarting your modem?\r\ncaller,29.76892279717879,31.468922797178788,\"Yeah, that sounds good\"\r\nagent,32.13506969808971,35.03506969808971,Let me send that information to your email.\r\ncaller,35.817027878452166,37.717027878452164,\"Yeah, okay, thanks a lot\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.04480162679158,
+      "end_time": 9.244801626791581,
+      "text": "Hello! Emily speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 10.667555733976613,
+      "end_time": 14.167555733976613,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.475755401927062,
+      "end_time": 18.875755401927062,
+      "text": "like,... like, I got an offer from another provider"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.366640142074814,
+      "end_time": 24.166640142074815,
+      "text": "I completely understand your frustration, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.458851791146127,
+      "end_time": 28.458851791146127,
+      "text": "I have a solution for you, like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.608336336282193,
+      "end_time": 31.408336336282193,
+      "text": "what if it doesn't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.09931376090559,
+      "end_time": 33.499313760905586,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.24748581260206,
+      "end_time": 37.547485812602055,
+      "text": "well, Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.073747080735906,
+      "end_time": 40.573747080735906,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

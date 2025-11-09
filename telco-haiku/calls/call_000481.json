@@ -2,12 +2,86 @@
   "call_id": 481,
   "metadata": {
     "call_type": "sales",
-    "agent_name": "Sarah",
-    "duration": 46.6,
-    "sentiment": "neutral",
-    "issue": "special offers",
-    "sale_completed": true,
-    "product_category": "Broadband"
+    "agent_name": "Amanda",
+    "duration": 45.4,
+    "sentiment": "mixed",
+    "product_category": "Bundle",
+    "inquiry_type": "upgrade",
+    "sale_completed": false,
+    "resolution_type": "the customer purchased an upgrade"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,Thank you. Connecting you to the next available agent.\r\nagent,3.9196802620336197,9.71968026203362,Hi there! Welcome to Telecom Haiku sales. Sarah here. What brings you in today?\r\ncaller,11.00230719499806,13.60230719499806,Hi there. So I've got a problem...\r\ncaller,14.252871227878224,19.952871227878223,\"The thing is, when I try to load pages it just... it hangs\"\r\nagent,20.42100984357683,23.72100984357683,\"I understand, let me look into that for you.\"\r\nagent,25.203731028624656,29.403731028624655,\"If you upgrade now, we can waive your installation fee.\"\r\ncaller,30.856514398214564,32.65651439821456,\"Uh-huh, okay, I got it\"\r\nagent,33.52160928990942,38.52160928990942,Looks like we need to restart your modem. Can you do that?\r\nagent,40.004572868727855,43.80457286872785,Is there anything else I can help you with today?\r\ncaller,44.393300903124306,46.59330090312431,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 3.5190036562071594,
+      "end_time": 10.21900365620716,
+      "text": "Hello! Amanda here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.72687654234179,
+      "end_time": 15.22687654234179,
+      "text": "Hi, uh, I'm calling because of a problem., so"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.228469673445357,
+      "end_time": 20.228469673445357,
+      "text": "hang on... is there a faster plan I can get"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.329072564079006,
+      "end_time": 23.229072564079004,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.962939148586884,
+      "end_time": 26.562939148586885,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.96667498742245,
+      "end_time": 29.76667498742245,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.524913933964964,
+      "end_time": 32.72491393396496,
+      "text": "Actually, there's one more thing..., like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.833577176347234,
+      "end_time": 35.833577176347234,
+      "text": "here are your options, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.345482380905224,
+      "end_time": 38.845482380905224,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.40694419171617,
+      "end_time": 43.106944191716174,
+      "text": "I think that covers it. Thanks for your help., um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.76496361580445,
+      "end_time": 45.36496361580445,
+      "text": "We appreciate your business."
+    }
+  ]
 }

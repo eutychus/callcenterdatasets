@@ -1,12 +1,110 @@
 {
   "call_id": 1310,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Jennifer",
-    "duration": 48.1,
+    "call_type": "billing",
+    "agent_name": "Daniel",
+    "duration": 55.3,
     "sentiment": "negative",
-    "issue": "switching provider",
-    "issue_resolved": false
+    "billing_issue": "payment",
+    "issue_resolved": false,
+    "resolution_type": "autopay was activated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.7,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,5.608760916056981,10.30876091605698,Hi! Jennifer here. I'd love to make sure we're taking care of you.\r\ncaller,11.759954146752058,15.459954146752057,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,16.651862045567444,20.851862045567444,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,21.63542450384893,25.735424503848932,I got it. Let me pull up your account here.\r\nagent,27.144931653197244,30.844931653197243,What do you see when you open your browser?\r\ncaller,32.521798817409014,34.72179881740902,\"Okay, sure, I can try that\"\r\nagent,35.40392067664811,39.503920676648114,I think I found the issue. Let me reset your connection.\r\nagent,40.3420204485482,44.4420204485482,\"If it happens again, just give us a call back.\"\r\ncaller,45.04128931499649,48.14128931499649,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.4486816392143425,
+      "end_time": 10.448681639214342,
+      "text": "Thanks for calling. Daniel here. What can I do for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.80348554592916,
+      "end_time": 13.30348554592916,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.15810712092198,
+      "end_time": 16.15810712092198,
+      "text": "can I set up autopay"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 17.58661288942097,
+      "end_time": 19.78661288942097,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.76788156235453,
+      "end_time": 23.167881562354527,
+      "text": "let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 25.141990936488455,
+      "end_time": 26.941990936488455,
+      "text": "Yeah, let me find that."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.225628742406617,
+      "end_time": 30.125628742406615,
+      "text": "sorta, here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.94389750219137,
+      "end_time": 33.743897502191366,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 34.827607415458374,
+      "end_time": 37.02760741545838,
+      "text": "here's what we can do, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 37.83009445642588,
+      "end_time": 39.030094456425886,
+      "text": "yeah, okay, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.50370935542224,
+      "end_time": 43.20370935542224,
+      "text": "Oh, and while we're at it..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.0939548929408,
+      "end_time": 45.6939548929408,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.430061439681495,
+      "end_time": 48.330061439681494,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.227269751636506,
+      "end_time": 52.227269751636506,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 53.11376013871556,
+      "end_time": 55.313760138715566,
+      "text": "Thanks for choosing Telecom Haiku!"
+    }
+  ]
 }

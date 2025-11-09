@@ -2,11 +2,84 @@
   "call_id": 1238,
   "metadata": {
     "call_type": "retention",
-    "agent_name": "Robert",
-    "duration": 46.2,
+    "agent_name": "David",
+    "duration": 46.1,
     "sentiment": "positive",
-    "issue": "considering leaving",
-    "issue_resolved": false
+    "churn_reason": "leaving",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,5.2,Your call is important to us. Please hold while we connect you.\r\nagent,6.328535370505348,11.828535370505348,\"Hello, this is Robert. I see you've been with us for a while.\"\r\ncaller,12.917923804751812,15.517923804751812,Hi there. So I've got a problem...\r\ncaller,16.670717086328974,19.670717086328974,\"Um, I can't... I keep getting disconnected\"\r\nagent,20.25507438496425,24.355074384964247,I got it. Let me pull up your account here.\r\nagent,26.296217192007603,30.6962171920076,Can you check if the lights on your router are on?\r\ncaller,32.10782148005998,34.10782148005998,\"Uh-huh, okay, I got it\"\r\nagent,34.82457128035002,38.82457128035002,That should fix it. Let me verify everything looks good.\r\nagent,40.18007914535424,43.68007914535424,You should see improvement within the next 15 minutes.\r\ncaller,44.43699021230487,46.23699021230487,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.315321131937129,
+      "end_time": 11.415321131937128,
+      "text": "Hi, thanks for calling. David here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.737668267014097,
+      "end_time": 16.237668267014097,
+      "text": "Hi! So I've been having some trouble., kinda"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.95114476654328,
+      "end_time": 21.05114476654328,
+      "text": "just a second... when can I terminate my contract, actually"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.091643787207737,
+      "end_time": 24.091643787207737,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 25.07827286741565,
+      "end_time": 27.778272867415648,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 28.840667905499192,
+      "end_time": 30.640667905499193,
+      "text": "alright, let's do it, actually"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 32.02990329524188,
+      "end_time": 34.52990329524188,
+      "text": "Actually, there's one more thing..., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.175001871706584,
+      "end_time": 37.775001871706586,
+      "text": "uh, let me walk you through this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.28446737202881,
+      "end_time": 40.48446737202881,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.01248607206377,
+      "end_time": 44.01248607206377,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.396438823116284,
+      "end_time": 46.09643882311629,
+      "text": "Have a great day!"
+    }
+  ]
 }

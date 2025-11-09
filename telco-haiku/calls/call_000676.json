@@ -1,12 +1,86 @@
 {
   "call_id": 676,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Jennifer",
-    "duration": 39.1,
-    "sentiment": "negative",
-    "issue": "software update",
-    "issue_resolved": true
+    "call_type": "billing",
+    "agent_name": "Lisa",
+    "duration": 45.8,
+    "sentiment": "mixed",
+    "billing_issue": "promotion",
+    "issue_resolved": false,
+    "resolution_type": "we applied a credit"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.5,Your call is important to us. Please hold while we connect you.\r\nagent,5.001777602165956,9.401777602165957,\"Hi there, Jennifer here. What device are we troubleshooting today?\"\r\ncaller,10.280359495395892,13.080359495395893,Hi there. So I've got a problem...\r\ncaller,14.022951031703293,16.722951031703293,\"Um, I can't... I keep getting disconnected\"\r\nagent,17.220853534660428,19.220853534660428,\"Yeah, let's troubleshoot that together.\"\r\nagent,20.94800527667494,23.14800527667494,Have you tried restarting your modem?\r\ncaller,24.42841602483179,26.62841602483179,\"Uh-huh, okay, I got it\"\r\nagent,27.388630457012596,31.088630457012595,I'm going to push a software update to your device.\r\nagent,31.843933700908064,35.94393370090806,\"If it happens again, just give us a call back.\"\r\ncaller,36.54614347535625,39.146143475356254,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.659255053886095,
+      "end_time": 11.559255053886094,
+      "text": "Hi, this is Lisa from billing. How can I assist with your account?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.478086441760563,
+      "end_time": 14.278086441760564,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.143890760067595,
+      "end_time": 17.643890760067595,
+      "text": "sorry... actually, can you lower my bill"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.92101797881496,
+      "end_time": 22.42101797881496,
+      "text": "let me help you resolve this, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.202000944723,
+      "end_time": 25.602000944723,
+      "text": "hold... hold on while I investigate"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.957810967631154,
+      "end_time": 30.157810967631153,
+      "text": "Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.69824458464562,
+      "end_time": 34.49824458464562,
+      "text": "I can help you with that, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.72645157476908,
+      "end_time": 37.52645157476908,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.082797089209784,
+      "end_time": 41.182797089209785,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.820819654666856,
+      "end_time": 43.52081965466686,
+      "text": "No, that's all. Thanks!, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.286578885114466,
+      "end_time": 45.786578885114466,
+      "text": "Have a great day!"
+    }
+  ]
 }

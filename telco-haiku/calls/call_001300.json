@@ -1,13 +1,85 @@
 {
   "call_id": 1300,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Mike",
-    "duration": 39.1,
+    "call_type": "retention",
+    "agent_name": "Susan",
+    "duration": 44.3,
     "sentiment": "neutral",
-    "issue": "wifi not working",
-    "issue_resolved": true,
-    "resolution_type": "callback needed"
+    "churn_reason": "leaving",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.9,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.5734004382726585,9.173400438272658,\"Hello, thanks for calling. I'm Mike. What seems to be the issue?\"\r\ncaller,10.326854910003359,14.026854910003358,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.205760637749117,17.90576063774912,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.76168981412417,23.46168981412417,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,25.38211326105705,27.58211326105705,Have you tried restarting your modem?\r\ncaller,28.624817437776045,31.124817437776045,\"Okay, sure, I can try that\"\r\nagent,32.078369274301906,36.3783692743019,\"If it happens again, just give us a call back.\"\r\ncaller,37.220400873222864,39.12040087322286,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 6.287760383231612,
+      "end_time": 11.387760383231612,
+      "text": "Hi, thanks for calling. Susan here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.022864320769532,
+      "end_time": 16.22286432076953,
+      "text": "Hey, thanks. Yeah, I need help with something."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.49054894391354,
+      "end_time": 19.89054894391354,
+      "text": "can you process my cancellation, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.416100567802232,
+      "end_time": 23.61610056780223,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.52938213613495,
+      "end_time": 26.12938213613495,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.950402291222005,
+      "end_time": 29.250402291222006,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.782267193097308,
+      "end_time": 32.18226719309731,
+      "text": "Actually, there's one more thing..., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 32.88997292390967,
+      "end_time": 35.789972923909666,
+      "text": "I can help you with that, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.662304830328175,
+      "end_time": 39.86230483032818,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.59043159334099,
+      "end_time": 42.19043159334099,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.88286573976703,
+      "end_time": 44.282865739767026,
+      "text": "Have a great day!"
+    }
+  ]
 }

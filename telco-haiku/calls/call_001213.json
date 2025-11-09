@@ -1,12 +1,110 @@
 {
   "call_id": 1213,
   "metadata": {
-    "call_type": "retention",
-    "agent_name": "Mike",
-    "duration": 45.5,
-    "sentiment": "positive",
-    "issue": "dissatisfied with service",
-    "issue_resolved": false
+    "call_type": "billing",
+    "agent_name": "James",
+    "duration": 59.6,
+    "sentiment": "mixed",
+    "billing_issue": "promotion",
+    "issue_resolved": true,
+    "resolution_type": "the charge was reversed"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.3,Please enter your account number followed by the pound sign.\r\nagent,5.091269228168101,9.791269228168101,\"Hello, this is Mike. I see you've been with us for a while.\"\r\ncaller,11.170478904057738,14.870478904057737,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.775013513348489,18.77501351334849,\"Um, I can't... I keep getting disconnected\"\r\nagent,19.17669932528888,23.076699325288878,I got it. Let me pull up your account here.\r\nagent,24.62192469552317,29.82192469552317,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.313468104409708,33.51346810440971,\"Okay, sure, I can try that\"\r\nagent,34.334344807772965,38.63434480777296,I think I found the issue. Let me reset your connection.\r\nagent,39.209062511997985,42.809062511997986,\"If it happens again, just give us a call back.\"\r\ncaller,43.50072494225596,45.50072494225596,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.656382427599042,
+      "end_time": 10.456382427599042,
+      "text": "Hello! James speaking. I'm here to help with any billing questions."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.90078276854289,
+      "end_time": 14.80078276854289,
+      "text": "Hi! So I've been having some trouble., basically"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 15.91336581755746,
+      "end_time": 18.11336581755746,
+      "text": "do you have any promotions"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.463412247951076,
+      "end_time": 21.463412247951076,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.397725509553293,
+      "end_time": 24.897725509553293,
+      "text": "sorry... let me look into your account"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.336645059854526,
+      "end_time": 29.736645059854524,
+      "text": "actually, Sure, it's on the bill."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.343540360943447,
+      "end_time": 34.74354036094345,
+      "text": "you know, I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.82059188217328,
+      "end_time": 37.62059188217328,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.65459162624239,
+      "end_time": 41.854591626242396,
+      "text": "I have a solution for you, sorta"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 43.246842751548265,
+      "end_time": 44.94684275154827,
+      "text": "how long will that take"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 46.32884252676795,
+      "end_time": 48.42884252676795,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 49.57777301865485,
+      "end_time": 50.97777301865485,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 52.097206597607126,
+      "end_time": 54.29720659760713,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.945572207189784,
+      "end_time": 57.34557220718978,
+      "text": "you know, No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.80822512370919,
+      "end_time": 59.60822512370919,
+      "text": "Have a great day!"
+    }
+  ]
 }

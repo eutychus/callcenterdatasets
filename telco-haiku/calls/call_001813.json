@@ -1,13 +1,109 @@
 {
   "call_id": 1813,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "David",
-    "duration": 39.2,
-    "sentiment": "negative",
-    "issue": "line quality",
-    "issue_resolved": true,
-    "resolution_type": "resolved"
+    "call_type": "retention",
+    "agent_name": "Robert",
+    "duration": 58.8,
+    "sentiment": "mixed",
+    "churn_reason": "competitor",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,4.4,Thank you for calling. Please listen carefully as our menu has changed.\r\nagent,4.924845947564968,10.524845947564968,Good day! David here from our support team. What can I assist with?\r\ncaller,11.428984851207847,15.428984851207847,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,16.448007510068507,20.748007510068508,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,21.696676510946467,23.596676510946466,\"Yeah, let's troubleshoot that together.\"\r\nagent,24.74519260387855,29.54519260387855,Can you check if the lights on your router are on?\r\ncaller,30.359802570927435,32.55980257092744,\"Okay, sure, I can try that\"\r\nagent,33.407417180835004,36.807417180835,You should see improvement within the next 15 minutes.\r\ncaller,37.32782566736962,39.22782566736962,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.3,
+      "text": "Welcome. Please listen carefully as our menu has changed."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.550813416720006,
+      "end_time": 8.450813416720006,
+      "text": "Hello! Robert speaking. I appreciate your business."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.977762633861072,
+      "end_time": 13.077762633861072,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.778177567889365,
+      "end_time": 17.078177567889366,
+      "text": "so,... so, I found a better deal elsewhere"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.249968053952088,
+      "end_time": 21.84996805395209,
+      "text": "let me help you resolve this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.9871821278811,
+      "end_time": 25.9871821278811,
+      "text": "here's what we can do, you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.976349027244126,
+      "end_time": 28.576349027244127,
+      "text": "will it take long"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.015790466236435,
+      "end_time": 32.91579046623644,
+      "text": "sorta, I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.51636006937936,
+      "end_time": 37.01636006937936,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.87546605057751,
+      "end_time": 40.275466050577506,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.171764633168834,
+      "end_time": 43.271764633168836,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.0652650985099,
+      "end_time": 47.465265098509896,
+      "text": "sorta, By the way, I also have a question..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.29820890400365,
+      "end_time": 49.998208904003654,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 50.76963108079406,
+      "end_time": 52.56963108079406,
+      "text": "Are we all set?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.4003679109422,
+      "end_time": 57.0003679109422,
+      "text": "Nope, that should do it. I appreciate it., you know"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.556602938018564,
+      "end_time": 58.75660293801857,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

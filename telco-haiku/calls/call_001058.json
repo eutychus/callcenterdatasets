@@ -2,11 +2,108 @@
   "call_id": 1058,
   "metadata": {
     "call_type": "retention",
-    "agent_name": "Robert",
-    "duration": 49.8,
+    "agent_name": "Amanda",
+    "duration": 58.0,
     "sentiment": "neutral",
-    "issue": "dissatisfied with service",
+    "churn_reason": "leaving",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,6.0,\"If you're calling about billing, press 1. For support, press 2. For sales, press 3.\"\r\nagent,7.369895381316593,12.769895381316594,Hi! Robert here. I'd love to make sure we're taking care of you.\r\ncaller,13.947442039987914,16.747442039987913,Hi there. So I've got a problem...\r\ncaller,17.502704195184748,20.902704195184747,\"Yeah, so my internet's been really slow today\"\r\nagent,21.766593476726246,26.066593476726247,\"Okay, I see what you mean. Let me check on that.\"\r\nagent,27.527761615935727,31.327761615935728,What do you see when you open your browser?\r\ncaller,33.24576086804529,34.94576086804529,\"Yeah, that sounds good\"\r\nagent,35.45612554885086,40.45612554885086,Looks like we need to restart your modem. Can you do that?\r\nagent,41.897697488461425,45.897697488461425,\"If it happens again, just give us a call back.\"\r\ncaller,46.82425005386551,49.82425005386551,\"Thanks for your help, that was really quick\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.2,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.684388279640329,
+      "end_time": 11.88438827964033,
+      "text": "Hi, thanks for calling. Amanda here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.375595095356875,
+      "end_time": 16.075595095356874,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 17.53675519426936,
+      "end_time": 19.636755194269362,
+      "text": "I'm... I'm done with this company"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.510566980715367,
+      "end_time": 24.010566980715367,
+      "text": "let me help you resolve this, basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 24.60526940720169,
+      "end_time": 27.10526940720169,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.982111732654033,
+      "end_time": 30.38211173265403,
+      "text": "well, will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.914259456476845,
+      "end_time": 33.51425945647684,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.68961383252719,
+      "end_time": 37.289613832527195,
+      "text": "how long will that take, um"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.152808401965565,
+      "end_time": 40.45280840196556,
+      "text": "let me walk you through this"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.28465189400965,
+      "end_time": 42.68465189400965,
+      "text": "that seems complicated"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 44.16581217643805,
+      "end_time": 46.46581217643805,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 47.09883768624282,
+      "end_time": 48.69883768624282,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 49.46932600974063,
+      "end_time": 53.16932600974063,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 54.0974562932959,
+      "end_time": 55.4974562932959,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 55.87978035692987,
+      "end_time": 57.97978035692987,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

@@ -1,12 +1,75 @@
 {
   "call_id": 1451,
   "metadata": {
-    "call_type": "technical",
-    "agent_name": "Emily",
-    "duration": 35.9,
+    "call_type": "sales",
+    "agent_name": "Mike",
+    "duration": 39.6,
     "sentiment": "positive",
-    "issue": "software update",
-    "issue_resolved": false
+    "product_category": "Add-on",
+    "inquiry_type": "device",
+    "sale_completed": false,
+    "resolution_type": "they purchased a new device"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.3,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.384470428062729,8.08447042806273,Hello! I'm Emily. Let's get your device working again.\r\ncaller,9.523431828931205,13.423431828931205,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,14.050236258705581,17.850236258705582,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,18.27665911181633,21.676659111816328,\"I understand, let me look into that for you.\"\r\nagent,23.05633885274384,25.256338852743838,Have you tried restarting your modem?\r\ncaller,26.098067765794553,27.998067765794552,\"Yeah, sounds good to me\"\r\nagent,28.626500193194754,32.826500193194754,\"If it happens again, just give us a call back.\"\r\ncaller,33.823090503146574,35.923090503146575,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.130752980104273,
+      "end_time": 11.930752980104273,
+      "text": "Hello! Mike here with our sales team. Are you interested in learning about our plans?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.915175176969079,
+      "end_time": 15.81517517696908,
+      "text": "Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.71915354492831,
+      "end_time": 19.319153544928312,
+      "text": "do you offer device payment plans"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.06876067659965,
+      "end_time": 22.86876067659965,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.786165735095633,
+      "end_time": 25.786165735095633,
+      "text": "here's what we can do"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.699902803549016,
+      "end_time": 29.299902803549017,
+      "text": "is there a charge"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 30.303984487115752,
+      "end_time": 33.90398448711575,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 34.89897294375561,
+      "end_time": 37.09897294375561,
+      "text": "No, that's all. Thanks!, so"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.44058243605085,
+      "end_time": 39.640582436050856,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

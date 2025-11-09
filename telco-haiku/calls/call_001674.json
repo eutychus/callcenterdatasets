@@ -1,12 +1,75 @@
 {
   "call_id": 1674,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "Lisa",
-    "duration": 42.5,
-    "sentiment": "positive",
-    "issue": "general inquiry",
-    "issue_resolved": false
+    "call_type": "sales",
+    "agent_name": "Robert",
+    "duration": 36.9,
+    "sentiment": "neutral",
+    "product_category": "Device",
+    "inquiry_type": "new_service",
+    "sale_completed": false,
+    "resolution_type": "the customer purchased an upgrade"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Thank you. Connecting you to the next available agent.\r\nagent,4.724404150838711,9.524404150838711,Hi! Lisa with account services. What do you need help with?\r\ncaller,10.630343688553292,14.530343688553293,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,15.25203407388361,19.55203407388361,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.357814662010323,24.357814662010323,I got it. Let me pull up your account here.\r\nagent,25.823184900915873,31.823184900915873,Let me check our systems to see if there's an outage in your area.\r\ncaller,32.758066465806024,34.858066465806026,\"Yeah, sounds good to me\"\r\nagent,35.48587421588981,39.785874215889805,\"If it happens again, just give us a call back.\"\r\ncaller,40.475893943331855,42.475893943331855,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 2.7,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.490063741190574,
+      "end_time": 11.790063741190574,
+      "text": "Hey, thanks for calling! This is Robert. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.68676259020243,
+      "end_time": 15.586762590202431,
+      "text": "Hi, uh, I'm calling because of a problem."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.576412308548917,
+      "end_time": 18.876412308548918,
+      "text": "I want to add TV service"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.07513045880994,
+      "end_time": 21.87513045880994,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 22.75085347209718,
+      "end_time": 24.55085347209718,
+      "text": "here are your options"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 26.184847767149957,
+      "end_time": 27.984847767149958,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 28.852264939311063,
+      "end_time": 31.052264939311062,
+      "text": "Any other questions I can answer?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 31.681068890960326,
+      "end_time": 35.081068890960324,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 35.690897545137084,
+      "end_time": 36.890897545137086,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

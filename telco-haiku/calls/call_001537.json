@@ -1,12 +1,85 @@
 {
   "call_id": 1537,
   "metadata": {
-    "call_type": "account",
-    "agent_name": "David",
-    "duration": 45.5,
+    "call_type": "technical",
+    "agent_name": "James",
+    "duration": 45.8,
     "sentiment": "neutral",
-    "issue": "general inquiry",
+    "technical_issue": "setup",
     "issue_resolved": false
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.7,Please enter your account number followed by the pound sign.\r\nagent,4.359192990270036,8.659192990270036,\"Hello, David here. How can I help with your account?\"\r\ncaller,10.13156851276375,13.93156851276375,\"Hello, uh, I've been trying to... my internet isn't working\"\r\ncaller,15.0386867425635,19.4386867425635,\"It started maybe an hour ago and... yeah, nothing's working\"\r\nagent,20.258992543293296,23.958992543293295,I got it. Let me pull up your account here.\r\nagent,25.18854676941455,29.58854676941455,Can you check if the lights on your router are on?\r\ncaller,30.404755356748836,32.50475535674884,\"Yeah, sounds good to me\"\r\nagent,33.45161622703576,37.65161622703576,I'm going to push a software update to your device.\r\nagent,38.34306276917017,42.643062769170164,Is there anything else I can help you with today?\r\ncaller,43.27813308508087,45.47813308508087,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.8329114715150965,
+      "end_time": 9.032911471515096,
+      "text": "Thanks for calling. James with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 9.985035819127699,
+      "end_time": 12.485035819127699,
+      "text": "Yeah, hi. I'm having an issue., like"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 13.10353921327882,
+      "end_time": 16.30353921327882,
+      "text": "wait... can you walk me through the setup"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 18.395923918941076,
+      "end_time": 20.495923918941077,
+      "text": "kinda, that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 21.952689367252827,
+      "end_time": 25.552689367252828,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.228666561087966,
+      "end_time": 29.928666561087965,
+      "text": "what if it doesn't work, um"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.904018069641303,
+      "end_time": 32.8040180696413,
+      "text": "Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.83184598423481,
+      "end_time": 36.13184598423481,
+      "text": "I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 36.94180687209434,
+      "end_time": 39.04180687209434,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 39.58406137566985,
+      "end_time": 42.884061375669845,
+      "text": "I think that covers it. Thanks for your help."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 43.79603132375963,
+      "end_time": 45.79603132375963,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

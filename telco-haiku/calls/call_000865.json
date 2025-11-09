@@ -1,12 +1,73 @@
 {
   "call_id": 865,
   "metadata": {
-    "call_type": "technical",
+    "call_type": "retention",
     "agent_name": "Sarah",
-    "duration": 45.2,
-    "sentiment": "positive",
-    "issue": "device compatibility",
-    "issue_resolved": false
+    "duration": 40.2,
+    "sentiment": "neutral",
+    "churn_reason": "service_complaint",
+    "issue_resolved": true
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.8,Please enter your account number followed by the pound sign.\r\nagent,4.3896762411481784,8.58967624114818,\"Hi there, Sarah here. What device are we troubleshooting today?\"\r\ncaller,10.048617631440763,12.648617631440763,Hi there. So I've got a problem...\r\ncaller,13.543579946090114,18.243579946090115,\"Well, basically my speeds have gone way down. Like, really slow\"\r\nagent,18.698543266479575,22.398543266479574,I got it. Let me pull up your account here.\r\nagent,24.391733765142437,29.891733765142437,Let me check our systems to see if there's an outage in your area.\r\ncaller,30.988923081299326,33.488923081299326,\"Okay, sure, I can try that\"\r\nagent,34.197538380875564,38.39753838087557,That should fix it. Let me verify everything looks good.\r\nagent,38.91930393535671,42.11930393535671,Let me send that information to your email.\r\ncaller,42.689672594191485,45.189672594191485,\"Okay, uh, thanks. That should work\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Thank you for calling Telecom Haiku. Your call is important to us."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 7.195276123543374,
+      "end_time": 12.395276123543375,
+      "text": "Hi, thanks for calling. Sarah here. I see you've been with us a while."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 14.040524403480516,
+      "end_time": 15.840524403480517,
+      "text": "Thanks for picking up."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.357381573492862,
+      "end_time": 19.55738157349286,
+      "text": "I don't think it's worth the price"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.780011287195972,
+      "end_time": 22.98001128719597,
+      "text": "that must be really annoying"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.806628463775052,
+      "end_time": 27.50662846377505,
+      "text": "let me walk you through this, you know"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 29.21900683162253,
+      "end_time": 30.31900683162253,
+      "text": "yeah, okay, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 31.702700834398378,
+      "end_time": 35.002700834398375,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 35.816730145725636,
+      "end_time": 37.316730145725636,
+      "text": "No, that's all. Thanks!"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 38.076256438456106,
+      "end_time": 40.17625643845611,
+      "text": "Thanks for calling, and take care."
+    }
+  ]
 }

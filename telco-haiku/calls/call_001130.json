@@ -1,12 +1,109 @@
 {
   "call_id": 1130,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Lisa",
-    "duration": 42.1,
-    "sentiment": "positive",
-    "issue": "payment method",
-    "issue_resolved": false
+    "call_type": "technical",
+    "agent_name": "Mike",
+    "duration": 58.4,
+    "sentiment": "neutral",
+    "technical_issue": "troubleshooting",
+    "issue_resolved": "escalated"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.5,\"Welcome to Telecom Haiku. For English, press 1.\"\r\nagent,4.027252933385837,8.727252933385838,\"Hello, Lisa from billing. How can I assist with your account?\"\r\ncaller,10.00143906786911,13.60143906786911,\"Hi, yes, I'm having an issue with my service\"\r\ncaller,14.364147217303532,17.464147217303534,\"Yeah, so my internet's been really slow today\"\r\nagent,18.427497679119078,20.327497679119077,\"Yeah, let's troubleshoot that together.\"\r\nagent,22.273080472671516,24.473080472671516,Have you tried restarting your modem?\r\ncaller,26.428971177335775,28.328971177335774,\"Uh-huh, okay, I got it\"\r\nagent,29.130119403359643,34.330119403359646,Looks like we need to restart your modem. Can you do that?\r\nagent,35.237863759064,39.237863759064,\"If it happens again, just give us a call back.\"\r\ncaller,39.91468654149985,42.11468654149985,\"Okay, great, thanks so much\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Thank you for contacting Telecom Haiku support."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 4.057727073532304,
+      "end_time": 6.957727073532304,
+      "text": "Thanks for calling. Mike with technical support."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 8.614405610421304,
+      "end_time": 11.114405610421304,
+      "text": "Yeah, hi. I'm having an issue."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 11.815935529381159,
+      "end_time": 14.21593552938116,
+      "text": "basically, I keep getting error messages"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 16.27232970850882,
+      "end_time": 18.372329708508822,
+      "text": "I completely understand your frustration"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 19.09104994843706,
+      "end_time": 22.39104994843706,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 23.842618478454675,
+      "end_time": 25.942618478454676,
+      "text": "I'm worried that won't work"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 27.050733583299735,
+      "end_time": 29.250733583299734,
+      "text": "let's try restarting the device"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.621788404845457,
+      "end_time": 33.02178840484546,
+      "text": "will that really fix it, kinda"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.81918831661863,
+      "end_time": 37.21918831661863,
+      "text": "can you check if the lights are green"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 38.70813114898467,
+      "end_time": 40.90813114898467,
+      "text": "will that really fix it"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 41.60520759112194,
+      "end_time": 44.30520759112194,
+      "text": "kinda, Actually, there's one more thing..."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 45.1388619289394,
+      "end_time": 47.938861928939396,
+      "text": "I can help you with that, like"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 48.65591820059074,
+      "end_time": 52.75591820059074,
+      "text": "Is there anything else I can help with today?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 53.527223778850114,
+      "end_time": 56.72722377885012,
+      "text": "Nope, that should do it. I appreciate it."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 57.34762953176577,
+      "end_time": 58.44762953176577,
+      "text": "Enjoy your service!"
+    }
+  ]
 }

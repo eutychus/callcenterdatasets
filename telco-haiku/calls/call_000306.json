@@ -1,13 +1,87 @@
 {
   "call_id": 306,
   "metadata": {
-    "call_type": "support",
-    "agent_name": "Robert",
-    "duration": 45.6,
+    "call_type": "sales",
+    "agent_name": "Emily",
+    "duration": 45.9,
     "sentiment": "positive",
-    "issue": "can't access account",
-    "issue_resolved": false,
-    "resolution_type": "escalated"
+    "product_category": "Bundle",
+    "inquiry_type": "new_service",
+    "sale_completed": true,
+    "resolution_type": "they purchased a new device"
   },
-  "conversation_csv": "speaker,start_time,end_time,text\r\nivr,0.0,3.4,\"I'm sorry, I didn't understand that. Please try again.\"\r\nagent,4.152012073601418,8.852012073601419,Good day! Robert here from our support team. What can I assist with?\r\ncaller,10.070429034463452,13.77042903446345,\"Yeah, hello, um, my service seems to be down\"\r\ncaller,14.930352741362661,17.83035274136266,\"Um, I can't... I keep getting disconnected\"\r\nagent,18.34723043412823,22.24723043412823,I got it. Let me pull up your account here.\r\nagent,23.817087799009393,29.71708779900939,Let me check our systems to see if there's an outage in your area.\r\ncaller,31.693302064963785,33.59330206496379,\"Yeah, sounds good to me\"\r\nagent,34.09668973581934,38.19668973581934,I'm going to push a software update to your device.\r\nagent,39.4713106560703,42.7713106560703,Let me send that information to your email.\r\ncaller,43.536196645697956,45.63619664569796,\"Alright, I really appreciate it\"\r\n"
+  "conversation": [
+    {
+      "speaker": "ivr",
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Please hold while we route you to the next available representative."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 5.669007961817066,
+      "end_time": 11.369007961817065,
+      "text": "Hey, thanks for calling! This is Emily. I'd love to tell you about some great offers."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 12.502533901351118,
+      "end_time": 15.302533901351119,
+      "text": "sorta, Hi! So I've been having some trouble."
+    },
+    {
+      "speaker": "caller",
+      "start_time": 16.000809858724175,
+      "end_time": 18.600809858724176,
+      "text": "can... can I bundle my services"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 20.87848604613855,
+      "end_time": 22.87848604613855,
+      "text": "I'm sorry you're experiencing this"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 23.92843622566278,
+      "end_time": 26.02843622566278,
+      "text": "I have a solution for you"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 27.728187119602236,
+      "end_time": 29.828187119602237,
+      "text": "how soon can you do that"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 30.553679778181685,
+      "end_time": 32.65367977818168,
+      "text": "Actually, there's one more thing..., basically"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 33.683618693000824,
+      "end_time": 36.683618693000824,
+      "text": "um, I can help you with that"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 37.61028474706057,
+      "end_time": 39.410284747060565,
+      "text": "Does that work for you?"
+    },
+    {
+      "speaker": "caller",
+      "start_time": 40.25782300683089,
+      "end_time": 43.95782300683089,
+      "text": "I think that covers it. Thanks for your help., sorta"
+    },
+    {
+      "speaker": "agent",
+      "start_time": 44.52629167018667,
+      "end_time": 45.92629167018667,
+      "text": "We appreciate your business."
+    }
+  ]
 }
