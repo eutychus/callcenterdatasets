@@ -1,0 +1,755 @@
+[
+{
+  "call_id": 81,
+  "metadata": {"call_type": "support", "agent_name": "Jerry", "duration": 37.3, "sentiment": "positive", "issue_category": "caller_id_setup", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support line."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Jerry here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Jerry. I just got a new home phone service from you and I want to set up caller ID. How do I do that?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "Caller ID should be active already, but I can make sure it's enabled on your line."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 37.3, "text": "Oh, okay. Is there anything I need to do on my phone? Or does it just work automatically?"}
+  ]
+},
+{
+  "call_id": 82,
+  "metadata": {"call_type": "sales", "agent_name": "Katherine", "duration": 42.7, "sentiment": "positive", "product_category": "Device", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Katherine from sales. Can I help you find a phone today?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Yeah, I want to upgrade my phone. My current one is three years old and it's getting slow. What do you recommend?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "If you want the latest tech, the Galaxy 24 is amazing. Or if you want something more affordable, the standard iPhone is still great."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 42.7, "text": "How much is the iPhone? And can I do a trade-in for my old phone? What's it worth?"}
+  ]
+},
+{
+  "call_id": 83,
+  "metadata": {"call_type": "billing", "agent_name": "Larry", "duration": 31.8, "sentiment": "negative", "issue_category": "duplicate_charge", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Larry from billing. What's the issue?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 19.0, "text": "I was charged twice this month! I see two charges on my bill. One of them shouldn't be there."},
+    {"speaker": "agent", "start_time": 19.7, "end_time": 25.2, "text": "Let me look into that. A duplicate charge is definitely a mistake on our part."},
+    {"speaker": "caller", "start_time": 25.9, "end_time": 31.8, "text": "Yeah, it's frustrating. How quickly can you fix this?"}
+  ]
+},
+{
+  "call_id": 84,
+  "metadata": {"call_type": "general", "agent_name": "Melissa", "duration": 29.4, "sentiment": "positive", "issue_category": "referral_program", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Melissa here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Melissa. I've been recommending you guys to my friends and I wanted to know if there's a referral program."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 29.4, "text": "Yes! For every friend who signs up, you both get a credit on your account. It's a win-win."}
+  ]
+},
+{
+  "call_id": 85,
+  "metadata": {"call_type": "support", "agent_name": "Nelson", "duration": 38.5, "sentiment": "positive", "issue_category": "landline_issue", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Nelson here. What's happening?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.6, "text": "Hi Nelson. My home phone has been cutting out. People say they can't hear me clearly. It's been happening for a few days."},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.8, "text": "That's a quality issue. Let me check if there's anything on our end. Can you restart your modem?"},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 38.5, "text": "Sure, I'm unplugging it now... okay it's plugged back in. The lights are back on. Is that better? Let me test it."}
+  ]
+},
+{
+  "call_id": 86,
+  "metadata": {"call_type": "account", "agent_name": "Oliver", "duration": 26.9, "sentiment": "positive", "issue_category": "service_pause", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Oliver here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Hi Oliver. I'm going on a month-long vacation abroad and I want to pause my service instead of cancelling."},
+    {"speaker": "agent", "start_time": 20.1, "end_time": 26.9, "text": "That's perfect. I can suspend your service for up to 60 days without any cancellation fees."}
+  ]
+},
+{
+  "call_id": 87,
+  "metadata": {"call_type": "retention", "agent_name": "Priscilla", "duration": 43.2, "sentiment": "positive", "issue_category": "price_match", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention department."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Priscilla here. I see you're thinking of leaving. Can I help keep you?"},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "I got an offer from another company for cheaper rates. I like your service, but I can't justify paying more for the same thing."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "What's their rate? I might be able to match it or come close."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 43.2, "text": "They quoted me 65 dollars a month. I'm currently paying 85. Can you get me down to 70 at least?"}
+  ]
+},
+{
+  "call_id": 88,
+  "metadata": {"call_type": "support", "agent_name": "Quinn", "duration": 40.1, "sentiment": "positive", "issue_category": "activation_completion", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Quinn here. What do you need?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Quinn. I ordered new service last week and I got the equipment but I'm not sure if it's fully activated. What should I check?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "Good question. Can you check if there are any lights on the modem? Are any of them green?"},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 40.1, "text": "Yeah, I see some green lights. What does that mean? Am I good to go?"}
+  ]
+},
+{
+  "call_id": 89,
+  "metadata": {"call_type": "sales", "agent_name": "Richard", "duration": 35.6, "sentiment": "neutral", "product_category": "TV Package", "sale_completed": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Richard from sales. Interested in TV service?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.2, "text": "Maybe. I just want to make sure I'm not overpaying. I only watch a few channels so I don't need a huge package."},
+    {"speaker": "agent", "start_time": 21.9, "end_time": 28.5, "text": "We have a basic package with the most popular channels. Do you know which channels you usually watch?"},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 35.6, "text": "Mostly sports and news. That's pretty much it. What would that cost?"}
+  ]
+},
+{
+  "call_id": 90,
+  "metadata": {"call_type": "billing", "agent_name": "Sophia", "duration": 28.7, "sentiment": "positive", "issue_category": "credit_balance", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Sophia from billing. What can I do?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Sophia. I have a credit balance on my account from a previous refund. Can I use that to pay my next bill?"},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 28.7, "text": "Yes, absolutely. Your credit will be applied automatically to your next bill."}
+  ]
+},
+{
+  "call_id": 91,
+  "metadata": {"call_type": "support", "agent_name": "Terry", "duration": 39.3, "sentiment": "positive", "issue_category": "network_outage", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support line."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Terry here. What's going on?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.6, "text": "Hi Terry. My internet went out about an hour ago and it's still not back. Is there an outage in my area?"},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.9, "text": "Let me check... yes, there's an outage affecting your neighborhood. We're working on it."},
+    {"speaker": "caller", "start_time": 27.6, "end_time": 39.3, "text": "How long do you think it will take? And will I get a credit for this downtime?"}
+  ]
+},
+{
+  "call_id": 92,
+  "metadata": {"call_type": "general", "agent_name": "Ursula", "duration": 25.2, "sentiment": "positive", "issue_category": "speed_test_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Ursula here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.3, "text": "Hi Ursula. How do I run a speed test to check my internet? I want to see what I'm actually getting."},
+    {"speaker": "agent", "start_time": 20.0, "end_time": 25.2, "text": "Go to speedtest.net and click start. It'll test your speeds in just a minute."}
+  ]
+},
+{
+  "call_id": 93,
+  "metadata": {"call_type": "account", "agent_name": "Vincent", "duration": 32.1, "sentiment": "positive", "issue_category": "billing_address_update", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Vincent here. What do you need?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Vincent. I need to update my billing address. I moved but I haven't updated it yet."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 25.8, "text": "Easy fix. What's your new address?"},
+    {"speaker": "caller", "start_time": 26.5, "end_time": 32.1, "text": "It's 456 Maple Drive, New City, NY 10001."}
+  ]
+},
+{
+  "call_id": 94,
+  "metadata": {"call_type": "support", "agent_name": "Wendy", "duration": 36.8, "sentiment": "positive", "issue_category": "voicemail_setup", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Wendy here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Wendy. I need help setting up voicemail on my phone. I've never done it before."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.7, "text": "No problem. Press and hold the 1 key on your phone and it should connect you to voicemail."},
+    {"speaker": "caller", "start_time": 27.4, "end_time": 36.8, "text": "Okay, I did that and now it's asking me to set a password. What should I use?"}
+  ]
+},
+{
+  "call_id": 95,
+  "metadata": {"call_type": "sales", "agent_name": "Xavier", "duration": 41.3, "sentiment": "positive", "product_category": "Bundle", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Xavier from sales. Ready to hear about our bundles?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Yeah, I'm interested. I'm paying separately for everything right now and it's getting expensive. How much could I save?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Most people save 35-40 percent. What services are you currently using?"},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 41.3, "text": "I have internet, mobile, and I pay for streaming. Could you bundle the streaming too or is that separate?"}
+  ]
+},
+{
+  "call_id": 96,
+  "metadata": {"call_type": "billing", "agent_name": "Yolanda", "duration": 30.5, "sentiment": "neutral", "issue_category": "last_bill_inquiry", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Yolanda from billing. What do you need?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Yolanda. I cancelled my service and I wanted to know what my final bill will be."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 30.5, "text": "Let me calculate that for you. With your final charges and any credits, your bill is 65 dollars."}
+  ]
+},
+{
+  "call_id": 97,
+  "metadata": {"call_type": "retention", "agent_name": "Zachary", "duration": 38.7, "sentiment": "mixed", "issue_category": "service_complaint", "issue_resolved": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Zachary here. I understand you have some concerns?"},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "Yeah, I've had multiple issues with your service. Outages, slow speeds, billing errors. I'm not happy and I want to leave."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "I understand your frustration. Can I escalate this to my supervisor to see what we can do?"},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 38.7, "text": "I don't know. I'm pretty set on leaving, but if there's a significant offer, I'm willing to listen."}
+  ]
+},
+{
+  "call_id": 98,
+  "metadata": {"call_type": "support", "agent_name": "Amelia", "duration": 42.5, "sentiment": "positive", "issue_category": "service_upgrade_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Amelia here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Amelia. I upgraded my plan but I'm not getting faster speeds. Is there something I need to do on my end?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "Let me check if the upgrade was applied. Sometimes you need to restart your modem for the new speeds to kick in."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 42.5, "text": "Okay, I'm restarting it now... okay it's back up and the lights are green. Should be getting the faster speeds now?"}
+  ]
+},
+{
+  "call_id": 99,
+  "metadata": {"call_type": "general", "agent_name": "Bella", "duration": 27.8, "sentiment": "positive", "issue_category": "feature_information", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Bella here. What can I help with?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Hi Bella. I heard you have unlimited data options. Can you tell me more about that?"},
+    {"speaker": "agent", "start_time": 20.1, "end_time": 27.8, "text": "Yes, unlimited data is available on our premium mobile plans. No throttling, no limits."}
+  ]
+},
+{
+  "call_id": 100,
+  "metadata": {"call_type": "account", "agent_name": "Cameron", "duration": 34.6, "sentiment": "positive", "issue_category": "pin_reset", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Cameron here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Cameron. I forgot my account PIN and I can't access my voicemail. Can you reset it?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 25.8, "text": "Absolutely. I'll send you a reset link via email or text."},
+    {"speaker": "caller", "start_time": 26.5, "end_time": 34.6, "text": "Text is better, please. Should I get it right away?"}
+  ]
+},
+{
+  "call_id": 101,
+  "metadata": {"call_type": "support", "agent_name": "Dylan", "duration": 43.2, "sentiment": "positive", "issue_category": "packet_loss", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Dylan here. What's happening?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.6, "text": "Hi Dylan. I'm experiencing really bad lag when I'm gaming online. Like, people are teleporting around. It's making the game unplayable."},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.8, "text": "Lag can be caused by packet loss or high latency. Let me run a diagnostic on your line."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 43.2, "text": "Okay, that sounds good. How long does the diagnostic take? And if there's an issue, can you fix it?"}
+  ]
+},
+{
+  "call_id": 102,
+  "metadata": {"call_type": "sales", "agent_name": "Evelyn", "duration": 39.8, "sentiment": "neutral", "product_category": "Internet Plan", "sale_completed": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Evelyn from sales. Looking for faster internet?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.2, "text": "Maybe. I'm not sure if I need the upgrade. What speeds am I currently getting versus what you'd be offering?"},
+    {"speaker": "agent", "start_time": 21.9, "end_time": 28.5, "text": "Let me look that up. Can you give me your address or zip code?"},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 39.8, "text": "It's 77001. And like, will the upgrade require new equipment or will my current setup work?"}
+  ]
+},
+{
+  "call_id": 103,
+  "metadata": {"call_type": "billing", "agent_name": "Fiona", "duration": 31.2, "sentiment": "positive", "issue_category": "past_due_account", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Fiona from billing. How can I help?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Fiona. My account went past due and I just want to get caught up. What do I owe?"},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 25.2, "text": "You owe two months of service plus a late fee. The total is 185 dollars."},
+    {"speaker": "caller", "start_time": 25.9, "end_time": 31.2, "text": "Okay, I can pay that. Can I set up a payment plan for future bills?"}
+  ]
+},
+{
+  "call_id": 104,
+  "metadata": {"call_type": "general", "agent_name": "George", "duration": 28.5, "sentiment": "positive", "issue_category": "contract_question", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "George here. What's your question?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi George. I want to know about my contract terms. Is there an early termination fee if I cancel?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 28.5, "text": "Let me check your account. Your contract ends in six months with no early termination fee after that."}
+  ]
+},
+{
+  "call_id": 105,
+  "metadata": {"call_type": "retention", "agent_name": "Heidi", "duration": 40.3, "sentiment": "positive", "issue_category": "rate_reduction", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Heidi here. I see you've been a great customer. Can I offer you something?"},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "Well, I've been thinking about switching because my bill has gotten high. If you can bring down my rate, I'd consider staying."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Let me see what I can do for a loyal customer like you."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 40.3, "text": "How much can you reduce it? I'm currently paying about 95 dollars a month."}
+  ]
+},
+{
+  "call_id": 106,
+  "metadata": {"call_type": "support", "agent_name": "Isaac", "duration": 37.1, "sentiment": "positive", "issue_category": "service_transfer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Isaac here. What do you need?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Isaac. I'm moving to a new house and I want to transfer my service. Is that complicated?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.7, "text": "Not complicated at all. We can transfer your service to the new address. When are you moving?"},
+    {"speaker": "caller", "start_time": 27.4, "end_time": 37.1, "text": "Next month. Should I schedule the transfer now or wait until closer to the date?"}
+  ]
+},
+{
+  "call_id": 107,
+  "metadata": {"call_type": "sales", "agent_name": "Jessica", "duration": 44.1, "sentiment": "positive", "product_category": "Mobile Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Jessica from sales. Thinking about switching?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Yeah, I want to switch. My current provider is way too expensive and I heard you guys have better rates."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "We definitely do. What type of plan are you looking for - just talk and text, or do you need data?"},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 44.1, "text": "I need data. Like, a lot of data. I use my phone constantly. What's your best unlimited plan?"}
+  ]
+},
+{
+  "call_id": 108,
+  "metadata": {"call_type": "account", "agent_name": "Kevin", "duration": 29.8, "sentiment": "positive", "issue_category": "account_security_question", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Kevin here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Kevin. I want to add a password or PIN to my account so my family can't make changes without asking."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 29.8, "text": "Good idea. I can set up a PIN that will be required for any account changes."}
+  ]
+},
+{
+  "call_id": 109,
+  "metadata": {"call_type": "support", "agent_name": "Laura", "duration": 35.4, "sentiment": "positive", "issue_category": "dns_configuration", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Laura here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Laura. I'm having trouble accessing some websites. It says DNS error. I don't even know what that means."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "DNS is like a phonebook for the internet. Let me have you try changing your DNS settings."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 35.4, "text": "Okay, I'm following your instructions... should I try accessing the website again?"}
+  ]
+},
+{
+  "call_id": 110,
+  "metadata": {"call_type": "billing", "agent_name": "Marcus", "duration": 33.7, "sentiment": "neutral", "issue_category": "account_cancellation_bill", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Marcus from billing. What do you need?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Marcus. I cancelled my service and I want to make sure there's no lingering charges or fees on my account."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 25.2, "text": "Let me verify that your account is fully closed out."},
+    {"speaker": "caller", "start_time": 25.9, "end_time": 33.7, "text": "Good. How long until I get my final bill? And is there anything else I need to do?"}
+  ]
+},
+{
+  "call_id": 111,
+  "metadata": {"call_type": "retention", "agent_name": "Nina", "duration": 39.5, "sentiment": "positive", "issue_category": "win_back_incentive", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Nina here. I see you're a previous customer. Would you consider coming back?"},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "Maybe. I left because of pricing. But if you've got a good offer for returning customers, I might reconsider."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "Actually, yes. We have a special offer for returning customers with 30 percent off for six months."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 39.5, "text": "Really? 30 percent off? That's interesting. What else would be included?"}
+  ]
+},
+{
+  "call_id": 112,
+  "metadata": {"call_type": "general", "agent_name": "Owen", "duration": 26.3, "sentiment": "positive", "issue_category": "equipment_return", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Owen here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Hi Owen. I cancelled my service and I have equipment I need to return. How do I do that?"},
+    {"speaker": "agent", "start_time": 20.1, "end_time": 26.3, "text": "We'll email you a prepaid shipping label. Just pack it up and drop it off at any UPS store."}
+  ]
+},
+{
+  "call_id": 113,
+  "metadata": {"call_type": "support", "agent_name": "Paula", "duration": 42.8, "sentiment": "positive", "issue_category": "bandwidth_optimization", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Paula here. What's happening?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.6, "text": "Hi Paula. Multiple people use my internet and when they're all online, everything gets really slow. Is there a way to prioritize my work stuff?"},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.8, "text": "Yes, some routers have QoS settings that let you prioritize devices. Let me help you configure that."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 42.8, "text": "That sounds perfect. How do I access those settings? Are they in my router or in the Haiku app?"}
+  ]
+},
+{
+  "call_id": 114,
+  "metadata": {"call_type": "sales", "agent_name": "Quincy", "duration": 38.2, "sentiment": "neutral", "product_category": "Device", "sale_completed": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Quincy from sales. Want to check out our latest phones?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.2, "text": "Maybe. I'm not sure if it's a good time to upgrade. Can you tell me what's the latest model you have?"},
+    {"speaker": "agent", "start_time": 21.9, "end_time": 28.5, "text": "The newest is the Galaxy 24 Ultra. It's an amazing phone with a fantastic camera."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 38.2, "text": "What's the price? And do you have financing options? I don't want to pay the full amount upfront."}
+  ]
+},
+{
+  "call_id": 115,
+  "metadata": {"call_type": "account", "agent_name": "Rachel", "duration": 30.4, "sentiment": "positive", "issue_category": "family_plan_management", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Rachel here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Rachel. I have a family plan and I need to remove my son from the account. He moved out."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 25.8, "text": "I can remove him right now. His line will be terminated at the end of this billing cycle."},
+    {"speaker": "caller", "start_time": 26.5, "end_time": 30.4, "text": "Good. How much will my bill decrease?"}
+  ]
+},
+{
+  "call_id": 116,
+  "metadata": {"call_type": "support", "agent_name": "Samuel", "duration": 41.3, "sentiment": "positive", "issue_category": "vpn_setup", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Samuel here. What do you need?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Samuel. I want to use a VPN on my home network for security. Is that allowed and do I need to do anything special?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "VPN is absolutely allowed. You should be able to set it up on your device or router depending on your preference."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 41.3, "text": "Great. Will it slow down my internet speeds? I'm worried about performance issues."}
+  ]
+},
+{
+  "call_id": 117,
+  "metadata": {"call_type": "billing", "agent_name": "Tanya", "duration": 32.6, "sentiment": "positive", "issue_category": "dispute_resolution", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Tanya from billing. What's the issue?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Tanya. I was charged for a service I cancelled last month. It's still showing on my bill."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 25.2, "text": "Let me investigate that. It might be a processing delay."},
+    {"speaker": "caller", "start_time": 25.9, "end_time": 32.6, "text": "Can you just remove the charge? I cancelled that service."}
+  ]
+},
+{
+  "call_id": 118,
+  "metadata": {"call_type": "general", "agent_name": "Uma", "duration": 25.1, "sentiment": "positive", "issue_category": "service_comparison", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Uma here. What can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.3, "text": "Hi Uma. Can you compare your basic and premium plans? I want to know what's the difference."},
+    {"speaker": "agent", "start_time": 20.0, "end_time": 25.1, "text": "Sure! Basic is good for light users. Premium has higher speeds and priority support."}
+  ]
+},
+{
+  "call_id": 119,
+  "metadata": {"call_type": "retention", "agent_name": "Victor", "duration": 37.9, "sentiment": "positive", "issue_category": "special_circumstance_offer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Victor here. I see you've been a customer for many years. I want to make sure we keep you."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "Well, I've been loyal but my costs keep going up. The value just doesn't feel there anymore."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "Let me see what special offer I can put together for a long-term loyal customer."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 37.9, "text": "If you can make it worth my while, I'll stay. What can you offer?"}
+  ]
+},
+{
+  "call_id": 120,
+  "metadata": {"call_type": "support", "agent_name": "Wendy", "duration": 39.6, "sentiment": "positive", "issue_category": "battery_drain", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Wendy here. What's happening?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.6, "text": "Hi Wendy. My phone battery has been draining super fast. Like, I lose 20 percent in an hour even when I'm not using it heavily."},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.8, "text": "Battery drain is usually caused by background apps or old battery. Have you tried force closing background apps?"},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 39.6, "text": "How do I force close apps? And is this something I should worry about, or will a battery replacement fix it?"}
+  ]
+},
+{
+  "call_id": 121,
+  "metadata": {"call_type": "sales", "agent_name": "Xavier", "duration": 40.5, "sentiment": "positive", "product_category": "Bundle", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Xavier from sales. Ready to consolidate your services?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Yeah, I'm interested. I have four different providers right now and it's chaos. How much could I save with a bundle?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "A lot! Depending on what you have, typically 35-45 percent savings."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 40.5, "text": "That's pretty impressive. What would I need to give up to get that deal? Are there any trade-offs?"}
+  ]
+},
+{
+  "call_id": 122,
+  "metadata": {"call_type": "billing", "agent_name": "Yolanda", "duration": 34.2, "sentiment": "neutral", "issue_category": "tax_id_verification", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Yolanda from billing. What do you need?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Yolanda. I need to update the tax ID on my business account. I got a new business license."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 25.2, "text": "I can update that for you. What's the new tax ID?"},
+    {"speaker": "caller", "start_time": 25.9, "end_time": 34.2, "text": "It's on my new license. Do you need the entire number or just the last four digits?"}
+  ]
+},
+{
+  "call_id": 123,
+  "metadata": {"call_type": "account", "agent_name": "Zachary", "duration": 28.9, "sentiment": "positive", "issue_category": "statement_preference", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Zachary here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Zachary. I want to go paperless. Can I have my bills sent only by email instead of by mail?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 28.9, "text": "Absolutely. That also saves you money with a small discount on your monthly bill."}
+  ]
+},
+{
+  "call_id": 124,
+  "metadata": {"call_type": "support", "agent_name": "Alexis", "duration": 36.4, "sentiment": "positive", "issue_category": "phone_not_connecting", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Alexis here. What's the problem?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Alexis. I just got a new phone on my plan but it won't activate. It's not connecting to the network."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "New phone activation can take up to 24 hours. Have you restarted the phone?"},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 36.4, "text": "No, let me try that... I'm restarting it now. Hopefully it connects when it boots back up."}
+  ]
+},
+{
+  "call_id": 125,
+  "metadata": {"call_type": "general", "agent_name": "Bella", "duration": 24.3, "sentiment": "positive", "issue_category": "next_gen_tech", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Bella here. What can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.3, "text": "Hi Bella. Do you guys have 5G? I want the latest technology."},
+    {"speaker": "agent", "start_time": 20.0, "end_time": 24.3, "text": "Yes! Our 5G coverage is expanding. Check our coverage map on the website."}
+  ]
+},
+{
+  "call_id": 126,
+  "metadata": {"call_type": "retention", "agent_name": "Cameron", "duration": 43.1, "sentiment": "negative", "issue_category": "final_attempt", "issue_resolved": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Cameron here. I see you want to cancel. Can I talk you out of it?"},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "I don't think so. I've given you guys plenty of chances. Poor service, outages, and terrible billing. I'm done."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "I understand. I'm truly sorry it didn't work out. Let me process your cancellation."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 43.1, "text": "Thanks. Just make sure I don't get billed again and send me the final bill."}
+  ]
+},
+{
+  "call_id": 127,
+  "metadata": {"call_type": "support", "agent_name": "Dylan", "duration": 38.7, "sentiment": "positive", "issue_category": "smart_home_compatibility", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Dylan here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Dylan. I'm setting up smart home devices and I want to make sure my internet is compatible. What do I need?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "Smart devices just need WiFi. Our service works great with most smart home systems."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 38.7, "text": "Good to know. Is there anything about bandwidth or network settings I should be aware of?"}
+  ]
+},
+{
+  "call_id": 128,
+  "metadata": {"call_type": "sales", "agent_name": "Evelyn", "duration": 39.2, "sentiment": "positive", "product_category": "Internet Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Evelyn from sales. Looking for better internet?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Yeah, I'm moving and I need to set up internet. I want something fast and reliable for remote work."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Our premium plans are perfect for that. We guarantee reliability with our business SLA."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 39.2, "text": "Great! What speeds are we talking and what's the monthly cost?"}
+  ]
+},
+{
+  "call_id": 129,
+  "metadata": {"call_type": "billing", "agent_name": "Fiona", "duration": 30.3, "sentiment": "positive", "issue_category": "credits_applied", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Fiona from billing. What do you need?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Fiona. I was promised a credit for an outage last month. I don't see it on my bill."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 25.2, "text": "Let me check. That credit should have applied. I can re-issue it if needed."},
+    {"speaker": "caller", "start_time": 25.9, "end_time": 30.3, "text": "When will it show up? I want to make sure before I pay the bill."}
+  ]
+},
+{
+  "call_id": 130,
+  "metadata": {"call_type": "account", "agent_name": "George", "duration": 32.5, "sentiment": "positive", "issue_category": "payment_arrangement", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "George here. What's the question?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi George. I'm having financial trouble and I can't pay my full bill this month. Can we work out a payment plan?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 25.8, "text": "Absolutely. We have payment plan options. How much can you pay this month?"},
+    {"speaker": "caller", "start_time": 26.5, "end_time": 32.5, "text": "I can pay about half. Can I pay the rest next month?"}
+  ]
+},
+{
+  "call_id": 131,
+  "metadata": {"call_type": "support", "agent_name": "Hannah", "duration": 35.2, "sentiment": "positive", "issue_category": "streaming_quality", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Hannah here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Hannah. My video streaming keeps pausing to buffer. I'm getting really poor quality."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "Let me run a speed test on your line to see what's happening."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 35.2, "text": "Okay, how long does it take? And what speeds am I getting?"}
+  ]
+},
+{
+  "call_id": 132,
+  "metadata": {"call_type": "general", "agent_name": "Isaac", "duration": 26.1, "sentiment": "positive", "issue_category": "senior_discount", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Isaac here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Hi Isaac. I'm a senior and I was wondering if you have senior discounts on service."},
+    {"speaker": "agent", "start_time": 20.1, "end_time": 26.1, "text": "Yes, we do. We offer special senior discounts. Let me check your eligibility."}
+  ]
+},
+{
+  "call_id": 133,
+  "metadata": {"call_type": "retention", "agent_name": "Jessica", "duration": 41.3, "sentiment": "positive", "issue_category": "family_bundle_offer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Jessica here. Thank you for being with us. Can I offer you something special?"},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "What kind of something? I'm always looking for ways to save money on my bill."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "We have a family bundle offer that could save you 25 percent if you have multiple lines."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 41.3, "text": "That sounds good. I do have multiple family members on my account. How does this work?"}
+  ]
+},
+{
+  "call_id": 134,
+  "metadata": {"call_type": "support", "agent_name": "Kevin", "duration": 37.6, "sentiment": "positive", "issue_category": "backup_solution", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Kevin here. What can I help with?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Kevin. My internet goes out sometimes and I really need backup internet for my business. What are my options?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "We have mobile hotspot plans that can serve as backup. Or you could add a second internet line."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 37.6, "text": "What would that cost? I just need something for emergencies when my main line is down."}
+  ]
+},
+{
+  "call_id": 135,
+  "metadata": {"call_type": "sales", "agent_name": "Laura", "duration": 43.8, "sentiment": "positive", "product_category": "Mobile Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Laura from sales. Ready to switch providers?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Yeah, I think so. I've been with my current provider forever and I'm not getting good service. You guys must be better."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "We definitely have excellent coverage. What kind of data and talk plans are you looking for?"},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 43.8, "text": "Unlimited everything would be ideal. Unlimited calls, texts, and data. What's your cheapest unlimited plan?"}
+  ]
+},
+{
+  "call_id": 136,
+  "metadata": {"call_type": "billing", "agent_name": "Marcus", "duration": 28.4, "sentiment": "neutral", "issue_category": "invoice_detail", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Marcus from billing. What do you need?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Marcus. I got my invoice but I don't understand all the charges. Can you walk me through it?"},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 28.4, "text": "Of course. Let me explain each line item on your bill."}
+  ]
+},
+{
+  "call_id": 137,
+  "metadata": {"call_type": "account", "agent_name": "Nina", "duration": 31.7, "sentiment": "positive", "issue_category": "service_notification_settings", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Nina here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Nina. I'm getting too many emails from you guys about my account. Can I change my notification settings?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.7, "text": "Absolutely. You can control what notifications you receive in your account settings."},
+    {"speaker": "caller", "start_time": 27.4, "end_time": 31.7, "text": "Thanks. That'll help reduce the clutter in my email."}
+  ]
+},
+{
+  "call_id": 138,
+  "metadata": {"call_type": "support", "agent_name": "Oscar", "duration": 34.8, "sentiment": "positive", "issue_category": "device_syncing", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Oscar here. What's happening?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Oscar. I got a new tablet and I want to add it to my account and sync my data. How do I do that?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.7, "text": "You need to log in with your account credentials on the tablet. That will sync everything."},
+    {"speaker": "caller", "start_time": 27.4, "end_time": 34.8, "text": "Good, I'll try that. Will I be charged extra for adding a device?"}
+  ]
+},
+{
+  "call_id": 139,
+  "metadata": {"call_type": "general", "agent_name": "Priscilla", "duration": 27.2, "sentiment": "positive", "issue_category": "coverage_map", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Priscilla here. What's your question?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Hi Priscilla. I'm considering switching and I want to know about your coverage. Is there a map online?"},
+    {"speaker": "agent", "start_time": 20.1, "end_time": 27.2, "text": "Yes, visit our website and use the coverage checker. Just enter your address."}
+  ]
+},
+{
+  "call_id": 140,
+  "metadata": {"call_type": "retention", "agent_name": "Quincy", "duration": 39.4, "sentiment": "positive", "issue_category": "churn_prevention", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Quincy here. I see you're a valuable customer. How can I keep you?"},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "I've been thinking about leaving. Your competitor is offering better speeds for less money."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "I understand. Let me check if I can match their offer or give you something even better."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 39.4, "text": "Okay. I'm listening. What can you offer me?"}
+  ]
+},
+{
+  "call_id": 141,
+  "metadata": {"call_type": "support", "agent_name": "Rachel", "duration": 36.3, "sentiment": "positive", "issue_category": "ipv6_upgrade", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Rachel here. What do you need?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Rachel. I heard about IPv6. Do you support it on my account?"},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "We do support IPv6. It's enabled automatically on most modern modems."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 36.3, "text": "Is it faster? What's the benefit of IPv6?"}
+  ]
+},
+{
+  "call_id": 142,
+  "metadata": {"call_type": "sales", "agent_name": "Samuel", "duration": 41.1, "sentiment": "positive", "product_category": "TV Package", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Samuel from sales. Interested in our TV service?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Maybe. I'm currently streaming everything but I miss some live channels. What's your basic package?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "We have 150+ channels in our basic package, including all the major networks and sports."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 41.1, "text": "That sounds good. What would it cost if I bundle it with my current internet service?"}
+  ]
+},
+{
+  "call_id": 143,
+  "metadata": {"call_type": "billing", "agent_name": "Tanya", "duration": 32.9, "sentiment": "positive", "issue_category": "promotional_code", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Tanya from billing. What do you need?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Tanya. I got a promotional code in the mail. Can you apply it to my account?"},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 25.2, "text": "Of course! What's the code?"},
+    {"speaker": "caller", "start_time": 25.9, "end_time": 32.9, "text": "It's HAI50OFF. Does it look valid? Should I be getting a discount?"}
+  ]
+},
+{
+  "call_id": 144,
+  "metadata": {"call_type": "account", "agent_name": "Uma", "duration": 29.6, "sentiment": "positive", "issue_category": "name_change", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Uma here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Hi Uma. I need to change the name on my account. I got married and changed my name legally."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 25.8, "text": "Congratulations! I can update that right now. What's your new name?"},
+    {"speaker": "caller", "start_time": 26.5, "end_time": 29.6, "text": "It's Sarah Johnson now."}
+  ]
+},
+{
+  "call_id": 145,
+  "metadata": {"call_type": "support", "agent_name": "Victor", "duration": 38.1, "sentiment": "positive", "issue_category": "static_noise", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Victor here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.6, "text": "Hi Victor. My home phone has been making static noise. It makes it really hard to hear people when they call."},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.8, "text": "Static on a home phone usually means a line quality issue. Let me check our end."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 38.1, "text": "Is it something that will go away or do I need a technician to come look at it?"}
+  ]
+},
+{
+  "call_id": 146,
+  "metadata": {"call_type": "general", "agent_name": "Wendy", "duration": 25.8, "sentiment": "positive", "issue_category": "equipment_upgrade_info", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Wendy here. What can I help?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Hi Wendy. I heard you have newer modems available. Can I upgrade to one?"},
+    {"speaker": "agent", "start_time": 20.1, "end_time": 25.8, "text": "Yes! Our newer models have better WiFi. You can request an upgrade anytime."}
+  ]
+},
+{
+  "call_id": 147,
+  "metadata": {"call_type": "retention", "agent_name": "Xavier", "duration": 42.7, "sentiment": "positive", "issue_category": "service_quality_improvement", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Xavier here. I want to make sure you're happy with our service."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "Honestly, it's been okay but not great. I've had some outages and the speeds could be better."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "Those are things we can improve. What if I upgraded you to our premium tier for the same price?"},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 42.7, "text": "Really? That would be great. What's included in the premium tier?"}
+  ]
+},
+{
+  "call_id": 148,
+  "metadata": {"call_type": "support", "agent_name": "Yolanda", "duration": 39.5, "sentiment": "positive", "issue_category": "external_hard_drive_connect", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Technical support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Yolanda here. What's the problem?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.6, "text": "Hi Yolanda. I'm trying to connect an external hard drive to my home network but it's not showing up on my devices."},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.8, "text": "External drives need to be connected to a device first, then shared on the network. Have you done that?"},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 39.5, "text": "Oh, no, I didn't know that. How do I connect it first?"}
+  ]
+},
+{
+  "call_id": 149,
+  "metadata": {"call_type": "sales", "agent_name": "Zachary", "duration": 40.3, "sentiment": "neutral", "product_category": "Mobile Plan", "sale_completed": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Zachary from sales. Can I help you find the right plan?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.2, "text": "Maybe. I want to switch but I'm worried about early termination fees with my current provider."},
+    {"speaker": "agent", "start_time": 21.9, "end_time": 28.5, "text": "We can often help cover those fees. What provider are you with?"},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 40.3, "text": "I'm with Verizon. Do you really cover those fees? I want to make sure that's legit."}
+  ]
+},
+{
+  "call_id": 150,
+  "metadata": {"call_type": "billing", "agent_name": "Alexis", "duration": 31.4, "sentiment": "neutral", "issue_category": "account_age_verification", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Alexis from billing. What do you need?"},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Hi Alexis. I'm looking at my account age and I wanted to confirm when I first signed up with you guys."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 31.4, "text": "Let me pull that up for you. You've been with us since 2019. That's a great account history."}
+  ]
+}
+]
