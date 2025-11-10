@@ -1,0 +1,120 @@
+[
+{
+  "call_id": 31,
+  "metadata": {"call_type": "sales", "agent_name": "Amanda", "duration": 45.3, "sentiment": "positive", "product_category": "Device", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales and service."},
+    {"speaker": "agent", "start_time": 6.2, "end_time": 12.1, "text": "Amanda with Telecom Haiku. What brings you in?"},
+    {"speaker": "caller", "start_time": 12.9, "end_time": 22.4, "text": "Hi Amanda. My phone is pretty old and dying. I'm looking at getting a new one. Do you guys sell phones?"},
+    {"speaker": "agent", "start_time": 23.1, "end_time": 30.5, "text": "We absolutely do. What kind of phone are you interested in? Apple or Android?"},
+    {"speaker": "caller", "start_time": 31.2, "end_time": 38.7, "text": "Android. I want something with a good camera and long battery life."},
+    {"speaker": "agent", "start_time": 39.4, "end_time": 45.3, "text": "Perfect. We have several models in stock. Want me to tell you about payment options?"}
+  ]
+},
+{
+  "call_id": 32,
+  "metadata": {"call_type": "support", "agent_name": "Chris", "duration": 41.8, "sentiment": "positive", "issue_category": "connection_drops", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Tech support."},
+    {"speaker": "agent", "start_time": 5.2, "end_time": 10.5, "text": "Chris here. What's the trouble?"},
+    {"speaker": "caller", "start_time": 11.3, "end_time": 20.7, "text": "Hi Chris. My WiFi keeps dropping when I'm on video calls. It's really annoying because I'm on them a lot for work."},
+    {"speaker": "agent", "start_time": 21.4, "end_time": 28.1, "text": "That could be interference or your router being overloaded. Are other people using your WiFi?"},
+    {"speaker": "caller", "start_time": 28.8, "end_time": 35.3, "text": "Yeah, my roommate also uses it. Could that be the issue?"},
+    {"speaker": "agent", "start_time": 36.0, "end_time": 41.8, "text": "Possibly. Try switching to the 5GHz band when you do calls. It handles video better with less interference."}
+  ]
+},
+{
+  "call_id": 33,
+  "metadata": {"call_type": "billing", "agent_name": "Lisa", "duration": 38.5, "sentiment": "neutral", "issue_category": "service_adjustment", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.1, "text": "Billing services."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 10.6, "text": "Lisa from billing. What can I help?"},
+    {"speaker": "caller", "start_time": 11.4, "end_time": 19.8, "text": "Hi Lisa. I had a service for like three months but I'm cancelling it now. I need to make sure I'm not charged for next month."},
+    {"speaker": "agent", "start_time": 20.5, "end_time": 26.2, "text": "Absolutely. I'm cancelling that service effective immediately."},
+    {"speaker": "caller", "start_time": 26.9, "end_time": 33.4, "text": "Good. Will I get any kind of prorated refund for this month?"},
+    {"speaker": "agent", "start_time": 34.1, "end_time": 38.5, "text": "Let me calculate that. Yes, you'll get a partial refund of 8 dollars."}
+  ]
+},
+{
+  "call_id": 34,
+  "metadata": {"call_type": "account", "agent_name": "Robert", "duration": 36.2, "sentiment": "positive", "issue_category": "address_change", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 3.9, "text": "Account services."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.4, "text": "Robert here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.2, "end_time": 19.6, "text": "Hi Robert. I'm relocating for work next month and I need to update the service address for my account."},
+    {"speaker": "agent", "start_time": 20.3, "end_time": 26.8, "text": "No problem. I can update that. What's your new address?"},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 33.1, "text": "It's 890 Oak Boulevard, Suite 4, Northtown."},
+    {"speaker": "agent", "start_time": 33.8, "end_time": 36.2, "text": "Done. We'll have service available at that location."}
+  ]
+},
+{
+  "call_id": 35,
+  "metadata": {"call_type": "support", "agent_name": "Jennifer", "duration": 43.7, "sentiment": "positive", "issue_category": "signal_strength", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Technical support line."},
+    {"speaker": "agent", "start_time": 5.4, "end_time": 11.1, "text": "Jennifer from tech support. What's going on?"},
+    {"speaker": "caller", "start_time": 11.9, "end_time": 21.3, "text": "Hi Jennifer. My mobile signal has been really weak lately. I'm barely getting any bars, even outdoors. This is new."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Let me check if there's network maintenance happening in your area. Can you give me your location?"},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 36.8, "text": "Sure. I'm in downtown area, near Fifth and Main Streets."},
+    {"speaker": "agent", "start_time": 37.5, "end_time": 43.7, "text": "I see we're upgrading towers in that area. Signal should be back to normal within a week or two."}
+  ]
+},
+{
+  "call_id": 36,
+  "metadata": {"call_type": "retention", "agent_name": "Susan", "duration": 40.1, "sentiment": "positive", "issue_category": "competing_offer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.3, "text": "Customer retention."},
+    {"speaker": "agent", "start_time": 5.5, "end_time": 11.2, "text": "Susan from retention. I understand you're considering other options?"},
+    {"speaker": "caller", "start_time": 12.0, "end_time": 21.5, "text": "Yeah, a competitor just called me with a really good offer. They're giving me triple the speeds for less money."},
+    {"speaker": "agent", "start_time": 22.2, "end_time": 29.8, "text": "I'd love to keep you. What specific offer did they make? Maybe we can work something out."},
+    {"speaker": "caller", "start_time": 30.5, "end_time": 38.9, "text": "They said 1000 Mbps for 79 dollars a month for a year."},
+    {"speaker": "agent", "start_time": 39.6, "end_time": 40.1, "text": "That is competitive. Let me check with my supervisor."}
+  ]
+},
+{
+  "call_id": 37,
+  "metadata": {"call_type": "general", "agent_name": "Mark", "duration": 33.8, "sentiment": "positive", "issue_category": "service_check", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 3.8, "text": "Telecom Haiku."},
+    {"speaker": "agent", "start_time": 5.0, "end_time": 10.3, "text": "Mark here. How can I help?"},
+    {"speaker": "caller", "start_time": 11.1, "end_time": 19.5, "text": "Hi Mark. I'm interested in switching and I wanted to know if you guys can service my area. I'm in a rural location."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.7, "text": "I can check that for you. What's your address or zip code?"},
+    {"speaker": "caller", "start_time": 27.4, "end_time": 33.8, "text": "It's 56789 Valley Road, out in Millcreek."}
+  ]
+},
+{
+  "call_id": 38,
+  "metadata": {"call_type": "sales", "agent_name": "Emily", "duration": 39.4, "sentiment": "neutral", "product_category": "TV Package", "sale_completed": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales department."},
+    {"speaker": "agent", "start_time": 6.2, "end_time": 12.1, "text": "Emily from sales. What can I tell you about?"},
+    {"speaker": "caller", "start_time": 12.9, "end_time": 22.4, "text": "Hi Emily. I'm wondering about your TV service. My cable provider just increased my rates and I'm frustrated."},
+    {"speaker": "agent", "start_time": 23.1, "end_time": 30.5, "text": "We have some great TV packages that are very competitively priced. Do you watch a lot of cable?"},
+    {"speaker": "caller", "start_time": 31.2, "end_time": 39.4, "text": "Moderate amount. I like sports, news, and some movies. Just want to make sure you have the channels I want."}
+  ]
+},
+{
+  "call_id": 39,
+  "metadata": {"call_type": "billing", "agent_name": "David", "duration": 41.6, "sentiment": "positive", "issue_category": "invoice_question", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.1, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 10.6, "text": "David from billing. What can I do?"},
+    {"speaker": "caller", "start_time": 11.4, "end_time": 19.8, "text": "Hi David. I got my bill but I don't understand one of the line items. What's this equipment rental charge for?"},
+    {"speaker": "agent", "start_time": 20.5, "end_time": 26.2, "text": "That's for your modem and router. You're renting them from us rather than owning them."},
+    {"speaker": "caller", "start_time": 26.9, "end_time": 33.4, "text": "Oh I see. Can I just buy them instead of renting? I'd rather own them."},
+    {"speaker": "agent", "start_time": 34.1, "end_time": 41.6, "text": "Absolutely. You can purchase them for a one-time fee and no more rental charges. Would you like to do that?"}
+  ]
+},
+{
+  "call_id": 40,
+  "metadata": {"call_type": "support", "agent_name": "Patricia", "duration": 37.9, "sentiment": "positive", "issue_category": "cable_problem", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support line."},
+    {"speaker": "agent", "start_time": 5.2, "end_time": 10.5, "text": "Patricia here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.3, "end_time": 20.7, "text": "Hi Patricia. One of the cables coming into my house is loose and I'm worried about weather damage. Can someone come fix it?"},
+    {"speaker": "agent", "start_time": 21.4, "end_time": 28.1, "text": "Good catch. We can send a technician to secure that for you. When are you available?"},
+    {"speaker": "caller", "start_time": 28.8, "end_time": 35.3, "text": "I'm usually home on weekends. Saturday would work great."},
+    {"speaker": "agent", "start_time": 36.0, "end_time": 37.9, "text": "Perfect. I'm scheduling you for this Saturday morning."}
+  ]
+}
+]

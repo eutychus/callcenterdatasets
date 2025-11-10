@@ -1,0 +1,110 @@
+[
+{
+  "call_id": 2,
+  "metadata": {"call_type": "sales", "agent_name": "Mike", "duration": 51.7, "sentiment": "neutral", "product_category": "Mobile Plan", "sale_completed": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.2, "text": "Thank you for calling Telecom Haiku. Your call is important. Please hold for the next available representative."},
+    {"speaker": "agent", "start_time": 6.4, "end_time": 12.1, "text": "Hey there, Mike from our sales team. What can I help you explore today?"},
+    {"speaker": "caller", "start_time": 13.0, "end_time": 22.3, "text": "Hi Mike. So I've been with my current provider for years, but I keep hearing good things about Telecom Haiku. I'm curious what you guys offer."},
+    {"speaker": "agent", "start_time": 23.0, "end_time": 30.8, "text": "Great question. We've really stepped up our game lately. We offer competitive pricing, excellent coverage, and you'd get unlimited talk and text."},
+    {"speaker": "caller", "start_time": 31.5, "end_time": 38.9, "text": "Unlimited text is nice. What about data though? I use a lot of data for streaming and stuff."},
+    {"speaker": "agent", "start_time": 39.5, "end_time": 51.7, "text": "We've got plans with unlimited data too. Would you want to hear about those options, or should I send you information and you can think about it?"}
+  ]
+},
+{
+  "call_id": 3,
+  "metadata": {"call_type": "billing", "agent_name": "Jennifer", "duration": 38.4, "sentiment": "negative", "issue_category": "charge_dispute", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 3.8, "text": "Telecom Haiku billing department. Have your account number ready."},
+    {"speaker": "agent", "start_time": 5.0, "end_time": 9.3, "text": "Hi this is Jennifer, billing. What's going on with your account?"},
+    {"speaker": "caller", "start_time": 10.1, "end_time": 18.7, "text": "Yeah I'm looking at my bill and I was charged 25 dollars for something called 'premium support' that I definitely didn't ask for."},
+    {"speaker": "agent", "start_time": 19.4, "end_time": 25.6, "text": "Let me look at that for you. I see the charge. Can you give me your account number so I can pull everything up?"},
+    {"speaker": "caller", "start_time": 26.2, "end_time": 31.5, "text": "It's 45678 9012 3456."},
+    {"speaker": "agent", "start_time": 32.1, "end_time": 38.4, "text": "Okay, I found it. That fee shouldn't be there. I'm removing it right now and you'll see a credit next billing cycle."}
+  ]
+},
+{
+  "call_id": 4,
+  "metadata": {"call_type": "support", "agent_name": "David", "duration": 55.1, "sentiment": "mixed", "issue_category": "wifi_coverage", "issue_resolved": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.3, "text": "Telecom Haiku technical support. Press 1 to continue."},
+    {"speaker": "agent", "start_time": 5.5, "end_time": 11.2, "text": "David here. What's the trouble with your service?"},
+    {"speaker": "caller", "start_time": 12.0, "end_time": 24.8, "text": "So I've got this dead zone in my bedroom. WiFi just doesn't reach back there at all. My router's in the living room and it's just not getting that far. It's kind of frustrating because that's where I like to relax."},
+    {"speaker": "agent", "start_time": 25.5, "end_time": 32.9, "text": "Yeah WiFi range can be tricky with obstacles and distance. How far away is your bedroom from the router?"},
+    {"speaker": "caller", "start_time": 33.6, "end_time": 40.2, "text": "Maybe like 40, 50 feet? And there's a couple walls between them."},
+    {"speaker": "agent", "start_time": 40.9, "end_time": 55.1, "text": "That's probably the issue. Walls really kill the signal. You could try moving your router to a more central location, or consider getting a WiFi extender. Those aren't too expensive."}
+  ]
+},
+{
+  "call_id": 5,
+  "metadata": {"call_type": "sales", "agent_name": "Lisa", "duration": 42.8, "sentiment": "positive", "product_category": "Bundle", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Telecom Haiku. Please hold for a representative."},
+    {"speaker": "agent", "start_time": 6.2, "end_time": 12.0, "text": "Hi, I'm Lisa from Telecom Haiku. Are you interested in learning about our services?"},
+    {"speaker": "caller", "start_time": 12.8, "end_time": 21.3, "text": "Yeah actually, I'm paying for internet with one company, mobile with another, it's getting expensive. I heard you guys do bundles?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 29.7, "text": "Absolutely! We can bundle internet, mobile, and TV service. Most people save around 30 percent when they bundle with us."},
+    {"speaker": "caller", "start_time": 30.4, "end_time": 37.2, "text": "That sounds amazing. Yeah, what would that cost me per month?"},
+    {"speaker": "agent", "start_time": 37.9, "end_time": 42.8, "text": "For all three services, I can get you set up at 99 dollars a month. Want to move forward?"}
+  ]
+},
+{
+  "call_id": 6,
+  "metadata": {"call_type": "support", "agent_name": "Robert", "duration": 44.5, "sentiment": "positive", "issue_category": "device_setup", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.5, "text": "Welcome. For support, press 1."},
+    {"speaker": "agent", "start_time": 5.7, "end_time": 10.8, "text": "Robert speaking. Technical support. What can I do for you?"},
+    {"speaker": "caller", "start_time": 11.5, "end_time": 20.2, "text": "Hi Robert. So I just got this new modem from you guys but I have no idea how to hook it all up. There's like a million cables."},
+    {"speaker": "agent", "start_time": 20.9, "end_time": 28.4, "text": "No problem, we'll get you sorted. The main cable from your wall goes into the port labeled 'modem in'. Do you see that?"},
+    {"speaker": "caller", "start_time": 29.1, "end_time": 35.6, "text": "Yeah, yeah I see it. Okay, so I'm plugging this cable in..."},
+    {"speaker": "agent", "start_time": 36.2, "end_time": 44.5, "text": "Good. Now the other cable is your power cord. Once you plug everything in, give it a minute and the lights should come on. You should be good to go after that."}
+  ]
+},
+{
+  "call_id": 7,
+  "metadata": {"call_type": "retention", "agent_name": "Emily", "duration": 46.3, "sentiment": "negative", "issue_category": "competitor_offer", "issue_resolved": false},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Telecom Haiku customer service."},
+    {"speaker": "agent", "start_time": 5.4, "end_time": 11.1, "text": "Hi, Emily here. I see you're calling about your account. How can I help?"},
+    {"speaker": "caller", "start_time": 11.9, "end_time": 21.5, "text": "Yeah, so I've been a customer for a long time but I got this offer from another company and they're offering way better rates than what I'm paying."},
+    {"speaker": "agent", "start_time": 22.2, "end_time": 28.8, "text": "I understand. What kind of offer are they giving you? Maybe we can match it."},
+    {"speaker": "caller", "start_time": 29.5, "end_time": 38.2, "text": "They're offering 50 dollars a month for broadband. I'm currently paying 70 with you guys."},
+    {"speaker": "agent", "start_time": 38.9, "end_time": 46.3, "text": "Let me see what I can do. That's very competitive. Can I put you on hold while I check with my manager?"}
+  ]
+},
+{
+  "call_id": 8,
+  "metadata": {"call_type": "billing", "agent_name": "Chris", "duration": 35.8, "sentiment": "neutral", "issue_category": "payment_question", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 3.9, "text": "Billing department."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.4, "text": "Chris from billing here. What do you need?"},
+    {"speaker": "caller", "start_time": 10.2, "end_time": 16.7, "text": "Hi Chris. I'm trying to pay my bill online but the website isn't working for me. Do I have other options?"},
+    {"speaker": "agent", "start_time": 17.4, "end_time": 23.9, "text": "Yeah absolutely. You can pay over the phone with me right now, or by mail if you prefer that."},
+    {"speaker": "caller", "start_time": 24.6, "end_time": 31.1, "text": "Oh that's good. Yeah, let's do it over the phone. How much do I owe?"},
+    {"speaker": "agent", "start_time": 31.8, "end_time": 35.8, "text": "Your balance is 120 dollars and 45 cents. Credit or debit card?"}
+  ]
+},
+{
+  "call_id": 9,
+  "metadata": {"call_type": "general", "agent_name": "Mark", "duration": 29.3, "sentiment": "positive", "issue_category": "service_inquiry", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Telecom Haiku. How can we help?"},
+    {"speaker": "agent", "start_time": 5.2, "end_time": 10.3, "text": "Mark here. What brings you in today?"},
+    {"speaker": "caller", "start_time": 11.1, "end_time": 18.4, "text": "Hi Mark. I'm moving to a new apartment and I want to know if you guys have service in my new area."},
+    {"speaker": "agent", "start_time": 19.1, "end_time": 24.8, "text": "We can definitely check that for you. What's the address?"},
+    {"speaker": "caller", "start_time": 25.5, "end_time": 29.3, "text": "It's 234 Oak Street, Apartment 5B, Springfield."}
+  ]
+},
+{
+  "call_id": 10,
+  "metadata": {"call_type": "support", "agent_name": "Susan", "duration": 52.4, "sentiment": "positive", "issue_category": "slow_speeds", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.6, "text": "Technical support line."},
+    {"speaker": "agent", "start_time": 5.8, "end_time": 11.2, "text": "Susan from tech support. How can I help you today?"},
+    {"speaker": "caller", "start_time": 12.0, "end_time": 21.5, "text": "Hi Susan. My internet speeds have been terrible lately. Pages are loading super slow and I pay for the fast plan."},
+    {"speaker": "agent", "start_time": 22.2, "end_time": 28.9, "text": "That's frustrating. Let me run a speed test from our end to see what you're actually getting."},
+    {"speaker": "agent", "start_time": 29.6, "end_time": 36.3, "text": "Okay, I see the issue. You're only getting about 20 Mbps when you should be getting 100. Let me send a signal to refresh your connection."},
+    {"speaker": "caller", "start_time": 37.0, "end_time": 44.7, "text": "Oh wow, that's a huge difference. How long will the refresh take?"},
+    {"speaker": "agent", "start_time": 45.4, "end_time": 52.4, "text": "Just a minute or so. Try running another speed test in a few minutes and you should see much better numbers."}
+  ]
+}
+]

@@ -1,55 +1,55 @@
 {
   "call_id": 1,
   "metadata": {
-    "call_type": "billing",
-    "agent_name": "Kevin",
-    "duration": 40.54147075750353,
-    "sentiment": "negative",
-    "issue_category": "unexpected charge",
-    "issue_resolved": false
+    "call_type": "support",
+    "agent_name": "Sarah",
+    "duration": 48.2,
+    "sentiment": "positive",
+    "issue_category": "internet_connectivity",
+    "issue_resolved": true
   },
   "conversation": [
     {
       "speaker": "ivr",
       "start_time": 0.0,
-      "end_time": 3.9,
-      "text": "Welcome to Telecom Haiku billing. Your call is important to us."
+      "end_time": 4.1,
+      "text": "Welcome to Telecom Haiku. Press 1 for English, 2 for Spanish."
     },
     {
       "speaker": "agent",
-      "start_time": 4.970674563137102,
-      "end_time": 9.170674563137101,
-      "text": "Hi, this is Kevin from billing. What can I help you with?"
+      "start_time": 5.3,
+      "end_time": 10.2,
+      "text": "Hi, thanks for calling! This is Sarah from technical support. How can I help?"
     },
     {
       "speaker": "caller",
-      "start_time": 10.409886792329266,
-      "end_time": 14.909886792329266,
-      "text": "Can you explain this charge? I don't remember agreeing to it."
+      "start_time": 11.0,
+      "end_time": 19.5,
+      "text": "Yeah hi, so my internet's been acting really weird all day. Like it'll work fine for a few minutes then just completely drop. I'm trying to work from home and it's killing my productivity."
     },
     {
       "speaker": "agent",
-      "start_time": 15.877936680113944,
-      "end_time": 21.377936680113944,
-      "text": "I can see that charge. Let me look into what it's for."
+      "start_time": 20.2,
+      "end_time": 26.8,
+      "text": "I'm really sorry to hear that. Let me pull up your account here and we'll figure out what's going on."
     },
     {
       "speaker": "agent",
-      "start_time": 24.16910623346569,
-      "end_time": 31.269106233465692,
-      "text": "That was a late fee from last month. Let me see if I can waive it."
-    },
-    {
-      "speaker": "agent",
-      "start_time": 32.594720693179816,
-      "end_time": 37.89472069317981,
-      "text": "I'm going to have that reversed. You'll see the credit on your next bill."
+      "start_time": 27.5,
+      "end_time": 34.3,
+      "text": "Okay, I'm seeing some instability on your line. When was the last time you restarted your modem? Sometimes that helps reset things."
     },
     {
       "speaker": "caller",
-      "start_time": 38.54147075750353,
-      "end_time": 40.54147075750353,
-      "text": "I appreciate you fixing it."
+      "start_time": 35.1,
+      "end_time": 41.6,
+      "text": "Um, I think I restarted it like two days ago? But yeah I can try again right now if you want."
+    },
+    {
+      "speaker": "agent",
+      "start_time": 42.2,
+      "end_time": 48.2,
+      "text": "Perfect, that would be really helpful. Just unplug it for 30 seconds, wait a bit, and plug it back in. Let me stay on the line."
     }
   ]
 }
