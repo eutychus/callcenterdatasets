@@ -1,0 +1,504 @@
+[
+{
+  "call_id": 401,
+  "metadata": {"call_type": "support", "agent_name": "James", "duration": 28.3, "sentiment": "positive", "issue_category": "network_reset", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "James here. What's the issue?"},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Connection drops randomly. Need help."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "Restart your modem and router please."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 28.3, "text": "Done!"}
+  ]
+},
+{
+  "call_id": 402,
+  "metadata": {"call_type": "sales", "agent_name": "Maria", "duration": 32.1, "sentiment": "positive", "product_category": "Mobile Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Maria from sales. Switching providers?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Yes, looking for better rates."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Our rates are very competitive."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 32.1, "text": "Let's do it!"}
+  ]
+},
+{
+  "call_id": 403,
+  "metadata": {"call_type": "billing", "agent_name": "Michael", "duration": 24.5, "sentiment": "positive", "issue_category": "payment_clarification", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Michael from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "When does my next payment process?"},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 24.5, "text": "The 20th of next month."}
+  ]
+},
+{
+  "call_id": 404,
+  "metadata": {"call_type": "account", "agent_name": "Patricia", "duration": 22.8, "sentiment": "positive", "issue_category": "account_confirmation", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Patricia here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Can you confirm my address?"},
+    {"speaker": "agent", "start_time": 20.1, "end_time": 22.8, "text": "Address is correct."}
+  ]
+},
+{
+  "call_id": 405,
+  "metadata": {"call_type": "retention", "agent_name": "Robert", "duration": 30.4, "sentiment": "positive", "issue_category": "discount_offer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Robert with a discount."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "How much of a discount?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "20 percent for six months."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 30.4, "text": "Great!"}
+  ]
+},
+{
+  "call_id": 406,
+  "metadata": {"call_type": "support", "agent_name": "Susan", "duration": 26.2, "sentiment": "positive", "issue_category": "device_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Susan here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "My device won't turn on."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.2, "text": "Try holding power button 30 seconds."}
+  ]
+},
+{
+  "call_id": 407,
+  "metadata": {"call_type": "sales", "agent_name": "Thomas", "duration": 33.7, "sentiment": "positive", "product_category": "Bundle", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Thomas from sales. Bundle interested?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "What's the savings?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Save 40 percent typically."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 33.7, "text": "Sold!"}
+  ]
+},
+{
+  "call_id": 408,
+  "metadata": {"call_type": "billing", "agent_name": "Veronica", "duration": 23.9, "sentiment": "positive", "issue_category": "charge_confirmation", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Veronica from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Is this charge legitimate?"},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 23.9, "text": "Yes, it's your service fee."}
+  ]
+},
+{
+  "call_id": 409,
+  "metadata": {"call_type": "general", "agent_name": "William", "duration": 20.5, "sentiment": "positive", "issue_category": "simple_question", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "William here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.3, "text": "Quick question about service."},
+    {"speaker": "agent", "start_time": 20.0, "end_time": 20.5, "text": "Sure!"}
+  ]
+},
+{
+  "call_id": 410,
+  "metadata": {"call_type": "support", "agent_name": "Xavier", "duration": 27.6, "sentiment": "positive", "issue_category": "basic_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Xavier here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Need basic technical help."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.8, "text": "I'm here to assist."},
+    {"speaker": "caller", "start_time": 27.5, "end_time": 27.6, "text": "OK"}
+  ]
+},
+{
+  "call_id": 411,
+  "metadata": {"call_type": "account", "agent_name": "Yolanda", "duration": 21.3, "sentiment": "positive", "issue_category": "account_query", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Yolanda here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Question about my account."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 21.3, "text": "OK."}
+  ]
+},
+{
+  "call_id": 412,
+  "metadata": {"call_type": "sales", "agent_name": "Zachary", "duration": 34.2, "sentiment": "positive", "product_category": "TV Package", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Zachary from sales. TV interested?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Maybe. What channels?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Over 200 channels available."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 34.2, "text": "That works!"}
+  ]
+},
+{
+  "call_id": 413,
+  "metadata": {"call_type": "retention", "agent_name": "Amanda", "duration": 28.7, "sentiment": "positive", "issue_category": "keep_customer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Amanda here to help keep you."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "I'm considering leaving."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.7, "text": "Let me make it worth your while."}
+  ]
+},
+{
+  "call_id": 414,
+  "metadata": {"call_type": "support", "agent_name": "Brian", "duration": 25.1, "sentiment": "positive", "issue_category": "quick_support", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Brian here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Quick support needed."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 25.1, "text": "What's the issue?"}
+  ]
+},
+{
+  "call_id": 415,
+  "metadata": {"call_type": "billing", "agent_name": "Carol", "duration": 22.4, "sentiment": "positive", "issue_category": "bill_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Carol from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Help understanding my bill."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 22.4, "text": "Happy to help."}
+  ]
+},
+{
+  "call_id": 416,
+  "metadata": {"call_type": "general", "agent_name": "Daniel", "duration": 19.8, "sentiment": "positive", "issue_category": "simple_info", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Daniel here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.3, "text": "Simple question?"},
+    {"speaker": "agent", "start_time": 20.0, "end_time": 19.8, "text": "Yes."}
+  ]
+},
+{
+  "call_id": 417,
+  "metadata": {"call_type": "support", "agent_name": "Elizabeth", "duration": 26.9, "sentiment": "positive", "issue_category": "support_request", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Elizabeth here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Need support please."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 26.9, "text": "I'm ready to help."}
+  ]
+},
+{
+  "call_id": 418,
+  "metadata": {"call_type": "account", "agent_name": "Frank", "duration": 21.5, "sentiment": "positive", "issue_category": "account_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Frank here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Account question."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 21.5, "text": "Sure."}
+  ]
+},
+{
+  "call_id": 419,
+  "metadata": {"call_type": "sales", "agent_name": "Gloria", "duration": 31.3, "sentiment": "positive", "product_category": "Internet Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Gloria from sales. Internet upgrade?"},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Might be interested."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Excellent speeds available."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 31.3, "text": "OK!"}
+  ]
+},
+{
+  "call_id": 420,
+  "metadata": {"call_type": "retention", "agent_name": "Henry", "duration": 29.2, "sentiment": "positive", "issue_category": "retention_call", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Henry with retention offer."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "What's the offer?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.5, "text": "Special customer appreciation."},
+    {"speaker": "caller", "start_time": 29.2, "end_time": 29.2, "text": ""}
+  ]
+},
+{
+  "call_id": 421,
+  "metadata": {"call_type": "support", "agent_name": "Iris", "duration": 24.7, "sentiment": "positive", "issue_category": "support_call", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Iris here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Support issue here."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 24.7, "text": "I'll help you now."}
+  ]
+},
+{
+  "call_id": 422,
+  "metadata": {"call_type": "billing", "agent_name": "Jack", "duration": 20.2, "sentiment": "positive", "issue_category": "billing_call", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Jack from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Billing question."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 20.2, "text": "OK."}
+  ]
+},
+{
+  "call_id": 423,
+  "metadata": {"call_type": "general", "agent_name": "Karen", "duration": 18.9, "sentiment": "positive", "issue_category": "general_call", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Karen here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 18.9, "text": "General inquiry."}
+  ]
+},
+{
+  "call_id": 424,
+  "metadata": {"call_type": "support", "agent_name": "Lisa", "duration": 25.6, "sentiment": "positive", "issue_category": "tech_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Lisa here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Technical help."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 25.6, "text": "I can assist."}
+  ]
+},
+{
+  "call_id": 425,
+  "metadata": {"call_type": "account", "agent_name": "Martin", "duration": 19.4, "sentiment": "positive", "issue_category": "acct_call", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Martin here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.4, "text": "Account matter."}
+  ]
+},
+{
+  "call_id": 426,
+  "metadata": {"call_type": "sales", "agent_name": "Nancy", "duration": 32.8, "sentiment": "positive", "product_category": "Mobile Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Nancy from sales."},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Mobile plan interest."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Great plans available."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 32.8, "text": "Interested!"}
+  ]
+},
+{
+  "call_id": 427,
+  "metadata": {"call_type": "retention", "agent_name": "Oliver", "duration": 26.5, "sentiment": "positive", "issue_category": "retain_offer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Oliver here."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "What can you offer?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 26.5, "text": "Great retention options."}
+  ]
+},
+{
+  "call_id": 428,
+  "metadata": {"call_type": "support", "agent_name": "Patricia", "duration": 23.8, "sentiment": "positive", "issue_category": "sup_help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Patricia here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Support needed."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 23.8, "text": "Here to help."}
+  ]
+},
+{
+  "call_id": 429,
+  "metadata": {"call_type": "billing", "agent_name": "Quincy", "duration": 21.7, "sentiment": "positive", "issue_category": "bill_issue", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Quincy from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Billing issue."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 21.7, "text": "Can fix it."}
+  ]
+},
+{
+  "call_id": 430,
+  "metadata": {"call_type": "general", "agent_name": "Rachel", "duration": 17.5, "sentiment": "positive", "issue_category": "info_call", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Rachel here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 17.5, "text": "Info needed."}
+  ]
+},
+{
+  "call_id": 431,
+  "metadata": {"call_type": "support", "agent_name": "Samuel", "duration": 24.3, "sentiment": "positive", "issue_category": "quick_fix", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Samuel here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Quick fix needed."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 24.3, "text": "On it now."}
+  ]
+},
+{
+  "call_id": 432,
+  "metadata": {"call_type": "account", "agent_name": "Tanya", "duration": 20.9, "sentiment": "positive", "issue_category": "acct_check", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Tanya here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Account status."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 20.9, "text": "Good."}
+  ]
+},
+{
+  "call_id": 433,
+  "metadata": {"call_type": "sales", "agent_name": "Uma", "duration": 30.6, "sentiment": "positive", "product_category": "Bundle", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Uma from sales."},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Bundle deal?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Perfect bundles here."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 30.6, "text": "Yes!"}
+  ]
+},
+{
+  "call_id": 434,
+  "metadata": {"call_type": "retention", "agent_name": "Victor", "duration": 27.3, "sentiment": "positive", "issue_category": "loyalty_offer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Victor here."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "Loyalty offer?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 27.3, "text": "Great loyalty offers."}
+  ]
+},
+{
+  "call_id": 435,
+  "metadata": {"call_type": "support", "agent_name": "Wendy", "duration": 22.5, "sentiment": "positive", "issue_category": "basic_issue", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Wendy here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Basic issue."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 22.5, "text": "Fixing now."}
+  ]
+},
+{
+  "call_id": 436,
+  "metadata": {"call_type": "billing", "agent_name": "Xavier", "duration": 19.8, "sentiment": "positive", "issue_category": "payment", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Xavier from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 18.9, "text": "Payment question."},
+    {"speaker": "agent", "start_time": 19.6, "end_time": 19.8, "text": "OK."}
+  ]
+},
+{
+  "call_id": 437,
+  "metadata": {"call_type": "general", "agent_name": "Yolanda", "duration": 16.7, "sentiment": "positive", "issue_category": "info", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Yolanda here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 16.7, "text": "Info?"}
+  ]
+},
+{
+  "call_id": 438,
+  "metadata": {"call_type": "support", "agent_name": "Zachary", "duration": 23.2, "sentiment": "positive", "issue_category": "help", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Zachary here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Help please."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 23.2, "text": "Yes!"}
+  ]
+},
+{
+  "call_id": 439,
+  "metadata": {"call_type": "account", "agent_name": "Alexis", "duration": 18.5, "sentiment": "positive", "issue_category": "check", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Alexis here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 18.5, "text": "Account check."}
+  ]
+},
+{
+  "call_id": 440,
+  "metadata": {"call_type": "sales", "agent_name": "Bella", "duration": 29.3, "sentiment": "positive", "product_category": "Internet Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Bella from sales."},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Internet upgrade."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.6, "text": "Perfect options."},
+    {"speaker": "caller", "start_time": 29.3, "end_time": 29.3, "text": ""}
+  ]
+},
+{
+  "call_id": 441,
+  "metadata": {"call_type": "retention", "agent_name": "Cameron", "duration": 25.8, "sentiment": "positive", "issue_category": "offer", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Cameron here."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "What's the offer?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 25.8, "text": "Special offer."}
+  ]
+},
+{
+  "call_id": 442,
+  "metadata": {"call_type": "support", "agent_name": "Dylan", "duration": 21.4, "sentiment": "positive", "issue_category": "issue", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Dylan here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Issue here."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 21.4, "text": "OK."}
+  ]
+},
+{
+  "call_id": 443,
+  "metadata": {"call_type": "billing", "agent_name": "Evelyn", "duration": 17.9, "sentiment": "positive", "issue_category": "q", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Evelyn from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 17.9, "text": "Question."}
+  ]
+},
+{
+  "call_id": 444,
+  "metadata": {"call_type": "general", "agent_name": "Fiona", "duration": 15.3, "sentiment": "positive", "issue_category": "q", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Customer service."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Fiona here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 15.3, "text": "Hi."}
+  ]
+},
+{
+  "call_id": 445,
+  "metadata": {"call_type": "support", "agent_name": "George", "duration": 22.1, "sentiment": "positive", "issue_category": "q", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "George here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Need help."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 22.1, "text": "OK."}
+  ]
+},
+{
+  "call_id": 446,
+  "metadata": {"call_type": "account", "agent_name": "Hannah", "duration": 18.7, "sentiment": "positive", "issue_category": "q", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Account."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.2, "text": "Hannah here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 18.7, "text": "Account q."}
+  ]
+},
+{
+  "call_id": 447,
+  "metadata": {"call_type": "sales", "agent_name": "Isaac", "duration": 28.4, "sentiment": "positive", "product_category": "Mobile Plan", "sale_completed": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 5.0, "text": "Sales."},
+    {"speaker": "agent", "start_time": 6.1, "end_time": 11.8, "text": "Isaac from sales."},
+    {"speaker": "caller", "start_time": 12.5, "end_time": 21.3, "text": "Mobile plan."},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 28.4, "text": "Great plans."}
+  ]
+},
+{
+  "call_id": 448,
+  "metadata": {"call_type": "retention", "agent_name": "Jessica", "duration": 24.6, "sentiment": "positive", "issue_category": "retention", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.2, "text": "Retention."},
+    {"speaker": "agent", "start_time": 5.3, "end_time": 11.0, "text": "Jessica here."},
+    {"speaker": "caller", "start_time": 11.8, "end_time": 21.3, "text": "Offer?"},
+    {"speaker": "agent", "start_time": 22.0, "end_time": 24.6, "text": "Good offers."}
+  ]
+},
+{
+  "call_id": 449,
+  "metadata": {"call_type": "support", "agent_name": "Kevin", "duration": 20.3, "sentiment": "positive", "issue_category": "support", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Support."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 10.3, "text": "Kevin here."},
+    {"speaker": "caller", "start_time": 11.0, "end_time": 19.5, "text": "Support."},
+    {"speaker": "agent", "start_time": 20.2, "end_time": 20.3, "text": ""}
+  ]
+},
+{
+  "call_id": 450,
+  "metadata": {"call_type": "billing", "agent_name": "Laura", "duration": 16.5, "sentiment": "positive", "issue_category": "billing", "issue_resolved": true},
+  "conversation": [
+    {"speaker": "ivr", "start_time": 0.0, "end_time": 4.0, "text": "Billing."},
+    {"speaker": "agent", "start_time": 5.1, "end_time": 9.6, "text": "Laura from billing."},
+    {"speaker": "caller", "start_time": 10.3, "end_time": 16.5, "text": "Billing q."}
+  ]
+}
+]
